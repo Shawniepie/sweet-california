@@ -1,0 +1,30 @@
+state={
+	id=205
+	name="STATE_SALTON_CITY"
+	resources={
+		water = 5
+		circuitry = 1
+		composite = 2
+	}
+
+	history={
+		owner = DAY
+		add_core_of = DAY
+		add_core_of = DAY
+		victory_points = {
+			4967 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		884 889 891 2657 3302 4637 4967 4968 4969 4970 4971 4972 4981 5780 5795 6659 6666
+	}
+	manpower=11000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

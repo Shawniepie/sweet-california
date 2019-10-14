@@ -1,0 +1,28 @@
+state = {
+	id = 501
+	name = "STATE_ZUNI"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		energy = 2
+		metal = 10
+	}
+
+	history = {
+		owner = WAP
+		add_core_of = CES
+		add_core_of = WAP
+		victory_points = {
+			8114 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+
+	provinces = {
+		1549 5102 6549 6550 6554 6993 8104 8105 8106 8107 8108 8109 8111 8112 8114 8118
+	}
+}

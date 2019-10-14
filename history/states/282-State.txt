@@ -1,0 +1,23 @@
+state = {
+	id = 282
+	name = "STATE_GALLUP"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = WAP
+		add_core_of = CES
+		add_core_of = WAP
+		victory_points = {
+			1580 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		1580 2747 2763 2771 3038 3040 5653 5655
+	}
+}

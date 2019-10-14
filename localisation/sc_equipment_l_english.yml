@@ -1,0 +1,28 @@
+﻿l_english:
+ # Base
+ ranger_equipment: "Ranger Armor"
+ ranger_equipment_desc: ""
+ 
+ ranger_equipment_1: "SSR Ranger Armour"
+ ranger_equipment_1_short: "Ranger Armour"
+ ranger_equipment_1_desc: "The distinctive black ranger combat armor consists of the Desert Rangers' traditional trench coat worn with pre-War riot armor. Ranger patrol armor is hand-manufactured in the SSR ."
+ 
+ hop_ranger_equipment_1: "Ranger Armour"
+ hop_ranger_equipment_1_short: "Ranger Armour"
+ hop_ranger_equipment_1_desc: "This armor was used by the special pre-War riot control officers in the Divide, under the supervision of the 11th Armored Cavalry Regiment wearing a recognizable helmet and a more advanced riot armor. They were charged with riot control operations in the Divide. Now only the bravest and highest quality soldiers within Hopeville may have the honour of wearing this armor. "
+ 
+ hop_ranger_equipment_2: "Advanced Ranger Armour"
+ hop_ranger_equipment_2_short: "Advanced Ranger Armour"
+ hop_ranger_equipment_2_desc: "This advanced riot gear is a more advanced version of the standard riot gear, providing improved protection and mobility to its users it is used by only the most elite Rangers."
+
+ chinese_equipment: "Chinese Stealth Armor"
+ chinese_equipment_desc: ""
+ 
+ 
+ chinese_equipment_1: "Chinese Stealth Armour"
+ chinese_equipment_1_short: "Hei Gui Stealth Armor"
+ chinese_equipment_1_desc: "Chinese stealth armor, also known as Hei gui stealth armor, was one of China's greatest military assets during the Sino-American War. When equipped, it afforded the soldier a high amount of protection (but not as much as America's combat armor), while also coating the user in an active camouflage system. "
+ 
+  chinese_equipment_2: "Advanced Chinese Stealth Armour"
+ chinese_equipment_2_short: "Advanced Hei Gui Stealth Armor"
+ chinese_equipment_2_desc: "Through years a research and hard work our engineers have managed to perfect the Hei Gui Stealth Armor and a highly modified version of the original suit that allows complete temporary cloaking abilities as well as enhancing the wearers strength and endurance."

@@ -1,0 +1,28 @@
+state = {
+	id = 381
+	name = "STATE_POSTON"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		metal = 4
+		circuitry = 2
+	}
+
+	history = {
+		owner = SKI
+		add_core_of = SKI
+		victory_points = {
+			5151 5
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+
+		}
+	}
+
+	provinces = {
+		886 1679 2320 2904 3269 3270 3271 3272 3273 5144 5145 5147 5148 5149 5150 5151 5152 5640 5641 5642
+	}
+}

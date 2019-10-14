@@ -1,0 +1,33 @@
+state = {
+	id = 85
+	name = "STATE_PAGE"
+	manpower = 10000
+	state_category = large_town
+
+	resources = {
+		water = 5
+	}
+
+	history = {
+		owner = BLK
+		add_core_of = CES
+		add_core_of = BLK
+		victory_points = {
+			8095 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			anti_air_building = 1
+			radar_station = 2
+			air_base = 2
+
+		}
+	}
+
+	provinces = {
+		1009 1015 1599 8091 8092 8093 8095
+	}
+}

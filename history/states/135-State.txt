@@ -1,0 +1,29 @@
+state = {
+	id = 135
+	name = "STATE_SACREMENTO" # Sac-Town
+	manpower = 30000
+	state_category = city
+
+	resources = {
+		energy = 8
+		metal = 12
+		advanced = 2
+	}
+
+	history = {
+		owner = BAR
+		add_core_of = BAR
+		victory_points = {
+			2428 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+		}
+	}
+
+	provinces = {
+		2431 2430 2428 2429 2432 4869 4868 4867
+	}
+}

@@ -1,0 +1,33 @@
+state = {
+	id = 500
+	name = "STATE_BLYTHE"
+	manpower = 19000
+	state_category = town
+
+	history = {
+		owner = DAY
+		add_core_of = DAY
+		victory_points = {
+			5772 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+			5805 = {
+				bunker = 2
+			}
+			5774 = {
+				bunker = 2
+			}
+			5772 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+		5772 5773 5774 5775 5804 5805 5810 6665
+	}
+}

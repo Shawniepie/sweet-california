@@ -1,0 +1,24 @@
+state={
+	id=583
+	name="STATE_OCOTILLO"
+
+	history={
+		owner = DAY
+		add_core_of = DAY
+		victory_points = {
+			4822 5
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		860 4638 4640 4708 4822 5781 5794
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

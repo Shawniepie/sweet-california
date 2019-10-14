@@ -1,0 +1,35 @@
+state = {
+	id = 234
+	name = "STATE_THE_PASS"
+	manpower = 30000
+	state_category = large_city
+
+	resources={
+		energy = 4
+		metal = 6
+		composites = 6
+	}
+
+	history = {
+		owner = PAS
+		add_core_of = PAS
+		victory_points = {
+			8971 20
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			anti_air_building = 2
+#TODO		 = {
+#				naval_base = 7
+#			}
+
+		}
+	}
+
+	provinces = {
+		835 1553 1697 2279 2776 2777 2794 2951 2952 5444 5445 5446 5447 5462 5463 5464 5468 5469 5511 5512 5513 5698 8971 8973 8974 8976 8977
+	}
+}

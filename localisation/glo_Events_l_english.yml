@@ -1,0 +1,75 @@
+﻿l_english:
+################################## EVENTS ##############################################
+day.0.t:0 "How We Survived"
+day.0.d:0 "After the events of the Great War the survivors of San Diego were forced to adapt to the nuclear wasteland they inhabited. As time went on they eventually managed to make a living out of.  "
+day.0.a:0 "Rebuilding The City"
+day.0.b:0 "Organizing The Government"
+day.0.c:0 "Establishing Trade Routes"
+
+
+day.1.t:0 "The Creation Of A State"
+day.1.d:0 "Within decades of the Great War the survivors of San Diego had began making a stable living for themselves and began looking beyond the walls of the city. Within  a decade they had succeeded in annexing countless nearby settlements into their confederation through... "
+day.1.a:0 "Warfare and Annexation"
+day.1.b:0 "Diplomacy and Trade"
+
+
+day.2.t:0 "After The Oil Rig"
+day.2.d:0 "With the destruction of the Oil Rig and the Enclave's continuous military defeats against the Brotherhood of Steel and allied California Settlements the Enclave were reduced to solely Navarro. Dayglow however maintained neutrality however with the fall of Navarro in sight it is time for Dayglow to make a choice. "
+day.2.a:0 "Join the War against the Enclave and lead the Vanguard"
+day.2.b:0 "Allow The Enclave The Immigrate To Dayglow"
+
+
+day.3.t:0 "Dayglow-Boneyard War "
+day.3.d:0 "In the year 2260 the armies of the Dayglow crossed into the borders of the Boneyard with the aim of annexing the city into their confederation. However despite initial military victories the armies of the Dayglow were quickly bogged down due to the splintered city uniting behind Allgood Murphy against Dayglow. With our armies bogged down within the Boneyard and defeat on the horizon we decided too. "
+day.3.a:0 "Don't give up an inch!"
+day.3.b:0 "Retreat to the gates of Dayglow"
+
+
+day.4.t:0 "Entering The Glow"
+day.4.d:0 "The soldiers begin descending into the facility. The true devastation of nuclear war has never been more apparent as countless charred bodies lay fused to the flooring. There is not much to see on the first floor other than several protectrons that have long since gone inactive as well as half a dozen suits of power armor whose inhabitants have long succumbed to the radiation. However your men recognize a very familiar emblem… that of the Brotherhood of Steel…. "
+day.4.a:0 "The Horrors of War......."
+
+day.5.t:0 "Preperations To Enter The Glow  "
+day.5.d:0 "Scavenging the Glow will be very dangerous and time consuming task as such we need to ensure that our scavengers have proper equipment and are properly trained to ensure issues do not arrive. "
+day.5.a:0 "No Matter The Cost. It will be worth it. "
+
+
+day.6.t:0 "Scavenge The Outskirts"
+day.6.d:0 "For weeks out scavenged walked the outskirts of the West Tek Facility with little to no success. However today we have gotten reports that they have discovered a large military convoy that was long consumed by the deserts grip. Initial reports are saying that the convoy is still in pristine condition and is filled with weaponry."
+day.6.a:0 "Make preperations To Loot The Convoy"
+
+
+
+
+day.7.t:0 "The Initial Levels "
+day.7.d:0 "The Initial Levels of the Facility are heavily scarred by the multiple nuclear detonations that directly hit the facility. Other than the terrors of Nuclear War very little loot can be found in this area other than a handful of low-grade weapons found on the third floor of the facility."
+day.7.a:0 "More Weapons Never Hurt "
+
+
+day.8.t:0 "Explore The Research Department "
+day.8.d:0 "Upon opening the blast doors of the Research Department our scavengers were met by the force of three dozen Sentry Bots who worked chaos throughout the entire facility before reinforcements from Dayglow arrived to finally but the Sentry Bots to rest. With the Sentry Bots finally destroyed our scavengers entered the Research Department and made a stunning discovery. A functioning Artificial Intelligence Super Computer known as the ZAX System was still fully operational and is capable of assisting us in further research projects."
+day.8.a:0 "The men that gave their lives to get to this machine will be avenged."
+
+
+
+
+
+
+day.9.t:0 "The Weapons Development Floor"
+day.9.d:0 "Our forces breached the Weapons Development Floor prepared for a gunfight against the facilities automated defenders and they got one without a doubt. Dozens of our soldiers were killed in the fighting but we managed to successfully pacify the facility after dozens of losses. Upon entering the labs our forces were greeted with several schematics for pre-war weaponry."
+day.9.a:0 "It Was Well Worth The Effort."
+
+day.10.t:0 "Advanced Weaponry Department" 
+day.10.d:0 "Our forces entered the Advanced Weaponry Department without any issues other than the occassional laser turret however the Department proved to be an absolute goldmine as our forces discovered complex blueprints for T-45D Power Armor allowing us to potentially reproduce this marvel of technology for our armies." 
+day.10.a:0 "We Shall Begin Mass Production At Once!" 
+
+
+day.11.t:0 "The Control Center" 
+day.11.d:0 "Our forces have finally reached the Command Center and Barracks of the West Tek Facility. Although the Command Center is encrypted with with technology we could never get our hands on our forces found something better. The West Tek Military Armory. It would seem it was heavily overstocked due to a shipment of sentry bots and power armor never leaving the facility. This will change the balance of power." 
+day.11.a:0 "It was all worth it." 
+
+
+
+
+
+

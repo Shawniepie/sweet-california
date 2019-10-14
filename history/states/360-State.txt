@@ -1,0 +1,25 @@
+state = {
+	id = 360
+	name = "STATE_360" # Glennville
+	manpower = 8000
+	state_category = town
+
+	history = {
+		owner = HUB
+		add_core_of = HUB
+		victory_points = {
+			3433 10
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 2
+			3433 = {
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+		962 1779 3293 3433 4955 4956 4957
+	}
+}

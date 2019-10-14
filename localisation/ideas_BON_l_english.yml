@@ -1,0 +1,75 @@
+﻿            l_english:
+    BNSNavy: "Boneyard Naval Security"
+    BNSNavy_desc: "We must recruit more men to secure our Ships and defend our Ports"
+
+    gunrunners: "Nationalized Gun Runners"
+    gunrunners_desc: "The Gun Runners have to become apart of the Arms Industry, there is no doubt about that"
+
+    madeinboneyard: "Made in the Bone Yard"
+    madeinboneyard_desc: "Quantity is a Quality all it's own"
+
+    runnerexpansion: "Gun Runner Construction Corp"
+    runnerexpansion_desc: "Why pay Gun Runners to Make Guns when we can pay them to Make factories!"
+
+    runnerexpansion2: "Civillian Contractors"
+    runnerexpansion2_desc: "Lets put the people to work and start building!"
+
+    BNSMilitia: "Disorganized Military Structure"
+    BNSMilitia_desc: "We are suffering from a lack of control over our military. We have troops disobeying orders and overextending, causing supply lines to be overrun!"
+
+    MilitiaCommand: "Milita Officer Corp"
+    MilitiaCommand_desc: "We can place officers within Militia Units to have them work more efficiently"
+
+    JoinMilitia: "First-Born Army Corp"
+    JoinMilitia_desc: "We must recruit the firstborn sons of every family for the military"
+
+    patrols: "Boneyard Border Patrols"
+    patrols_desc: "We must secure our borders and map our nation"
+
+    OldWorld1: "Old World Army Corp"
+    OldWorld1_desc: "We must recruit men up to the standards of the Old World"
+
+    training: "Training the Men"
+    training_desc: "We must train our troops up to a higher standard"
+
+    standardissue: "Standardized Equipment"
+    standardissue_desc: "We must standardize the equipment of the army in order to make it more efficient"
+
+    OldWorldTraining: "Old World Training Standards"
+    OldWorldTraining_desc: "We must put our troops up to the standards of the Pre-War Military"
+
+    letinintellectuals: "Let in the Scientists"
+    letinintellectuals_desc: "It wouldn't be benificial to keep them out"
+
+    raidergangs: "Raider Gangs Integrated"
+    raidergangs_desc: "We must put the past aside and learn from these deviants"
+
+    cityadytum: "City of Craftsmen"
+    cityadytum_desc: "We must use these deviants to produce more equipment and at a better standard"
+
+    Economy: "Industrial Sector"
+    Economy_desc: "Factories must be used to rebuild the wastes"
+
+    Market: "Goods to Market"
+    Market_desc: "We must put more goods on the market, as such we must produce more goods"
+
+    B.N.S.A.: "Boneyard National Skyforce"
+    B.N.S.A._desc: "We must build more planes and take to the sky's"
+
+tradeagreements: "Glow Trading Company"
+tradeagreements_desc: "The Glow offers up much more as a trade partner than a enemy"
+
+CommonEnemy: "A Common Foe"
+CommonEnemy_desc: "Dayglow is a common foe with anyone regardless of class. We must unite to kill them!"
+
+standard: "Standard of Living"
+standard_desc: "The Standard of Living must be increased to make the people work harder"
+
+BNSGlow: "The Glow Research Pact"
+BNSGlow_desc: "Dayglow must share knowlege in order to facilitate an alliance"
+
+GrandArmy: "The Grand Army of the Boneyard"
+GrandArmy_desc: "The Army must be large and proud, in order to defend the nation and secure our place in the world"
+
+LandService: "Land for Service"
+LandService_desc: "One Acre per deployment to every man"

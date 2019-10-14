@@ -1,0 +1,33 @@
+state = {
+	id = 106
+	name = "STATE_BITTER_SPRINGS"
+	manpower = 7000
+	state_category = town
+
+	resources = {
+		water = 6
+		circuitry = 2
+		metal = 4
+	}
+
+	history = {
+		owner = BOO
+		add_core_of = BOO
+		victory_points = {
+			3197 15
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 1
+			3249 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		3249 3242 3243 3247 3244 3197
+	}
+}

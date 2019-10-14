@@ -1,0 +1,25 @@
+state = {
+	id = 215
+	name = "STATE_LONGKNIFE"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+	}
+
+	history = {
+		owner = PAS
+		add_core_of = PAS
+		victory_points = {
+			5458 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		2774 2815 2927 2928 2929 2930 2932 5458 5459 5516 5521 6994 7002
+	}
+}

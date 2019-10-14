@@ -1,0 +1,28 @@
+state = {
+	id = 175
+	name = "STATE_GRAY_MOUNTAIN"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		energy = 4
+		advanced = 4
+		circuitry = 4
+	}
+
+	history = {
+		owner = HUA
+		add_core_of = CES
+		add_core_of = HUA
+		victory_points = {
+			8048 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		983 1590 1594 1596 2637 7931 7984 8014 8046 8047 8048 8050
+	}
+}

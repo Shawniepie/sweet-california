@@ -1,0 +1,32 @@
+state={
+	id=287
+	name="STATE_OLD_VEGAS"
+
+	history={
+		owner = FRT
+		add_core_of = FRT
+		victory_points = {
+			2869 10
+		}
+		buildings = {
+			infrastructure = 3
+			2977 = {
+				naval_base = 1
+
+			}
+			2973 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1581 1835 2748 2854 2869 2971 2973 2974 2975 2976 2977 2978 2979 5407 5408 5687 5688 6633 6760 7014 9081
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=shanty
+}

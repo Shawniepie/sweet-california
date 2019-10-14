@@ -1,0 +1,29 @@
+state = {
+	id = 12
+	name = "STATE_NORTH_PASSAGE"
+	manpower = 4500
+	state_category = shanty
+
+	resources = {
+		energy = 4
+		metal = 6
+		water = 8
+	}
+
+	history = {
+		owner = BOO
+		add_core_of = BOO
+		victory_points = {
+			8550 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_extra_state_shared_building_slots = 2
+	}
+
+	provinces = {
+		8549 8547 8548 3245 8550 3248 3246 3232
+	}
+}

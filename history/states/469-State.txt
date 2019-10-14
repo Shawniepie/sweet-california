@@ -1,0 +1,25 @@
+state={
+	id=469
+	name="STATE_VALLEY_OF_THE_NAMES"
+
+	history={
+		owner = DAY
+		add_core_of = DAY
+		victory_points = {
+			5801 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		855 5777 5787 5788 5789 5801 5802 5803 5807 5808 6660
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

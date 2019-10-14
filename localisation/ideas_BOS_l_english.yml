@@ -1,0 +1,145 @@
+﻿l_english:
+
+  Sanctuary: "Modernizing Bunkers"
+  Sanctuary_desc: "We are currently investing heavily in modernizing our bunkers and industries to ensure we are capable of maintain supremacy over our rivals and foes."
+
+LivingSpace: "Living Space"
+LivingSpace_desc: "We must expand the living space, some of our people are getting...frisky"
+
+oldguard2: "Old Guard" 
+ oldguard2: "Our people believe in maintain our ways and only allowing those of military descendent to join our ranks"
+
+PowerArmor2: "Streamlined Power Armor Production"
+PowerArmor2_desc: "We've developed a new blueprint that removes redundant parts of the armor, thus making them easier to produce"
+
+BOSKnights: "Fielded Knights"
+BOSKnights_desc: "By allowing knights into the field, we can support our Paladins and Cover a wider area"
+
+wasteland_conscripts2: "Wastelander Conscripts"
+wasteland_conscripts2_desc: "We needed to expand the manpower pool...what have we done?"
+
+EnhancedProduction: "Pre-War Production Techniques"
+EnhancedProduction_desc: "We've enhanced our factory outputs using some pre-war techniques"
+
+SeniorInitiates: "Senior Initiates"
+SeniorInitiates_desc: "We must allow Senior Initiates onto the field. It will bypass the trials, but it will give us men and women on the frontlines"
+
+Protectors: "Protectors of Tradition"
+Protectors_desc: "Our Paladins have been given a new code: Defend us to the Death"
+
+Virtual: "VR Drills"
+Virtual_desc: "Virtual Reality can be used to train our forces better without wasting lives"
+
+EasternBOS: "Eastern Chapter Research"
+EasternBOS_desc: "We've gotten new manuals and test results from researchers in the east"
+
+Exodus: "Exodus"
+Exodus_desc: "We have been forced to do an exodus..."
+
+TheChainThatBinds: "The Chain that Binds us"
+TheChainThatBinds_desc: "We must organize better, in order to defeat our enemies"
+
+MilitaryService2: "Encourage the Military Service"
+MilitaryService2_desc: "We must encourage for military service, in exchange for better food rations"
+
+Resurgence2: "Military Resurgence"
+Resurgence2_desc: "A resurgence within the military has drilled new ideas of final stands into our soldiers heads"
+
+Tradition: "Military Traditions"
+Tradition_desc: "Military Tradition dictates our military hold the line as long as possible"
+
+Wastelanders: "Maxon's Volenteers"
+Wastelanders_desc: "Maxson has offered us military volenteers for more trade. We accept this proposal"
+
+Navarro: "Lessons of Navarro"
+Navarro_desc: "We have Learned from Navarro...every soldier must carry more food and ammo on them..."
+
+Airborne: "Airborne Operations"
+Airborne_desc: "With more pilot training, our airforce will be superior!"
+
+outsider_recruitment: "Recruiting the Brave"
+outsider_recruitment_desc: "These Outsiders are worth taking in"
+
+Wastelanders2: "Recruiting the Desperate"
+Wastelanders2_desc: "They are so desperate they are willing to nearly kill themselves to get trained...It is respectable"
+
+Training3: "Recruitment Standards"
+Training3_desc: "We must enforce standards, they may be good, but we must maintain morale"
+
+SteelCult: "The Cult of Steel"
+SteelCult_desc: "They think of us as gods. It matters not, let them think so as long as they will go to the front"
+
+ProtectorateConscription: "The Lucian Legacy"
+ProtectorateConscription_desc: "The Legacy of the Lucian Rebels overcoming the Devils encourages the people to take up arms to defend the nation"
+
+KnightSupport: "The Angels of Steel"
+KnightSupport_desc: "They come from the sky, to die to allow for Resupply. The Angels of Steel Deploy! BOS! BOS!"
+
+Mobilization: "The Bells of Mobilization"
+Mobilization_desc: "We must mobilize fast if we are to survive. Begin conducting a census"
+
+UndergroundCity: "The City of Earth"
+UndergroundCity_desc: "The bunkers have many sitting around idly, with there construction jobs finished. Send them to the front"
+
+Charge: "Mass Charges"
+Charge_desc: "Fix Bayonets"
+
+Continued: "Policy of Isolation"
+Continued_desc: "We must kill any outsiders who know to much. We may be few in number, but we are safer that way"
+
+Best_In_Wasteland: "The Elites of the Wastes"
+Best_In_Wasteland_desc: "We must be elite in our training in order to ensure our quality of troops. Each man should be able to kill a deathclaw with nothing more than a hammer!"
+
+massrecruitment: "Incompetent Soldiers"
+massrecruitment_desc: "These wastelanders are incompetent. Half the Time they run into the field without giving a damn for the chain of command"
+
+chargesinfield: "Natural Selection"
+chargesinfield_desc: "Let these idiots learn the hard way why we have officers in the first place"
+
+Procreation: "Ban Contraceptives"
+Procreation_desc: "We must have as much man power as possible. This will cause discipline issues, but we can solve those with a bullet to the head. The Era of Steel Strippers is here!"
+
+MilitaryRemnants: "Military Remnants"
+MilitaryRemnants_desc: "Remnants of lost patrols must be formed into new patrols as soon as possible"
+
+qs2: "Ensure High Standards"
+qs2_desc: "We must drill our men constantly, and have them complete more tasks in order to become Knights and Paladins"
+
+qs3: "Mass Training Expeditions"
+qs3_desc: "We must send our wastelanders into the field to guard our scribes, allowing the fools to die in the wastes and the worthy live on"
+
+learningfromenviroment: "Learning from the Enviroment"
+learningfromenviroment_desc: "We must adapt to our enviroment. Have the Scribes find out what is edible and what can be used as makeshift material for bridges and weapon repair"
+
+
+extensivetraining: "Extensive Training Programs"
+extensivetraining_desc: "We must train our field operatives far more than we do now!"
+
+BRKWar: "Broken Coast War"
+BRKWar_desc: "We are at war with Broken Coast"
+
+VICWar: "New Victorian War"
+VICWar_desc: "We are at War with New Victoria"
+
+TRLWar: "Troll Warren War"
+TRLWar_desc: "We are at War with the Troll Warren"
+
+WBHWar: "Washington Brotherhood War"
+WBHWar_desc: "We are at war with the Washington Brotherhood"
+
+democraticvalues: "Liberty Prime's Influence"
+democraticvalues_desc: "Democracy. Is Non-Negotiable"
+
+protectorates: "Protectorate Industry"
+protectorates_desc: "We must use the industry of our Protectorates"
+
+WestTek1: "West Tek Designs"
+WestTek1_desc: "West Tek designs for improved Power Armor have been found. We must upgrade our equipment ASAP"
+
+exodus1: "The Exodus"
+exodus1_desc: "More flee to our lands"
+
+outsider_recruitment2: "Outsider Recruitment"
+outsider_recruitment2_desc: "We have begun accepting limited numbers of outsiders into our ranks."
+
+

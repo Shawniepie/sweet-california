@@ -1,0 +1,2522 @@
+focus_tree = {
+id = 'dayglow'
+country = {
+factor=0
+modifier = {
+add = 20
+tag = DAY
+}
+}
+default = no
+#Custom focuses start here
+
+ 
+
+
+
+#Focus for How We Survived  
+		focus = { 
+		id = howwesurvived 
+		icon = GFX_goal_generic_national_unity 
+		  
+ x =15 
+ y =0 
+ completion_reward = { 
+			country_event = { id = day_event.0 } 
+		} 
+ mutually_exclusive = { } 
+ prerequisite = { } 
+ cost = 1
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+ }#Focus for The Creation of a State  
+		focus = { 
+		id = thecreationofastate 
+		icon = GFX_goal_generic_forceful_treaty 
+		  
+ x =15 
+ y =1 
+  completion_reward = { 
+			country_event = { id = day_event.1 } 
+		} 
+ mutually_exclusive = { } 
+ prerequisite = { focus = howwesurvived } 
+ cost = 1 
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for After The Oil Rig  
+		focus = { 
+		id = aftertheoilrig 
+		icon = GFX_focus_wonderweapons 
+		  
+ x =15 
+ y =2 
+   completion_reward = { 
+			country_event = { id = day_event.2 }  
+		} 
+ mutually_exclusive = { } 
+ prerequisite = { focus = thecreationofastate } 
+ cost = 1
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Dayglow-Boneyard War 
+		focus = { 
+		id = thedayglowboneyardwar 
+		icon = GFX_goal_generic_small_arms 
+		  
+ x =15 
+ y =3 
+  completion_reward = { 
+			country_event = { id = day_event.3 }   
+		} 
+ mutually_exclusive = { } 
+ prerequisite = { focus = aftertheoilrig } 
+ cost = 1 
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for West Tek Research Facility  
+		focus = { 
+		id = westtekresearchfacility 
+		icon = GFX_goal_continuous_research 
+		  
+ x =1 
+ y =5 
+ completion_reward = {
+			add_political_power = 100
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thedayglowboneyardwar } 
+ cost = 2 
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Rebuilding The Armed Forces  
+		focus = { 
+		id = rebuildingthearmedforces 
+		icon = GFX_goal_generic_political_pressure 
+		  
+ x =7 
+ y =5 
+completion_reward = {
+			army_experience = 25
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thedayglowboneyardwar } 
+ cost = 4.3
+  available_if_capitulated = yes 
+
+
+
+
+
+
+
+  
+ }#Focus for Begin Reconstruction  
+		focus = { 
+		id = beginreconstruction 
+		icon = GFX_goal_generic_construct_infrastructure 
+		  
+ x =15 
+ y =5 
+	completion_reward = {
+			add_ideas = reconstruction
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thedayglowboneyardwar } 
+ cost = 8.6  
+  available_if_capitulated = yes 
+
+
+
+
+
+
+
+  
+ }#Focus for The Future Of Dayglow?  
+		focus = { 
+		id = thefutureofdayglow 
+		icon = GFX_goal_generic_national_unity 
+		  
+ x =29 
+ y =5 
+ mutually_exclusive = { } 
+ prerequisite = { focus = thedayglowboneyardwar} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Make Preprations To Enter the Glow   
+		focus = { 
+		id = makepreparationstoentertheglow 
+		icon = GFX_goal_continuous_increase_nu 
+		  
+ x =0 
+ y =6 
+ completion_reward = {
+			country_event = { id =  day_event.5 }
+		}
+
+ mutually_exclusive = { } 
+ prerequisite = { focus = westtekresearchfacility } 
+ cost = 4.3
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Scavenge The Outskirts  
+		focus = { 
+		id = scavengetheoutskirts 
+		icon = GFX_goal_generic_production2 
+		  
+ x =2 
+ y =6 
+  completion_reward = {
+			country_event = { id =  day_event.6 }  
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = westtekresearchfacility } 
+ cost = 4.3
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Lessons From The War  
+		focus = { 
+		id = lessonsfromthewar 
+		icon = GFX_goal_anti_comintern_pact 
+		  
+ x =5 
+ y =6 
+  completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = rebuildingthearmedforces } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Military Reorganization  
+		focus = { 
+		id = militaryreorganization 
+		icon = GFX_goal_generic_army_doctrines 
+		  
+ x =7 
+ y =6 
+ completion_reward = {
+			add_ideas = ReorgArmy
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = rebuildingthearmedforces } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Recruit Fresh Blood  
+		focus = { 
+		id = recruitfreshblood 
+		icon = GFX_focus_generic_military_academy 
+		  
+ x =9 
+ y =6 
+ mutually_exclusive = { } 
+ completion_reward = {
+			add_ideas = Fresh_Blood
+		}
+ prerequisite = { focus = rebuildingthearmedforces } 
+ cost = 8.6  
+  available_if_capitulated = yes 
+
+
+
+
+
+  
+ }#Focus for Exploit Our Natural Resources  
+		focus = { 
+		id = exploitournaturalresources 
+		icon = GFX_goal_generic_trade 
+		  
+ x =12 
+ y =6 
+ completion_reward = {
+			add_ideas = {
+				exploiting
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = beginreconstruction } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Rebuild The Glow  
+		focus = { 
+		id = rebuildtheglow 
+		icon = GFX_goal_generic_construction 
+		  
+ x =15 
+ y =6 
+  completion_reward = {
+			GLO = {
+			63 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+ mutually_exclusive = { } 
+ prerequisite = { focus = beginreconstruction } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Rebuild Los Alogdones 
+		focus = { 
+		id = rebuildlosalogdones 
+		icon = GFX_goal_continuous_repairments 
+		  
+ x =18 
+ y =6 
+ completion_reward = {
+			107 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		} 
+ mutually_exclusive = { } 
+ prerequisite = { focus = beginreconstruction } 
+ cost = 8.6  
+  available_if_capitulated = yes   
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Next Step In Evolution  
+		focus = { 
+		id = thenextstepinevolution 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+ x =23 
+ y =6 
+  completion_reward {
+			add_popularity = {
+				ideology = elites 
+				popularity = 0.1
+			}
+		}
+ mutually_exclusive = { focus = thefredricksonway } 
+ mutually_exclusive = { focus = mrhayes } 
+ prerequisite = { focus =thefutureofdayglow } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Fredrickson Way  
+		focus = { 
+		id = thefredricksonway 
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties 
+		  
+ x =29 
+ y =6 
+  completion_reward = { 
+  add_stability = 0.10 }
+ mutually_exclusive = { focus = thenextstepinevolution} 
+ mutually_exclusive = { focus = mrhayes } 
+ prerequisite = { focus = thefutureofdayglow } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Mr. Hayes  
+		focus = { 
+		id = mrhayes 
+		icon = GFX_goal_NCR_Mayoral_Victory_Speech 
+		  
+ x =37 
+ y =6 
+ completion_reward {
+			add_popularity = {
+				ideology = intellectuals
+				popularity = 0.1
+			}
+		}
+  mutually_exclusive = { focus = thenextstepinevolution} 
+ mutually_exclusive = { focus = thefredricksonway } 
+ prerequisite = { focus = thefutureofdayglow } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Descending Into The Facility  
+		focus = { 
+		id = descendingintothefacility 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+ x =1 
+ y =7 
+ completion_reward = {
+			country_event = { id = day_event.4 } 
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = scavengetheoutskirts } 
+ prerequisite = { focus = makepreparationstoentertheglow }
+ cost = 4.3
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Analyse Boneyard Combat Reports  
+		focus = { 
+		id = analyseboneyardcombatreports 
+		icon = GFX_goal_generic_military_sphere 
+		  
+ x =5 
+ y =7 
+  completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+
+			
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = lessonsfromthewar } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Standardized Training Drills  
+		focus = { 
+		id = standardizedtrainingdrills 
+		icon = GFX_goal_generic_axis_build_infantry 
+		  
+ x =7 
+ y =7
+ completion_reward = {
+			add_ideas = OldWorldTraining
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = militaryreorganization } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Rebuild The Officers Corps 
+		focus = { 
+		id = rebuildtheofficerscorps 
+		icon = GFX_focus_generic_military_mission 
+		  
+ x =9 
+ y =7 
+  completion_reward = {
+			add_ideas = {OfficerCorps }
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = recruitfreshblood } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Repair the San Vicente Dam 
+		focus = { 
+		id = repairthesanvicentedam 
+		icon = GFX_goal_generic_construct_military 
+		  
+ x =11 
+ y =7 
+ completion_reward = {
+			63 = {
+			add_resource = {
+					type = electricity
+					amount = 32
+				}
+				}
+			
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = exploitournaturalresources } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Mine The Laguna Mountain Range  
+		focus = { 
+		id = minethelagunamountainrange 
+		icon = GFX_goal_generic_construction2 
+		  
+ x =13 
+ y =7 
+  completion_reward = {
+ 80 = {
+				add_resource = {
+					type = metal
+					amount = 40
+				}
+			}
+			}
+ mutually_exclusive = { } 
+ prerequisite = { focus = exploitournaturalresources } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+ }#Focus for Rebuild the Scarred Outskirts  
+		focus = { 
+		id = rebuildthescarredoutskirts 
+		icon = GFX_goal_generic_construct_infrastructure 
+		  
+ x =15 
+ y =7 
+ completion_reward = {
+			63 = {
+				add_extra_state_shared_building_slots = 5
+				}
+				}
+ mutually_exclusive = { } 
+ prerequisite = { focus = rebuildtheglow } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Fund Los Alogdones Arms Industry  
+		focus = { 
+		id = fundlosalogdonesarmsindustry 
+		icon = GFX_goal_generic_small_arms 
+		  
+ x =17 
+ y =7 
+ completion_reward = {
+			107 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory 
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = rebuildlosalogdones } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Improve Eastern Infrastructure  
+		focus = { 
+		id = improveeasterninfrastructure 
+		icon = GFX_goal_generic_position_armies 
+		  
+ x =19 
+ y =7 
+ completion_reward = {
+			469 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			107 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			4 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}    
+		} 
+ mutually_exclusive = { } 
+ prerequisite = { focus = rebuildlosalogdones } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Teachings Of The Master  
+		focus = { 
+		id = theteachingsofthemaster 
+		icon = GFX_goal_generic_propaganda 
+		  
+ x =22 
+ y =7 
+  completion_reward = {
+			add_ideas = Masters
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thenextstepinevolution } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+ }#Focus for Encourage Mutant Migration  
+		focus = { 
+		id = encouragemutantmigration 
+		icon = GFX_goal_generic_position_armies 
+		  
+ x =24 
+ y =7 
+  completion_reward = {
+			add_ideas = MutantMigration
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thenextstepinevolution } 
+ cost = 8.6  
+  available_if_capitulated = yes 
+
+
+
+
+
+  
+ }#Focus for Return Stability To Dayglow  
+		focus = { 
+		id = returnstabilitytodayglow 
+		icon = GFX_goal_tripartite_pact 
+		  
+ x =28 
+ y =7 
+  completion_reward = { 
+  add_stability = 0.15 }
+ mutually_exclusive = { } 
+ prerequisite = { focus = thefredricksonway } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Consolidate The Federation 
+		focus = { 
+		id = consolidatethefederation 
+		icon = GFX_goal_generic_major_alliance 
+		  
+ x =30 
+ y =7 
+  completion_reward = {
+			add_ideas = Federation
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thefredricksonway } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Revive The American Dream  
+		focus = { 
+		id = revivetheamericandream 
+		icon = GFX_focus_generic_strike_at_democracy2 
+		  
+ x =37 
+ y =7 
+  completion_reward = {
+			add_ideas = Hayes
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = mrhayes } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Scouring The Initial Levels of the Facility  
+		focus = { 
+		id = scouringtheinitiallevelsofthefacility    
+		icon = GFX_focus_wonderweapons 
+		  
+ x =1 
+ y =8 
+completion_reward = {
+			country_event = { id = day_event.7 }
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = descendingintothefacility } 
+ cost = 4.3
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Create An Official Military Doctrine  
+		focus = { 
+		id = createanofficialmilitarydoctrine 
+		icon = GFX_goal_generic_forceful_treaty 
+		  
+ x =5 
+ y =8 
+ completion_reward = {
+			add_ideas = militarydoctrine 
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = analyseboneyardcombatreports } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Patriotic Propaganda 
+		focus = { 
+		id = patrioticpropaganda 
+		icon = GFX_goal_generic_territory_or_war 
+		  
+ x =9 
+ y =8 
+ 
+completion_reward = {
+			add_ideas = PatrioticPropaganda
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = rebuildtheofficerscorps } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Exploit The Glow  
+		focus = { 
+		id = exploittheglow 
+		icon = GFX_goal_generic_scientific_exchange 
+		  
+ x =12 
+ y =8 
+ completion_reward = {
+ 63 = {
+       add_resource = {
+				type = advanced_technology
+				amount = 16
+				
+				}
+				}
+				}
+ mutually_exclusive = { } 
+ prerequisite = { focus = repairthesanvicentedam } 
+  prerequisite = { focus = minethelagunamountainrange } 
+  available = {
+			has_completed_focus = descendingintothefacility
+		}	
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+   
+  
+  
+   
+ }#Focus for Repair the Arms Industry  
+		focus = { 
+		id = repairthearmsindustry 
+		icon = GFX_goal_generic_small_arms 
+		  
+ x =14 
+ y =8 
+  completion_reward = {
+			63 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory 
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = rebuildthescarredoutskirts } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Rebuild San Diego's Industrial Center 
+		focus = { 
+		id = rebuildsandiegosindustrialcenter 
+		icon = GFX_goal_generic_construction 
+		  
+ x =16 
+ y =8 
+ completion_reward = {
+			350 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = rebuildthescarredoutskirts} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+ }#Focus for Rebuild The Los Alogdones Shipyard 
+		focus = { 
+		id = rebuildthelosalogdonesshipyard 
+		icon = GFX_goal_generic_construct_naval_dockyard 
+		  
+ x =18 
+ y =8 
+ completion_reward = {
+			107 = {
+	
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = fundlosalogdonesarmsindustry } 
+ prerequisite = { focus = improveeasterninfrastructure }
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Anti-Human Propaganda  
+		focus = { 
+		id = antihumanpropaganda 
+		icon = GFX_goal_generic_demand_territory 
+		  
+ x =23 
+ y =8 
+  completion_reward {
+			add_popularity = {
+				ideology = elites
+				popularity = 0.15
+			}
+			add_stability = 0.10
+			}
+ mutually_exclusive = { } 
+ prerequisite = { focus = theteachingsofthemaster } 
+  prerequisite = { focus = encouragemutantmigration } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Establish A National Identity  
+		focus = { 
+		id = establishanationalidentity 
+		icon = GFX_goal_generic_demand_territory 
+		  
+ x =29 
+ y =8 
+  completion_reward = {
+add_war_support = 0.25
+		}		
+ mutually_exclusive = { } 
+ prerequisite = { focus = returnstabilitytodayglow } 
+ prerequisite = { focus = consolidatethefederation } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for  Repair PoseidoNet  
+		focus = { 
+		id = repairposeidonet 
+		icon = GFX_goal_generic_attack_allies 
+		  
+ x =37 
+ y =8 
+  completion_reward = {
+			add_ideas = PoseidoNet
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = revivetheamericandream } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+    
+ }#Focus for Explore The Research Department  
+		focus = {  
+		id = exploretheresearchdepartment 
+		icon = GFX_focus_prc_infiltration 
+		  
+ x =0 
+ y =9 
+ completion_reward = {
+			country_event = { id = day_event.8 }
+		} 
+ mutually_exclusive = { } 
+ prerequisite = { focus = scouringtheinitiallevelsofthefacility } 
+ cost = 4.3 
+  available_if_capitulated = yes  
+  
+   
+  
+  
+  
+  
+  
+ }#Focus for Explore the Weapon Development Floor  
+		focus = { 
+		id = exploretheweapondevelopmentfloor 
+		icon = GFX_focus_prc_infiltration 
+		  
+ x =2   
+ y =9 
+  completion_reward = {
+			country_event = { id = day_event.9 }
+		}   
+ mutually_exclusive = { } 
+ prerequisite = { focus = scouringtheinitiallevelsofthefacility } 
+ cost = 4.3
+  available_if_capitulated = yes  
+  
+  
+  
+   
+  
+  
+  
+  
+  
+ }#Focus for The Glowing City 
+		focus = { 
+		id = theglowingcity 
+		icon = GFX_focus_chi_legislative_yuan 
+		  
+ x =15 
+ y =9 
+ completion_reward = {
+			add_ideas = {
+				GlowingCity
+			}
+		}
+ mutually_exclusive = { }
+ prerequisite = { focus = rebuildsandiegosindustrialcenter } 
+ prerequisite = { focus = repairthearmsindustry } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Arrival of Unity  
+		focus = { 
+		id = thearrivalofunity 
+		icon = GFX_goal_generic_CAS 
+		  
+ x =23 
+ y =9 
+  completion_reward {
+		load_oob = UnityArmy
+			set_technology = {
+	super_mutant_civilization = 1
+	mutant_access = 1
+	super_mutant_behemoth = 1
+	super_mutant_melee_weapons = 1
+			
+		}
+		
+			set_politics = {
+			ruling_party = elites
+			elections_allowed = no
+		}
+				create_country_leader = {
+			name = "Lou Tenant"
+			id = 1502
+			desc = "Dornan_DESC"
+			picture = "gfx/leaders/Dayglow/dayglowMutant.dds"
+			expire = "3000.1.1"
+			ideology = militarist_technocracy
+			}
+		set_cosmetic_tag = GLO
+			add_stability = -0.1
+		
+		
+		
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = antihumanpropaganda} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Institute State Currency  
+		focus = { 
+		id = institutestatecurrency 
+		icon = GFX_goal_generic_production2 
+		  
+ x =29 
+ y =9 
+ completion_reward = {
+			add_ideas = {
+				Currency
+			}
+			}
+ mutually_exclusive = { } 
+ prerequisite = { focus = establishanationalidentity} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+   
+  
+  
+  
+   
+  
+  
+  
+  
+ }#Focus for Establish Communications With Enclave Holdouts Within California 
+		focus = { 
+		id = establishcommswithenclavecaliforniaholdouts 
+		icon = GFX_goal_generic_radar 
+		  
+ x =36 
+ y =9  
+   completion_reward {
+			add_popularity = {
+				ideology = intellectuals
+				popularity = 0.1
+			}
+			add_popularity = { 
+				ideology = people
+				popularity = 0.1
+		}
+		set_technology = { power_armour_enclave1 = 1 }
+		set_technology = { plasma_weaponry = 1 }
+		set_technology = { power_armour_t45d = 1 }
+		set_technology = { power_armour = 1 }
+	
+			
+			set_technology = {	vertiberd_gunship = 1 }
+			set_technology = {	vertiberd_transport1 = 1 }
+			
+		load_oob = EnclaveRemnants
+		
+		add_equipment_to_stockpile = { 
+				type = vb_gunship_equipment
+				amount = 75
+				producer = GLO	
+			} 
+			
+			add_equipment_to_stockpile = { 
+				type = vb_transport_plane_equipment
+				amount = 50
+				producer = GLO	
+			}
+			}
+ mutually_exclusive = { } 
+ prerequisite = { focus = repairposeidonet} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Establish Communications With Enclave Holdouts In The East
+		focus = { 
+		id = establishcommswithenclaveeastofthecolorado 
+		icon = GFX_goal_generic_radar 
+		  
+ x =38 
+ y =9 
+ completion_reward {
+			add_popularity = {
+				ideology = intellectuals
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = people
+				popularity = 0.1
+		}
+		set_technology = { power_armour_enclave1 = 1 }
+		set_technology = { plasma_weaponry = 1 }
+		set_technology = { power_armour_t45d = 1 }
+		set_technology = { power_armour = 1 }
+			
+			set_technology = {	vertiberd_gunship = 1 }
+			set_technology = {	vertiberd_transport1 = 1 }
+			
+		load_oob = EnclaveRemnants2
+		
+		add_equipment_to_stockpile = { 
+				type = vb_gunship_equipment
+				amount = 75
+				producer = GLO	
+			}
+			
+			add_equipment_to_stockpile = { 
+				type = vb_transport_plane_equipment
+				amount = 50
+				producer = GLO	
+			}
+			}
+ mutually_exclusive = { } 
+ prerequisite = { focus = repairposeidonet} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Explore The Advanced Weaponry Department  
+		focus = { 
+		id = exploretheadvancedweaponrydepartment 
+		icon = GFX_goal_generic_CAS 
+		  
+ x =1 
+ y =10 
+ completion_reward = {
+			country_event = { id = day_event.10 }
+		}   
+ mutually_exclusive = { } 
+ prerequisite = { focus = exploretheresearchdepartment } 
+ prerequisite = { focus = exploretheweapondevelopmentfloor } 
+ cost = 4.3
+  available_if_capitulated = yes  
+  
+  
+   
+  
+  
+  
+  
+ }#Focus for Continue The Master's Work  
+		focus = { 
+		id = continuethemasterswork 
+		icon = GFX_goal_generic_scientific_exchange 
+		  
+ x =23 
+ y =10 
+ completion_reward = {
+			add_ideas = MasterWork
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thearrivalofunity} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Streamlined Production  
+		focus = { 
+		id = streamlinedproduction 
+		icon = GFX_goal_generic_neutrality_focus 
+		  
+ x =29 
+ y =10 
+  completion_reward = {
+			add_ideas = Streamlined
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = institutestatecurrency } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+    
+  
+  
+ 
+     
+  
+  
+  
+  
+  
+ }#Focus for Barracks and Operations Center  
+		focus = { 
+		id = barracksandoperationscenter 
+		icon = GFX_goal_generic_small_arms 
+		  
+ x =1 
+ y =11 
+  completion_reward = {
+			country_event = { id = day_event.11 }
+		} 
+ mutually_exclusive = { } 
+ prerequisite = { focus = exploretheadvancedweaponrydepartment } 
+  cost = 4.3
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Rapids  
+		focus = { 
+		id = therapids2 
+		icon = GFX_goal_generic_territory_or_war 
+		  
+ x =5 
+ y =11 
+  completion_reward {
+			add_political_power = 100
+		}
+		available = {
+			has_completed_focus = thedayglowboneyardwar
+		}
+ mutually_exclusive = { } 
+ cost = 2.0 
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Southern Expansion  
+		focus = { 
+		id = southernexpansion 
+		icon = GFX_goal_generic_position_armies 
+		  
+ x =10 
+ y =11 
+ completion_reward {
+			add_political_power = 100
+		}
+ mutually_exclusive = { } 
+ available = {
+			has_completed_focus = thedayglowboneyardwar
+		}	
+ cost = 2.0 
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Reform The Navy  
+		focus = { 
+		id = reformthenavy 
+		icon = GFX_goal_generic_navy_cruiser 
+		  
+ x =16 
+ y =11 
+ completion_reward = {
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 2
+				category =	naval_doctrine
+			}
+			
+		}
+ mutually_exclusive = { } 
+  available = {
+			has_completed_focus = thedayglowboneyardwar
+		}	
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Expedition To The Glow  
+		focus = { 
+		id = expeditiontotheglow 
+		icon = GFX_goal_generic_position_armies 
+		  
+ x =23 
+ y =11 
+  completion_reward = {
+			country_event = { id = day_event.12 }
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = continuethemasterswork} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+       
+  
+   
+   
+ }#Focus for Patriotic Fervor  
+		focus = { 
+		id = patrioticfervor 
+		icon = GFX_goal_tfv_can_compromise_with_quebec 
+		  
+ x =29 
+ y =11 
+  completion_reward = {
+			add_ideas = Fervor
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = streamlinedproduction } 
+ cost = 8.6  
+  available_if_capitulated = yes 
+ 
+
+
+
+
+  
+ }#Focus for Seize Control  
+		focus = { 
+		id = seizecontrol 
+		icon = GFX_goal_generic_demand_territory 
+		  
+ x =37 
+ y =10
+ completion_reward {
+ set_politics = {
+			ruling_party = intellectuals
+			elections_allowed = no }
+			create_country_leader = {
+			name = "Grant. C. Hayes"
+			id = 1501
+			desc = "Dornan_DESC"
+			picture = "gfx/leaders/Dayglow/Portrait_Hayes.dds"
+			expire = "3000.1.1"
+			ideology = technocracy
+			}
+			set_cosmetic_tag = GLO
+			}
+ mutually_exclusive = {  } 
+ prerequisite = { focus = establishcommswithenclavecaliforniaholdouts } 
+ prerequisite = { focus = establishcommswithenclaveeastofthecolorado } 
+ cost = 8.6  
+  available_if_capitulated = yes 
+
+
+
+
+
+  
+ }#Focus for Form A Union  
+		focus = { 
+		id = formaunion 
+		icon = GFX_goal_generic_major_alliance 
+		  
+ x =4 
+ y =12 
+ completion_reward {
+ puppet = RAP
+ }
+ mutually_exclusive = { focus = annextherapids } 
+ prerequisite = { focus = therapids2 } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Annex The Rapids  
+		focus = { 
+		id = annextherapids 
+		icon = GFX_focus_generic_support_the_left_right 
+		  
+ x =6 
+ y =12 
+ completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = RAP 
+				}
+				}
+ mutually_exclusive = { focus = formaunion } 
+ prerequisite = { focus = therapids2 } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Crush The Bandits  
+		focus = { 
+		id = crushthebandits 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+ x =10 
+ y =12 
+ completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BVC
+			}
+			            # create a wargoal and add cores on any nation who invades and annexes the original wargoal target
+			if = {
+				limit = {
+					any_state = {
+						AND = {
+							is_core_of = BVC
+							NOT = { is_controlled_by = BVC }
+						}
+					}
+				}
+				every_country = {
+					limit = {
+						any_owned_state = {
+							is_core_of = BVC
+						}
+					}
+					add_named_threat = { threat = 5 name = stole_cores }
+					ROOT = {
+						create_wargoal = { type = annex_everything target = PREV }
+					}
+				}
+			}
+			BLP = {
+				create_faction = fantasma_cartel
+				add_to_faction = BVC
+				add_to_war = {
+					targeted_alliance = BVP
+					enemy = GLO
+				}				
+			}
+			
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = southernexpansion } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+ }#Focus for National Pride In The Navy  
+		focus = { 
+		id = nationalprideinthenavy 
+		icon = GFX_goal_generic_national_unity 
+		  
+ x =16
+ y =12 
+ completion_reward = { add_ideas = Pride
+			}
+		
+ mutually_exclusive = { } 
+ prerequisite = { focus = reformthenavy } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Secure the FEV Strain  
+		focus = { 
+		id = securethefevstrain 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+ x =22 
+ y =12 
+ completion_reward = {
+            add_stability = 0.10 
+	add_ideas = Army }		
+ mutually_exclusive = { } 
+ prerequisite = { focus = expeditiontotheglow} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Super Mutant Migration  
+		focus = { 
+		id = supermutantmigration 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+ x =24 
+ y =12 
+   completion_reward = {
+			add_ideas = MutantMigration2
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = expeditiontotheglow} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Expanding the Federation  
+		focus = { 
+		id = expandingthefederation 
+		icon = GFX_goal_generic_position_armies 
+		  
+ x =27 
+ y =12 
+  completion_reward {
+			add_political_power = 100
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = patrioticfervor } 
+ cost = 4.3
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Preperations For A Second War  
+		focus = { 
+		id = preperationsforasecondwar 
+		icon = GFX_goal_generic_construct_mil_factory 
+		  
+ x =31 
+ y =12 
+   completion_reward {
+			add_war_support = 0.15
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = patrioticfervor } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Streamlined Power Armor Production  
+		focus = { 
+		id = streamlinedpowerarmorproduction 
+		icon = GFX_goal_generic_army_tanks 
+		  
+ x =36 
+ y =11
+  		completion_reward = {
+
+			add_ideas = PowerArmor
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = seizecontrol } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Restore West Tek Operations  
+		focus = { 
+		id = restorewesttekoperations 
+		icon = GFX_goal_continuous_research 
+		  
+ x =38 
+ y =11
+ completion_reward = { 
+			add_ideas = WestTek2
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = seizecontrol } 
+ cost = 8.6
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Sign The Rapid's Conscription Law  
+		focus = { 
+		id = signtherapidsconscriptionlaw 
+		icon = GFX_focus_generic_little_entente 
+		  
+ x =4 
+ y =13 
+ completion_reward = {
+ RAP = {
+				add_ideas = Rapids
+			}
+			}
+ mutually_exclusive = { } 
+ prerequisite = { focus = formaunion} 
+ cost = 8.6  
+  available_if_capitulated = yes 
+
+
+
+
+
+  
+ }#Focus for Rebuild The Rapid's Shipyards  
+		focus = { 
+		id = rebuildtherapidsshipyards 
+		icon = GFX_goal_generic_construct_naval_dockyard 
+		  
+		 available = {
+			
+			
+				GLO = {
+					has_full_control_of_state = 99
+				}
+			}
+		
+ x =6 
+ y =13 
+ completion_reward = {
+			99 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					province = {
+						id = 4977
+					}
+					instant_build = yes
+				}
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus =annextherapids } 
+
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Baja Project  
+		focus = { 
+		id = thebajaproject 
+		icon = GFX_goal_generic_production2 
+		  
+ x =10 
+ y =13 
+  completion_reward {
+ 	174 = {
+	add_extra_state_shared_building_slots = 3
+	}
+	651 = {
+	add_extra_state_shared_building_slots = 3
+	}
+	41 = {
+	add_extra_state_shared_building_slots = 3
+	}
+	}
+	
+				
+ mutually_exclusive = { } 
+ prerequisite = { focus = crushthebandits } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Explore Naval Base San Diego  
+		focus = { 
+		id = explorenavalbasesandiego 
+		icon = GFX_focus_chi_examination_yuan 
+		  
+ x =16 
+ y =13 
+ completion_reward = {
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 2
+				category =	naval_doctrine
+			}
+			
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = nationalprideinthenavy } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Begin Forced Mutations  
+		focus = { 
+		id = beginforcedmutations 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+ x =23 
+ y =13 
+ completion_reward {
+		load_oob = UnityArmy3
+			
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = supermutantmigration} 
+ prerequisite = { focus = securethefevstrain} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Integrate The Rapids  
+		focus = { 
+		id = integratetherapids 
+		icon = GFX_goal_NCR_Rebuild_the_13
+		  
+ x =26 
+ y =13 
+   completion_reward {
+			add_state_core = 147
+			add_state_core = 500
+			add_state_core = 99
+			add_state_core = 173
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = expandingthefederation } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Integrate Northern Baja  
+		focus = { 
+		id = integratenorthernbaja 
+		icon = GFX_goal_NCR_Integration 
+		  
+ x =28 
+ y =13 
+  completion_reward {
+			add_state_core = 41
+			add_state_core = 651
+			add_state_core = 650
+			add_state_core = 174
+			add_state_core = 158
+			add_state_core = 481
+			add_state_core = 136
+		}
+ mutually_exclusive = { } 
+  prerequisite = { focus = expandingthefederation }  
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Prepare The Economy 
+		focus = { 
+		id = preparetheeconomy 
+		icon = GFX_goal_generic_production2 
+		  
+ x =30 
+ y =13 
+ completion_reward = {
+			80 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory 
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = preperationsforasecondwar } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Unite The Populace Against Boneyard  
+		focus = { 
+		id = unitethepopulaceagainstboneyard 
+		icon = GFX_goal_tfv_can_forced_quebec_conscription 
+		  
+ x =32 
+ y =13 
+ 	completion_reward = {
+			add_ideas = UnitedPopulace
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = preperationsforasecondwar }  
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Streamlined Vertibird Production  
+		focus = { 
+		id = streamlinedvertibirdproduction 
+		icon = GFX_goal_generic_production2 
+		  
+ x =36 
+ y =12 
+   completion_reward = {
+			add_ideas = Vertibirds
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = streamlinedpowerarmorproduction } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Access The Research Mainfraim  
+		focus = { 
+		id = accesstheresearchmainfraim 
+		icon = GFX_focus_research2 
+		  
+ x =38 
+ y =12
+ completion_reward = {
+			add_ideas = Westtek
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = restorewesttekoperations } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Crossing the Colorado  
+		focus = { 
+		id = crossingthecolorado 
+		icon = GFX_goal_generic_attack_allies 
+		  
+ x =10 
+ y =15 
+  completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = TON
+				}
+				}
+ mutually_exclusive = { } 
+ prerequisite = { focus = navalbaseasuncion } 
+  prerequisite = { focus = bajaconscriptionlaw }
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Naval Base Asuncion  
+		focus = { 
+		id = navalbaseasuncion 
+		icon = GFX_goal_generic_navy_cruiser 
+		  
+ x =9 
+ y =14 
+ completion_reward = {
+			136 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					province = {
+						id = 4977
+					}
+					instant_build = yes
+				}
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thebajaproject } 
+ cost = 8.6  
+  available_if_capitulated = yes 
+
+
+
+
+
+
+
+  
+ }#Focus for Baja Conscription Law  
+		focus = { 
+		id = bajaconscriptionlaw 
+		icon = GFX_focus_generic_military_academy 
+		  
+ x =11 
+ y =14 
+ completion_reward { 
+			add_ideas = BajaLaws }
+ mutually_exclusive = { } 
+ prerequisite = { focus = thebajaproject } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Recover Naval Schematics  
+		focus = { 
+		id = recovernavalschematics 
+		icon = GFX_goal_generic_intelligence_exchange 
+		  
+ x =15 
+ y =14 
+ completion_reward = {
+			add_tech_bonus = {
+				name = war_barge_bonus
+				bonus = 0.5
+				uses = 2
+				category = ship_cruiser_tech
+			}
+			add_tech_bonus = {
+				name = war_barge_bonus
+				bonus = 0.5
+				uses = 1
+				category = ship_carrier_tech
+			}
+			
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = explorenavalbasesandiego } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Repair The Piers  
+		focus = { 
+		id = repairthepiers 
+		icon = GFX_goal_generic_construct_naval_dockyard 
+		  
+ x =17 
+ y =14 
+ completion_reward = {
+			63 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				}
+				}
+ mutually_exclusive = { } 
+ prerequisite = { focus = explorenavalbasesandiego } 
+ cost = 8.6  
+  available_if_capitulated = yes 
+
+
+
+
+
+
+
+  
+ }#Focus for Refining The FEV  
+		focus = { 
+		id = refiningthefev 
+		icon = GFX_focus_research2 
+		  
+ x =23 
+ y =14 
+  completion_reward = {
+			add_ideas = {
+				Refined
+			}
+			}
+ mutually_exclusive = { } 
+ prerequisite = { focus = beginforcedmutations} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+
+
+
+
+  
+ }#Focus for Integrate The Tohono  
+		focus = { 
+		id = integratethetohono 
+		icon = GFX_goal_NCR_Brahminbill
+		  
+ x =27 
+ y =14 
+ completion_reward {
+			add_state_core = 517
+			add_state_core = 146
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = expandingthefederation } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Second Dayglow-Boneyard War  
+		focus = { 
+		id = theseconddayglowboneyardwar 
+		icon = GFX_goal_generic_attack_allies 
+		  
+ x =31 
+ y =14 
+  completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BNS
+				}
+				}
+ mutually_exclusive = { } 
+ prerequisite = { focus = preparetheeconomy } 
+ prerequisite = { focus = unitethepopulaceagainstboneyard} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Hardliners  
+		focus = { 
+		id = thehardliners 
+		icon = GFX_goal_NEW_new_world
+		  
+ x =37 
+ y =13 
+ completion_reward = {
+			add_ideas = tamenewworld
+		}
+ 
+  prerequisite = {focus = streamlinedvertibirdproduction } 
+ prerequisite = {focus = accesstheresearchmainfraim } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Repair The Direlect Warships  
+		focus = { 
+		id = repairthedirelectwarships 
+		icon = GFX_goal_NCR_Rebuild_the_13
+		  
+ x =16 
+ y =15 
+ completion_reward {
+		load_oob = DayWarships
+			
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = recovernavalschematics } 
+  prerequisite = { focus = repairthepiers } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Behemoth Project  
+		focus = { 
+		id = thebehemothproject 
+		icon = GFX_goal_continuous_suppression 
+		  
+ x =23 
+ y =15 
+ completion_reward {
+		load_oob = UnityArmy2 
+			set_technology = {
+
+	super_mutant_behemoth = 1
+		}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = refiningthefev} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for The Master's Race  
+		focus = { 
+		id = themastersrace 
+		icon = GFX_goal_generic_CAS 
+		  
+ x =23 
+ y =16 
+  completion_reward = {
+			add_ideas = MutantArmy
+		}
+		
+		
+ mutually_exclusive = { } 
+ prerequisite = { focus = thebehemothproject} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+ }#Focus for Purify Dayglow  
+		focus = { 
+		id = purifydayglow 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+ x =37
+ y =14
+ completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = thehardliners } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+
+  
+ }#Focus for The Forgotten Members  
+		focus = { 
+		id = theforgottenmembers 
+		icon = GFX_focus_generic_little_entente 
+		  
+ x =36 
+ y =15
+  completion_reward {
+		load_oob = EnclaveRemnants3
+			
+		}
+ mutually_exclusive = { } 
+ prerequisite = { focus = purifydayglow } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+ }#Focus for Loot Nearby Military Stcokpiles  
+		focus = { 
+		id = lootnearbymilitarystcokpiles 
+		icon = GFX_goal_generic_major_war 
+		  
+ x =38
+ y =15 
+ completion_reward {
+
+ add_equipment_to_stockpile = {   
+				type = power_armor_equipment_2
+				amount = 2500
+				producer = GLO			 
+			}
+			
+						
+			
+			
+			add_equipment_to_stockpile = { 
+				type = ballistic_equipment_1 
+				amount = 2500
+				producer = VLT		
+				}
+				}
+ mutually_exclusive = { } 
+  prerequisite = { focus = purifydayglow } 
+ cost = 8.6  
+  available_if_capitulated = yes 
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+ }#Focus for For The Master!  
+		focus = { 
+		id = forthemaster 
+		icon = GFX_goal_generic_CAS 
+		  
+ x =23 
+ y =17 
+ completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BNS
+				}
+				create_wargoal = {
+				type = annex_everything
+				target = NCR
+				}
+				create_wargoal = {
+				type = annex_everything
+				target = HUB
+				}
+				create_wargoal = {
+				type = annex_everything
+				target = BOS
+				}
+				}
+ mutually_exclusive = { } 
+ prerequisite = { focus = themastersrace} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Remember The Oil Rig  
+		focus = { 
+		id = remembertheoilrig 
+		icon = GFX_focus_wonderweapons 
+		  
+ x =37 
+ y =16
+completion_reward = {
+       
+	add_ideas = Army }		 
+ mutually_exclusive = { } 
+ prerequisite = { focus = theforgottenmembers } 
+  prerequisite = { focus =  lootnearbymilitarystcokpiles } 
+ cost = 8.6  
+  available_if_capitulated = yes  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ }#Focus for Retake Our Former Glory  
+		focus = { 
+		id = retakeourformerglory 
+		icon = GFX_focus_rom_parties_end 
+		  
+ x =37 
+ y =17
+ completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BNS
+				}
+				create_wargoal = {
+				type = annex_everything
+				target = NCR
+				}
+				create_wargoal = {
+				type = annex_everything
+				target = HUB
+				}
+				create_wargoal = {
+				type = annex_everything
+				target = BOS
+				}
+				}
+ mutually_exclusive = { } 
+ prerequisite = { focus = remembertheoilrig} 
+ cost = 8.6  
+  available_if_capitulated = yes  
+ }#End of focuses 
+}

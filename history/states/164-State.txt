@@ -1,0 +1,27 @@
+state = {
+	id = 164
+	name = "STATE_CHINLE"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		energy = 2
+	}
+
+	history = {
+		owner = BLK
+		add_core_of = CES
+		add_core_of = BLK
+		victory_points = {
+			8103 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		643 997 1544 1584 1785 1786 6966 8040 8041 8042 8051 8052 8053 8058 8059 8060 8085 8086 8087 8088 8089 8090 8103 8193 8194
+	}
+}

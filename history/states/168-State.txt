@@ -1,0 +1,28 @@
+state={
+	id=168
+	name="STATE_168" # Tumbledown Ranch
+	resources={
+		water = 4
+	}
+
+	history={
+		owner = BAR
+		add_core_of = BAR
+		victory_points = {
+			4804 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1631 4802 4804 4878 4879 4880 4881 5059 5060
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

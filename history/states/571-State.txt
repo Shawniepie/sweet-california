@@ -1,0 +1,25 @@
+state = {
+	id = 571
+	name = "STATE_LOGANS-FALL"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = IRN
+		add_core_of = IRN
+		add_core_of = BSU
+		victory_points = {
+			7021 5
+		}
+		buildings = {
+			infrastructure = 2
+			5275 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		2757 3028 5275 5689 5730 5731 7019 7020 7021 7022
+	}
+}

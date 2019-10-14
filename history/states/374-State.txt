@@ -1,0 +1,22 @@
+state = {
+	id = 374
+	name = "STATE_PEETZ"
+	manpower = 2000
+	state_category = rural
+
+	history = {
+		owner = SCO
+		add_core_of = SCO
+		victory_points = {
+			8011 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		8004 8003 8006 1800 8007 8008 8005 8011 8012 8013 8009 8010 6673 7996 7990 7986
+	}
+}

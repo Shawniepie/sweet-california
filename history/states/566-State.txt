@@ -1,0 +1,25 @@
+state = {
+	id = 566
+	name = "STATE_PLAINSRUNNERS"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = SUF
+		add_core_of = SUF
+		victory_points = {
+			5457 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			8978 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+		2775 2786 2847 2931 2933 5451 5452 5453 5454 5456 5457 5621 5622 5626 5627 6634 7001 8978 8979 8980
+	}
+}

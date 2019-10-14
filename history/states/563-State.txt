@@ -1,0 +1,25 @@
+state={
+	id=563
+	name="STATE_RED_SUN_TRIBELANDS"
+
+	history={
+		owner = RSR
+		add_core_of = RSR
+		add_core_of = CES
+		victory_points = {
+			2795 10
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		883 901 2795 2912 2940 5243 5423 5424 5425 5546 5547 5548 6585 6586 6620
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=shanty
+}

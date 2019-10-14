@@ -1,0 +1,24 @@
+state={
+	id=641
+	name="STATE_WESTCLIFFE"
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		add_core_of = JIC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			6777 5
+		}
+	}
+
+	provinces={
+		1574 5578 6646 6775 6776 6777
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=shanty
+}

@@ -1,0 +1,29 @@
+state={
+	id=422
+	name="STATE_BASTION"
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		add_core_of = JIC
+		victory_points = {
+			2984 20
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 1
+			anti_air_building = 2
+			radar_station = 1
+
+		}
+
+	}
+
+	provinces={
+		2984 6773 6774
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

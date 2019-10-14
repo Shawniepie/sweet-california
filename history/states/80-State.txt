@@ -1,0 +1,21 @@
+state={
+	id=80
+	name="STATE_LAGUNA_MOUNTAINS"
+	impassable = yes
+	history={
+		owner = DAY
+		add_core_of = DAY
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		804 843 4639 4706 4707
+	}
+	manpower=14000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

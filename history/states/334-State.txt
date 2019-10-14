@@ -1,0 +1,26 @@
+state = {
+	id = 334
+	name = "STATE_334" # Northwestern Mojave
+	manpower = 11000
+	state_category = rural
+
+	resources = {
+		metal = 6
+	}
+
+	history = {
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			5078 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		3279 3278 3277 3275 5077 1586 2378 2380 5078 4951 4952
+	}
+}

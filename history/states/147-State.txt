@@ -1,0 +1,29 @@
+state={
+	id=147
+	name="STATE_PAYMASTER_LANDING"
+	resources={
+		metal = 8
+	}
+
+	history={
+		owner = DAY
+		add_core_of = DAY
+		victory_points = {
+			5785 10
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			dockyard = 2
+
+		}
+
+	}
+
+	provinces={
+		5776 5778 5779 5782 5783 5784 5785 5786 5796 5797 5798 5799
+	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

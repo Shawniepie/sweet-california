@@ -1,0 +1,53 @@
+﻿l_english:
+
+
+
+ shi_event.1.t:0 "The Great War" 
+ shi_event.1.d:0 "Upon beaching the Submarine within the San Francisco Bay the sailors of the Shi-Huang-Ti quickly began making preperations for their long term survival. The Captain of the Submarine decided that the main goal for the Chinese Sailors to ensure their survival would be too......."
+ shi_event.1.a:0 "Attempt To Bring Together The Remnants of the Chinese Navy"
+ shi_event.1.b:0 "Secure Chinese Weapon Stashes"
+ shi_event.1.c:0 "Focus On Scientific Research"
+ 
+ shi_event.2.t:0 "China Town" 
+ shi_event.2.d:0 "As the years went on and the radiation levels around the city lowered the sailors of the the Shi-Huang-Ti departed their beloved submarine and began making way into the outskirts of the city of San Francisco and discovered the remnants of China Town where they believed they could start anew. With the sailors now aided by hundreds of Chinese citizens they began rebuilding China Town to its true potential. The first goal of rebuilding China Town was to rebuild the......"
+ shi_event.2.a:0 "Military Industry"
+ shi_event.2.b:0 "Civilian Industry"
+ shi_event.2.c:0 "Infrastructure"
+ 
+ 
+ shi_event.3.t:0 "The Rise of The Shi" 
+ shi_event.3.d:0 "With the Chinese Remnants situation stabalized within China Town they slowly began forming their own form of culture and became known as the Shi to the locals of San Francisco. As the decades went on the influence and power of the Shi grew until they came to control the entirety of San Francisco. With San Francisco now under their control the Shi had time to invest in....."
+ shi_event.3.a:0 "Firearm Production Lines"
+ shi_event.3.b:0 "Enhanced Power Armor Production"
+ shi_event.3.c:0 "Reprogramming Pre-War Robots"
+ 
+ shi_event.4.t:0 "Silicone Valley Expedition"
+ shi_event.4.d:0 "Silicone Valley holds secrets that even we have not yet found, and every few years, the Shi makes a point of launching an expedition into the area. What can be found with this most recent sweep?"
+ shi_event.4.a:0 "An ancient computer."
+ shi_event.4.b:0 "A stockpile of high quality metal."
+ 
+ shi_event.5.t:0 "The Eastern Expedition"
+ shi_event.5.d:0 "After a massive ceremony our great fleet departed the Bay of Sanfrancisco with the hopes of reaching the People's Republic of China so we can finally discover the fate of our ancestoral home." 
+ shi_event.5.a:0 "It has begun..."
+ 
+ shi_event.6.t:0 "The Hawaiian Isles"
+ shi_event.6.d:0 "The Admiral of the Expeditionary Fleet has reported that they have reached the Island of Honolulu and what they have reported is truly terrifying. The entire landscape of the island has been flattened and radiation levels are unusually high around much of the island and it would appear it is completely devoid of life. However it would appear that the American's Anti-ICBM System successfully destroyed several of the Nuclear Warheads that were heading towards Pearl Harbor allowing our fleet to successfully loot the facility and find enough fusion cores to continue the Expedition Eastward as well as a cargo ship filled with United States Power Armor suits that were set to be shipped to the Gobi Desert." 
+ shi_event.6.a:0 "The first of many stops..."
+ 
+ shi_event.7.t:0 "Reaching Japan"
+ shi_event.7.d:0 "During the Great War the Japanese fought beside the United States and although large swaths of the nation was occupied by our ancestors the nation never fell. Upon reaching the shores of Japan it became apparent that the Island did not share the same fate as Honolulu with our fleet encountering several small fishing vessels within Japans Waters. From what our fleet relayed to us it would appear that Japan is split between several warring factions that are all looking to gain an upper hand on their enemies. The arrival of a foreign force was of vast interest to the warring states and it did not take long for us to sign several trade agreements between San Francisco and Japan." 
+ shi_event.7.a:0 "We are getting closer"
+ 
+ shi_event.8.t:0 "The Terrors of our Home"
+ shi_event.8.d:0 "Upon reaching the shores of Shanghai the crew knew that something was wrong; the skies became dark and the air became difficult to breath however as we began to dock within the Shanghai Harbor we saw the true terror of the Great War. Although the United States was hit hard and will likely never return to its pre-war form China is nothing more than a hellish landscape and in the months that we spend surveying the mainland our forces discovered nothing more than heavily mutated wastelanders living in squaler and our reconnaisance planes reported nothing but craters for hundreds of miles. The People's Republic is no more... Our mainland is no more... We will do whatever it takes to ensure San Francisco never suffers the same fate.  " 
+ shi_event.8.a:0 "We will continue the teachings of our ancestors."
+ 
+ shi_event.9.t:0 "How Do We Revive The Shi Guard?"
+ shi_event.9.d:0 "The Shi Guard has acted as the defacto security force for San Francisco however in recent years it has entered begun to enter a state of decline with its soldiers numbering only a mere one thousand soldiers. If we are to ensure our survival we must bring the Shi Guard out of decline and raise it to prominence once again! But how should we go about it?"
+ shi_event.9.a:0 "We must invest in arms production!"
+ shi_event.9.b:0 "We must train more soldiers!"
+ shi_event.9.c:0 "We should purchase advanced technology" 
+ 
+ shi_event.10.t:0 "The Shi Want Our Assistance"
+ shi_event.10.d:0 "The Shi has requested our assistance in aiding them in learning the ways of the Brotherhood of Steel specifically our code of laws." 
+ shi_event.10.a:0 "We Shall Help Them"

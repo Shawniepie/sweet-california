@@ -1,0 +1,28 @@
+state = {
+	id = 386
+	name = "STATE_SONORAN"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		energy = 4
+		metal = 4
+	}
+
+	history = {
+		owner = PHR
+		add_core_of = CES
+		add_core_of = PHR
+		victory_points = {
+			5157 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		871 2062 2063 2319 2899 5143 5146 5153 5154 5155 5156 5157 5637 5638 5639
+	}
+}

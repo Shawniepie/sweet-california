@@ -1,0 +1,29 @@
+state = {
+	id = 412
+	name = "STATE_CADDOA"
+	manpower = 7000
+	state_category = shanty
+
+	resources = {
+		water = 5
+		metal = 5
+		advanced = 5
+	}
+
+	history = {
+		owner = IRN
+		add_core_of = IRN
+		add_core_of = JIC
+		victory_points = {
+			3110 10
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		1014 1810 2861 2862 2863 3110 5671 5672 5673 5675 5676 5677 5678 7858 7859 7860 7868 7870
+	}
+}

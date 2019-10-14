@@ -1,0 +1,22 @@
+state = {
+	id = 534
+	name = "STATE_GAUDALUPE_PEAK"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = PAS
+		add_core_of = PAS
+		victory_points = {
+			5448 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		821 864 2817 2959 5448 5449 5450 5460 5461 5514 5517 5625 5697
+	}
+}

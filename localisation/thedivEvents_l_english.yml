@@ -1,0 +1,70 @@
+﻿l_english:
+################################## EVENTS ##############################################
+div.0.t:0 "The Aftermath"
+div.0.d:0 "After the dust has settled and the people have started climbing out of the rubble it is clear that everything has been destroyed.  The infrastrucutere is almost gone, our resources have been cut in half, and we lost half our fighting potential.  But there was one area hit the hardest that no one expected"
+div.0.a:0 "Our Manpower Reserves were hit!"
+div.0.b:0 "The Civilians were hit!"
+div.0.c:0 "The Factories were hit!"
+div.1.t:0 "The Marked Men".
+div.1.d:0 "There is something strange happening to the soldiers who were fighting in the area. Besides becoming ghoulified, they are also stronger than they were before the bombs fell.  Also they are mad as hell"
+div.1.a:0 "Let's hope they're friendly" 
+div.2.t:0 "What's Left Behind".
+div.2.d:0 "We have a chance to save some of the equipment used in the fighting.  What should we try to save first?"
+div.2.a:0 "The NCR equipment" 
+div.2.b:0 "The Legion Equipment"
+div.2.c:0 "A mix of both"
+div.3.t:0 "Please Take Charge".
+div.3.d:0 "while things have calmed down slightly, The Divide is still torn apart by mob rule.  We need someone to take control of the situation.  Two people seem to be up to the task.  First is a former courier who lived here named Ulysses.  He was absent when the bombs went off, but came back as soon as he heard the news.  He wants to lead the Divide and ally with Caesar to get revenge against the NCR.  Next is a former NCR ranger nicknamed Ghost.  She wants to work with the local raiding groups get revenge against the NCR.  Who should we choose? "
+div.3.a:0 "Ulysses"
+div.3.b:0 "Ranger Ghost"
+div.4.t:0 "Offer from the Divide".
+div.4.d:0 "A strange offer has come in from the Divide.  They want to form an anti-NCR coalition called The Bear Trap.  How should we respond?"
+div.4.a:0 "Lets join them"
+div.4.b:0 "We don't need their help!"
+div.5.t:0 "Scorpions are in".
+div.5.d:0 "The Scorpions accepted our proposal"
+div.5.a:0 "Excellent" 
+div.6.t:0 "Scorpions deny us".
+div.6.d:0 "The scorpions have denied our offer"
+div.6.a:0 "Fuck them!"
+div.7.t:0 "Offer from the Divide".
+div.7.d:0 "A strange offer has come in from the Divide.  They want to form an anti-NCR coalition called The Bear Trap.  How should we respond?"
+div.7.a:0 "Lets join them"
+div.7.b:0 "We don't need their help!"
+div.8.t:0 "Sky Reavers are in".
+div.8.d:0 "The Sky Reavers accepted our proposal"
+div.8.a:0 "Excellent" 
+div.9.t:0 "Sky Reavers deny us".
+div.9.d:0 "The skyreavers have denied our offer"
+div.9.a:0 "Fuck them!"
+div.10.t:0 "Offer from the Divide".
+div.10.d:0 "A strange offer has come in from the Divide.  They want to form an anti-NCR coalition called The Bear Trap.  How should we respond?"
+div.10.a:0 "Lets join them"
+div.10.b:0 "We don't need their help!"
+div.11.t:0 "Vegas is in".
+div.11.d:0 "Vegas has accepted our proposal"
+div.11.a:0 "Excellent" 
+div.12.t:0 "Vegas denies us".
+div.12.d:0 "Vegas has denied our offer"
+div.12.a:0 "Fuck them!"
+div.13.t:0 "Offer from the Divide".
+div.13.d:0 "A strange offer has come in from the Divide.  They want to form an anti-NCR coalition called The Bear Trap.  How should we respond?"
+div.13.a:0 "Lets join them"
+div.13.b:0 "We don't need their help!"
+div.14.t:0 "Mojave raiders are in".
+div.14.d:0 "Mojave Raiders have accepted our proposal"
+div.14.a:0 "Excellent" 
+div.15.t:0 "Mojave Raiders denies us".
+div.15.d:0 "Mojave Raiders have denied our offer"
+div.15.a:0 "Fuck them!"
+div.16.t:0 "Caravan Raid".
+div.16.d:0 "Marked Men from the Divide are raiding our caravans!  How should we respond?"
+div.16.a:0 "There is nothing we can do"
+div.16.b:0 "Send some protection"
+div.16.c:0 "Send complete protection"
+div.17.t:0 "Search for Big Mountain".
+div.17.d:0 "According to files in the Divide, the reason for the constant storms and earthquakes comes from a research facility called Big Mountain.  We are going to find this place and put an end to this weather by whatever means necessary"
+div.17.a:0 "The Search Begins"
+div.18.t:0 "The Meteorology Station".
+div.18.d:0 "After a long search we found the facility.  It is being guarded by strange creatures called lobotomites.  We don't want to be here any longer than we have to.  We need to fight our way to the meteorology station and destroy it"
+div.18.a:0 "Damn scorpions!"

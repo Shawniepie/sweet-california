@@ -1,0 +1,31 @@
+state = {
+	id = 70
+	name = "STATE_70" # Bakersfield
+	manpower = 35000
+	state_category = city
+
+	resources = {
+		energy = 8
+		metal = 12
+	}
+
+	history = {
+		owner = HUB
+		add_core_of = BOS
+		victory_points = {
+			4635 20
+		}
+		buildings = {
+			infrastructure = 9
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 2
+			anti_air_building = 3
+
+		}
+	}
+
+	provinces = {
+		1605 1606 2261 3306 3422 3423 4593 4594 4634 4635 4636 4772 4958 5052
+	}
+}

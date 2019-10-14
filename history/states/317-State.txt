@@ -1,0 +1,24 @@
+state = {
+	id = 317
+	name = "STATE_KINGMAN"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = SKI
+		add_core_of = SKI
+		victory_points = {
+			5171 5
+		}
+		buildings = {
+			infrastructure = 2
+			910 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+		910 913 919 920 5171 5646 5647 5649
+	}
+}

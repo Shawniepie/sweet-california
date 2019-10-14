@@ -1,0 +1,22 @@
+state = {
+	id = 410
+	name = "STATE_ROSSWELL_RUINS"
+	manpower = 7000
+	state_category = shanty
+
+	history = {
+		owner = MES
+		add_core_of = MES
+		add_core_of = RSR
+		victory_points = {
+			5259 10
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		2765 2772 2773 2803 2814 2934 2935 5251 5259 5552 5554 7003
+	}
+}

@@ -1,0 +1,22 @@
+﻿l_english:
+
+################################## EVENTS ##############################################
+
+redding.0.t:0 "Wealth Of Redding"
+redding.0.d:0 "With riches flowing rapidly into Redding we are now in a position to utilize this wealth the question however is what sector requires this wealth the most? "
+redding.0.a:0 "The Military"
+redding.0.b:0 "The Economy"
+
+
+redding.1.t:0 "Klamath Question"
+redding.1.d:0 "The settlement of Klamath has long been our ally and during our War For Independence they sent us hundreds of Volunteers which proved vital to ensuring the defeat of the Barons and securing out independence. However now that we are independent we must think of our future has to do greatly with the future of Klamath. We must decide if we are going to annex them or turn them into a protectorate."
+redding.1.a:0 "Puppet Them"
+redding.1.b:0 "Annex Them"
+
+redding.2.t:0 "The Mines"
+redding.2.d:0 "Redding was founded shortly after the Great War by a small group of prospectors that discovered that the Mines of Redding were full of metal and other worthwhile resources. The Mines of Redding were discovered to be mainly full of....... "
+redding.2.a:0 "Metal"
+redding.2.b:0 "Uranium"
+redding.2.b:0 "Refined Uranium"
+
+ 

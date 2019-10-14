@@ -1,0 +1,30 @@
+state={
+	id=207
+	name="STATE_BLUEFATHER_TRIBELANDS"
+	resources={
+		water = 4
+		metal = 4
+	}
+
+	history={
+		owner = PHR
+		add_core_of = CES
+		add_core_of = PHR
+		victory_points = {
+			5332 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		2025 2027 2028 2029 2323 2332 2925 5183 5184 5185 5186 5187 5332 5333 5343
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,29 @@
+state = {
+	id = 265
+	name = "STATE_MONAHAMS"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		energy = 2
+		metal = 9
+	}
+
+	history = {
+		owner = SUF
+		add_core_of = SUF
+		victory_points = {
+			2957 5
+		}
+		buildings = {
+			infrastructure = 2
+			2792 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		822 2280 2281 2282 2792 2953 2954 2956 2957 2963 2989 2990 3174 5599 5600 5601 5602 5603 5650 5699 5700 6983 7005 7746 7747 7748
+	}
+}

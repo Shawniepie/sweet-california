@@ -1,0 +1,3171 @@
+﻿BRR = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+CFS = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+BNS = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+
+FIE = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+KTZ = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+		}
+	}		
+}
+
+RES = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+							"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_1.dds"
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_2.dds"
+			"gfx/leaders/Ghoul/Portrait_Ghoul_Generic_3.dds"
+		}
+	}		
+}
+
+HUB = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+GLO = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+RNG = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+FRT = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+BOL = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+WOO = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+
+PAS = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+
+PHO = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+
+ARA = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+
+MAS = {
+	political = {
+		intellectuals = {
+			male = {
+								"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+								"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+								"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+								"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+		}
+	}	
+}
+
+HIW = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+}
+
+DIA = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+}
+
+OLD = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+}
+
+DEN = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+}
+
+SKI = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+		}
+		female = {
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_2.dds"
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_5.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_6.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_8.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_9.dds"	
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+		}
+		female = {
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_2.dds"
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_5.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_6.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_8.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_9.dds"	
+		}
+	}	
+}
+
+CAT = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+							"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+		}
+		female = {
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_2.dds"
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_5.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_6.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_8.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_9.dds"	
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"			
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_4.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_7.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_10.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_11.dds"
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_12.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_13.dds"		
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_14.dds"		
+		}
+		female = {
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_2.dds"
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_1.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_5.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_6.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_8.dds"	
+			"gfx/leaders/Tribal/Portrait_Tribal_Generic_9.dds"	
+		}
+	}	
+}
+
+VAG = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+
+
+
+DIV = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+
+
+
+POL = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+
+
+
+
+
+ BMX = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+
+
+ORE = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+
+
+ALA = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+
+
+
+
+SRP = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/DES/Portrait_DES_General_1.dds"
+							"gfx/leaders/DES/Portrait_DES_General_2.dds"
+							"gfx/leaders/DES/Portrait_DES_General_3.dds"
+							"gfx/leaders/DES/Portrait_DES_General_5.dds"
+							"gfx/leaders/DES/Portrait_DES_General_8.dds"
+							"gfx/leaders/DES/Portrait_DES_General_10.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+		female = {
+			"gfx/leaders/DES/Portrait_DES_General_4.dds"
+			"gfx/leaders/DES/Portrait_DES_General_6.dds"
+		    "gfx/leaders/DES/Portrait_DES_General_9.dds"
+			"gfx/leaders/DES/Portrait_DES_General_7.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/DES/Portrait_DES_General_1.dds"
+			"gfx/leaders/DES/Portrait_DES_General_2.dds"
+			"gfx/leaders/DES/Portrait_DES_General_3.dds"
+			"gfx/leaders/DES/Portrait_DES_General_5.dds"
+			"gfx/leaders/DES/Portrait_DES_General_8.dds"
+			"gfx/leaders/DES/Portrait_DES_General_10.dds"
+		}
+	}	
+}
+
+
+
+
+
+
+JAK = {
+	political = {
+		intellectuals = {
+			male = {
+								"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+								"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+								"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+								"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+							"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_1.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_2.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_3.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_4.dds"
+			"gfx/leaders/Supermutant/Portrait_Supermutant_Generic_5.dds"
+		}
+	}	
+}
+
+
+NIP = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+							"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+	navy = {
+		male = {	
+			"gfx/leaders/Settler/Portrait_Settler_Generic_1.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_2.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_3.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_13.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_14.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_15.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_17.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_18.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_19.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_20.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_22.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_23.dds"
+		}
+		female = {
+			"gfx/leaders/Settler/Portrait_Settler_Generic_16.dds"
+			"gfx/leaders/Settler/Portrait_Settler_Generic_21.dds"
+			
+		}
+	}
+}
+
+
+HOR = {
+	political = {
+		intellectuals = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		people = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		ruler = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+		elites = {
+			male = {
+							"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+							"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+			}
+			female = {
+			}
+		}
+	}
+	army = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+	navy = {
+		male = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_1.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_2.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_3.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_4.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_5.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_6.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_7.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_8.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_9.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_10.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_11.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_12.dds"
+			"gfx/leaders/Raider/Portrait_Raider_Generic_13.dds"			
+		}
+		female = {
+			"gfx/leaders/Raider/Portrait_Raider_Generic_14.dds"
+		}
+	}
+}
+	
+ 
+
+
+
+
+

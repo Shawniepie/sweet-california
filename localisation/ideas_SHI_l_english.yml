@@ -1,0 +1,129 @@
+﻿            l_english:
+    
+    ScientificResearch: "Scientific Pursuit"
+    ScientificResearch_desc: "We must pursue the Sciences in order to survive!"
+    
+    shirealiability: "Our Craftsmenship
+    shirealiability_desc: "Our gear is crafted expertly!"
+    
+    shirealiability2: "Our Pride"
+    shirealiability2_desc: "Our Craftsmenship is our Pride!"
+    
+    BuildingTech: "Chinese Construction"
+    BuildingTech_desc: "We can add our own flair to our buildings while building them faster!"
+    
+    Immigration: "Refugee's"
+    Immigration_desc: "We are getting an influx of refugee's from across the wastes"
+    
+    Shi_Range: "The Trade Winds"
+    Shi_Range_desc: "Using our technology, we can discover when the trade winds blow in, thus increasing our naval range"
+    
+    japtraderoutes: "The Japan Route"
+    japtraderoutes_desc: "We can use the resources from the Japanese territory to expand our empire!"
+    
+    prewarfervour: "The Bitter Moon"
+    prewarfervour_desc: "Our home is gone...we must not let it repeat here as well"
+    
+    tradition22: "Tradition"
+    tradition22_desc: "Our Tradition to stand shall not be lost to time"
+    
+    Prepare: "Prepare for the Next War"
+    Prepare_desc: "We must be ready to fight the next conflich"
+    
+    BOSScribes: "The Scribs of the West"
+    BOSScribes_desc: "The Brotherhood is willing to teach us"
+    
+    ShiOnly: "Warrior Caste"
+    ShiOnly_desc: "We have an elite caste of Warriors who are ready to fight and Die for the Nation!"
+    
+    ShiOnly2: "The Remnant Corp"
+    ShiOnly2_desc: "Our Military must be made of the best of the best. Only the Veterans can bring us Victory!"
+    
+    LowMorale: "Rowdy Recruits"
+    LowMorale_desc: "These new recruits are rowdy..."
+    
+    MassConscription: "Chaos in the Ranks"
+    MassConscription_desc: "These new 'recruits' are getting wilder and won't follow orders!"
+    
+    newtimes: "New Times, New Problems"
+    newtimes_desc: "While we have gotten a grip on our troops, it is the officers training that is now the problem..."
+    
+    Shi_Streamline: "Streamlined Construction"
+    Shi_Streamline_desc: "We must build with streamlined designs and cut corners where we can"
+    
+    TechnologicalFocus: "Technological Innovations"
+    TechnologicalFocus_desc: "We have begun innovating in many fields"
+    
+    StreamlinedProduction: "Streamlined Production"
+    StreamlinedProduction_desc: "We have streamlined production"
+    
+    CrimsonDragoons22: "The Crimson Dragoon Corp"
+    CrimsonDragoons22_desc: "The Crimson Dragoons have returned"
+    
+    ArtWar: "The Art of War"
+    ArtWar_desc: "Sun Tzu may be dead, but his lessons live on"
+    
+   CheapStealth: "Streamlined Stealth Armor Production"
+   CheapStealth_desc: "We must streamline Chinese Stealth Armor"
+   
+   ourhomeland: "Our Home"
+   ourhomeland_desc: "It was Beautiful"
+   
+   ensuringourfuture: "Ensuring our Future"
+   ensuringourfuture_desc: "We must recruit more to ensure we survive in the near future"
+   
+   bolsterourforces: "Bolstering the Army"
+   bolsterourforces_desc: "We must recruit more devoted souls to the army"
+   
+   shiculture: "Chinese Culture"
+   shiculture_desc: "We must unite under one culture"
+   
+   UnityWithinRealm: "Unity in the Workplace"
+   UnityWithinRealm_desc: "We must unite to produce!"
+   
+   TechnologicalFocus22: "Tech Focus"
+   TechnologicalFocus22_desc: "We must focus on our tech"
+   
+   ProjectSentience: "Sentience Project"
+   ProjectSentience_desc: "This project is draining our resources"
+   
+   SelfAware: "Alive"
+   SelfAware_desc: "How do you fell Walter? Alive"
+   
+   EternalEmperor: "The Mandate of Heaven"
+   EternalEmperor_desc: "The Heavenly Kingdom is reborn"
+   
+   intellectualgrowthinshi: "The Technocrats Rise"
+   intellectualgrowthinshi_desc: "The Technocrats have begun rising in number"
+   
+   BOSTraining2: "Paladin Trainers"
+   BOSTraining2_desc: "We can put more men in the field, but the Paladins must ensure the quality of the recruits"
+   
+   elitegrowthinshi: "The Advisor's Coup"
+   elitegrowthinshi_desc: "The Advisor has overthrown the Emporer!"
+   
+   Red_Menace: "Red Scare"
+   Red_Menace_desc: "We're at your door"
+   
+   Jingoism_Shi: "Jingonism"
+   Jingoism_Shi_desc: "For the Glorious Leader!"
+   
+   Preparations_Shi: "Prepare the Industry"
+   Preparations_Shi_desc: "We must prepare for the Final Conflict!"
+   
+   Shi_Simulations: "Simulations"
+   Shi_Simulations_desc: "Our Pilots can use simulations to be better pilots
+   
+   shi_only: "Shi Inclusion Policies"
+   shi_only_desc: "Shi tradition and culture mandates that only those of Chinese ethnicity shall be allowed service into the Shi Guard to ensure the stability and supremacy of the Shi within San Francisco and beyond." 
+   
+   shi_limited: "Limited Wastelander Conscription"
+   shi_limited_desc: "Due to necessity we have begun allowing small groups of skilled and capable wastelanders into the ranks of the Shi Guard. 
+   
+   shi_all: "Extensive Wastelander Conscription"
+   shi_all_desc: "In the end survival is what truly matters even if it leads to a decline in our culture and traditions as such we have begun allowing any and all capable wastelanders to join the Shi Guard." 
+   
+  StreamlinedVertibirdProduction_Shi: "Recovered Navarro Vertibird Schematics"
+  StreamlinedVertibirdProduction_Shi_desc: "Due to the pristine condition of the Vertibird Schematics our forces recovered within Navarro decades ago we are now able to streamline the production of Vertibirds.
+   
+  

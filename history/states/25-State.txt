@@ -1,0 +1,28 @@
+state = {
+	id = 25
+	name = "STATE_SUN_DOG"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		water = 5
+	}
+
+	history = {
+		owner = MES
+		add_core_of = MES
+		add_core_of = RSR
+		victory_points = {
+			5555 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+	}
+
+	provinces = {
+		1699 2749 2766 2767 2782 2783 2980 5250 5255 5256 5257 5258 5555 5556 5557 7004
+	}
+}

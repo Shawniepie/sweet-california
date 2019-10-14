@@ -1,0 +1,30 @@
+state = {
+	id = 292
+	name = "STATE_PALM_SPRINGS" # Palm Springs
+	manpower = 15000
+	state_category = shanty
+
+	resources = {
+		water = 12
+		energy = 2
+	}
+
+	history = {
+		owner = BON
+		add_core_of = BON
+		victory_points = {
+			2310 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			3301 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		876 2274 2275 2310 2658 3301 5071
+	}
+}

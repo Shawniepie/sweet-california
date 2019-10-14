@@ -1,0 +1,272 @@
+﻿l_english:
+
+
+
+arrival:0 "The Great War"
+arrival_desc:0 "When the Great War began the Shi-Huang-Ti Nuclear Capable Submarine launched several Intercontinental Nuclear Missiles across the Western Coast of the United States before being struck by mine laid by the United States. Knowing that it would be unable to return to friendly ports it was forced to beach itself on the outskirts of San Francisco where the crew of the Submarine quickly began establishing a small base of operations." 
+
+initialyears:0 "China Town"
+initialyears_desc:0 "The first few years of the Shi was one of struggle and dissent as the Chinese Sailors attempting to ensure their dominance in the region." 
+
+riseoftheshi:0 "Rise of The Shi"
+riseoftheshi_desc:0 "With the Chinese Remnants situation stabalized within China Town they slowly began forming their own form of culture and became known as the Shi to the locals of San Francisco. As the decades went on the influence and power of the Shi grew until they came to control the entirety of San Francisco. However with the arrival of the Brotherhood of Steel on the Shi's Border the Shi knew they would have to gain an technological edge of their enemy as such they began a project to produce...." 
+
+RebuildthePLNA:0 "Rebuild The P.L.A.N."
+RebuildthePLNA_desc:0 "During the Great War the great P.L.N.A. was reduced to a shadow of its once great self. If we are ever going to ensure the survival of our nation we must control the seas." 
+
+secureprewarmaps:0 "Secure Pre-War Maps"
+secureprewarmaps_desc:0 "To ensure our ships are capable of navagating the choppy waters of the wasteland we must carefully study pre-war maps of the Western Seaboard." 
+
+sanjosedockyards:0 "Rebuild The San Jose Dockyards"
+sanjosedockyards_desc:0 "The San Jose Dockyards are in a state of complete disrepair however with a little bit of engineering we should be capable of getting the dockyards to a pre-war state of production." 
+
+easternexpedition:0 "The Mainland Expedition"
+easternexpedition_desc:0 "With our navy now capable of navagating the sea's without issue it is time we begin preparations to send an expedition to the Mainland to finally discover what happened to our Homeland." 
+
+hawaiianisles:0 "Reaching the Hawaiian Isles"
+hawaiianisles_desc:0 "The first stop on our great Eastern Expedition is to reach the islands of Hawaii where we can hopefully find enough provisions to continue our journey to our home." 
+
+taiwanexpedition:0 "The Taiwan Expedition"
+easternexpedition_desc:0 "We have one last stop before reaching the Homeland. Taiwan acted as the frontline of the Chinese Defensive Web before the United States Gobi Desert Campaign. It will without a doubt give us insight on the situation on the mainland." 
+
+japanexpedition:0 "The Japan Expedition"
+japanexpedition_desc:0 "From what our records state it appears that Japan was a major warzone that during the Sino-American War was partially occupied by our ancestors. Reaching the isles of Japan will help give us insight on the situation of the mainland." 
+
+mainlandexpedition:0 "Reaching The Mainland"
+mainlandexpedition_desc:0 "With the Mainland just months away it is time we decide where our expedition will be landing and what the goals of this expedition will be. " 
+
+Shi_PowerStruggle:0 "The Ongoing Power Struggle"
+Shi_PowerStruggle_desc:0 "Within the Shi Government lies a great power struggle between those loyal to the Emperor and that of Jing Tie Gahng the head of the Shi Research Department. The Emperor who rules via his spokesman Ken Lee believes the Shi must maintain their independence to survive while Jing believes that to ensure the survival of the Shi and to ensure the wasteland will prosper is to open ties with the Brotherhood of Steel. This crisis is reached a boiling point which has led to a referendum being called within San Sanfrancisco to decide who shall lead the Shi. " 
+
+JingTieGahng:0 "The Intellectual"
+JingTieGahng_desc:0 "With Jing Tie Gahng in control of the Shi Government we will now be capable of taking the first steps towards creating ties with the Brotherhood of Steel. However before we do this we must first convince the populace that this is the best route for our nation." 
+
+BrotherhoodScribes:0 "Request Brotherhood Scribes"
+BrotherhoodScribes_desc:0 "The first step towards consolidating our relations with the Brotherhood of Steel is to allow Brotherhood Scribes within our nation to show them our technological prowess." 
+
+thecodex:0 "Mimic Brotherhood Training Standards"
+thecodex_desc:0 "To show the Brotherhood that we are serious about joining them we must take steps towards incorporating their training standards into our own forces. " 
+
+shiboscooperation:0 "Shi-Brotherhood Cooperation"
+shiboscooperation_desc:0 "Our nation has in its possession droves of advanced technological material that the Brotherhood of Steel would be extremely interested in if we were to send the Brotherhood an offer to share each others technology it would be in both of our nations interests." 
+
+Shi_ShiChapter:0 "The Shi Chapter"
+Shi_ShiChapter_desc:0 "Our state has successfully incorporated the teachings of the Brotherhood's Codex, allowed Brotherhood scribes within our lands and we have successfully convinced our populace that joining the Brotherhood would be in the best of both of our interests. It is now time to request becoming a member of the Brotherhood of Steel. " 
+
+TheEmperor:0 "The Emperor"
+TheEmperor_desc:0 "The Emperor is the only true leader of the Shi and has led us since the creation of our state and will continue to do so until the end of time." 
+
+reinforceshitradition:0 "Mandate From Heaven"
+reinforceshitradition_desc:0 "To ensure loyalty to the state and to the Emperor we must reinforce our ancestors traditions to ensure our population is obedient and loyal to the Government." 
+
+shi_preparefortheinevitable:0 "Prepare For The War of Steel"
+shi_preparefortheinevitable_desc:0 "Dominance of the San Francisco Bay in its entirety is the only we will be able to ensure our survival however with the Brotherhood of Steel in control of Berkeley conflict with them is assurred and we must ensure that we are prepared for this great war." 
+
+wayofthedragon:0 "Forced Conscription"
+wayofthedragon_desc:0 "The Wastelanders that live within our realms are inferior in every way and form however they would make excellet human shields if we were to go against a superior army." 
+
+TheShiEmpire:0 "Our Greatest Threat"
+TheShiEmpire_desc:0 "To ensure Shi Dominance in California for years to come the pesky fools known as the Brotherhood of Steel must be dealt with swiftly and brutally. " 
+
+rebuildchinatown:0 "Rebuild China Town"
+rebuildchinatown_desc:0 "China Town is the home of the Shi and is the heart of the Shi's Government however the terrors of the Great War are still apparent. With enough work we should be able to rebuild the town and have it reach its true economic potential." 
+
+rubbleofsanjose:0 "The Rubble of San Jose"
+rubbleofsanjose_desc:0 "San Jose was directly hit with the shockwave of a nuclear strike which tore down the entirety of the city leaving nothing but rubble. However if we were to clear this rubble we would be capable of rebuilding the industrial giant that was the Bay of San Francisco. " 
+
+scavengesiliconvalley:0 "Rebuild The San Jose Steelworks"
+scavengesiliconvalley_desc:0 "Within the destruction that is San Jose a massive behemoth lies quiet surrounded by collapsed buildings. The San Jose Steelworks. Although slightly damaged if given time its operations could be restored." 
+
+rebuildsanfrancisco:0 "Rebuild San Francisco"
+rebuildsanfrancisco_desc:0 "With China Town now rebuilt it is time for us to move onto rebuilding the entirety of San Francisco to ensure that we can maintain economic superiority over our rivals.    " 
+
+buildthesteelpalace:0 "Scavenge For Technological Marvels"
+buildthesteelpalace_desc:0 "San Francisco and its surrounding territories are surrounded by untold masses of technological marvels if we are to modernize our industries and military we have no choice but to send our scavenging parties to search for these marvels." 
+
+advancedconstructiontechniques:0 "Advanced Construction Techniques"
+advancedconstructiontechniques_desc:0 "With the Mainland just months away it is time we decide where our expedition will be landing and what the goals of this expedition will be. " 
+
+starofthewastes:0 "Star Of The Wastes"
+starofthewastes_desc:0 "Thanks to our economic reconstruction San Francisco is now known as the Star of the Wasteland and shows what we can accomplish when united." 
+
+Shi_expandingtherealm:0 "Expand The Realm"
+Shi_expandingtherealm_desc:0 "We have been confined to the borders of San Francisco for too long it is time for us to now expand our realm to ensure our dominance over the weak." 
+
+Shi_dealingwithvagrants:0 "Dealing With The Vagrants"
+Shi_dealingwithvagrants_desc:0 "The Vagrants of San Rafael are nothing more than a group of heavily armed squatters that are headquartered out of the desolote P.M.V. Valdez the notorious ship that was used the destroy the Enclave Oil Rig if we are to ever ensure the security of our northern borders we must first subjugate these squatters." 
+
+Shi_repairthepmvvaldez:0 "Repair The P.M.V. Valdez"
+Shi_repairthepmvvaldez_desc:0 "With the Vagrants dealt with we are now capable of repairing the massive warship that allowed the downfall of the Enclave. Although time consuming it will act as the flagship of our navy." 
+
+thesavagesofthenorth:0 "The Savages of the North"
+thesavagesofthenorth_desc:0 "To our northern borders lies the tribals known as the Ridgers who frequently raid our lands and are nothing more than primitive beasts. A well coordinated strike will not only secure these lands but will show our neighbors of our power." 
+
+Shi_dealingwiththecult:0 "Dealing With The Cult"
+Shi_dealingwiththecult_desc:0 "Our relationship with the Hubologists has been one of tension since the birth of our nations. However we have never been able to militarily crush the Hubologists once and for all. Atleast until now. If you give the order our armies will prepare to finish this conflict once and for all." 
+
+Shi_integrateconcord:0 "Integrate Concord"
+Shi_integrateconcord_desc:0 "The Desolate and impoverished state of the Hubologists is terrifying to say the least with a little bit of work we will be able to effectively incorporate Concord into our realm. " 
+
+Shi_theraiderstothesouth:0 "The Raiders To The South"
+Shi_theraiderstothesouth_desc:0 "The Raiders known as the Diablo's have cost the Shi thousands of caps due to caravan raids however with our renewed military might we are now in capable of dealing with these raiders once and for all." 
+
+Shi_Guard:0 "Rebuilding The Shi Guard"
+Shi_Guard_desc:0 "The Shi Guard has acted as the defacto security force for San Francisco however in recent years it has entered begun to enter a state of decline with its soldiers numbering only a mere one thousand soldiers. If we are to ensure our survival we must bring the Shi Guard out of decline and raise it to prominence once again!" 
+
+prewarfacilities:0 "Rebuild Pre-War Facilities"
+prewarfacilities_desc:0 "During the Great War San Francisco acted as one of the United States largest military production hubs and although many of the facilities have fell into dissaray with a little work we could get several of these factories operational. " 
+
+tradition:0 "Maintain Tradition"
+tradition_desc:0 "Although we continue to have issues with our low manpower we must stick with our tradition of only allowing those of Chinese blood to serve in our armed forces to ensure unity and strength. " 
+
+necessity:0 "Give In To Necessity"
+necessity_desc:0 "Times are a changing and no longer are we in the position to only allow those of Chinese blood to serve in our armed forces we must begin allowing wastelanders to serve in our armed forces to ensure we have the numbers to hold off any threats." 
+
+compromise:0 "Reach A Compromise"
+compromise_desc:0 "It is no secret that we lack the neccesary manpower to maintain the security of our state however we must also maintain our cultural unity and strength as such we shall only allow the most distinguished wastelanders to join our ranks. " 
+
+outside_recruitment:0 "Outside Recruitment Policy"
+outside_recruitment_desc:0 "The Shi has maintained a strict policy of only allowing those of Chinese descent into their Armed Forces to ensure complete and utter loyalty to the Emperor and to uphold their cultural identity. However with neighboring armies now numbering in the thousands their has been much discussion within the Shi Government to allow wastelanders within the Armed Forces to allow the Shi to maintain numerical balance to their foes." 
+
+Maintain_Traditional_Conscription:0 "Maintain Traditional Conscription"
+Maintain_Traditional_Conscription_desc:0 "The Shi has maintained a strict policy of only allowing those of Chinese descent into their Armed Forces to ensure complete and utter loyalty to the Emperor and to uphold their cultural identity. However with neighboring armies now numbering in the thousands their has been much discussion within the Shi Government to allow wastelanders within the Armed Forces to allow the Shi to maintain numerical balance to their foes." 
+
+conscription_compromise:0 "Reach A Compromise"
+conscription_compromise_desc:0 "After much discussion it has been agreed that it would be beneficial to allow distinguished wastelanders to join our ranks if for them to act nothing more than cannon fodder while our descendants stay well behind enemy fire." 
+
+necessity_conscription:0 "Mass Conscription"
+necessity_conscription_desc:0 "Although Mass Conscription will without a doubt damage our cultural unity and cause temporary and perhaps permanently damage within our ranks it is without an unarguable necessity to ensure we are capable of filling our ranks with thousands of wastelanders." 
+
+cultural_unity:0 "Maintaining Our Cultural Unity"
+cultural_unity_desc:0 "Although maintaining our traditional recruitment standards has been critisized by many a massive increase in unity and camaraderie has begun to take place within our armed forces ensuring they will fight tooth and nail to protect those beside them. " 
+
+discipline_new_recruits:0 "Discipline The New Recruits"
+discipline_new_recruits_desc:0 "With the influx of new recruits joining our ranks we must begin to discipline these rookies and get them into into fighting shape." 
+
+adapt_to_the_new_times:0 "Indoctrinate Our New Recruits"
+adapt_to_the_new_times_desc:0 "Although our ranks have swelled to the tens of thousands it has caused terrifying damage to our cultural unity and morale of our troops however if we were to indoctrinate these crooks in the ways of our culture then perhaps we can avoid an utter collapse of our ranks." 
+
+rebuild_san_jose:0 "Rebuild The San Jose Arsenal"
+rebuild_san_jose_desc:0 "When the bombs dropped the San Jose Arsenal was damaged heavily by shockwaves however even though it is damaged our engineers believe they can repair it to fully operational capabilties." 
+
+streamlined_workshops:0 "Streamline Our Workshops"
+streamlined_workshops_desc:0 "To ensure we are capable of producing a steady stream of military munitions we must streamline the designs of our military workshops." 
+
+early_warning:0 "Rebuild The Early-Warning Weapons System"
+early_warning_desc:0 "To ensure San Francisco is safe from foreign invaders we must rebuild San Francisco's Pre-War Early-Warning Weapons Systems which will allow us to inflict massive casualties on enemy aerial units." 
+
+sanfrancisco_defensive_grid:0 "Rebuild The San Francisco Defensive Grid"
+sanfrancisco_defensive_grid_desc:0 "During the Sino-American War the United States was fearful of an attack on San Francisco and as such made what is known to wastelanders as the San Francisco Defensive Grid. The Grid acted as a ring of coastal and land fortifications designed to ensure the protection of the vital city of San Francisco from both naval and land operations and although heavily damaged it can be repaired." 
+
+technological_focus:0 "Technological Progress"
+technological_focus_desc:0 "The Shi have always set a great focus on technological progression to ensure that they are possess modern and quality weaponry however in recent years this focus appears to have been neglected and to ensure the survival of our state we must put our researchers back to work." 
+
+chinese_armor:0 "Recover Chinese Stealth Armor Schematics"
+chinese_armor_desc:0 "Deep within the Emperor's data files lay schematics for the pinnacle of Chinese Technology..... The Hei Gui Stealth Armor.  it afforded the soldier a high amount of protection , while also coating the user in an active camouflage system allowing Chinese soldiers to slip past American fortifications unopposed. It is now time for us to begin production of this armor once again." 
+
+crimson_dragoons:0 "Establish The Crimson Dragoons"
+crimson_dragoons_desc:0 "The Crimson Dragoons were China's special operations force during the Great War and were composed of China's greatest warriors. With the reintroduction of Stealth Armor into our ranks it is now time to put this gear to the test." 
+
+streamline_production:0 "Streamlined Production"
+streamline_production_desc:0 "To ensure a steady stream of weaponry will be rolling off of our production lines we have no choice other than streamlining our equipment to ensure that it is quick to build yet of the highest quality." 
+
+energy_weapon:0 "Energy Weapon Research"
+energy_weapon_desc:0 "To ensure our forces are capable of defeating any of our neighbors we must continue to make advancements in technological fields such as Energy Weapons. Our Engineers believe that if given enough funding and time they will be capable of mastering the production of the AER9 laser rifle" 
+
+art_of_war:0 "The Art Of War"
+art_of_war_desc:0 "To ensure the survival of our people we must ensure that our tactics are superior to those of our enemies." 
+
+gauss_weaponry22:0 "Unlocking The Secrets Of Gauss"
+gauss_weaponry22_desc:0 "Gauss Rifles were commissioned by the United States Army in 2076 and only saw limited use in the conflict due to delays in production however the rifles proved extremely capable in piercing the armor of even the Chimera Tank used by our ancestors.... They will make short work of Power Armor to say the least." 
+
+cheap_stealth:0 "Streamlined Stealth Production"
+cheap_stealth_desc:0 "By streamlining the production of Chinese Stealth Armour we will be capable of arming more of our troops with the dreaded Stealth Armor than ever before!" 
+
+Stealth_mk2:0 "Introduction of Mk2 Stealth Armor"
+Stealth_mk2_desc:0 "After years of work our scientists have managed to produce a highly modernized version of the Hei Gui Stealth Armor. Not only does the armor provide levels of protection matched by power armor but it also allows its users to go completely stealth for short periods of time. " 
+
+advanced_gauss:0 "Advanced Gauss Rifle Projectiles"
+advanced_gauss_desc:0 "Through our research we have discovered a way to make our gauss projectiles nearly double their speed when fired greatly improving their capabilities in penetrating enemy armor." 
+
+emperordatastores:0 "Repair The Emperor's Data Stores"
+emperordatastores_desc:0 "The Emperor is over two hundred years old and in recent years his data stores have slowly become more and more corrupted with our best engineers believing that if the Emperor's Data Stores are not repaired he could go offline within a decade. " 
+
+projectsentience:0 "Authorize Project Sentience"
+projectsentience_desc:0 "The Emperor in reality is nothing more than a super computer that is capable of running accurate calculations for the Shi however our top Engineers believe that through hard work we could in fact make the Emperor sentient allowing him to truly lead the Shi to glory." 
+
+SelfAwareEmperor:0 "Make The Emperor Self-Aware"
+SelfAwareEmperor_desc:0 "With Project Sentience being concluded it is now time to upload the new data from Project Sentience into the Emperor's Mainframe officially making him sentient and allowing him to rule the Shi to glory. " 
+
+dispersethevagrants:0 "Disperse The Vagrants"
+dispersethevagrants_desc:0 "The so called Tanker Vagrants of San Rafael are nothing more than typical criminals that must be dealt with swiftly if we are to maintain our territorial integrity. " 
+
+crushthehubologists:0 "Crush The Hubologists"
+crushthehubologists_desc:0 "The so called Hubologists have for over a century been a thorn in our side frequently abducting our young for their strange rituals and sitting on technological marvels that they have no idea how to use... They must be dealt with..." 
+
+shiincorporateconcord:0 "Incorporate Concord"
+shiincorporateconcord_desc:0 "With the Hubologists long defeated it is time for us to incorporate the wastelanders of Concord into our domain." 
+
+TheAdvisor:0 "The Advisor"
+TheAdvisor_desc:0 "True power within the Shi is not in the hands of the robotic super computer known as the Emperor but is instead distributed to several individuals within the Shi Governemntal Aparatus with the Emperor's Advisor Ken Lee being the most powerful within the government. However his power is nowhere near absolute for now..." 
+
+bolsterourforces:0 "Bolster Our Forces"
+bolsterourforces_desc:0 "With the power of the Shi Emperor secure it is now time for us to invest heavily in expanding our military capabilities to ensure we are capable of facing any possible threats." 
+
+solidifytheshiculturalidentity:0 "Solidify Our Cultural Identity"
+solidifytheshiculturalidentity_desc:0 "To ensure the prosperity of the Shi and our culture we must begin assimilating Wastelanders and teach them of our ways. " 
+
+shiunity:0 "Unity Within Our Realm"
+shiunity_desc:0 "With our cultural identity now effectively assimilated within the Wastelanders of San Francisco and beyond we can now claim true Unity within our Realm. " 
+
+revealtheemperor:0 "Reveal The Emperor's True Identity"
+revealtheemperor_desc:0 "Since the Great War only the highest ranking officials within the Shi Government have known that the Emperor of the Shi is in truth an ancient super computer. Our only chance to truly consolidate power within the Shi's Government is to reveal the true identity of the Shi Emperor and show the populace that we need a true leader." 
+
+
+revivetheredmenace:0 "Revive The Red Menace"
+revivetheredmenace_desc:0 "During the Great War American propaganda frequently spoke of the Red Menace which struck fear in all those who heard it.... we shall revive this propaganda... we shall strike fear into all those who oppose us."
+
+revive_pre_war_jingoism:0 "Revive Pre-War Jingoism"
+revive_pre_war_jingoism_desc:0 "The time has come brothers and sisters! Our ancestors brought defeat upon our names and our culture however today we shall conquer what they could not! Today we shall conquer America! " 
+
+theeternalemperor:0 "The Eternal Emperor"
+theeternalemperor_desc:0 "Sitting at the helm of the Shi's Governmental Aparatus is the Emperor.... A truly sentient and immortal being that will raise the Shi from the ashes and usher in a new era of prosperity! " 
+
+removethetraditionalists:0 "Deal With The Traditionalists"
+removethetraditionalists_desc:0 "Those who worship the Emperor and our old ways must be dealt with swiftly, quietly and brutally it is the only way to ensure that we are uncontested in our bringing upon a new era for the Shi." 
+
+
+shicooperation:0 "Embrace Technological Progress"
+shicooperation_desc:0 "To ensure the prosperity of the people of San Francisco we must embrace technological progress to ensure that we can rebuild the wastes from the ground up." 
+
+shivagrantsrelations:0 "Restore Shi-Vagrant Relations"
+shivagrantsrelations_desc:0 "For generations the Shi and the Vagrants have been at each others throats however with new leadership brings new opportunities. It is time to restore ties with the Vagrants." 
+
+vagrantsnomore:0 "Vagrants No More!"
+vagrantsnomore_desc:0 "Thanks to successfully mending the ties between the Vagrants and the Shi they have agreed to be incorporated into our realm! They shall be Vagrants no more! " 
+
+ConsolidatePower:0 "Consolidate Power"
+ConsolidatePower_desc:0 "To ensure a swift and stable change in power within the Shi Government I have no choice but to utilzie the Shi Guard and crush the supporters of the Emperor and of Jing Tie Gahn.  " 
+
+ConsolidatePower:0 "Consolidate Power"
+ConsolidatePower_desc:0 "To ensure a swift and stable change in power within the Shi Government I have no choice but to utilzie the Shi Guard and crush the supporters of the Emperor and of Jing Tie Gahn.  " 
+
+shiairforce:0 "Recover Vertibird Schematics"
+shiairforce_desc:0 "The Chosen One successfully delivered Enclave Vertibird schematics to the Imperial Palace shortly before the destruction of the Oil Rig however these schematics were highly corrupted and damaged upon arrival and have for decades been gaining dust however our recent rediscoveries have made it apparent that we can successfully unlock the secrets to Vertibirds. " 
+
+shiscavengeairfield:0 "Scavenge The San Francisco Airport"
+shiscavengeairfield_desc:0 "Within the San Francisco Airport lay dozens of pre-war fighters and bombers that were ready to scramble at a minutes notice." 
+
+shiprewardoctrine:0 "Study Pre-War Aerial Doctrine"
+shiprewardoctrine_desc:0 "During the Sino-American War air combat proved a great deciding factor in warfare and thankfully there are droves of pre-war aerial doctrines onboard the Shi Emperor. " 
+
+rebuildthesanfranciscoairfield:0 " Rebuild The San Francisco Airport"
+rebuildthesanfranciscoairfield_desc:0 "The San Francisco Airport is an excellent staging point for our airforce however first we must repair it. " 
+
+shistreamlinedaerial:0 "Enhanced Training Simulations"
+shistreamlinedaerial_desc:0 "To ensure we are capable of ensuring aerial supremacy over San Francisco we must enhance our pre-war training simulations to ensure we have the greatest pilots in the wastes." 
+
+xianfighterproject:0 "Begin The Xian Project"
+xianfighterproject_desc:0 "The Xian-85 was a Chinese Prototype Fighter Jet during the Great War and would have been forgotten in time if it's schematics were not discovered on the Emperor's Mainframe however its data is highly corrupted and will take several months to decipher." 
+
+underground_workshops:0 "Construct Underground Workshops" 
+underground_workshops:0 "To ensure our industries are capable of surviving a prolonged war we must construct underground workshops to ensure we can withlast a war of attrition."

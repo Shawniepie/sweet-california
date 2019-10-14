@@ -1,0 +1,9 @@
+ #-------------------------------------
+ # General
+ #-------------------------------------
+ # Companies
+ settler_robco: "Robco"
+ efficienttrade1: "Efficient Trade"
+ victoriannavy: "Victorian Navy"
+ victorianairfoce: "Victorian Air Force"
+ victorianrobots: "Victorian Robots"

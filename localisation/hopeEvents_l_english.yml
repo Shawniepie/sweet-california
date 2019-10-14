@@ -1,0 +1,195 @@
+﻿l_english:
+################################## EVENTS ##############################################
+hope.0.t:0 "A Strange Courier Arrives"
+hope.0.d:0 "A Strange Courier has arrived and is demanding access to Ashton, he refuses to elaborate on what is within his package however it bears a symbol that is very similar to the symbols scattered throughout Ashton's Military Complexes. The guards say that they have a bad feeling about allowing the man in however doing so could damage our reputation temporarily as we are refusing trade. What Do We Do? "
+hope.0.a:0 "Allow Him Entrance"
+hope.0.b:0 "Deny Him Access"
+hope.1.t:0 "The Creation Of The Divide".
+hope.1.d:0 "Mere hours after the lone courier was allowed access towards Ashton sirens from a long forgotten era began to roar to life as the Silo's of Ashton and Hopeville began to open however no nuclear missiles were fired instead in beautiful unison the nuclear missiles within the divide detonated completely engulfing the once propserous lands of the Divide into a torn and devastated landscape however it would appear that some have survived...."
+hope.1.a:0 "The Divide remembers" 
+hope.2.t:0 "For Couriers, By Couriers".
+hope.2.d:0 "Hopeville was founded by couriers who discovered the shortcut to the mojave wasteland.  Couriers are very resourceful due to the nature of their job, but there was one area in particular where these couriers were the best"
+hope.2.a:0 "The strongest" 
+hope.2.b:0 "The smartest"
+hope.2.c:0 "The healthiest"
+hope.3.t:0 "What We Carried".
+hope.3.d:0 "While the couriers here were open to transporting anything, there was one type of delivery we excelled in"
+hope.3.a:0  "Large Packages"
+hope.3.b:0 "Sensitive Information"
+hope.3.c:0 "Speedy Deliveries"
+hope.4.t:0 "Bright Future".
+hope.4.d:0 "While the land is harsh and there is a lot of work to do, everyone here is ready to put Hopeville on the map.  As a new town we have so many choices from where we should begin investing our timek.  Where should we start?"
+hope.4.a:0 "Fix the infrastructure"
+hope.4.b:0 "Expanding The Trading Post"
+hope.4.c:0 "Expand Hopeville's Militia"
+hope.5.t:0 "Ready For Business".
+hope.5.d:0 "As a shortcut to the mojave wasteland we are in a prime position to reap the benefits of California's increasing relations with the Mojave. Although trade will start out as nothing more than a mere trickle it will without a doubt bring wealth to Hopeville. "
+hope.5.a:0 "Good for everyone" 
+hope.6.t:0 "The First Migrant Wave".
+hope.6.d:0 "It would appear that rumours have spread throughout the Mojave and California about the opportunity to start anew within Hopeville. What started as a small trickle of one or two Wastelanders eventually expanded to almost six hundred new faces that are willing to join us however they have arrived with bad news.... Rumours that raiders are right on their tale."
+hope.6.a:0 "We Must Prepare Ourselves!"
+hope.7.t:0 "Raiders Enter The Divide"
+hope.7.d:0 "Upon hearing about the prosperous trade routes forming within Hopeville roughly five hundred raiders have entered our lands and have begun a forced march towards Hopeville!  "
+hope.7.a:0 "Call Upon The Militia!"
+hope.8.t:0 "Dealing With The Survivors".
+hope.8.d:0 "Although the battle was pitched and we lost many friends we have successfully pushed the raiders to the Mountains and after several days of intense siege they have agreed to surrender the question is what do we do with the survivors?"
+hope.8.a:0 "End Their Sufferring"
+hope.8.b:0 "They May Join Us""
+hope.9.t:0 "The Package".
+hope.9.d:0 "Amidst the Chaos, one of our founding couriers has come with a package from an unknown source.  He won’t tell us much, except that he was recently from Navarro"
+hope.9.a:0 "Let him in"
+hope.9.b:0 "I don’t know…"
+hope.10.t:0 "The Package Part 2"
+hope.10.d:0 "After the SSR hears we will not let him in, they are now demanding that we let in the courier with the package"
+hope.10.a:0 "Let him in"
+hope.11.t:0 "Hopeville Proposes A Referendum"
+hope.11.d:0 "Hopeville has approached us with the prospect of forming a union between our two states through a referendum involving every citizen of our state. Shall we approve such a referendum?"
+hope.11.a:0 "Agree To The Referendum"
+hope.11.b:0 "We Shall Maintain Our Independence!" 
+
+hope.12.t:0 "Ashton's Referendum Is A Success!"
+hope.12.d:0 "Ashton's Referendum has ended in a complete and total victory for Hopeville with the citizens of Hopeville voting overwhelmingly in favor of joining our growing state!"
+hope.12.a:0 "Welcome Aboard!"
+
+hope.13.t:0 "Ashton Refuses To Conduct A Referendum"
+hope.13.d:0 "Despite the protests of Ashton's citizens the Government of Ashton has refused to conduct a democratic referendum to form a union between our states and has instead announced their intent to maintain their independence. It is obvious that this government of theirs is corrupt and only cares about maintaining their power. We must deal with them swiftly."
+hope.13.a:0 "Prepare The Armies!"
+
+hope.14.t:0 "Safeguarding The East"
+hope.14.d:0 "To ensure the survival of not only our people but our very ideals we must ensure the independence of the countless democratic states within the Mojave to ensure we have a bulkwark of allied states to the East. However we must make sure we do not overextend ourselves as guarranteeing too many independent states in the Mojave could have logistical consequences"
+hope.14.a:0 "We Shall Only Guarantee Goodsprings"
+hope.14.b:0 "Goodsprings And Nipton Require Our Protection!"
+hope.14.c:0 "Goodsprings And Vault 3 Require Our Protection!"
+hope.14.e:0 "Goodsprings, Vault 3, Nipton and Jacobstown Shall Be Protected!"
+
+hope.15.t:0 "A Startling Discovery"
+hope.15.d:0 "The Expedition traveled for weeks and was on the verge of giving up until one of the prospectors tripped over a metal hatch and after clearing the sand off the hatch was greeted by the seal of the United States Army after gaining access to the Bunker it was revealed that they had discovered a small armory and research lab hidden away in the mountains. Thankfully it would appear that the lab had remained untouched since the Great War allowing your scavengers to bring home countless artifacts. "
+hope.15.a:0 "Thank God We Have Prospectors!"
+
+hope.16.t: "The 1st Congress of Hopeville"
+hope.16.d: "With the newfound wealth of Hopeville we are slowly growing ever more influential however with this newly found power unrest and cracks have begun to show in our leadership with our Congress split into three separate factions. \n\n The Staters who support integration into the Shady Sands Republic to ensure our protection. \n\n The Independence caucus that support maintaining Hopevilles independence and using our newly found power to protect the weak. \n\n The Merchants who controls a mere eighth of Congress and are all to open about their hatred for democracy and instead wish to gain control and install a Merchant Oligarchy such a move however has been vehemently opposed by the public and other parties and will be met with retaliation. \n\n However as the Leader of Hopeville you have the power and influence to ensure the victory of the Staters or Independence Caucus or you can support the Merchants and turn the tide with the Hopeville Military. Those that will support you that is….\n\n"
+hope.16.a:0 "The Staters"
+hope.16.b:0 "The Merchants"
+hope.16.c:0 "The Independence Caucus"
+
+hope.17.t:0 "A Remnant Arrives"
+hope.17.d:0 "After two months of waiting a lone figure has been sighted walking towards our Mojave checkpoint touting a suit of power armor not seen in decades, the suit had certainly seen better days as it is riddled with small dents from what appears to have been small arms fire the most notable part of the suit however would be the tarnished insignia of a faction long thought defeated.  Our guards are hesitant to allow such a man into our borders however his voice is calm and surprisingly soothing he speaks on short calculated sentences and states that he simply wishes to help escape his past and do some good for a change. After a short pause our guards have allowed him inside so he can begin his work."
+hope.17.a:0 "Welcome To Hopeville!"
+
+hope.18.t:0 "More Remnants Arrive"
+hope.18.d:0 "Over the past week or so several hundred remnants of the Enclave have arrived via vertibird seeking an audience with the one we call the Remnant even though they called him something along the lines of Major.. These newcomers quickly dashed away any fears we had about them as they immediately began conversing with the locals it would appear as if the Enclave has changed!"
+hope.18.a:0 "We Are Becoming An Enclave Sanctuary"
+
+
+hope.19.t:0 "The Ashton Communications Array"
+hope.19.d:0 "The Communications Array buzzed to life as the Remnant grabbed the microphone and began speaking. \n\n This is Major Samuel Holmes of the United States Armed Forces. I have found sanctuary within the confines of a location known as the Divide along with two hundred Remannts from Bunker Kilo. If there is anyone hearing this broadcast then immediately begin traveling to the coordinates 36.7202° N, 116.6726° W as quickly as possible. God Bless the United States of America. And God Bless The Enclave. "
+hope.19.a:0 "Things Are Escalating..."
+
+hope.20.t:0 "The Hardliners Arrive"
+hope.20.d:0 "With news of more Enclave forces arriving there was a sense of unrest within Hopeville and Ashton as tales of the old once again began spreading of the Enclave's Genocidal ambitions however the Remnant and his bretheren did their best to ease the nerves of the wastelanders assuring that they simply wanted to bring their fellow brothers together to ensure prosperity. \n\n Finally nearly two months after the broadcast had been sent out across the Wastes a slow trickle of Enclave forces began arriving within Hopeville many of whom shared the values of the Remnant and began conversing with the Wastelanders however it did not take long to realize not all of the new arrivals felt the same as several dozen Enclave soldiers could be heard calling the Wastelanders of our nation Sub-Human and Mutants. \n\n Tensions have continued to rise for the past two weeks cultivating in an Enclave soldiers gunning down several innocent bystanders. It is more than apparent that these so called Hardliners have no intentions in assimilating and even the pleas of the Remnant appear to have failed to ease tensions."
+hope.20.a:0 "This is a Melting Pot..."
+
+hope.21.t:0 "Join The Mojave Pact?"
+hope.21.d:0 "Hopeville has offered us a place within their Mojave Pact to ensure the security and prosperity of the Mojave however this would without a doubt impede on our rights and freedom to reign freely over New Vegas. What should we do?"
+hope.21.a:0 "Join The Mojave Pact"
+hope.21.b:0 "We Shall Stay Independent"
+
+hope.22.t:0 "Vegas Joins The Mojave Pact"
+hope.22.d:0 "Vegas has agreed to become a member of the Mojave Pact further strengthening our hold over the Mojave!"
+hope.22.a:0 "We Are Growing By The Day"
+
+hope.23.t:0 "Vegas Refuses"
+hope.23.d:0 "Vegas has refused to join us and help create a better Mojave. We must deal with them swiftly to ensure democracy can survive in the Wasteland"
+hope.23.a:0 "Prepare The Armies!"
+
+hope.24.t:0 "The Mojave Pact"
+hope.24.d:0 "Hopeville has proposed that we join the Mojave Pact, which in its simplest form is a Federation of Independent Democratic states uniting together to survive the harshness of the wastes. Do We Accept?"
+hope.24.a:0 "We Shall Join!"
+hope.24.b:0 "We Shall Stay Independent!"
+
+hope.25.t:0 "The Mojave Pact"
+hope.25.d:0 "Hopeville has offered us a place within their Mojave Pact to ensure the security and prosperity of the Mojave however this would without a doubt impede on our rights and freedom to reign freely over New Vegas. What should we do?"
+hope.25.a:0 "We Shall Join!"
+hope.25.b:0 "We Shall Stay Independent!"
+
+hope.26.t:0 "The Mojave Pact"
+hope.26.d:0 "Hopeville has offered us a place within their Mojave Pact to ensure the security and prosperity of the Mojave however this would without a doubt impede on our rights and freedom to reign freely over New Vegas. What should we do?"
+hope.26.a:0 "We Shall Join!"
+hope.26.b:0 "We Shall Stay Independent!"
+
+hope.27.t:0 "The Mojave Pact"
+hope.27.d:0 "Hopeville has offered us a place within their Mojave Pact to ensure the security and prosperity of the Mojave however this would without a doubt impede on our rights and freedom to reign freely over New Vegas. What should we do?"
+hope.27.a:0 "We Shall Join!"
+hope.27.b:0 "We Shall Stay Independent!"
+
+hope.28.t:0 "The Mojave Pact"
+hope.28.d:0 "Hopeville has offered us a place within their Mojave Pact to ensure the security and prosperity of the Mojave however this would without a doubt impede on our rights and freedom to reign freely over New Vegas. What should we do?"
+hope.28.a:0 "We Shall Join!"
+hope.28.b:0 "We Shall Stay Independent!
+
+hope.29.t:0 "The Mojave Pact"
+hope.29.d:0 "Hopeville has offered us a place within their Mojave Pact to ensure the security and prosperity of the Mojave however this would without a doubt impede on our rights and freedom to reign freely over New Vegas. What should we do?"
+hope.29.a:0 "We Shall Join!"
+hope.29.b:0 "We Shall Stay Independent!
+
+hope.30.t:0 "The Mojave Pact"
+hope.30.d:0 "Hopeville has offered us a place within their Mojave Pact to ensure the security and prosperity of the Mojave however this would without a doubt impede on our rights and freedom to reign freely over New Vegas. What should we do?"
+hope.30.a:0 "We Shall Join!"
+hope.30.b:0 "We Shall Stay Independent!
+
+hope.31.t:0 "The Glowing Hills Bunker"
+hope.31.d:0 "It was a several week journey however it proved worth the trip as our forces activated the power of the Glowing Hills Bunker and were greeted with a pristine facility untouched by prospectors and the war within the Hangers of the Bunker lay several dozen Vertibirds that were abandoned after the collapse of Navarro as well as an armory filled to the brim. "
+hope.31.a:0 "Loot The Armory"
+
+hope.32.t:0 "Purging The Ranks"
+hope.32.d:0 "Knowing all to well that the Hardliners would never conform to our way of life several dozen Remnant Loyalists aided by militia from Hopeville surrounded the Barracks of the Enclave Hardliners and opened fire on their unsuspecting victims. It was a hard fight however our superior numbers eventually ensured the outcome as the last of the Enclave Hardliners fell to our superior firepower. It had to be done the Remnants keep on saying as they watched their fellow comrades be buried.... "
+hope.32.a:0 "It Had To Be Done"
+
+hope.33.t:0 "Transmission From Hopeville"
+hope.33.d:0 "Hello, this is Major Samuel Holmes of the United States Armed Forces and of the Enclave. \n\n I mean no harm nor do I mean to revive a near century long rivalry. My associates have successfully integrated into the community known as Hopeville and have begun rebuilding the settlement in the image of the Old World World however we have realized that we will never be able to ensure the security and prosperity of the Wastes without assistance as such we would like to open diplomatic dialogue with you and your members in hopes of repairing ties. "
+hope.33.a:0 "We Shall Accept Their Request"
+hope.33.b:0 "This Scum Must Be Dealt With"
+
+hope.34.t:0 "The Brotherhood Accepts"
+hope.34.d:0 "Hello and welcome. Although we are uncertain about your intentions we are willing to open diplomatic communications with your so called Remnants with the hope of mending ties between our states however do not be fooled one wrong statement and we will deal with your Remnants quickly and brutally."
+hope.34.a:0 "This Is The Start Of Something Great"
+
+hope.35.t:0 "The Brotherhood Refuses" 
+hope.35.d:0 "We thought we had already dealt with all of your Remnants however it is now apparent there are still several stragglers! Do not worry we will be dealing with you shortly!"
+hope.35.a:0 "Christ... We Must Prepare"
+
+hope.36.t:0 "Spending Our Fortunes" 
+hope.36.d:0 "With thousands of caps flowing into our coffers daily we have accumilated enough wealth to make a massive purchase to strengthen our army however the question is what do we invest in? "
+hope.36.a:0 "Purchase Mercenaries From California"
+hope.36.b:0 "Invest In Arms Industries Within Hopeville"
+hope.36.c:0 "Purchase Power Armor From Rogue Brotherhood Soldiers"
+
+hope.37.t:0 "Scavenging The Hopeville Police Department" 
+hope.37.d:0 "The Hopeville Police Department was originally believed to a complete failiure as the building appeared to have been picked clean it was only after the prospectors entered the parking garage that they discovered several trucks filled with pre-war riot armor that appears to be very similar to the armor of the Shady Sands Republic's Veteran Rangers all in all over eight hundred sets of armor were aquired. Now the question is who in our army is elite enough to wear it? "
+hope.37.a:0 "This armor is too valuable for the common solider" 
+
+hope.38.t:0 "The Hopeville Loading Station" 
+hope.38.d:0 "As our prospectors slowly yet effectively dealt with the sentry bots surrounding the Hopeville Loading Station it became very clear that the station has been looted years ago and very little remains for our prospectors however they brought home what they could. "
+hope.38.a:0 "There Is Always A Next Time" 
+
+hope.39.t:0 "The Hopeville Missile Silo" 
+hope.39.d:0 "Our prospectors slowly and carefully descended into the maze of hallways that is the Hopeville Missile Silo and began quietly scavenging for anything of value as the Silo's automated security continued to lurk every corner this silence was broken by small arms fire as several of our scavengers were sighted by the Sentry Bots causing countless of our scavengers to lose their lives in the process however as the last Sentry Bot was deactivated our scavengers did find a small arsenal in the Silo's Barracks."
+hope.39.a:0 "Was It Worth The Loss Of Life?" 
+
+hope.40.t:0 "The Hopeville Armory" 
+hope.40.d:0 "As our prospectors recovered from the catastrophe of the Hopeville Missile Silo expedition they once again began scavenging the lower levels of the Armory which thankfully was devoid of any pre-war defense systems as the power had gone out long ago. The scavengers continued down the dark and eerie hallways until reaching what appeared to be an armory. After spending several days restoring power and hacking its security mechanisms the door opened up revealing a massive armory of pre-war weaponry ripe for the taking."
+hope.40.a:0 "Jackpot!" 
+
+hope.41.t:0 "The Ashton Military Complex" 
+hope.41.d:0 "As our scavengers slowly approached the Ashton Military Complex they discovered that other than half a dozen protectrons the building was abandoned and surprisingly in decent condition with the scavengers managing to get one of the old production lines operating."
+hope.41.a:0 "More Factories Equal More Guns" 
+
+
+hope.42.t:0 "The Ashton Missile Silo" 
+hope.42.d:0 "As our forces advance down the quiet hallways of the Ashton Missile Silo they turned the corner to discover the facilities entire automated security force deactivated in their recharging stations and after giving our engineer several says to program we have successfully hacked these protectrons to serve us!"
+hope.42.a:0 "I Suppose They Can Be Used To Patrol..." 
+
+
+hope.43.t:0 "The Ashton Armory" 
+hope.43.d:0 "After weeks of reading maps and searching we have successfully discovered the location to an off-site Armory that had apparently been filled to the brim with weaponry waiting to be transported to the Sierra Army Depot shortly before the Great War. After carefully dealing with the facilities security systems and failsafes we have successfully gained access to the bunkers armory which as we believed is filled with pre-war weaponry."
+hope.43.a:0 "Finally Something Worth While!" 

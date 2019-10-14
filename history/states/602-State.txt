@@ -1,0 +1,27 @@
+state = {
+	id = 602
+	name = "STATE_602" # Blackwells
+	manpower = 8000
+	state_category = town
+
+	resources = {
+		metal = 8
+	}
+
+	history = {
+		owner = DIA
+		add_core_of = DIA
+		victory_points = {
+			2263 10
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces = {
+		1604 1775 2263 2613 3295 3296 4718 4719 4769 4770
+	}
+}

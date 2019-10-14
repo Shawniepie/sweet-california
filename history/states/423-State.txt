@@ -1,0 +1,32 @@
+state = {
+	id = 423
+	name = "STATE_FORT_CLOVIS"
+	manpower = 20000
+	state_category = town
+
+	resources = {
+		energy = 5
+		circuitry = 5
+	}
+
+	history = {
+		owner = FRT
+		add_core_of = FRT
+		add_core_of = SUF
+		victory_points = {
+			5615 5
+		}
+		buildings = {
+			infrastructure = 4
+			anti_air_building = 2
+			radar_station = 1
+			7009 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+		879 2788 2789 2790 2791 2843 2844 5403 5404 5614 5615 5617 5630 7009
+	}
+}

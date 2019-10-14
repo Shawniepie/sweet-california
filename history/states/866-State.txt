@@ -1,0 +1,29 @@
+state={
+	id=866
+	name="STATE_TIJUANA"
+	resources={
+		water = 4
+	}
+
+	history={
+		owner = DAY
+		add_core_of = DAY
+		victory_points = {
+			4818 20
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+			industrial_complex = 4
+
+		}
+
+	}
+
+	provinces={
+		839 2621 2622 4817 4818 7157
+	}
+	manpower=22000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

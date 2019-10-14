@@ -1,0 +1,28 @@
+state={
+	id=108
+	name="STATE_TUCUMACRI"
+	resources={
+		water=5.000
+		energy=5.000
+	}
+
+	history={
+		owner = FRT
+		add_core_of = FRT
+		victory_points = {
+			5268 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1842 2805 2828 2841 2970 5267 5268 5269 5270 5271 5272 5273 5274 5561 5562 5563 5729 6671 7007 7008 7010 7011 7012 7013
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,37 @@
+state = {
+	id = 519
+	name = "STATE_SOUTH_PHOENIX"
+	manpower = 30000
+	state_category = large_city
+
+	resources={
+		energy = 4
+		metal = 12
+		composites = 6
+		advanced = 4
+	}
+
+	history = {
+		owner = PHR
+		add_core_of = CES
+		add_core_of = PHR
+		victory_points = {
+			8933 20
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+			anti_air_building = 3
+			air_base = 1
+			6632 = {
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+		870 2896 5363 6632 8930 8931 8932 8933 8934 8935 8936 8937 8938 8939 8940 8942 8943
+	}
+}

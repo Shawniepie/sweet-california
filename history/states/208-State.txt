@@ -1,0 +1,23 @@
+state = {
+	id = 208
+	name = "STATE_WALSH"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = IRN
+		add_core_of = IRN
+		add_core_of = JIC
+		victory_points = {
+			3033 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		1812 3033 3034 5668 5669 5670 7861 7862 7863 7864 7865
+	}
+}

@@ -1,0 +1,23 @@
+state = {
+	id = 402
+	name = "STATE_PAINTED_DESERT"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = BLK
+		add_core_of = CES
+		add_core_of = BLK
+		victory_points = {
+			8022 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		1545 8015 8016 8017 8018 8019 8020 8021 8022 8023
+	}
+}

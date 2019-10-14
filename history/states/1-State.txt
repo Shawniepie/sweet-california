@@ -1,0 +1,34 @@
+state={
+	id=1
+	name="STATE_1" # The Hub
+	
+	resources = {
+		water = 12
+		metal = 12
+		electricity = 12
+	}
+
+	history={
+		owner = HUB
+		add_core_of = HUB
+		victory_points = {
+			2409 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 6
+			2075 = {
+				naval_base = 2
+			}
+		}
+
+	}
+
+	provinces={
+		951 1780 2001 2075 2264 2409 2410 2411 2412 2413 2414 2415 4622 4785 4786 4787 4953 4954 
+	}
+	manpower=55000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

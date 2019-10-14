@@ -1,0 +1,26 @@
+state={
+	id=396
+	name="STATE_396" # Thousand Oaks
+
+	history={
+		owner = BON
+		add_core_of = BON
+		victory_points = {
+			1996 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+		}
+
+	}
+
+	provinces={
+		904 905 912 914 1996 2304 2306 2406 2618 3309 3310 4595 4596 4715 4716 5074 5075
+	}
+	manpower=27000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

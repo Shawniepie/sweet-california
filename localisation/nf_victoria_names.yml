@@ -1,0 +1,98 @@
+﻿l_english:
+ nf_victoria.1.t:0 "First Contact Beyond the Island"
+ nf_victoria.1.desc:0 "Our first successful sea voyage has returned. They discovered another world and had an extremely successful dipolomatic meeting with:"
+ nf_victoria.1.option.a:0 "Several regions. From these, we successfully recruited men."
+ nf_victoria.1.option.b:0 "The Washington Brotherhood, their techonology and industry made them invaluable."
+ nf_victoria.1.option.c:0 "The Haida Confederation. We have agreed to stand together against the outside world."
+ 
+ nf_victoria.2.t:0 "Where do we go from here?"
+ nf_victoria.2.desc:0 "We see the outside world, and we need to figure out how to respond to it."
+ nf_victoria.2.option.a:0 "We need to spread our way of life to the far edges of the world."
+ nf_victoria.2.option.b:0 "We need to achieve a level of naval dominance beyond that which has ever been witnessed."
+ nf_victoria.2.option.c:0 "We need to survive."
+ 
+ nf_victoria.3.t:0 "How will we do it?"
+ nf_victoria.3.desc:0 "That's the question on everyone's lips, how will we do it? Everyone has a different plan, but they all agree that we need to take action."
+ nf_victoria.3.option.a:0 "We will establish effective trade routes!"
+ nf_victoria.3.option.b:0 "Ships! Ships! Ships!"
+ nf_victoria.3.option.c:0 "We will open our island to immigration. More people, more everything."
+ 
+ nf_victoria.4.t:0 "Queen's Edict"
+ nf_victoria.4.desc:0 "The queen begins to organize the military, and sees 4 possible routes."
+ nf_victoria.4.option.a:0 "We have always been a naval people. We always will be."
+ nf_victoria.4.option.b:0 "We have discovered the existence of flying machines. These will rule the skies."
+ nf_victoria.4.option.c:0 "Our people are strong. Give them a gun and we will never lose."
+ nf_victoria.4.option.d:0 "Why fight a war when metal machines will do it for us?"
+ 
+ nf_victoria.5.t:0 "Steal the Vertibird?"
+ nf_victoria.5.desc:0 "Our technology must advance. How should we obtain it?"
+ nf_victoria.5.option.a:0 "We should send an expedition to obtain the technology from the BoS"
+ nf_victoria.5.option.b:0 "We should buy it."
+ 
+ nf_victoria.6.t:0 "Expedition Lost"
+ nf_victoria.6.desc:0 "We lost contact with our expedition."
+ nf_victoria.6.option.a:0 "Damn it!"
+ 
+ nf_victoria.7.t:0 "We have the schematics!"
+ nf_victoria.7.desc:0 "Our expedition returned with the shcematics."
+ nf_victoria.7.option.a:0 "Hell yeah!"
+ 
+ nf_victoria.8.t:0 "Search the old West Tek Building"
+ nf_victoria.8.desc:0 "We discovered an ancient West Tek building ruined after the Great War. Unfortunately, it contained a failsafe against intruders. We could only scavenge a bit of tech before it exploded."
+ nf_victoria.8.option.a:0 "We took general schematics at random!"
+ nf_victoria.8.option.b:0 "We found some weird liquid thing."
+ nf_victoria.8.option.c:0 "We found some schematics to utilize parts of power armor."
+ 
+ nf_victoria.9.t:0 "Results of the Liquid Analysis"
+ nf_victoria.9.desc:0 "Our scientists have studied the liquid which we obtained from the West Tek facility. It appears to be an engineered solution capable of altering the characteristcs of those injected."
+ nf_victoria.9.option.a:0 "This is evil! It must be destroyed!"
+ nf_victoria.9.option.b:0 "We must try to replicate this solution!"
+ nf_victoria.9.option.c:0 "We can sell it to some shady figures. They might be shady, but they have money."
+ 
+ nf_victoria.10.t:0 "Attacked by the Enclave!"
+ nf_victoria.10.desc:0 "We were getting close to being able to recreate the liquid, but heavily armed soldiers attacked our lab and stole our research!"
+ nf_victoria.10.option.a:0 "Damn it!"
+ 
+ nf_victoria.11.t:0 "Anchorage Expedition"
+ nf_victoria.11.desc:0 "We found old records of a battle at this place called Anchorage. We have ventured there, where should we scavenge?"
+ nf_victoria.11.option.a:0 "The ruins of the Chinese Artillery Outpost!"
+ nf_victoria.11.option.b:0 "The ruins of the U.S. Army field headquarters!"
+ nf_victoria.11.option.c:0 "The ruins of the Chimera Armor Depot!"
+ 
+ nf_victoria.12.t:0 "Winter Harbor Diplomatic Summit"
+ nf_victoria.12.desc:0 "We held a diplomatic summit for some of the recent nearby leaders. We also invited a political leader of a conservative group of the Washington Brotherhood striving for return to the old ways. Who did we agree with?"
+ nf_victoria.12.option.a:0 "The Coast is brutal, but they get things done."
+ nf_victoria.12.option.b:0 "We are a country of the people. We support others of the same."
+ nf_victoria.12.option.c:0 "The Washington Brotherhood. Their technology is invaluable."
+ nf_victoria.12.option.d:0 "The Washington Dissidents. Their ideology of research and isolation is brilliant."
+ 
+ nf_victoria.13.t:0 "Encountering the Brotherhood"
+ nf_victoria.13.desc:0 "On our most recent expedition South, we encountered a like minded technologically advanced group of people. They call themself the brotherhood. How should we react to them?"
+ nf_victoria.13.option.a:0 "We are in need of no friends."
+ nf_victoria.13.option.b:0 "Let us hold dipomatic talks."
+ 
+ nf_victoria.14.t:0 "Victoria in the Brotherhood?"
+ nf_victoria.14.desc:0 "We recently met a diplomatic envoy from Victoria. They want to join our faction."
+ nf_victoria.14.option.a:0 "We could always use a like minded ally in the North."
+ nf_victoria.14.option.b:0 "No. The Brotherhood does not accept outsiders. "
+ 
+ nf_victoria.15.t:0 "Victoria in the Northern League?"
+ nf_victoria.15.desc:0 "Victoria has held a summit at Winter Harbor. The meeting involved, New Victoria, The Old Country, and us. They want to join our faction."
+ nf_victoria.15.option.a:0 "We could always use a like minded ally in the North."
+ nf_victoria.15.option.b:0 "No. The Brotherhood does not accept outsiders. "
+ 
+ nf_victoria.16.t:0 "Northern Summit at Winter Harbor."
+ nf_victoria.16.desc:0 "We have held a meeting with like minded powers of the North. How shall we greet them?"
+ nf_victoria.16.option.a:0 "Try to negotiatie a coalition of the three powers."
+ nf_victoria.16.option.b:0 "Side with the Brotherhood and condemn the ghouls. "
+ nf_victoria.16.option.c:0 "Condemn the both. New Victoria has no need of allies."
+ 
+ nf_victoria.17.t:0 "The Old Country's position?"
+ nf_victoria.17.desc:0 "Victoria has held a summit at Winter Harbor. The meeting involved, New Victoria, The Washington Brotherhood, and us. They seek for us to form one coalition."
+ nf_victoria.17.option.a:0 "Aye! We could always us like minded allies in the North."
+ nf_victoria.17.option.b:0 "Nay! We stand on our own! "
+ 
+ nf_victoria.18.t:0 "Old Country In the Northern League? "
+ nf_victoria.18.desc:0 "Victoria has held a summit at Winter Harbor. The Old Country expressed interest to join our coalition."
+ nf_victoria.18.option.a:0 "We could always use a like minded ally in the North."
+ nf_victoria.18.option.b:0 "No. The Brotherhood does not accept outsiders. "

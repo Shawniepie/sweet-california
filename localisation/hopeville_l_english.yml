@@ -1,0 +1,391 @@
+﻿l_english:
+#----------------------
+#ideas
+#------------------------
+hopestrongest:0 "Strongest"
+hopesmartest:0 "Smartest"
+hopehealthiest:0 "Healthiest"
+#------------------------------
+#Starter focus
+#--------------
+forcouriers:0 "For Couriers, By Couriers"
+forcouriers_desc:0 "The area of Hopeville was largely built by the streams of Couriers going between Shady Sands to the Mojave leading to Hopeville being formed as a courier type settlement."
+
+whatwecarried:0 "What We Carried"
+whatwecarried_desc:0 "The Couriers of Hopeville were known to by the wasteland as Couriers highly skilled in...."
+
+brightfuture:0 "Bright Future"
+brightfuture_desc:0 "The future of Hopeville is looking very bright and as such the inhabitants decided to invest heavily in....."
+
+opentrade:0 "Open For Business"
+opentrade_desc:0 "Hopeville is now established enough to allow us to truly open Route 95 for trade, however there is still alot of work that will have to be done to convince traders to travel through Route 95 instead of the Long 15. "
+
+legionscouts:0 "Migrants Arrive"
+legionscouts_desc:0 "Our trusted officials have begun spreading the word of our newfound settlements to wandering travellers in hopes that it will bring direly needed migrants to Hopeville however some fear it may bring unforseen complications."
+
+ncrhelp:0 "Raiders Enter The Divide"
+ncrhelp_desc:0 "With the Divides Wealth exponentially growing Raiders have begun establishing camps along the routes to the Mojave causing economic hardship for our Couriers and causing instability within our ranks."
+
+skirmishes:0 "Clean Up"
+skirmishes_desc:0 "The battle was intense and many died on both sides however we have successfully forced the raider to retreat to the mountains and we are hot on their tail!"
+
+thepackage:0 "The Package"
+thepackage_desc:0 "A Courier known only as Courier Six has arrived at the gates of Hopeville and states that he was ordered to deliver to a strange package that bears marks of the Hopeville Missile Silos. Do we allow him within our lands?"
+
+startbuilding_a_new_life:0 "Start Building A New Life"
+startbuilding_a_new_life_desc:0 "With our fledgling settlement now stable it is time for us to begin building a new life for ourselves. Hopeville is in tatters and it will take literal years to restore it to a even a passable settlement however we have to start somewhere."
+
+begin_mining_operations:0 "Begin Mining Operations"
+begin_mining_operations_desc:0 "The mountains of the Divide are filled to the brim with metals and perhaps long lost technological marvels left behind by the military personnel during the Great War as such establishing mining operations in the mountains appears to be a no brainer. "
+
+the_establishment_of_fringe_settlements:0 "The Establishment of Fringe Settlements"
+the_establishment_of_fringe_settlements_desc:0 "With Ore and valuable technologies discovered it is now time for us to begin investing into permanent settlements within our mountains to ensure around the clock mining operations within our mountains."
+
+striking_it_rich:0 "Striking It Rich"
+striking_it_rich_desc:0 " As our Fringe Settlements continue to grow and prosper rumors have begun to spread our miners have begun discovering pre-war military outposts long retaken by the desert. A large expedition has been assembled to attempt to find further outposts."
+
+rebuild_hopeville_early_warning_system:0 "Rebuild The Hopeville Early Warning Systems"
+rebuild_hopeville_early_warning_system_desc:0 "Scattered across Hopeville and Ashton are state of the art radar and anti-air systems intended to defend against a Chinese air raid or worse… Although many are damaged beyond repair it will be possible to repair some of the systems namely the short range radar installation within Hopeville as well as several anti-air cannons."
+
+scavenge_the_ashton_airbase:0 "Scavenge The Ashton Airbase"
+scavenge_the_ashton_airbase_desc:0 "Hidden within the mountains of Ashton is a small Airbase that has managed to stay relatively untouched by prospectors our engineers believe that several of the pre-war planes could be made operational."
+
+rebuild_hopeville_industries:0 "Rebuild Hopevilles Industries"
+rebuild_hopeville_industries_desc:0 "Hopeville was thankfully unscathed from the devastation of the Great War however two centuries of neglect has done it's damage to the sparse civilian industries within Hopeville but with enough work we should be able to get some workshops operational once again."
+
+clearing_the_rubble:0 "Clearing The Rubble"
+clearing_the_rubble_desc:0 " Ashton and Hopeville have suffered from centuries of high intensity dust storms which has much clutter across Route 95. We must repair this rubble to ensure a safe route into the Mojave."
+
+spread_the_word:0 "Spread The Word"
+spread_the_word_desc:0 "Hopeville is slowly becoming ever more prosperous and it it time to spread the word of our new lands to ensure a steady arrival of new faces."
+
+Hopeville_Our_Future:0 "Our Future"
+Hopeville_Our_Future_desc:0 "Our future is uncertain we are surrounded on all sides by powerful neighbors and have little room to expand. We must decide who shall lead our nation through these difficult times."
+
+The_New_Order:0 "The New Order"
+The_New_Order_desc:0 "To ensure the survival of our state we must abandon our democratic beliefs and replace it with a powerful authoritarian government."
+
+The_Conquest_Of_Ashton:0 "The Conquest Of Ashton "
+The_Conquest_Of_Ashton_desc:0 "Our weak neighbors that inhabit the city of Ashton must be dealt with swiftly and brutally to ensure our border with California is secure and properly defended."
+
+Crushing_The_Confederation:0 "Bring An End To Goodsprings"
+Crushing_The_Confederation_desc:0 "To our East lies a weak and fledgling coalition of settlements that are scattered across the Mojave a swift and brutal invasion of these towns will allow us access into the Mojave."
+
+The_Creation_Of_A_Militaristic_Society:0 "The Creation Of A Militaristic Society"
+The_Creation_Of_A_Militaristic_Society_desc:0 "To ensure our nation can survive we must educate our entire populace in ways of warfare and survival only then can we be capable of crushing our foes."
+
+All_Shall_Serve:0 "All Shall Serve"
+All_Shall_Serve_desc:0 "Although our army has been bolstered by a steady stream of new recruits it simply is not enough to achieve our ambitions as such we have no choice but to begin convincing our entire populace that all within our start shall serve."
+
+Prepare_For_The_Coming_Conquests:0 "Make Preparations For The Coming Conquests "
+Prepare_For_The_Coming_Conquests_desc:0 "The ambitions of our leadership are risky and if they are not properly planned out will without a doubt end in complete and utter disaster as such we must prepare not only our army but our entire population and its industries for war."
+
+Rebuild_The_Ashton_Military_Complex:0 "Rebuild The Ashton Military Complex"
+Rebuild_The_Ashton_Military_Complex_desc:0 "To ensure we are capable of subduing the Mojave we must rebuild the crumbling Ashton Military Complex which in days past was the main armnanent factory in Ashton however now it is a shadow of its former glory but with a little bit of work we can get its production lines running once again."
+
+The_Time_Has_Come:0 "The Time Has Come"
+The_Time_Has_Come_desc:0 "The time has come my brothers and sisters! Soon our armies shall descend upon the Mojave and unite it under a single united nation and with it create the single most powerful state the wasteland has ever known!"
+
+Bringing_Order_To_The_Mojave:0 "Bringing Order To The Mojave"
+Bringing_Order_To_The_Mojave_desc:0 "To start our conquests of the Mojave we must first focus on the weaker factions within the Mojave such as the Mojave Raiders, Nipton, The State of Utobitha, Vault 3 and Jacobstown."
+
+Seize_The_Highway:0 "Seize The Highway"
+Seize_The_Highway_desc:0 "To ensure we are unopposed within the Mojave we must secure the Long 15 to block off access of the Mojave from California leaving us to continue our conquests unopposed."
+
+Incorporate_Our_Newly_Conquered_Lands:0 "Crush The Mutants"
+Incorporate_Our_Newly_Conquered_Lands_desc:0 "The mutants that reside within the Jacobstown are a stain within the Mojave that must be forcefully removed."
+
+Conquer_The_City_Of_Sin:0 "Conquer The City of Sin"
+Conquer_The_City_Of_Sin_desc:0 "Within the Mojave stands a shining light of power and that light comes from New Vegas to ensure we are capable of continuing our conquests without outside interference we have no choice but to conquer the City of Sin."
+
+Shatter_The_Steel:0 "Shatter The Steel"
+Shatter_The_Steel_desc:0 "The Mojave Brotherhood cowers within its bunkers and behind its suits of metal believing that it will protect them from our armies. It is time to put such a belief to the test and expel the technological giant of the Mojave Brotherhood."
+
+The_Dawn_Of_An_Empire:0 "The Dawn Of An Empire"
+The_Dawn_Of_An_Empire_desc:0 "With our conquests within the Mojave nearing completion it is now time for us to proclaim an empire that will withstand the test of time as we consolidate our power and bide our time."
+
+Maintain_Our_Democratic_Foundations:0 "Maintain Our Democratic Foundations "
+Maintain_Our_Democratic_Foundations_desc:0 "Hopeville was created by wastelanders seeking to escape the troubled Mojave and Californian states. Since its creation Hopeville has been led by the people and we must maintain these Democratic foundations to ensure a stable and powerful state."
+
+Ashton_Referendum:0 "The Ashton Referendum"
+Ashton_Referendum_desc:0 "Since the establishment of Hopeville we have always had close ties with our Brothers in Ashton frequently fighting side by side against raiders and super mutants however the time has come for our two states to unify as one to ensure we are capable of safeguarding our borders as such a referendum has been suggested to peacefully unite our nation's."
+
+Safeguard_The_East:0 "Safeguard The East"
+Safeguard_The_East_desc:0 "Our brethren in Goodsprings are under constant threat from raiders, super mutants and worse… the brotherhood.. it may be dangerous but we must guarantee the independence of Goodsprings. Better yet it appears that on the outskirts of Goodsprings lies a small unmapped military outpost that would give them the weaponry they need to protect themselves or.. us."
+
+By_Survivalists_For_Survivalists:0 " By Survivalists, For Survivalists"
+By_Survivalists_For_Survivalists_desc:0 "The Divide is no easy land to survive in, in fact it is one of the harshest locations on the know world however there is an upside to this it attracts the strongest and bravest wastelanders bolstering our ranks with capable soldiers."
+
+Come_To_Hopeville_To_Start_Again:0 "Come To Hopeville, To Start Again!"
+Come_To_Hopeville_To_Start_Again_desc:0 "Hopeville is becoming a beacon of the Old World even under the harsh conditions of our lands we have begun to prosper and word have begun spreading throughout the wastes. "
+
+Repair_Route_95:0 "Repair Route 95"
+Repair_Route_95_desc:0 "Route 95 is the Silk Road of the Old World, it allows an easy trade route from California into the Mojave however it is highly damaged and large swaths of the route have been retake by sand yet with enough work we can rebuild this Route and bring constant riches to our people."
+
+Establish_Highway_Patrols:0 "Establish Highway Patrols"
+Establish_Highway_Patrols_desc:0 "With Route 95 rebuilt trade has begun to quadruple along the Route however with this renewed trade raiders have once again begun raiding caravans to counter this we must begin frequent highway patrols."
+
+Construct_Outposts_Along_Route_95:0 "The New Silk Road"
+Construct_Outposts_Along_Route_95_desc:0 "With Route 95 safe to transverse for traders it is now time to spread the word and monopolize on our newly founded trade route."
+
+New_Opportunities:0 "New Opportunities"
+New_Opportunities_desc:0 "With our coffers being ever filled with bottlecaps from constant trade many of our representatives have become restless and have called for a Congress between Hopevilles representatives to decide the future of our state."
+
+Open_Diplomatic_Channels_With_The_Mojave:0 "Open Diplomatic Channels With The Mojave"
+Open_Diplomatic_Channels_With_The_Mojave_desc:0 "The few Democratic states that remain within the Mojave need to be approached and guaranteed protection to ensure rival states cannot endanger them."
+
+Form_The_Mojave_Pact:0 "Form The Mojave Pact"
+Form_The_Mojave_Pact_desc:0 "With Diplomatic Discussions going smoothly with other states within the Mojave it is time to finalize a formal alliance to ensure democracy and human rights at upheld in the Mojave and eventually Beyond."
+
+Train_Our_New_Allies:0 "Train Our New Allies"
+Train_Our_New_Allies_desc:0 "As soon as the Mojave Pact was created we quickly discovered that our newly made allies lack the training and capabilities to properly defend themselves let alone other members of the Mojave Pact. We must dispatch our commanders and help train our allies armies."
+
+Realize_Our_Pontential:0 "Realize Our True Potential"
+Realize_Our_Pontential_desc:0 "With the Independence Movements gaining decisive control of Congress it is now time to make preparations to protect the people of the Wastes."
+
+Approach_New_Vegas:0 "Approach New Vegas"
+Approach_New_Vegas_desc:0 "With New Vegas being a great power in the Mojave securing an alliance with him would be most beneficial for our cause."
+
+Begin_Recovery_Efforts:0 "Begin Recovery Efforts"
+Begin_Recovery_Efforts_desc:0 "After the devastation of our civil war we have must begin rebuilding our wartorn state and quickly to ensure our neighboring powers... The vultures that they are do not take advantage of our weakened position."
+
+Erase_Hopevilles_Democratic_Values:0 "Erase Hopevilles Democratic Values"
+Erase_Hopevilles_Democratic_Values_desc:0 "To ensure another civil war is nothing more than a dream for the weak we must begin erasing democratic values from the people of Hopeville."
+
+Absorb_Goodsprings:0 "Absorb Goodsprings"
+Absorb_Goodsprings_desc:0 "Goodsprings is nothing more than a failed state and it took until a change of leadership for us to realize this. We must swiftly conquer Goodsprings and their allied settlements to strengthen our position in the Mojave"
+
+Create_A_Merchant_Empire:0 "Create A Merchant State"
+Create_A_Merchant_Empire_desc:0 "Hopeville shall from this point on be a nation led by merchants for merchants!"
+
+Seize_The_Long_15:0 "Seize The Long 15"
+Seize_The_Long_15_desc:0 "Route 95 has brought upon our people tremendous wealth and prosperity however thousands of caps are lost every month due to the existence of the Long 15 however if we were to control both routes into the Mojave we have a complete monopoly over trade in and out of the Mojave. "
+
+Let_The_Coffers_Grow:0 "Let The Coffers Grow"
+Let_The_Coffers_Grow_desc:0 "With Route 95 and the Long 15 now under our control we have nothing to do but watch as we accumilate wealth like none other within the wastes..."
+
+Create_The_Hopeville_Defence_Force:0 "Establish The Hopeville Defence Force"
+Create_The_Hopeville_Defence_Force_desc:0 " Since the creation of our community we have been protected by nothing more than a small militia force that is poorly armed and trained. If we are to ensure our citizens protection we must create a professional army to organize against raider raids or our neighbors."
+
+Secure_Our_Borders:0 "Secure Our Borders"
+Secure_Our_Borders_desc:0 "We are living within the confines of a military base as such pre-war pillboxes and outposts are scattered across our lands we have no choice but to refurbish and rebuild these defences to ensure we are capable of defending our home."
+
+Improved_Training_Standards:0 "Improved Training Standards"
+Improved_Training_Standards_desc:0 "Although we have created an official military they lack the needed training to be a capable offensive and defensive force as such we must begin investing in training our new recruits."
+
+Encourage_Military_Service:0 "Encourage Military Service"
+Encourage_Military_Service_desc:0 "Encourage Military Service"
+
+Establish_The_Hopeville_Rangers:0 "Establish The Hopeville Rangers"
+Establish_The_Hopeville_Rangers_desc:0 "Within the confines of the Hopeville Police Station we have discovered hundreds of suits of pre-war riot gear very similar to that worn by the Rangers of the SSR. As such our commanders have decided to establish an official Ranger Corp to allow us to properly defend our borders and if needed bring the fight to our foes."
+
+Hopeville_Rangers_Lead_The_Way:0 "Rangers Lead The Way"
+Hopeville_Rangers_Lead_The_Way_desc:0 "Our Rangers have proven themselves in fending off raider incursions and have impressed Command So much that they want to expand the size of the ranger forces."
+
+Utilize_Ashtons_Military_Foundries:0 "Utilize Ashtons Military Foundry"
+Utilize_Ashtons_Military_Foundries_desc:0 " Ashton has a small Military Foundry that could be utilized to increase production efficiency within our state however it is rather damaged and will require months to repair."
+
+Review_Pre-War_Journals:0 "Review Pre-War Military Journals"
+Review_Pre-War_Journals_desc:0 "Scattered across the Hopeville and Ashton are dozens of pre-war journals made by soldiers deployed within their respective towns, if we were to decipher these journals a large amount of useful battle tactics could be gained and utilized."
+
+Rebuild_Hopevilles_Military_Industries:0 "Rebuild Hopevilles Military Industry "
+Rebuild_Hopevilles_Military_Industries_desc:0 "Hopeville Although being the civilian sector of the Divide did have limited Military industries of which some are still in repairable condition."
+
+Rebuild_Ashtons_Military_Industries:0 "Rebuild Ashtons Military Industry"
+Rebuild_Ashtons_Military_Industries_desc:0 "Scattered across Ashton are remnants of decadent and collapsing military facilities however a handful of them are still in repairable condition."
+
+Begin_Automated_Production_Lines:0 "Begin Automated Production Methods"
+Begin_Automated_Production_Lines_desc:0 "The Ashton Military Factories centuries ago were almost entirely automated allowing an uncontested amount of production given enough time and sweat we could restore these automated marvels."
+
+The_Rise_Of_Prospectors:0 "The Rise Of Prospectors"
+The_Rise_Of_Prospectors_desc:0 "Prospectors have begun flooding our lands in hopes of finding riches and fame in the vast mountains of the Divide."
+
+Begin_Scavenging_Operations:0 "Begin Scavenging Operations"
+Begin_Scavenging_Operations_desc:0 "With new prospectors flooding our lands daily it is now time for us to begin organized scavenging Operations in an attempt to secure much needed resources."
+
+Loot_The_Hopeville_Loading_Station:0 "Loot The Hopeville Loading Station"
+Loot_The_Hopeville_Loading_Station_desc:0 "The Hopeville Loading Station has been off limits to our populace due to prewar military robots roaming the area firing on sight at anything that moves. However the time has come for us to deal with these foes and secure whatever lies within the loading station."
+
+Look_Towards_The_Bear:0 "Look Towards The Bear"
+Look_Towards_The_Bear_desc:0 "With the Staters now effectively in control of Congress it is now time to prepare to enter into diplomatic talks with the Republic to ensure our protection and prosperity."
+
+Sign_The_Non_Aggression_Pact:0 "Sign The Non-Aggression Pact"
+Sign_The_Non_Aggression_Pact_desc:0 "We must open clear and honest diplomatic channels to let the Republic know of our intentions. The first step towards this is signing a Non-Aggression pact with the Republic."
+
+Propose_The_SSR_Hopeville_Alliance:0 "Propose The Hopeville-SSR Mutual Protection Pact"
+Propose_The_SSR_Hopeville_Alliance_desc:0 "It is now time for us to sign a Mutual Protection Pact between our two nations to ensure our nation's prosperity and capabilities."
+
+Incorporate_Republican_Military_Doctrine:0 "Incorporate Republican Military Doctrine"
+Incorporate_Republican_Military_Doctrine_desc:0 "The Republic has some of the greatest soldiers and military doctrine in the wastes as such with closer cooperation we may be able to convince them to hand over their secrets."
+
+Apply_For_Statehood:0 "Apply For Statehood"
+Apply_For_Statehood_desc:0 " We believe that the Republic is now ready to incorporate us into their Republic all that is left to do is apply to statehood and wait for the Republics approval."
+
+Technological_Focus:0 "A Nation Of Technological Progress"
+Technological_Focus_desc:0 "Our nation stands upon the ashes of the Old World and it's technological prowess as such we must master these technologies to ensure we are capable of protecting ourselves."
+
+Pursue_Ashton_Integration:0 "Pursue Ashton Integration"
+Pursue_Ashton_Integration_desc:0  "Our brethren in Ashton are sitting upon dangerous technologies that if placed in the wrong hands could potentially cause great devastation as such unifying our states as one will help keep such dangerous technologies out of the hands of the ruthless."
+
+Search_For_Educated_Individuals:0 "Attract Intellectuals"
+Search_For_Educated_Individuals_desc:0 "The Technologies we sit upon are far too complex for even our brightest to understand as such we must spread the word of these technological marvels in hopes to attract those that can teach us how to use them."
+
+A_Remnant_Arrives:0 "A Remnant Arrives"
+A_Remnant_Arrives_desc:0 "Thus far our calls for intellectuals have yielded only limited results however we have begun communications with an unknown individual who to have extensive knowledge of not only the technology we are in control of but the installation itself! After some convincing he has agreed to begin journeying to Hopeville but it will take time..."
+
+Understanding_The_Divides_Technology:0 "Teachings of Technology"
+Understanding_The_Divides_Technology_desc:0 "Despite our initial concerns the Remnant as our citizens have begun calling him, has been hard at work teaching our citizens the basics of Technology and basic education and already the results are noticeable."
+
+Analyse_Military_Grade_Schematics:0 "The Remnants Associates Arrive"
+Analyse_Military_Grade_Schematics_desc:0 "The Remnant has informed us that several of his brethren from times long forgotten have agreed to journey towards Hopeville to start life once again, he has told us that the Remnants are overwhelmingly those who have hidden within the state of California after the collapse of Navarro surely they will bolster our research capabilities and our armies capabilities."
+
+Reactivating_The_Ashton_Bunker:0 "Utilizing Pre-War Technologies"
+Reactivating_The_Ashton_Bunker_desc:0 "The Remnant has taken notice of the massive amount of operational pre-war technology that exists within the Divide and has offered to begin teaching us how to utilize it."
+
+Activate_The_Ashton_Communications_Array:0 "Rebuild The Ashton Communications Array"
+Activate_The_Ashton_Communications_Array_desc:0 "Within Ashton lies a massive radar installation that was spared during the great war. The Remnant states that it is capable of transmitting across the Western and Midwestern United States and would allow him to open comunications with the remaining Remnant Strongholds throughout the United States."
+
+Call_The_Remnants:0 "Activate The Ashton Communications Array"
+Call_The_Remnants_desc:0 "Wutg the Ashton Communications Array now fully operational the Remnant has requested permission to send an encrpyted message to the few remaining Enclave Bunkers that are still active across the wasteland to bring his former soldiers together."
+
+Loot_The_Hopeville_Missile_Silo:0 "Loot The Hopeville Missile Silo"
+Loot_The_Hopeville_Missile_Silo_desc:0 "With the Loading Bay picked clean we are now drawing up plans to open the blast doors of the Hopeville Missile Silo and scavenge anything that may be inside however we can hear those robotic beasts from within. It will be a pitched battle no doubt."
+
+Breach_The_Hopeville_Armory:0 "Breach The Hopeville Armory"
+Breach_The_Hopeville_Armory_desc:0 "With the Hopeville Missile Silo picked clean all that is left for us to scavenge in Hopeville is the Hopeville Armory which our prospectors believe it's contents are still untouched still the start of the war."
+
+Scavenge_The_Ashton_Military_Complex:0 "Scavenge The Ashton Military Complex"
+Scavenge_The_Ashton_Military_Complex_desc:0 "Within Ashton lies a relatively massive military complex which overlooks the entirety of Ashton. Pre-War Robots continue to conduct their pre-war guard routines which has kept prospectors out for centuries however with enough support we can deal with those mechanical beasts and loot whatever lies inside."
+
+Scavenge_The_Ashton_Missile_Silo:0 "Scavenge The Ashton Missile Silo"
+Scavenge_The_Ashton_Missile_Silo_desc:0 "Deep within Ashton lies a single unopened missile silo that if opened could contain countless pre-war artifacts that is if we are willing to deal with the robots that guard the silos internals..."
+
+Breach_The_Ashton_Armory:0 "Breach The Ashton Armory"
+Breach_The_Ashton_Armory_desc:0 "With the Ashton Missile Silo Looted we have discovered a large armory deep within the confines of the Silo that appears to have not been opened for centuries although it take months to gain access the possibility of pre-war weaponry is simply to worthwhile to pass up."
+
+repair_the_transports:0 "Repair The Transports"
+repair_the_transports_desc:0 "Within the Ashton Airfield are two dozen pre-war transport planes, if we were to invest in restoring these aerial behemoths we would be capable of have a small fleet of transport planes for courier services."
+
+We_Want_You_To_Serve:0 "We Want You To Serve"
+We_Want_You_To_Serve_desc:0 "Every citizen of Hopeville has a duty to serve their nation and this belief has begun spreading rapidly throughout our lands already our Recruitment Centers have begun receiving dozens of new applicants."
+
+Introduction_Of_Advanced_Armor:0 "Introduction Of Advanced Ranger Armor"
+Introduction_Of_Advanced_Armor_desc:0 "Our current Rangers has several shortcomings when going against foes with high powered weaponry however if we were to utilize the more complexed designs that we discovered within the Hopeville Police Department we could increase the beating our suits can take. "
+
+Rangers_On_The_move:0 "Rangers Always On The Move"
+Rangers_On_The_move_desc:0 "Our Rangers have learned how to quickly and effectively travel across the grueling mountains of the Divide as such they have gained renown as shock troopers in our armies capable of moving through poor terrain with ease. "
+
+Expand_The_Ranger_Corp:0 "Expand The Ranger Corps."
+Expand_The_Ranger_Corp_desc:0 "Everyone agree's that the Ranger Corps. has great potential to be the most effective force in our nation as such expanding its size will ensure a large force of capable soldiers. "
+
+Loot_The_Hopeville_PD:0 "Loot The Hopeville Police Department"
+Loot_The_Hopeville_PD_desc:0 "The Hopeville Police Department is heavily guarded by protectrons and other pre-war robotic beasts however if we were to deal with these threats then we will be able to utilize everything within the Hopeville PD's Armory. "
+
+RecoveringFromTheRaid:0 "Recovering From The Raid"
+RecoveringFromTheRaid_desc:0 "The recent raider raid was put down relatively easily however it did cause countless deaths and injuries within our army and has greatly scarred our populace as such we must begin recovering."
+
+Incorporate_Pre_War_Doctrine:0 "Incorporate Pre-War Doctrine"
+Incorporate_Pre_War_Doctrine_desc:0 "Although our soldiers are extremely capable our officers lack the capabilities to lead long-term campaigns as such we must begin incorporating pre-war doctrines."
+
+Authorize_Weapon_Workshops:0 "Authorize Weapon Workshops"
+Authorize_Weapon_Workshops_desc:0 "Our Military Industrial Capabilities are meager and to be honest pathetic as such we must begin immediate construction of Weapon Workshops. "
+
+Defense_In_Depth:0 "Defence In Depth"
+Defense_In_Depth_desc:0 "It is no secret that is we were to go to war against a superior foe we would be pushed back however we can use this to our advantage and use the Divides terrain against our foes. "
+
+Deal_With_The_Hardliners:0 "Deal With The Hardliners"
+Deal_With_The_Hardliners_desc:0 "The Hardliners have proven themselves incapable of changing to the times and continue to cause instability with their pathetic superiority ideology and have gone as far as executing mutated wastelanders. They must go."
+
+Establish_Contact_With_The_Brotherhood_Of_Steel:0 "Establish Contact With The Brotherhood"
+Establish_Contact_With_The_Brotherhood_Of_Steel_desc:0 "With the hardliners no longer around it is now time for us to utilize the Ashton Communications Array to open communications with the Brotherhood of Steel and begin diplomatic communications to mend ties with them. "
+
+Mend_BOS_Enclave_Ties:0 "Mend BOS-Enclave Ties"
+Mend_BOS_Enclave_Ties_desc:0 "The Brotherhood of Steel and Enclave have had a history of warfare and rivalry however through diplomacy we may be able to regain the Brotherhood's trust in atleast our small group of remnants."
+
+Allow_Brotherhood_Scribes_In_Ashton:0 "Allow Brotherhood Scribes In Ashton"
+Allow_Brotherhood_Scribes_In_Ashton_desc:0 "The Brotherhood has agreed to beging working towards mending ties with ourselves however there is much we can do to hasten their trust in us primarily by allowing their scribes to study the countless technologies with the Divide."
+
+Learn_About_The_Codex:0 "Learn About The Codex"
+Learn_About_The_Codex_desc:0 "The Brotherhood of Steel follows a strange policy known as the Codex that acts as very similar to the pre-war United States Constitution if we were to begin studying and following this code of rules it would go very far in repairing ties with them."
+
+Request_Membership_In_The_Brotherhood_Of_Steel:0 "Request Membership Into The Brotherhood"
+Request_Membership_In_The_Brotherhood_Of_Steel_desc:0 "We have been following the ideals and ethics of the Brotherhood of Steel as closely as humanly possible as such we believe it is now time to request admission into the Brotherhood. "
+
+Assassinate_The_Remnant:0 "Assassinate The Remnant"
+Assassinate_The_Remnant_desc:0 "The Remnant is a threat to the Enclave and the United States Government and must be dealt with quickly we already have a strike team prepped and ready."
+
+Topple_The_Wastelanders:0 "Topple The Wastelanders"
+Topple_The_Wastelanders_desc:0 "The Wastelanders that control the Divide are nothing more than petty scavengers and thieves and a carefully calculated assault on their leadership will cripple them."
+
+Reconstruction:0 "Topple The Congress"
+Reconstruction_desc:0 "To ensure the merchants are capable of securing their hold over the Divide we must topple this so called congress of Hopeville. "
+
+Unlock_Divides_Robotics:0 "Gain Access To Ashton's Security Systems"
+Unlock_Divides_Robotics_desc:0 "Our researchers believe that they have finally recovering pre-war codes which will allow us to resume control over all robotic sentries within Hopeville allowing us to greatly expand our force projection."
+
+The_Glowing_Hills_Expedition_2:0 "The Glowing Hills Expedition"
+The_Glowing_Hills_Expedition_2_desc:0 "Unknown to the inhabitants of Hopeville there lies a large pre-war Enclave facility that acted as an refueling point between Navarro and Bloomberg and thankfully we have managed to once again gain the coordinates to this facility which if unlooted without a doubt holds untold wonders."
+
+Striking_Back:0 "Striking Back"
+Striking_Back_desc:0 "The time has come for us to strike back against our foes who defeated us decades ago!"
+
+ReeducateEnclave:0 "Educate The Enclave"
+ReeducateEnclave_desc:0 "The Hardliners are stubborn fools however many of them can easily be re-educated to learn to live side by side Wastelanders... that is if we invest the time and resources."
+
+Enclave_Wastelander_Cooperation:0 "Enclave-Wastelander Cooperation"
+Enclave_Wastelander_Cooperation_desc:0 "Many Enclave members have begun frequently chatting with the Wastelanders within the Divide and have even begun calling them friends this is a good start but more must be done."
+
+DealWithTheUnwilling:0 "Deal With The Unwilling"
+DealWithTheUnwilling_desc:0 "Although many members of the Enclave have begun following our ideals several have refused to change their old ways and as such they must be dealt with through force as we will never be safe while they are alive."
+
+The_Glowing_Hills_Expedition:0 "The Glowing Hills Expedition"
+The_Glowing_Hills_Expedition_desc:0 "Unknown to the inhabitants of Hopeville there lies a large pre-war Enclave facility that acted as an refueling point between Navarro and Bloomberg and thankfully we have managed to once again gain the coordinates to this facility which if unlooted without a doubt holds untold wonders."
+
+Prepare_For_Anything:0 "Prepare For Anything"
+Prepare_For_Anything_desc:0 "At anytime Brotherhood or Californian Armies could be marching down our canyons as such we must be ready to meet a large force at any times. "
+
+The_Final_Holdout:0 "The Final Holdout"
+The_Final_Holdout_desc:0 "Although the Enclave is long gone its servicemembers are still very much alive. This will be known as our final sanctuary."
+
+The_Hardliners_Arrive:0 "The Hardliners Arrive"
+The_Hardliners_Arrive_desc:0 "It would appear that the communications array has been more than successful... A little too successful in fact as several dozen enclave members that are known as Hardliners to the rest of the Remnants have arrived and continue to preach the teachings of the Enclave of the old. "
+
+Republican_Migration:0 "Increased Republican Migration"
+Republican_Migration_desc:0 "Thanks to our recent integration as a state of the Shady Sands Republic we have begun experiencing a massive increase in Migration from Shady Sands and Junktown. "
+
+GunrunnersFranchise:0 "Establishment Of Gun Runners Franchises"
+GunrunnersFranchise_desc:0 "The Gun Runners of Shady Sands have just approached us requesting the creation of a new Franchise within the Divide to allow the Gun Runners easy access into the Mojave. "
+
+Republican_Conscription_Laws:0 "Enact Republican Conscription Laws"
+Republican_Conscription_Laws_desc:0 "The Shady Sands Republic is well known as a conscription state that is capable of mustering thousands of soldiers during times of war as such we have no choice but to enact these very similar laws."
+
+Integrate_The_Mojave_Pact:0 "Integrate The Mojave Pact"
+Integrate_The_Mojave_Pact_desc:0 "The Mojave Pact has served its purpose however it would appear the states of the Mojave have a sense of unity with us and support the idea of integration into our state."
+
+Bastion_Of_Democracy:0 "Republic Of The Mojave"
+Bastion_Of_Democracy_desc:0 "With our hold over the Mojave now assurred it is time to announce the creation of the Republic of the Mojave."
+
+Embrace_The_Mojave_Pact:0 "Embrace The Mojave Pact"
+Embrace_The_Mojave_Pact_desc:0 "The Mojave Pact is the only proven way to ensure stability within the Mojave Wasteland and we must maintain it."
+
+Expand_The_Mojave_Pact:0 "Expand The Mojave Pact"
+Expand_The_Mojave_Pact_desc:0 "Although the Mojave Pact is a powerful force within the Mojave it is time for us  to expand our operations to the region where Frisco City and the Grand Tribes are located to secure our Eastern Borders."
+
+Utilizeournewfoundwealth:0 "Utilize Our New Found Wealth"
+Utilizeournewfoundwealth_desc:0 "With the newly found wealth of our trade routes it is now time to decide what we will invest in."
+
+Establish_New_Trade_Outposts:0 "Establish Mojave Trade Outposts"
+Establish_New_Trade_Outposts_desc:0 "With the Southern Mojave now under our control it is now time to establish Trade Outposts within these regions to officially incorporate them into our realm."
+
+Servus_Corporatum:0 "Enact Servus Corporatum"
+Servus_Corporatum_desc:0 "The common wastelander under us are nothing more than servants that must do our bidding as such the best choice is to force every man to lock arms and serve in the armed forces."
+
+Looking_Beyond:0 "Looking Beyond The Mojave"
+Looking_Beyond_desc:0 "With the Mojave now under our control our leader is not yet satisfied and has demanded we begin a new campaign."
+
+Crushing_The_Republic:0 "Crushing The Republic"
+Crushing_The_Republic_desc:0 "The Shady Sands Republic is a weak and incapable state as such it must be put under the weight of the New Order!"
+
+Crossing_The_Colorado:0 "Crossing The Colorado"
+Crossing_The_Colorado_desc:0 "East of the Colorado is a state that threatens our very existence as such it must be dealt with swiftly and effectively."
+

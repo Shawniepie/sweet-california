@@ -1,0 +1,30 @@
+state = {
+	id = 546
+	name = "STATE_FORT_SUMMERS"
+	manpower = 20000
+	state_category = city
+
+	resources = {
+		metal = 11
+	}
+
+	history = {
+		owner = FRT
+		add_core_of = FRT
+		add_core_of = SUF
+		victory_points = {
+			5558 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			anti_air_building = 2
+			radar_station = 1
+
+		}
+	}
+
+	provinces = {
+		1698 2285 2780 2804 2813 5260 5261 5558 5628
+	}
+}

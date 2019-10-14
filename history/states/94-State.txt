@@ -1,0 +1,26 @@
+state = {
+	id = 94
+	name = "STATE_MT_GRAHAM"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		water = 5
+		metal = 2
+	}
+
+	history = {
+		owner = TWO
+		add_core_of = TWO
+		victory_points = {
+			1671 5
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		2030 2924 2333 1671 862 3159 5188 5189 5190 2039 5191 2040
+	}
+}

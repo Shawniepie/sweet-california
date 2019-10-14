@@ -1,0 +1,38 @@
+state = {
+	id = 522
+	name = "STATE_RED_SUN_CITY"
+	manpower = 35000
+	state_category = large_city
+
+	resources = {
+		water = 2
+		metal = 6
+	}
+
+	history = {
+		owner = RSR
+		add_core_of = CES
+		add_core_of = RSR
+		victory_points = {
+			6629 20
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 3
+			radar_station = 1
+			air_base = 1
+			8963 = {
+				naval_base = 7
+			}
+			8968 = {
+				naval_base = 9
+			}
+		}
+	}
+
+	provinces = {
+		8968 8970 8967 8969 6629 8963 8964 8965 8966
+	}
+}

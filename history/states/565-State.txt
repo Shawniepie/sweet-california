@@ -1,0 +1,23 @@
+state = {
+	id = 565
+	name = "STATE_BLACKSUN"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = BSU
+		add_core_of = BSU
+		victory_points = {
+			5664 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+	}
+
+	provinces = {
+		976 994 1840 2856 2857 2858 3029 3130 5279 5280 5281 5282 5661 5662 5663 5664 7023 7024 8192
+	}
+}

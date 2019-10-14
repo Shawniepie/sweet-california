@@ -1,0 +1,35 @@
+state={
+	id=154
+	name="STATE_NELLIS_AFB"
+	resources={
+		composites = 6
+		metal = 6
+	}
+
+	history={
+		owner = BOO
+		add_core_of = BOO
+		victory_points = {
+			8856 15
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+			8856 = {
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1622 3194 3198 8856
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

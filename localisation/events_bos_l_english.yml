@@ -1,0 +1,312 @@
+﻿l_english:
+
+ nf_brotherhood.7.t:0 "Trouble on the Homefront"
+ nf_brotherhood.7.desc:0 "Recently a group of Brotherhood Paladins attacked and killed a Shi patrol, believing them to be raiders. The Shi have demanded a response from us. We should answer carefully, less we damage our diplomatic standing with this technologically advanced faction."
+ nf_brotherhood.7.a:0 "Our Paladins attacked them in order to protect Civilains."
+ nf_brotherhood.7.b:0 "Our Paladins claim they were unaware they were Shi."
+ nf_brotherhood.7.c:0 "The Shi were punished for interfering!"
+ 
+ 
+
+ nf_brotherhood.35.t:0 "The Vagrants Support us!"
+ nf_brotherhood.35.desc:0 "The People of San Francisco have rallied around the story of Brotherhood Paladins protecting civilains from violent Shi thugs. A. Ron Meyers, a former Enclave Technicial who helped the Chosen One to reach the infamous Oil Rig, has thrown in his lot with us as well. Bringing with him his supporters, who represent the poor and downtrodden of Shitown.""
+ nf_brotherhood.35.a:0 "Welcome Mister Meyers."
+  
+ nf_brotherhood.36.t:0 "An Unfortunate Accident"
+ nf_brotherhood.36.desc:0 "While neither side is happy with this encounter, or how it went, both sides are willing to let it slide. We have studies the tactics used by the Shi in battle, and claimed many of the firearms from their dead, if only so we are prepared ever have to fight the Emperor."
+ nf_brotherhood.36.a:0 "A healthy precaution."
+ 
+ nf_brotherhood.37.t:0 "The Gates to Paradise Close"
+ nf_brotherhood.37.desc:0 "The Emperor is outraged with out blatant disrespect for his authority, and the lives of his soldiers. He has banned his people from both trade and interaction with us, and will no longer hear our delegations, or tolerate our presence anywhere near his territory."
+ nf_brotherhood.37.a:0 "Who cares for the rambling of a machine?"
+ 
+ bos.1.t:0 "The Pacific Expedition" 
+ bos.1.d:0 "Our ships traveleled for months with nothing but the sea in all directions before the Captain of the U.S.S. Maxson saw the island of Honolulu which was for the most part nothing more than a crater however our forces were very surprised to discover that Pearl Harbor was left intact thanks to the Bases state of the art Anti-Air Defences. Upon landing at the facility our forces quickly discovered several warships in workable condition. Our forces believe that they can repair these ships and sail them back to California and utilize them in our navy."
+ bos.1.a:0 "We are heading home!" 
+ 
+ bos.2.t:0 "Fort Stevens" 
+ bos.2.d:0 "High Elder! We have just received communications from our Oregon Expedition. It appears that they arrived at Fort Stevens without any issue and although the Fortress was occupied by the people of the Maw upon witnessing our men clad in Power Armor they quickly laid down their arms and surrendered the fortress to us which seems to be for the most part unlooted as the lower levels remain secure thanks to a complete lockdown of the facility during the Great War."
+ bos.2.a:0 "Men, Secure The Fortress!" 
+ 
+ bos_event.3.t:0 "Secure Mores" 
+ bos_event.3.d:0 "High Elder! We have just received communications from the Alaskan Expedition! They are reporting that they have arrived at Mores Harbor and have encountered minimal resistance against the local wastelanders. Already they have begun unloading equipment and supplies however reports state that scouts from the a nation known as the Broken Coast have been watching them."
+ bos_event.3.a:0 "Fortify your positions!" 
+ 
+  bos.4.t:0 "Tierra City" 
+ bos.4.d:0 "High Elder! We have just recieved communications from the Mexico Expedition. They have successfully arrived at Fort Stockton and after a short skirmish with the local inhabitants have successfully seized the Fortress for themselves. Already they are preparing to protect themselves to whatever these unknown wastes may hold."
+ bos.4.a:0 "Scavenge Whatever You Can Find" 
+ 
+ bos.5.t:0 "The Alaskan Expedition" 
+ bos.5.d:0 "We have finally reached the outskirts of the Anchorage Frontline. The region is without a doubt overflowing with advanced technology however we only have enough time to explore one major location so we must choose carefully were to explore."
+ bos.5.a:0 "The Anchorage Armory" 
+ bos.5.b:0 "A Bunker Complex that is still broadcasting" 
+ bos.5.c:0 "A Chinese Foward Operating Base"
+ 
+ bos.6.t:0 "Anchorage Armory" 
+ bos.6.d:0 "Our forces slowly approached the Anchorage Depot which stored a large portion of the United States ordinance during the Alaskan Campaign. Although the above ground sections of the facility were completely destroyed the underground facilities of the bunkers seem to of have been spared destruction. After several days of scavenging our forces finally managed to restore power to the facility and have gained access to the armory of Anchorage."
+ bos.6.a:0 "Scavenge Whatever You Can Find!" 
+ 
+ bos.7.t:0 "The Bunker Complex" 
+ bos.7.d:0 "As our Paladins slowly approached the entrance to the bunkers they were instantly surrounded by dozens of soldiers with patches bearing that of the United States Military several of which were equipped with power armor. Our men quickly laid down their weapons and agreed to speak to their Commander who claimed to be the direct descendant of the forces who were stationed within the bunker. After hours of discussion the Commander finally admitted to the facilities desperate situation and agreed to join the Brotherhood of Steel and embark with us back to California. "
+ bos.7.a:0 "They will serve the Brotherhood perfectly! " 
+ 
+ bos.8.t:0 "Chinese FOB" 
+ bos.8.d:0 "Our forces slowly approached the Chinese FOB however they quickly realized that the Operating Base was a complete ghost town. Although most of the Facility was thoroughly looted our forces managed to find schematics to Chimera Tanks as well as the location of a offsite Chimera Tank Depot which may still house several tanks."
+ bos.8.a:0 "To the Armor Depot!" 
+ 
+ bos.9.t:0 "Our Eastern Brothers" 
+ bos.9.d:0 "Sir! We have successfully regained communications with our Washington D.C. based Chapter. From what we can tell they are currently bogged down in a war of attrition with Super Mutants that appear to be created from a nearby Vault. However thankfully there is some good news as you know our Eastern Chapter currently controls the remnants of the Pentagon which has allowed them to gain masses of pre-war technologies. Which they have agreed to contiunously transfer schematics etc. "
+ bos.9.a:0 "God Bless Them" 
+ 
+ bos.10.t:0 "The Lost Expedition" 
+ bos.10.d:0 "Sir! Our scouts have successfully regained communications with the Midwestern Brotherhood of Steel. From what our scouts can tell the Midwestern Brotherhood is established across the entire Midwestern United States however in recent years has been under siege from all directions due to overextension. However the Midwestern Brotherhood has agreed to establish an official line of communication with us as well as send us some of their most skilled forces to assist us in our western operations. "
+ bos.10.a:0 "No Longer Are They Lost" 
+ 
+  bos.11.t:0 "The Council Of Elders" 
+ bos.11.d:0 "Today the Brotherhood has been shaken to its core. High Elder Jeremy Maxson passed away after over half a century of ruling the Brotherhood. Jeremy Maxson will go down in history as one of the greatest High Elders of the Brotherhood of Steel however we have little time to mourn our loss as enemies will no doubt attempt to exploit this passing. We must choose who our new High Elder will be. "
+ bos.11.a:0 "The Paladin"
+ bos.11.b:0 "The Technocrat"
+ bos.11.c:0 "The Traditionalist"
+ bos.11.e:0 "The Rogue"
+ 
+   bos.12.t:0 "The Exodus" 
+ bos.12.d:0 "When the bombs dropped the founders of the Brotherhood of Steel found themselves holed up within the Mariposa Military Base and the situation was rapidly declining. After much discussion the founder of the Brotherhood of Steel Roger Maxson agreed to depart the facility and make it for the Lost Hills Military Bunker. Along the way a splinter group demanded to be allowed to go to the West Tek Facility and loot needed technologies from the area however doing so would leave the convoy of citizens that were being escorted vunerable to looters. "
+ bos.12.a:0 "The Spinter Faction Was Denied"
+ bos.12.b:0 "The Splinter Faction Was Approved"
+ 
+ bos.13.t:0 "The Initial Years" 
+ bos.13.d:0 "During the initial years after the Great War many of the members of the Brotherhood of Steel were growing restless and discontent was growing within the Lost Hills Bunker. It was agreed upon that to ensure stability within the organization all members of the Brotherhood must be put to work to keep their minds off the fact that the world they knew was no more. As such Roger Maxson decided the Perogative for the Brotherhood at the time would be. "
+ bos.13.a:0 "Maintaining and Expanding the Lost Hills Bunker"
+ bos.13.b:0 "Searching For Remnants of the United States Military"
+ 
+ 
+
+ 
+ bos.14.t:0 "Remnants Of The Old World " 
+ bos.14.d:0 "With the arrival of the Enclave, the Brotherhood of Steel was no longer the technological powerhouse it once was and as such felt extremely threatened by this new force thankfully however the Chosen One managed to destroy the Oil Rig and with it the majority of the Enclave's Military Capabilities. After several years of fighting the Enclave was reduced down to a single military base known as Navarro. With the Armies of California preparing for one last assault on the Compound the Brotherhood was given a choice participate and help free California once and for all from the Enclave's Grip or place it efforts in recovering Enclave Arsenels. "
+ bos.14.a:0 "Technology Is More Important Than Human Life."
+ bos.14.b:0 "We Fought Beside the People of California"
+ 
+ 
+ 
+ redding.0.t:0 "Wealth Of Redding"
+redding.0.d:0 "With riches flowing rapidly into Redding we are now in a position to utilize this wealth the question however is what sector requires this wealth the most? "
+redding.0.a:0 "The Military"
+redding.0.b:0 "The Economy"
+
+ redding.1.t:0 "Klamath Question"
+redding.1.d:0 "The settlement of Klamath has long been our ally and during our War For Independence they sent us hundreds of Volunteers which proved vital to ensuring the defeat of the Barons and securing out independence. However now that we are independent we must think of our future has to do greatly with the future of Klamath. We must decide if we are going to annex them or turn them into a protectorate."
+redding.1.a:0 "Puppet Them"
+redding.1.b:0 "Annex Them"
+ 
+ 
+ redding.2.t:0 "The Mines"
+redding.2.d:0 "Redding was founded shortly after the Great War by a small group of prospectors that discovered that the Mines of Redding were full of metal and other worthwhile resources. The Mines of Redding were discovered to be mainly full of....... "
+redding.2.a:0 "Metal"
+redding.2.b:0 "Uranium"
+redding.2.c:0 "Refined Uranium"
+
+ redding.3.t:0 "Puppet Of The Barons"
+redding.3.d:0 "Upon being annexed by the Barons the Leadership of Redding was dedicated to secretly prepare for their chance to break free from the Barons as such they decided to invest their efforts in....."
+redding.3.a:0 "Stockpiling Weaponry"
+redding.3.b:0 "Growing Their Economy"
+redding.3.c:0 "Militarizing Their Population"
+
+
+ redding.4.t:0 "War For Independence"
+redding.4.d:0 "After the shocking defeat of Dayglow at the hands of the Boneyard who was viewed as an underdog nationalism within Redding reached its breaking point and people quickly took to the streets demanding independence. Within a week Redding announced its seccession to leave the Barons Republic and demanded the right to be independent. After a series of victories at the hands of Redding the Barons finally agreed to peace ensuring Redding's Independence for the time being. Redding quickly began preparing for a second war with the Barons by....."
+redding.4.a:0 "Reinforcing Their Southern Border"
+redding.4.b:0 "Creating Militia Forces"
+redding.4.c:0 "Militarizing The Population"
+
+
+redding.5.t:0 "Digging Deep"
+redding.5.d:0 "With Independence secured the leaders of Redding turned towards their mines to fund the countries economy. After half a decade of non-stop mining the leadership of Redding decided to use their funds to fund ......"
+redding.5.a:0 "The Military Industry"
+redding.5.b:0 "The Civilian Industry"
+
+ bos_event.15.t:0 "Request Support From Command" 
+ bos_event.15.d:0 "Our newly created Cascadian Chapter has reached out to us requesting a large care package to help ensure they are capable of holding down Haida and eventually partake in large scale operations across the Northern Frontier. It is your choice to accept their request however keep in mind that if we refuse they will grow more independent while if we supply them they will continue to be dependable on them."
+ bos_event.15.a:0 "Approve The Care Package"
+ bos_event.15.b:0 "They can take care of themselves"
+ 
+ bos_event.16.t:0 "Command Sends Aid" 
+ bos_event.16.d:0 "The Brotherhood High Elders have accepted our request for additional equipment and already a task force of Zepplins have departed California on their way to Haida."
+ bos_event.16.a:0 "I Knew They Would Support Us."
+ 
+ bos_event.17.t:0 "Command Refuses Our Request " 
+ bos_event.17.d:0 "The Brotherhood's High Elders have refused our request for equipment and have stated we will have to make due with what we have."
+ bos_event.17.a:0 "Damn Them! Do They Not Understand Our Situation?"
+ 
+ bos_event.18.t:0 "Who Gets The Fleet?" 
+ bos_event.18.d:0 "With the United States Fleet stationed in Haida repaired it is now time for us to decide who gets control of the fleet. Shall we utilize the fleet to expand our chapters influence or give the fleet to the Main Chapter?"
+ bos_event.18.a:0 "It Is Rightfully Ours"
+ bos_event.18.b:0 "This Kind of Power Belongs to High Command"
+
+ bos_event.19.t:0 "The Cascadian Chapter Offers Us A Gift" 
+ bos_event.19.d:0 "The Cascadian Chapter has successfully repaired a fleet stationed in Haida and has offered us that fleet to strengthen our position in the Wasteland"
+ bos_event.19.a:0 "It Seems Our Investment Is Paying Off"
+ 
+ bos_event.20.t:0 "Who To Strike" 
+ bos_event.20.d:0 "Our Chapter is now in a situation where it can effectively strike its neighbors however we first have to decide whether to strike Broken Coast or New Victoria. However this will of course need to be approved by High Command."
+ bos_event.20.a:0 "Ask For Permission To Strike New Victoria"
+ bos_event.20.b:0 "Ask For Permission To Strike Broken Coast"
+ 
+ bos_event.21.t:0 "Cascadia Asks For Permission To Strike New Victoria" 
+ bos_event.21.d:0 "The Cascadian Chapter has requested permission to begin a military campaign against New Victoria to ensure it is capable of expanding its military dominance in the region. Should We Authorize This? "
+ bos_event.21.a:0 "They Want War? They Shall Have It!"
+ bos_event.21.b:0 "We Cannot Approve This!"
+ 
+ bos_event.22.t:0 "Cascadia Asks For Permission To Strike Broken Coast" 
+ bos_event.22.d:0 "The Cascadian Chapter has requested permission to begin a military campaign against Broken Coast to ensure it is capable of expanding its military dominance in the region. Should We Authorize This? "
+ bos_event.22.a:0 "They Want War? They Shall Have It!"
+ bos_event.22.b:0 "We Cannot Approve This!"
+ 
+ bos_event.23.t:0 "Request Support From Command" 
+ bos_event.23.d:0 "Our newly created Oregon Chapter has reached out to us requesting a large care package to help ensure they are capable of holding down Fort Stevens and eventually partake in large scale operations across the Northern Frontier. It is your choice to accept their request however keep in mind that if we refuse they will grow more independent while if we supply them they will continue to be dependable on them."
+ bos_event.23.a:0 "Approve The Care Package"
+ bos_event.23.b:0 "They can take care of themselves"
+ 
+ bos_event.24.t:0 "Command Sends Aid" 
+ bos_event.24.d:0 "The Brotherhood High Elders have accepted our request for additional equipment and already a task force of Zepplins have departed California on their way to Fort Stevens."
+ bos_event.24.a:0 "I Knew They Would Support Us."
+ 
+ bos_event.25.t:0 "Command Refuses Our Request " 
+ bos_event.25.d:0 "The Brotherhood's High Elders have refused our request for equipment and have stated we will have to make due with what we have."
+ bos_event.25.a:0 "Damn Them! Do They Not Understand Our Situation?"
+ 
+ bos_event.26.t:0 "Oregon Asks For Permission To Strike Port Maw" 
+ bos_event.26.d:0 "The Oregon Chapter has requested permission to begin a military campaign against New Victoria to ensure it is capable of expanding its military dominance in the region. Should We Authorize This? "
+ bos_event.26.a:0 "They Want War? They Shall Have It!"
+ bos_event.26.b:0 "We Cannot Approve This!"
+ 
+ bos_event.27.t:0 "Who To Strike" 
+ bos_event.27.d:0 "Our Chapter is now in a situation where it can effectively strike its neighbors however we first have to decide whether to strike the Troll Warren or the Washington Brotherhood of Steel. However this will of course need to be approved by High Command."
+ bos_event.27.a:0 "Ask For Permission To Strike The Mutants"
+ bos_event.27.b:0 "Ask For Permission To Strike Our Treasonous Brothers"
+ 
+ bos_event.28.t:0 "Oregon Asks For Permission To Strike Troll Warren" 
+ bos_event.28.d:0 "The Oregon Chapter has requested permission to begin a military campaign against the Troll Warren to ensure it is capable of expanding its military dominance in the region. Should We Authorize This? "
+ bos_event.28.a:0 "They Want War? They Shall Have It!"
+ bos_event.28.b:0 "We Cannot Approve This!"
+ 
+ bos_event.29.t:0 "Oregon Asks For Permission To Strike the Washington Brotherhood" 
+ bos_event.29.d:0 "The Oregon Chapter has requested permission to begin a military campaign against the Troll Warren to ensure it is capable of expanding its military dominance in the region. Should We Authorize This? "
+ bos_event.29.a:0 "They Want War? They Shall Have It!"
+ bos_event.29.b:0 "We Cannot Approve This!"
+ 
+ bos_event.30.t:0 "To War!" 
+ bos_event.30.d:0 "Our Brothers have approved our request to deal with the traitors who have branded themselves as the Washington Brotherhood. It is time to prove ourselves to High Command that we are a capable Chapter."
+ bos_event.30.a:0 "To War Men!"
+ 
+ bos_event.31.t:0 "Our Brothers Falter" 
+ bos_event.31.d:0 "Our Brothers in the West have denied our logical demand to deal with the traitors that brand themselves as the Washington Brotherhood. "
+ bos_event.31.a:0 "Perhaps it is time for us to be in charge of our own destiny?"
+ 
+ bos_event.32.t:0 "Permission Granted" 
+ bos_event.32.d:0 "Our Brothers have approved our request to deal with the abominations known as the Troll Warren to our south through firepower and steel they will be crushed. "
+ bos_event.32.a:0 "Prepare The Paladins"
+ 
+ bos_event.33.t:0 "Our Brothers Refuse" 
+ bos_event.33.d:0 "Our Brothers have denied our request to deal with the Troll Warren and as such are allowing them to continue to run rampant through the wastes."
+ bos_event.33.a:0 "Perhaps They Do Not Understand What Is Best For The Wasteland?"
+ 
+ bos_event.34.t:0 "Permission Granted" 
+ bos_event.34.d:0 "Our Brothers have approved our request to deal with New Victoria and and as such are helping us ensure we can maintain our position in Cascadia."
+ bos_event.34.a:0 "Prepare The Paladins!" 
+ 
+ bos_event.35.t:0 "Our Brothers Refuse" 
+ bos_event.35.d:0 "Our Brothers have denied our request to deal with the New Victoria and as such they are refusing to allow us to get effective control over Cascadia."
+ bos_event.35.a:0 "Perhaps They Do Not Understand What Is Best For The Wasteland?"
+ 
+ bos_event.36.t:0 "Permission Granted" 
+ bos_event.36.d:0 "Our Brothers have approved our request to deal with Broken Coast and and as such are helping us ensure we can maintain our position in Cascadia."
+ bos_event.36.a:0 "Prepare The Paladins!" 
+ 
+ bos_event.37.t:0 "Our Brothers Refuse" 
+ bos_event.37.d:0 "Our Brothers have denied our request to deal with the Broken Coast and as such they are refusing to allow us to get effective control over Cascadia."
+ bos_event.37.a:0 "Perhaps They Do Not Understand What Is Best For The Wasteland?"
+ 
+ bos_event.38.t:0 "Request Support From Command" 
+ bos_event.38.d:0 "Our newly created Mexico Chapter has reached out to us requesting a large care package to help ensure they are capable of holding down Fort Stevens and eventually partake in large scale operations across the Southern Frontier. It is your choice to accept their request however keep in mind that if we refuse they will grow more independent while if we supply them they will continue to be dependable on them."
+ bos_event.38.a:0 "Approve The Care Package"
+ bos_event.38.b:0 "They can take care of themselves"
+ 
+ bos_event.39.t:0 "Command Sends Aid" 
+ bos_event.39.d:0 "The Brotherhood High Elders have accepted our request for additional equipment and already a task force of Zepplins have departed California on their way to Tierra City."
+ bos_event.39.a:0 "I Knew They Would Support Us."
+ 
+ bos_event.40.t:0 "Command Refuses Our Request " 
+ bos_event.40.d:0 "The Brotherhood's High Elders have refused our request for equipment and have stated we will have to make due with what we have."
+ bos_event.40.a:0 "Damn Them! Do They Not Understand Our Situation?"
+ 
+ bos_event.41.t:0 "Mexico Asks For Permission To Strike Tierra" 
+ bos_event.41.d:0 "The Mexico Chapter has requested permission to begin a military campaign against the region surrounding Tierra to ensure it is capable of expanding its military dominance in the region. Should We Authorize This? "
+ bos_event.41.a:0 "They Want War? They Shall Have It!"
+ bos_event.41.b:0 "We Cannot Approve This!"
+ 
+ bos_event.42.t:0 "Permission Granted" 
+ bos_event.42.d:0 "Our Brothers have approved our request to deal with the people of Tierra and and as such are helping us ensure we can maintain our position in Northern Mexico."
+ bos_event.42.a:0 "Prepare The Paladins!" 
+ 
+ bos_event.43.t:0 "Our Brothers Refuse" 
+ bos_event.43.d:0 "Our Brothers have denied our request to deal with the outskirts of Tierra and as such they are refusing to allow us to get effective control over Northern Mexico."
+ bos_event.43.a:0 "Perhaps They Do Not Understand We Are Vunerable?"
+ 
+ bos_event.44.t:0 "Permission Granted" 
+ bos_event.44.d:0 "Our Brothers have approved our request to deal with the people of Tierra and and as such are helping us ensure we can maintain our position in Oregon."
+ bos_event.44.a:0 "Prepare The Paladins!" 
+ 
+ bos_event.45.t:0 "Our Brothers Refuse" 
+ bos_event.45.d:0 "Our Brothers have denied our request to deal with the outskirts of Port Maw and as such they are refusing to allow us to get effective control over Oregon."
+ bos_event.45.a:0 "Perhaps They Do Not Understand We Are Vunerable?"
+ 
+ bos_event.46.t:0 "Mexico Asks For Permission To Strike Gente Del Sol" 
+ bos_event.46.d:0 "The Mexico Chapter has requested permission to begin a military campaign against the state of Gente Del Sol to ensure it is capable of expanding its military dominance in the region. Should We Authorize This? "
+ bos_event.46.a:0 "We Must Allow This Operation"
+ bos_event.46.b:0 "We Cannot Approve This!"
+ 
+ bos_event.47.t:0 "Permission Granted" 
+ bos_event.47.d:0 "Our Brothers have approved our request to deal with the people of Tierra and and as such are helping us ensure we can maintain our position in Mexico."
+ bos_event.47.a:0 "Prepare The Paladins!" 
+ 
+ bos_event.48.t:0 "Our Brothers Refuse" 
+ bos_event.48.d:0 "Our Brothers have denied our request to deal with the outskirts of Tierra and as such they are refusing to allow us to get effective control over Mexico."
+ bos_event.48.a:0 "Perhaps They Do Not Understand We Are Vunerable?"
+ 
+ bos_event.49.t:0 "Unexpected Guests" 
+ bos_event.49.d:0 "Sir, Strange men clad in Power Armor and Energy Weapons have arrived on the outskirts of Fort Stevens and claim to be members of the so called Brotherhood of Steel. They have requested that we peacefully cede Fort Stevens to allow them to establish an outpost in the region. However they have very clearly stated that if we refuse they will resort to using deadly force to ensure the fort comes under their control. What do we do"
+ bos_event.49.a:0 "We Have No Choice. The Fort Is Theirs." 
+ bos_event.49.b:0 "They Will Never Take Fort Stevens"
+ 
+ bos_event.50.t:0 "Securing Fort Stevens By Force" 
+ bos_event.50.d:0 "The inhabitants of Fort Stevens have refused our reasonable demand to hand over the fortress and as such we have no choice but to seize Fort Stevens By Force"
+ bos_event.50.a:0 "Prepare The Paladins!"
+ 
+ bos_event.51.t:0 "Unexpected Guests" 
+ bos_event.51.d:0 "Sir, Strange men clad in Power Armor and Energy Weapons have arrived on the outskirts of Haida and claim to be members of the so called Brotherhood of Steel. They have requested that we peacefully cede the islands of Haida to allow them to establish an outpost in the region. However they have very clearly stated that if we refuse they will resort to using deadly force to ensure the fort comes under their control. What do we do"
+ bos_event.51.a:0 "We Have No Choice.  The Island is theirs."
+ bos_event.51.b:0 "They Will Never Take Haida"
+ 
+ bos_event.52.t:0 "Securing Haida By Force" 
+ bos_event.52.d:0 "The inhabitants of Haida have refused our reasonable demand to hand over the fortress and as such we have no choice but to seize Haida By Force"
+ bos_event.52.a:0 "Prepare The Paladins!"
+ 
+ bos_event.53.t:0 "Secure Mores" 
+ bos_event.53.d:0 "High Elder! We have just received communications from the Alaskan Expedition! They are reporting that they have arrived at Mores Harbor and have encountered minimal resistance against the local wastelanders. Already they have begun unloading equipment and supplies however reports state that scouts from the a nation known as the Broken Coast have been watching them."
+ bos_event.53.a:0 "Fortify your positions!" 
+ 
+ 
+ bos_event.54.t:0 "Unexpected Guests" 
+ bos_event.54.d:0 "Sir, Strange men clad in Power Armor and Energy Weapons have arrived on the outskirts of Haida and claim to be members of the so called Brotherhood of Steel. They have requested that we peacefully cede the city of Tierra to allow them to establish an outpost in the region. However they have very clearly stated that if we refuse they will resort to using deadly force to ensure the city comes under their control. What do we do"
+ bos_event.54.a:0 "We Have No Choice.  The City is theirs."
+ bos_event.54.b:0 "They Will Never Take Tierra City"
+ 
+ bos_event.55.t:0 "Securing Tierra City By Force" 
+ bos_event.55.d:0 "The inhabitants of Tierra City have refused our reasonable demand to hand over the fortress and as such we have no choice but to seize Tierra City By Force"
+ bos_event.55.a:0 "Prepare The Paladins!"
+ 
+ bos_event.56.t:0 "The Vipers"
+ bos_event.56.d:0 "As the Brotherhood began growing into a more regional power it shortly after encountered a major gang known as the Vipers who after several skirmishes managed to kill Elder Maxson of the Brotherhood of Steel. Many within the Brotherhood demanded blood and a complete comapaign against the Vipers due to their actions while others thought it was best to stay within the Bunker and wait them out."  
+ bos_event.56.a:0 "The Brotherhood Retreated"
+ bos_event.56.b:0 "The Brotherhood Attacked"

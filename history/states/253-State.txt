@@ -1,0 +1,32 @@
+state={
+	id=253
+	name="STATE_SHADY_SANDS"
+	resources={
+		water = 16
+		circuitry = 4
+		energy = 24
+	}
+
+	history={
+		owner = NCR
+		add_core_of = NCR
+		victory_points = {
+			8814 50
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 6
+			radar_station = 1
+
+		}
+
+	}
+
+	provinces={
+		8814 8819 8820 8822 8824 8825 8827 8830 8831 8832 8833 8835 8839 8840 8841 8842 8843 8844 8845
+	}
+	manpower=55000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

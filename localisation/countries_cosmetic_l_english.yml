@@ -1,0 +1,19 @@
+﻿l_english:
+####
+ DIV_LEG_elites:0 "Ulysses's Legion"
+ DIV_LEG_elites_DEF:0 "Ulysses's Legions"
+ DIV_LEG_elites_ADJ:0 "Legionares"
+ DIV_LEG_people_DEF:0 "Ulysses's Legions"
+ DIV_LEG_intellectuals_DEF:0 "Ulysses's Legions"
+ 
+###
+ DIV_MOJ_intellectuals:0 "Mojave Republic"
+ DIV_MOJ_intellectuals_DEF:0 "The Mojave Republics"
+ DIV_MOJ_intellectuals_ADJ:0 "Mojave Citizen"
+ 
+ ###
+ VIC_CHAPTER_intellectuals:0 "Victorian Chapter"
+ VIC_CHAPTER_intellectuals_DEF:0 "The Victorian Chapter"
+ VIC_CHAPTER_elites_DEF:0 "The Victorian Chapter"
+ VIC_CHAPTER_people_DEF:0 "The Victorian Chapter"
+ 

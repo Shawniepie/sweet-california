@@ -1,0 +1,27 @@
+state = {
+	id = 233
+	name = "STATE_NINEFINGERS"
+	manpower = 25000
+	state_category = rural
+
+	resources = {
+	}
+
+	history = {
+		owner = IRN
+		add_core_of = IRN
+		add_core_of = BSU
+		victory_points = {
+			8986 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+	}
+
+	provinces = {
+		697 5278 7026 7032 7033 7042 7043 7044 7045 7046 7048 7049 7050 7051 8986 8987 8988 8989 8990
+	}
+}
