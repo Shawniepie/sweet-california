@@ -1,0 +1,338 @@
+spriteTypes = {
+
+	###########################
+	###### IRON ALLIANCE ######
+	###########################
+
+	spriteType = {
+		name = "GFX_goals_IRN_1"
+		texturefile = "gfx/interface/goals/IRN_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_2"
+		texturefile = "gfx/interface/goals/IRN_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Altilery"
+		texturefile = "gfx/interface/goals/IRN_Altilery.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goals_IRN_Ammo"
+		texturefile = "gfx/interface/goals/IRN_Ammo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goals_IRN_Armoury"
+		texturefile = "gfx/interface/goals/IRN_Armoury.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goals_IRN_Auto"
+		texturefile = "gfx/interface/goals/IRN_Auto.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Bulleteater"
+		texturefile = "gfx/interface/goals/IRN_Bulleteater.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_City"
+		texturefile = "gfx/interface/goals/IRN_City.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_City_2"
+		texturefile = "gfx/interface/goals/IRN_City_2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goals_IRN_Command"
+		texturefile = "gfx/interface/goals/IRN_Command.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goals_IRN_Compass"
+		texturefile = "gfx/interface/goals/IRN_Compass.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Entry"
+		texturefile = "gfx/interface/goals/IRN_Entry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Factory"
+		texturefile = "gfx/interface/goals/IRN_Factory.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Fighter"
+		texturefile = "gfx/interface/goals/IRN_Fighter.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Fist"
+		texturefile = "gfx/interface/goals/IRN_Fist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Gate"
+		texturefile = "gfx/interface/goals/IRN_Gate.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Minigun"
+		texturefile = "gfx/interface/goals/IRN_Minigun.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Motorized"
+		texturefile = "gfx/interface/goals/IRN_Motorized.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Pipe_Guns"
+		texturefile = "gfx/interface/goals/IRN_Pipe_Guns.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Port"
+		texturefile = "gfx/interface/goals/IRN_Port.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Reaserch"
+		texturefile = "gfx/interface/goals/IRN_Reaserch.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Robots"
+		texturefile = "gfx/interface/goals/IRN_Robots.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Scull"
+		texturefile = "gfx/interface/goals/IRN_Scull.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Slave"
+		texturefile = "gfx/interface/goals/IRN_Slave.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Slaves"
+		texturefile = "gfx/interface/goals/IRN_Slaves.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Slums"
+		texturefile = "gfx/interface/goals/IRN_Slums.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Swords"
+		texturefile = "gfx/interface/goals/IRN_Swords.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_T-45"
+		texturefile = "gfx/interface/goals/IRN_T-45.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_T-51"
+		texturefile = "gfx/interface/goals/IRN_T-51.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_vFOR"
+		texturefile = "gfx/interface/goals/IRN_vFOR.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_vNCN"
+		texturefile = "gfx/interface/goals/IRN_vNCN.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_vPNT"
+		texturefile = "gfx/interface/goals/IRN_vPNT.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_vUIN"
+		texturefile = "gfx/interface/goals/IRN_vUIN.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_vWHD"
+		texturefile = "gfx/interface/goals/IRN_vWHD.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_vYMP"
+		texturefile = "gfx/interface/goals/IRN_vYMP.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Workshop"
+		texturefile = "gfx/interface/goals/IRN_Workshop.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_3"
+		texturefile = "gfx/interface/goals/IRNBOS_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_BOS"
+		texturefile = "gfx/interface/goals/IRNBOS_BOS.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_FIST"
+		texturefile = "gfx/interface/goals/IRNBOS_FIST.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_Gasmask"
+		texturefile = "gfx/interface/goals/IRNBOS_Gasmask.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_MOJ"
+		texturefile = "gfx/interface/goals/IRNBOS_MOJ.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_Radio"
+		texturefile = "gfx/interface/goals/IRNBOS_Radio.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_Scull2"
+		texturefile = "gfx/interface/goals/IRNBOS_Scull2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_T-45"
+		texturefile = "gfx/interface/goals/IRNBOS_T-45.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_T-51"
+		texturefile = "gfx/interface/goals/IRNBOS_T-51.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNPAC_CES"
+		texturefile = "gfx/interface/goals/IRNPAC_CES.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNPAC_HAN"
+		texturefile = "gfx/interface/goals/IRNPAC_HAN.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNPAC_SCO"
+		texturefile = "gfx/interface/goals/IRNPAC_SCO.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNPAC_vCES"
+		texturefile = "gfx/interface/goals/IRNPAC_vCES.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNPAC_WHD"
+		texturefile = "gfx/interface/goals/IRNPAC_WHD.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNPAC_Selection"
+		texturefile = "gfx/interface/goals/IRNPAC_Selection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNPAC_PAC"
+		texturefile = "gfx/interface/goals/IRNPAC_PAC.dds"
+	}
+	
+
+	spriteType = {
+		name = "GFX_goals_IRN_ENSLAVE_WEST"
+		texturefile = "gfx/interface/goals/IRN_ENSLAVE_WEST.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Selection"
+		texturefile = "gfx/interface/goals/IRN_Selection.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_QUICK"
+		texturefile = "gfx/interface/goals/IRN_QUICK.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Supply"
+		texturefile = "gfx/interface/goals/IRN_Supply.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Bible"
+		texturefile = "gfx/interface/goals/IRN_Bible.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Cross"
+		texturefile = "gfx/interface/goals/IRN_Cross.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Father_Dead"
+		texturefile = "gfx/interface/goals/IRN_Father_Dead.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_goals_IRN_Paradise"
+		texturefile = "gfx/interface/goals/IRN_Paradise.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Father"
+		texturefile = "gfx/interface/goals/IRN_Father.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Hand"
+		texturefile = "gfx/interface/goals/IRN_Hand.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNPAC_CESOK"
+		texturefile = "gfx/interface/goals/IRNPAC_CESOK.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRN_Mesmer"
+		texturefile = "gfx/interface/goals/IRN_Mesmer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_VLT"
+		texturefile = "gfx/interface/goals/IRNBOS_VLT.dds"
+	}
+
+	spriteType = {
+		name = "GFX_goals_IRNBOS_NSV"
+		texturefile = "gfx/interface/goals/IRNBOS_NSV.dds"
+	}
+
+}

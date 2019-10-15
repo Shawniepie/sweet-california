@@ -1,0 +1,33 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_BULL"
+		texturefile = "gfx/interface/ideas/ministers/BULL.dds"
+		}
+
+	spriteType = {
+		name = "GFX_idea_MESMER"
+		texturefile = "gfx/interface/ideas/ministers/MESMER.dds"
+		}
+
+	spriteType = {
+		name = "GFX_idea_OLDDOG"
+		texturefile = "gfx/interface/ideas/ministers/OLDDOG.dds"
+		}
+
+	spriteType = {
+		name = "GFX_idea_STINGER"
+		texturefile = "gfx/interface/ideas/ministers/STINGER.dds"
+		}
+
+	spriteType = {
+		name = "GFX_idea_TEETH"
+		texturefile = "gfx/interface/ideas/ministers/TEETH.dds"
+		}
+
+	spriteType = {
+		name = "GFX_idea_QUICK"
+		texturefile = "gfx/interface/ideas/ministers/QUICK.dds"
+		}
+
+
+	}
