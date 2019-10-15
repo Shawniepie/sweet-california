@@ -1,0 +1,399 @@
+﻿add_namespace = day_event
+
+
+
+
+# How We Survived 
+country_event = {
+    id = day_event.0
+    title = day.0.t
+    desc = day.0.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+		option = {
+		name = day.0.a
+			63 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				
+	}
+	63 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			}
+			
+		option = {
+    name = day.0.b
+		add_stability = .10
+			
+		}	
+		
+    	option = {
+    name = day.0.c
+		add_ideas = establishedtraderoutes
+    }
+}
+
+
+
+
+# The Creation Of A State 
+country_event = {
+    id = day_event.1
+    title = day.1.t
+    desc = day.1.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+    name = day.1.a
+		add_ideas = ExpansionisticPast
+	}
+	
+	option = {
+    name = day.1.b
+		add_stability = .10 
+		63 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				
+	}
+
+}
+}
+
+
+
+# After The Oil Rig 
+country_event = {
+    id = day_event.2
+    title = day.2.t
+    desc = day.2.d
+    picture = GFX_event_generic_settlement_2
+    is_triggered_only = yes
+    
+	option = {
+		name = day.2.a
+		add_manpower = -500
+					add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+				add_opinion_modifier = { target = BOS modifier = Battle_Of_Navarro }
+				add_opinion_modifier = { target = NCR modifier = Battle_Of_Navarro }
+				add_opinion_modifier = { target = BRR modifier = Battle_Of_Navarro }
+				add_opinion_modifier = { target = RNG modifier = Battle_Of_Navarro }
+				add_opinion_modifier = { target = SHI modifier = Battle_Of_Navarro }
+	}
+	option = {
+		name = day.2.b
+		add_stability = -0.1
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.1
+			}
+			load_oob = NavarroSurvivors
+			add_equipment_to_stockpile = { 
+				type = power_armor_equipment_2
+				amount = 500
+				producer = BOS			
+			}
+			add_equipment_to_stockpile = { 
+				type = energy_equipment_2
+				amount = 500
+				producer = BOS		
+			}
+	}	
+
+}
+
+
+
+#Dayglow-Boneyard War 
+country_event = {
+    id = day_event.3
+    title = day.3.t
+    desc = day.3.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = day.3.a
+		BNS = {
+                add_manpower = -750
+            }
+			add_manpower = 750
+	}
+	
+	option = {
+		name = day.3.b
+		add_stability = -0.10
+		
+		}	
+}
+
+
+
+
+
+
+##  Descending Into The Glow 
+country_event = {
+    id = day_event.4
+    title = day.4.t
+    desc = day.4.d
+    picture = GFX_event_pictures_glowsurface
+    is_triggered_only = yes
+    
+	option = {
+		name = day.4.a
+		add_equipment_to_stockpile = { 
+				type = power_armor_equipment_2
+				amount = 6
+				producer = BOS			
+			}
+				add_equipment_to_stockpile = { 
+				type = light_robot_equipment_2  
+				amount = 15
+				producer = VEG	
+			}
+			
+	}
+}
+
+
+##  Preparing To Enter The Glow 
+country_event = {
+    id = day_event.5
+    title = day.5.t
+    desc = day.5.d
+    picture = GFX_event_BOS_bunker_door
+    is_triggered_only = yes
+    
+	option = {
+		name = day.5.a
+		add_manpower = -250
+	}
+}
+
+
+##  Scavenging The Outskirts  
+country_event = {
+    id = day_event.6
+    title = day.6.t
+    desc = day.6.d
+    picture = GFX_event_NCR_settlers
+    is_triggered_only = yes
+    
+	option = {
+		name = day.6.a
+			add_equipment_to_stockpile = {   
+				type = power_armor_equipment_2
+				amount = 25
+				producer = BOS			 
+			}
+						add_equipment_to_stockpile = { 
+				type = ballistic_equipment_1  
+				amount = 500
+				producer = VLT	
+			}
+			add_equipment_to_stockpile = { 
+				type = explosive_equipment_1  
+				amount = 250
+				producer = CES	
+			}
+			add_equipment_to_stockpile = { 
+				type = anti_personnel_equipment_1  
+				amount = 250
+				producer = NCR
+			}
+		
+	}
+}
+
+
+
+
+
+
+
+
+##  Initial Levels 
+country_event = {
+    id = day_event.7
+    title = day.7.t
+    desc = day.7.d
+    picture = GFX_event_BOS_bunker_door
+    is_triggered_only = yes
+    
+	option = {
+	name = day.7.a
+		add_equipment_to_stockpile = { 
+				type = ballistic_equipment_1 
+				amount = 400
+				producer = VLT		
+				}
+
+			
+			set_technology = { power_armour = 1 }
+				
+			}
+			
+		
+			
+			
+	}
+
+
+
+
+##  Research Center 
+country_event = {
+    id = day_event.8
+    title = day.8.t
+    desc = day.8.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+	name = day.8.a
+		add_ideas = ZAXComputer
+			add_research_slot = 1
+	}
+}
+
+
+
+##  Explore the Weapons Development Floor   
+country_event = {
+    id = day_event.9
+    title = day.9.t
+    desc = day.9.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+	name = day.9.a
+		
+		set_technology = {
+			anti_personnel_tech_3 = 1
+			laser_tech_3 = 1 
+			  improved_laser_weaponry = 1
+			  }
+		add_ideas = { GlowSchematics
+		
+	}
+}
+}
+
+##  Explore the Advanced Development Floor   
+country_event = {
+    id = day_event.10
+    title = day.10.t
+    desc = day.10.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+	name = day.10.a
+		
+		set_technology = {
+			
+			robo_brain_tech = 1
+			
+			sentry_bot_tech = 1
+			
+			
+			  }
+		
+	}
+}
+
+
+##  Explore the Advanced Development Floor   
+country_event = {
+    id = day_event.11
+    title = day.11.t
+    desc = day.11.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+	name = day.11.a
+		
+		
+						add_equipment_to_stockpile = { 
+				type = heavy_robot_equipment_2  
+				amount = 1500
+				producer = GLO
+			}
+			
+			
+			
+			
+			add_equipment_to_stockpile = { 
+				type = ballistic_equipment_1 
+				amount = 1000
+				producer = VLT		
+				}
+			
+			
+			
+			  }
+		
+	}
+	
+	
+	
+	##  Master's Work   
+country_event = {
+    id = day_event.12
+    title = day.12.t
+    desc = day.12.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+	name = day.12.a
+		
+		add_manpower = 2500
+			
+			
+			
+			  }
+		
+	}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

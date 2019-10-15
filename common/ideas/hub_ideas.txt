@@ -1,0 +1,301 @@
+ideas = {
+	country = {
+        
+		consolidateResources = {
+			
+			picture = generic_exploit_mines
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		hubmercenaries = {
+            
+            picture = hol_expand_the_colonial_army
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					
+            }
+        }
+		hireGunsmiths = {
+            
+            picture = new_deal
+            
+			allowed = {
+            }
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			
+			}
+
+        }
+		hubsafestborders = {
+            
+            picture = sour_loser
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					
+            }
+        }
+		hubprot = {
+			picture = generic_fortify_the_borders
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+			}
+		}
+		hubstreamlinedweaponry = {
+			
+			picture = generic_flexible_foreign_policy2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			industrial_capacity_factory = 0.1
+		    }
+		}
+		hubfreezone = {
+            
+            picture = chi_hyper_inflation5
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.1
+            }
+        }
+		hubpoliceforce = {
+            
+            picture = chi_army_corruption3
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.005
+					
+            }
+        }
+		hubharold = {
+			
+			picture = raj_risk_of_famine
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.1
+		    }
+		}
+		hubconsolidatemerchant = {
+			
+			picture = generic_political_support
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			    industrial_capacity_factory = 0.07
+		    }
+		}
+		hubserviceforwater = {
+            
+            picture = hol_liberation
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.03
+					
+            }
+        }
+		hubbrotherhoodideals = {
+			
+			picture = jap_supremacy_of_will
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				intellectuals_drift = 0.05
+		    }
+		}
+		hubwhychange = {
+			
+			picture = prc_permit_opium_trade
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				elites_drift = 0.05
+		    }
+		}
+		hubbosdebts = {
+            
+            picture = ger_mefo_bills_payment
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = 0.1
+            }
+        }
+		boshubdebts = {
+            
+            picture = ger_mefo_bills
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.1
+            }
+        }
+		hubdemocratic = {
+			
+			picture = hol_depillarization
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				people_drift = 0.05
+		    }
+		}
+		hubequalopportunity = {
+			picture = eng_tackle_capitalism
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		hubdemoelections = {
+			
+			picture = usa_desegregation_2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.15
+		    }
+		}
+		hubunderground = {
+			
+			picture = chi_war_of_resistance3
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				ruler_drift = 0.05
+		    }
+		}
+		hubdeckersplan = {
+			
+			picture = usa_great_depression_3
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				ruler_drift = 0.05
+		    }
+		}
+		hubmilitaryexpansion = {
+            
+            picture = sisu
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.05
+					
+            }
+        }
+		efficienttrade1 = {
+			
+			picture = generic_disjointed_gov
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = 0.80
+			
+			}
+			
+			
+		}
+	}
+}

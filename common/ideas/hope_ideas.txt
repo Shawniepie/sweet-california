@@ -1,0 +1,743 @@
+ideas = {
+
+	country = {
+		
+		hopestrongest = {
+		
+				   picture = generic_morale_bonus
+				   
+				   allowed ={
+				   }
+				   
+				   removal_cost= -1
+				   
+				Modifier = {
+						  army_attack_factor= 0.04
+						  army_defence_factor = 0.02
+						 }
+		
+		
+		}
+		hopesmartest = {
+		
+				   picture = generic_morale_bonus
+				   
+				   allowed ={
+				   }
+				   
+				   removal_cost= -1
+				   
+				Modifier = {
+						  research_speed_factor = 0.05
+						  production_factory_start_efficiency_factor = 0.05
+						 }
+		
+		
+		}
+		hopehealthiest = {
+		
+				   picture = generic_morale_bonus
+				   
+				   allowed ={
+				   }
+				   
+				   removal_cost= -1
+				   
+				Modifier = {
+						  MONTHLY_POPULATION = 0.10
+						  mobilization_speed = 0.10
+						 }
+		
+		
+		}
+		hopelargepackage = { #Hehe
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		hopesensitiveinfo = {
+			picture = GFX_focus_research
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		hopespeedydeliveries = {
+			picture = generic_morale_bonus
+			
+			removal_cost = -1
+			
+			allowed = {
+			}
+			modifier = {
+				army_speed_factor = 0.05
+				army_org_factor = 0.05
+			}
+			
+		}
+		hopefixinfra = {
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+		hopebegintrading = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.05
+            }
+        }
+		hopebeginarmy = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.005
+            }
+        }
+		
+			CorporateSlaves = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.03
+            }
+        }
+		hopeopentrade = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.03
+            }
+        }
+		
+		New_Life = {
+		
+			picture = salvaged_military_industry
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		
+		}
+		
+			Migration = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.50
+				conscription = 0.01
+			
+		    }
+		}
+		
+					HOP_Prospectors = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.25
+			
+		    }
+		}
+		
+				HOP_Standards = {
+				
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.05
+			 army_infantry_defence_factor = 0.05
+			 army_morale_factor = 0.05
+
+			}
+		}
+				Hope_Service = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					mobilization_speed = 0.250
+            }
+        }
+		
+				Hope_RangersLeadTheWay = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				special_forces_cap = 0.40
+			}
+			
+		}
+				Democratic_Ideals = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				people_drift = 0.05
+		    }
+		}
+				Route95 = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.05
+            }
+        }
+		ComeToHopevilleToStartAgain = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.75
+				conscription = 0.005
+			
+		    }
+		}
+				Hopeville_State_For_Survivalists = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			conscription = 0.02
+			army_infantry_attack_factor = 0.05
+			 army_infantry_defence_factor = 0.05
+			 army_morale_factor = 0.05
+			
+		    }
+		}
+		Merchant_Influence = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				elites_drift = 0.05
+		    }
+		}
+			MerchantPower = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				elites_drift = 0.1
+		    }
+		}
+				Increased_Route_95_Trade = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				consumer_goods_factor = -0.10
+		    }
+		}
+		
+		Silk_Road = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				consumer_goods_factor = -0.15
+				MONTHLY_POPULATION = 0.25
+				production_speed_buildings_factor = 0.1
+				local_resources_factor = 0.1
+				global_building_slots_factor = 0.1
+		    }
+		}
+		
+		LabInMountains = {
+			picture = GFX_focus_research
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.10
+				
+			}
+		}
+		
+		Protectors_Of_The_Weak = {
+				
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.05
+			 army_infantry_defence_factor = 0.05
+			 conscription = 0.025
+
+			}
+		}
+		RepublicanMigration = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			
+				MONTHLY_POPULATION = 0.25
+		
+				
+		    }
+		}
+				 RepublicanConscription = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				conscription = 0.025
+			
+		    }
+		}
+		
+						 Serve_Hop = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				conscription = 0.02
+			
+		    }
+		}
+		
+				FactoryOutput = {
+		
+			picture = free_trade 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+			
+		}
+						FactoryOutput_HOP = {
+		
+			picture = free_trade 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+			
+		}
+				ExpandRangerCorp = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				special_forces_cap = 0.25
+			}
+			
+		}
+		
+				RangersOnTheMove = {
+				
+			picture = cult_of_diana
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+			
+			 army_speed_factor = 0.10
+			}
+		}
+		
+		 ForcedConscription_Hop = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				conscription = 0.02
+			
+		    }
+		}
+		
+				Republican_Military_Doctrine = {
+				
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.05
+			 army_morale_factor = 0.05
+			 army_speed_factor = 0.05
+			 training_time_factor = 0.10
+
+			}
+		}
+		
+		Intellectual_Hop = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				intellectuals_drift = 0.05
+		    }
+		}
+		
+		ResearchSpeed_HOP = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				research_speed_factor = 0.05	
+		    }
+		}
+		
+		
+			FaithInNewOrder = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			elites_drift = 0.05
+		    }
+		}
+		
+						Order_HOP = {
+				
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.10
+			 army_morale_factor = 0.10
+
+			}
+		}
+		
+		
+			Mojave_Allies = {
+				
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+		conscription = 0.075
+
+			}
+		}
+		
+	PreWarDoctrine_HOP = {
+			
+			picture = generic_infantry_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+				
+				max_planning = 0.15
+				
+				planning_speed = 0.15
+					
+			}
+			
+		}
+		
+		Melting_Pot = {
+			
+			picture = generic_infantry_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+				
+			 army_infantry_attack_factor = -0.15
+			 army_morale_factor = -0.15
+			 army_speed_factor = -0.15
+			 training_time_factor = 0.25
+					
+			}
+			
+		}
+		
+		
+		
+		Enclave_Wastelander_Coop = {
+				
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+		conscription = 0.02
+
+			}
+		}
+		
+		
+		Preparations_HOP = {
+			
+			picture = generic_infantry_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+					
+				army_core_defence_factor = 0.10
+				
+			}
+			
+		}
+		
+		Mojave_Unity = {
+			
+			picture = generic_infantry_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+					
+				army_core_defence_factor = 0.10
+				army_infantry_attack_factor = 0.05
+				
+			}
+			
+		}
+		
+		Scribes_HOP = {
+		
+				   picture = generic_morale_bonus
+				   
+				   allowed ={
+				   }
+				   
+				   removal_cost= -1
+				   
+				Modifier = {
+						  research_speed_factor = 0.10
+						 }
+		
+		
+		}
+		
+		
+			MerchantEmpire = {
+		
+			picture = free_trade 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+			}
+			
+		}
+	
+	} 
+
+	
+
+	
+	
+	 
+	
+	
+	
+
+			
+					
+
+			

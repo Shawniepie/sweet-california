@@ -1,0 +1,39 @@
+irn_vlt_1_decisions = {
+	icon = GFX_decision_category_brk_raiding_vic
+	allowed = { tag = IRN }
+}
+
+irn_vlt_2_decisions = {
+	icon = GFX_decision_category_brk_raiding_vic
+	allowed = { tag = IRN }
+}
+
+irn_vlt_3_decisions = {
+	icon = GFX_decision_category_brk_raiding_vic
+	allowed = { tag = IRN }
+}
+
+irn_bos_1_decisions = {
+	icon = GFX_decision_category_brk_raiding_vic
+	allowed = { tag = IRN }
+}
+
+irn_bos_12_decisions = {
+	icon = GFX_decision_category_brk_raiding_vic
+	allowed = { tag = IRN }
+}
+
+irn_pac_9_decisions = {
+	icon = GFX_decision_category_brk_raiding_vic
+	allowed = { tag = IRN }
+}
+
+irn_pac_10_decisions = {
+	icon = GFX_decision_category_brk_raiding_vic
+	allowed = { tag = IRN }
+}
+
+irn_pac_move_capital = {
+	icon = GFX_decision_category_brk_raiding_vic
+	allowed = { tag = IRN }
+}

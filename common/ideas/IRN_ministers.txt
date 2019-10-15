@@ -1,0 +1,290 @@
+ideas = {
+	army_chief = {
+
+	stinger = {
+
+			picture = STINGER
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_cosmetic_tag = IRN_PAC_cosmetic_tag
+				has_variable  = var_irn_sco
+				has_completed_focus = irn_nf_pac_8
+			}
+			
+			visible = {
+				has_cosmetic_tag = IRN_PAC_cosmetic_tag
+			}
+
+			traits = { hog_leader }
+		}
+
+
+		irn_bos_paladin = {
+			picture = BOS_generic6
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_completed_focus = irn_nf_bos_5
+				has_completed_focus = irn_nf_bos_8
+			}
+			visible = {
+				has_completed_focus = irn_nf_bos_8
+			}
+			traits = {
+				general_wait_and_see
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		irn_bos_vlt_1 = {
+			picture = organic_subroutine
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_completed_focus = irn_nf_bos_10
+				has_completed_focus = irn_nf_bos_8
+			}
+			visible = {
+				has_completed_focus = irn_nf_bos_8
+			}
+
+			traits = {
+				reserved_ai   
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	high_command = {
+
+
+		bares_his_teeth = {
+
+			picture = TEETH
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_cosmetic_tag = IRN_PAC_cosmetic_tag
+				has_variable  = var_irn_han
+				has_completed_focus = irn_nf_pac_8
+			}
+			
+			visible = {
+				has_cosmetic_tag = IRN_PAC_cosmetic_tag
+			}
+
+			traits = { mad_dog }
+		}
+
+		irn_bos_scribe = {
+			picture = BOS_generic2
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_completed_focus = irn_nf_bos_5
+				has_completed_focus = irn_nf_bos_8
+			}
+
+			visible = {
+				has_completed_focus = irn_nf_bos_8
+			}
+
+			traits = {
+				reconnaissance_expert 
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		irn_bos_vlt_2 = {
+			picture = generic_advisor36
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_completed_focus = irn_nf_bos_10
+				has_completed_focus = irn_nf_bos_8
+			}
+
+			visible = {
+				has_completed_focus = irn_nf_bos_8
+			}
+
+			traits = {
+				field_medic
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	political_advisor = {
+
+		quick_asp = {
+
+			picture = QUICK
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_completed_focus  = irn_nf_ind_16
+			}
+
+			traits = { wall_painter }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		irn_bos_scribe_2 = {
+
+			picture = BOS_generic10
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_completed_focus = irn_nf_bos_5
+				has_completed_focus = irn_nf_bos_8
+			}
+			
+			visible = {
+				has_completed_focus = irn_nf_bos_8
+			}
+
+			traits = { passive_resister }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		irn_bos_vlt_3 = {
+
+			picture = generic_advisor33
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_completed_focus = irn_nf_bos_10
+				has_completed_focus = irn_nf_bos_8
+			}
+
+			visible = {
+				has_completed_focus = irn_nf_bos_8
+			}
+
+			traits = { passive_resister }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		old_dog = {
+
+			picture = OLDDOG
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_cosmetic_tag = IRN_PAC_cosmetic_tag
+				has_variable  = var_irn_whd
+				has_completed_focus = irn_nf_pac_8
+			}
+			
+			visible = {
+				has_cosmetic_tag = IRN_PAC_cosmetic_tag
+			}
+
+			traits = { war_hero }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+
+		bulleteater = {
+
+			picture = BULL
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_cosmetic_tag = IRN_PAC_cosmetic_tag
+				has_variable  = var_irn_irn
+				has_completed_focus = irn_nf_pac_8
+			}
+			
+			visible = {
+				has_cosmetic_tag = IRN_PAC_cosmetic_tag
+			}
+
+			traits = { reformed_tyrant }
+		}
+
+	}
+
+	theorist = {
+
+		mesmer = {
+
+			picture = MESMER
+
+			allowed = {
+				original_tag = IRN
+			}
+
+			available = {
+				has_completed_focus  = irn_nf_mil_4
+			}
+
+			research_bonus = {
+				cat_elite_army = 0.10
+				cat_automated_warfare = 0.10
+			}
+
+			traits = { military_theorist }
+		}
+
+	}
+}

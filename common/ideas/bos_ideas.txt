@@ -1,0 +1,809 @@
+ideas = {
+	country = {
+        
+Sanctuary = {
+		
+			picture = ger_bulwark_against_bolshevism
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		
+		}
+		
+		
+LivingSpace = {
+			
+			picture = FRA_fortification_focus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.50
+		    }
+		}
+
+		
+		PowerArmor2 = {
+		
+			picture = brotherhood_logistics
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				power_armor_equipment = {
+					build_cost_ic = -0.25
+					instant = yes
+				}
+			}
+		
+		}
+		
+		BOSKnights = {
+			
+			picture = maxson_volunteers
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+			}
+			
+		}
+		
+		EnhancedProduction = {
+		
+			picture = man_five_year_plan_industry 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+			}
+			
+		}
+		
+		
+				SeniorInitiates = {
+			
+			picture = chi_army_corruption2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+			}
+			
+		}
+		
+		
+		Protectors = {
+			
+			picture = ast_volunteer_defence_corps
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+
+					
+				army_core_defence_factor = 0.10
+				
+				army_core_attack_factor = 0.05
+			}
+			
+		}
+		
+		Virtual = {
+			
+			picture = office_of_strategic_services
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+		
+				supply_consumption_factor = -0.10
+			}
+			
+		}
+		
+		EasternBOS = {
+			picture = GFX_focus_research
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.10
+				
+			}
+		}
+		
+		
+		
+	Exodus = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.1
+		    }
+		}
+		
+								TheChainThatBinds = {
+			
+			picture = generic_infantry_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.10
+			}
+			
+		}
+		
+		
+			MilitaryService2 = {
+			
+			picture = chi_forced_conscription
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.025
+			}
+			
+		}
+		
+		Resurgence2 = {
+			
+			picture = raj_indian_gentlemen_officers
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.10
+			
+			}
+		
+		}
+		
+		Tradition = {
+			
+			picture = vittoria_mutilata
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				
+				army_core_defence_factor = 0.10
+			}
+		
+		}
+		
+		Wastelanders = {
+			
+			picture = hol_liberation
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.015
+			}
+			
+		}
+		
+				Navarro = {
+			
+			picture = hol_shell_shocked_spectator
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				 no_supply_grace = 56		
+	
+			}
+			
+		}
+		
+		Airborne = {
+			
+			picture = generic_air_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+					army_bonus_air_superiority_factor = 0.10
+			}
+			
+		}
+		
+		Wastelanders2 = {
+			
+			picture = generic_war_preparation
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.01
+			}
+			
+		}
+		
+			Training3 = {
+			
+			picture = maxson_volunteers
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				training_time_factor = 0.10
+				army_attack_factor = 0.05
+				}
+				
+			
+		}
+		
+		SteelCult = {
+			
+			picture = maxson_volunteers
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.05
+			}
+			
+		}
+		
+		ProtectorateConscription = {
+			
+			picture = maxson_volunteers
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.03
+			}
+			
+		}
+		
+				KnightSupport = {
+		
+			picture = generic_infantry_bonus 
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				supply_consumption_factor = -0.15
+			}
+		}
+	
+	Mobilization = {
+		
+			picture = hol_the_foundations_of_defense 
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.250
+			}
+		}
+		
+		
+	UndergroundCity = {
+			
+			picture = hol_prepare_the_inundation_lines
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.025
+			
+				
+			}
+			
+		}
+		
+		Charge = {
+			
+			picture = generic_purge
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.020
+				army_org_factor = -0.05
+				
+			}
+			
+		}
+		Continued = {
+			
+			picture = ast_naval_auxilary_patrol
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+
+					
+				army_core_defence_factor = 0.10
+				
+				army_core_attack_factor = 0.10
+			}
+			
+		}
+		
+		
+		Best_In_Wasteland = {
+				
+			picture = cult_of_diana
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.10
+			 army_morale_factor = 0.15
+			 army_speed_factor = 0.10
+			 attrition = -0.1
+			 training_time_factor = 0.25
+
+			}
+		}
+		
+		 massrecruitment = {
+				
+			picture = generic_army_problems
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = -0.15
+			 army_morale_factor = -0.20
+			 army_speed_factor = -0.15
+             army_org_factor = -0.20
+			}
+		}
+		 
+		chargesinfield = {
+				
+			picture = prc_the_long_march2
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.05
+			 army_morale_factor = 0.05
+			 army_speed_factor = 0.05
+             army_org_factor = 0.05
+			}
+		}
+		
+		
+	Procreation = {
+			
+			picture = prc_low_popular_support3
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 1.0
+			
+		    }
+		}
+		
+		MilitaryRemnants = {
+			
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.01
+			}
+			
+		}
+		
+		qs2 = {
+				
+			picture = generic_secret_police
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.05
+			 army_morale_factor = 0.05
+			 army_speed_factor = 0.05
+			 training_time_factor = 0.15
+
+			}
+		}
+		
+		qs3 = {
+				
+			picture = generic_manpower_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.05
+			 army_morale_factor = 0.10
+			 army_speed_factor = 0.05
+			 training_time_factor = 0.20
+
+			}
+		}
+		
+		learningfromenviroment = {
+		
+			picture = generic_infantry_bonus 
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				supply_consumption_factor = -0.20
+				attrition = -0.20
+			}
+		}
+		
+		extensivetraining = {
+				
+			picture = anti_soviet_pact
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.15
+			 army_morale_factor = 0.15
+			 army_speed_factor = 0.10
+
+
+			}
+		}
+		
+		BRKWar = {
+				
+			picture = cult_of_diana
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.01
+			}
+		}
+		VICWar = {
+				
+			picture = cult_of_diana
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.01
+
+
+			}
+		}
+		
+		
+		TRLWar = {
+				
+			picture = cult_of_diana
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.01
+
+
+			}
+		}
+		
+		
+		WBHWar = {
+				
+			picture = cult_of_diana
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+
+			 army_infantry_attack_factor = 0.01
+
+
+			}
+		}
+		
+				democraticvalues = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				people_drift = 0.05
+		    }
+		}
+		
+		protectorates = {
+		
+			picture = salvaged_military_industry
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		
+		}
+		
+		WestTek1 = {
+		
+			picture = brotherhood_drill_sergeants
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				power_armor_equipment = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+					defense = 0.05
+					breakthrough = 0.05
+					instant = yes
+				}
+			}
+		}
+		
+		exodus1 = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.25
+		    }
+		}
+		}
+		
+	
+	mobilization_laws = { 
+		law = yes
+		
+		oldguard2 = {
+		
+			picture = generic_BOS_idea_steel_legions
+			
+			cost = 150
+			removal_cost = -1
+			level = 7
+			
+			allowed = {
+				original_tag = BOS
+				
+			}
+			
+			visible = {
+				if = {
+					original_tag = BOS
+				}
+				
+			}
+
+			available = {
+					NOT = { original_tag = BOS }
+			}
+
+			modifier = {
+				conscription = 0.03
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+		
+		outsider_recruitment2 = {
+			picture = brotherhood_drill_sergeants	
+			cost = 150
+			removal_cost = -1
+			level = 6
+
+			allowed = {
+				original_tag = BOS
+				
+			}
+			
+			available = {
+					NOT = { original_tag = BOS }
+				
+			}
+				visible = {
+				if = {
+					original_tag = BOS
+				}
+			}
+
+			modifier = {
+				conscription = 0.06
+			}
+			
+			default = no
+			
+			cancel_if_invalid = no
+		}
+		
+		wasteland_conscripts2 = {
+			picture = 	maxson_volunteers		
+			cost = 150
+			removal_cost = -1
+			level = 6
+
+			allowed = {
+				original_tag = BOS
+				
+			}
+
+			
+			available = {
+					NOT = { original_tag = BOS }
+				
+			}
+				visible = {
+				if = {
+					original_tag = BOS
+				}
+			}
+
+			modifier = {
+				conscription = 0.12
+			}
+			
+			default = no
+			
+			cancel_if_invalid = no
+		}
+	}
+	
+	
+
+}

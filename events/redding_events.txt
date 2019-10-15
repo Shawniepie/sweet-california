@@ -1,0 +1,240 @@
+﻿add_namespace = redding_event
+
+# Redding Mines 
+country_event = {
+    id = redding_event.0
+    title = redding.0.t
+    desc = redding.0.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = redding.0.a
+		141 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+			
+	option = {
+   		name = redding.0.b
+		141 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+		}			
+	}	
+}
+
+
+
+
+
+# Klamath 
+country_event = {
+    id = redding_event.1
+    title = redding.1.t
+    desc = redding.1.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = redding.1.a
+		puppet = KLA
+	} 	
+
+	option = {
+		name = redding.1.b
+		create_wargoal = {
+			type = annex_everything
+			target = KLA
+		}
+	}
+}
+			
+# The Mines
+country_event = {
+    id = redding_event.2
+    title = redding.2.t
+    desc = redding.2.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = redding.2.a
+		141 = {
+			add_resource = {
+				type = metal
+				amount = 32
+			}
+		} 
+	}
+
+	option = {
+		name = redding.2.b
+		141 = {
+			add_resource = {
+				type = energy
+				amount = 25
+			}
+		}
+	}
+			
+	option = {
+		name = redding.2.c
+		141 = {
+			add_resource = {
+				type = advanced_technology
+				amount = 12
+			}
+		}
+	}
+}
+
+# Puppet of The Barons 
+country_event = {
+    id = redding_event.3
+    title = redding.3.t
+    desc = redding.3.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = redding.3.a
+		add_equipment_to_stockpile = { 
+			type = ballistic_equipment_1 
+			amount = 2500
+			producer = VLT		
+		} 
+	}
+		
+	option = {
+		name = redding.3.b
+		141 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+
+# War For Independence 
+country_event = {
+    id = redding_event.4
+    title = redding.4.t
+    desc = redding.4.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = redding.4.a
+		141 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 1630
+				instant_build = yes
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4985
+				instant_build = yes
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4987
+				instant_build = yes
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 2067
+				instant_build = yes
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4805
+				instant_build = yes
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 4873
+				instant_build = yes
+			}
+
+			add_building_construction = {
+				type = bunker
+				level = 2
+				province = 2612
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = redding.4.b
+		141 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+# Digging Deep  
+country_event = {
+    id = redding_event.5
+    title = redding.5.t
+    desc = redding.5.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+		option = {
+		name = redding.5.a
+		141 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = redding.5.b
+		141 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+				}
+			}
+		}
+	}
+}
+
+
+	

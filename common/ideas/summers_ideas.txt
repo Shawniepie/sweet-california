@@ -1,0 +1,556 @@
+ideas = {
+	
+	country = {
+	
+		oldworldefficiency = {
+		
+				picture = man_five_year_plan_tank
+					
+				allowed = {
+				}
+
+				removal_cost = 1
+				
+			equipment_bonus = {
+				 power_armor_equipment_2 = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		
+		fortsummersfactories = {
+		
+				picture = ast_all_in
+					
+				allowed = {
+				}
+
+				removal_cost = 1
+				
+				modifier = {
+					conscription = -0.02
+					production_speed_buildings_factor = 0.1
+				}
+		}
+		attractwasties = {
+		
+				picture = food_for_service	
+					
+				allowed = {
+				}
+
+				removal_cost = 1
+				
+				modifier = {
+					conscription = 0.05
+				}
+		}		
+		
+	
+    repairstrategies = {
+			
+			picture = FRA_factory_strikes
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			    industry_repair_factor = 0.2
+		    }
+		}
+	fortsummerstrade = {
+			
+			picture = HUN_treaty_of_triannon
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			    trade_opinion_factor = 0.5
+		    }
+		}
+	iron_hand = {
+			
+			picture = generic_intel_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			   conscription = 0.01
+		    }
+		}
+	ivory_tower = {
+			
+			picture = jap_supremacy_of_technology
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			   research_speed_factor = 0.05
+		    }
+		}
+   
+	army_of_the_people = {
+			
+			picture = usa_desegregation_1
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.015
+			}
+	    }
+	state_for_the_people = {
+			
+			picture = usa_desegregation_2
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+			}
+	    }
+	wastelander_volunteers = {
+			
+			picture = triumphant_will
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+			}
+	    }
+	old_military = {
+			
+			picture = us_army_knowledge
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_org_Factor = 0.10
+				training_time_army_factor = -0.10
+			}
+	    }
+	
+	
+		american_dream = {
+			
+			picture = wilkies_new_deal
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = 0.1
+				defence = 0.1
+				MONTHLY_POPULATION = 0.3
+				production_speed_buildings_factor = 0.15
+			}
+	    }
+		force_education = {
+			
+			picture = generic_research_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				research_speed_factor = 0.08
+			}
+			
+		}
+		the_goat = {
+			
+			picture = hol_the_foundations_of_defense
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				research_speed_factor = 0.08
+			}
+			
+		}
+		more_research = {
+			
+			picture = chi_wargaming_division
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				research_speed_factor = 0.03
+			}
+			
+		}
+		educate_educated = {
+			
+			picture = jap_supremacy_of_will
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				research_speed_factor = 0.05
+			}
+			
+		}
+		emphasis_on_training = {
+			
+			picture = generic_oppression
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				org_loss_when_moving = -0.10
+				army_speed_factor = 0.1
+				defence = 0.1
+				army_org_Factor = 0.10
+			}
+			
+		}
+	
+	fort_for_the_people = {
+			
+			picture = generic_volunteer_expedition_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.03
+				MONTHLY_POPULATION = 0.5
+			}
+
+		}		
+
+		education_for_the_people = {
+            
+            picture = jap_duplicate_research
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+                   research_speed_factor = 0.1
+            }
+        }
+	
+	
+	revolutionize_tech_trade = {
+			
+			picture = generic_local_self_management
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = -0.05
+			
+			}
+
+		}		
+militia_conscript = {
+			
+			picture = prc_low_popular_support2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.07
+			}
+	    }	
+ return_work = {
+			
+			picture = generic_production_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.06
+				MONTHLY_POPULATION = 0.12
+				production_speed_buildings_factor = 0.05
+			production_factory_efficiency_gain_factor = 0.07
+			}
+
+		}		
+favor_of_people = {
+			
+			picture = generic_foreign_capital
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.02
+			production_factory_efficiency_gain_factor = 0.04
+			}
+
+		}		
+
+ worker_factory = {
+			
+			picture = WBH_idea_dark_foundries
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+			production_factory_efficiency_gain_factor = 0.05
+			}
+			}
+codex_fs = {
+			
+			picture = generic_political_support
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+			production_factory_efficiency_gain_factor = 0.15
+			}
+
+}
+subsidize_shop = {
+			
+			picture = generic_local_self_management
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.02
+				consumer_goods_factor = -0.07
+			
+			}
+
+		}
+asset_elite = {
+		picture = VEG_Middle_Class_Clientele
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.08
+			
+			}
+			}
+democracy_prevails = {
+
+picture = hol_the_foundations_of_defense
+
+allowed = {
+}
+
+removal_cost = -1
+
+modifier = {
+				people_drift = 0.05
+				MONTHLY_POPULATION = 0.2
+				conscription = 0.03
+				}		
+		}
+
+jupiter_rising = {
+
+picture = usa_war_department
+
+allowed = {
+}
+
+removal_cost = -1
+
+modifier = {
+elites_drift = 0.05
+defence = 0.1
+army_org_Factor = 0.10
+
+}
+}
+
+ivory_succeed = {
+
+picture = usa_magic
+
+allowed = {
+}
+
+removal_cost = -1
+
+modifier = {
+intellectuals_drift = 0.05
+research_speed_factor = 0.05
+consumer_goods_factor = -0.05
+}
+}
+
+allocate_resources = {
+
+picture = raj_risk_of_famine
+
+allowed = {
+}
+removal_cost = -1
+
+modifier = {
+				industrial_capacity_factory = 0.15
+				consumer_goods_factor = -0.03
+				production_factory_efficiency_gain_factor = 0.10
+				}
+				}
+
+power_struggle = {
+
+picture = generic_army_problems
+
+allowed = {
+}
+removal_cost = -1
+
+modifier = {
+political_power_gain = -0.2
+conscription_factor = -0.04
+army_org_Factor = 0.10
+}
+}
+
+growing_dissent = {
+picture = chi_incompetent_officers
+
+allowed = {
+}
+removal_cost = -1
+
+modifier = {
+political_power_gain = -0.5
+army_org_Factor = 0.2
+army_morale_factor = 0.05
+}
+}
+
+pleb_riots = {
+picture = VEG_Freeside_Support
+allowed = {
+}
+removal_cost = -1
+
+modifier = {
+political_power_gain = -0.3
+army_speed_factor = 0.10}
+}
+
+strip_mining = {
+picture = WBH_idea_eradicate_the_mutants
+allowed = {
+}
+removal_cost = -1
+
+modifier = {
+local_resources_factor = 0.25
+stability_factor = -0.15
+}
+}
+
+pardons = {
+picture = wartime_recruits
+allowed = {
+}
+removal_cost = -1
+
+modifier = {
+conscription = 0.06
+}
+}
+
+anti_riot_corp = {
+picture = HEA_idea_conscription
+allowed = {
+}
+removal_cost = -1
+
+modifier = {
+enemy_partisan_effect = -0.15
+army_speed_factor = 0.10
+army_core_attack_factor = 0.05
+army_core_defence_factor = 0.07
+}
+}
+
+junta_leadership = {
+picture = navarro_scribes
+allowed = {
+}
+removal_cost = -1
+
+modifier = {
+political_power_gain = -0.3
+army_org_Factor = 0.25
+army_morale_factor = 0.15
+}
+}

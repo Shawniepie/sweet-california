@@ -1,0 +1,368 @@
+ideas = {
+	country = {
+        
+
+
+		BNSNavy = {
+            
+            picture = chi_army_corruption
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.005
+					
+            }
+        }
+		
+		gunrunners = {
+		
+			allowed = { 
+			}
+			
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		
+		madeinboneyard = {
+			
+			picture = generic_local_self_management
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			    industrial_capacity_factory = 0.05
+		    }
+		}
+		
+		runnerexpansion = {
+		
+			picture = generic_secret_police
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		
+		}
+				runnerexpansion2 = {
+		
+			picture = salvaged_military_industry
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		
+		}
+				BNSMilitia = {
+			
+			picture = chi_incompetent_officers
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = -0.5
+			}
+			
+		}
+		
+						MilitiaCommand = {
+			
+			picture = generic_army_war_college
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+			}
+			
+		}
+		
+		JoinMilitia = {
+            
+            picture = saf_soviet_advisers
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					
+            }
+			
+		}
+					patrols = {
+			
+			picture = ast_volunteer_defence_corps
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		
+		}
+					OldWorld1 = {
+            
+            picture = triumphant_will
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.01
+					
+            }
+			
+		}
+
+					training = {
+			
+			picture = ncr_ranger_idea
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				basic_training = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+				}
+			}
+		}
+			standardissue = {
+            
+            picture = FRA_factory_strikes
+            
+			allowed = {
+            }
+
+            removal_cost = -1
+            
+            equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			
+			}
+
+        }
+		
+						
+		
+		OldWorldTraining = {
+			picture = sour_loser 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			equipment_bonus = {
+				category_all_infantry = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+					defense = 0.05
+				}
+			}
+		}
+		letinintellectuals = {
+			picture = GFX_focus_research
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		raidergangs = {
+			
+			picture = generic_infantry_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				army_attack_factor = 0.05
+			}	
+			
+		}
+		cityadytum = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			industrial_capacity_factory = 0.1
+		    }
+		}
+		Economy = {
+		
+			allowed = { 
+			}
+			
+			picture = generic_production_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		Market = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			industrial_capacity_factory = 0.1
+		    }
+		}
+		B.N.S.A. = {
+		
+			picture = generic_air_manufacturer_3 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				category_all_air = {
+					build_cost_ic = -0.1
+				}
+			}
+		
+		}
+		tradeagreements = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.05
+            }
+        }
+			
+		CommonEnemy = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.025
+					
+            }
+			
+		}
+		standard = {
+			
+			picture = idea_generic_flexible_foreign_policy2
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			industrial_capacity_factory = 0.05
+		    }
+		}
+		BNSGlow = {
+			picture = vault_open_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = -0.05
+			}
+		}
+		GrandArmy = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.04
+					
+            }
+			
+		}
+		
+				LandService = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.03
+					
+            }
+			
+		}
+		
+	}
+}

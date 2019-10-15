@@ -1,0 +1,2516 @@
+focus_tree = {
+	id = iron_alliance_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10 #200
+			tag = IRN
+		}
+	}
+	default = no
+
+	focus = {
+		id = irn_nf_str_1
+		icon = GFX_goals_IRN_Fist
+		cost = 1.00
+		x = 11
+		y = 0
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_irn_nf_str_1 entered"
+			}
+			country_event = {
+				id = IRN.1
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_irn_nf_str_1 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_str_2
+		icon = GFX_goals_IRN_Fist
+		cost = 1.00
+		prerequisite = {
+			focus = irn_nf_str_1
+		}
+		x = 11
+		y = 1
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_str_2 entered"
+			}
+			country_event = {
+				id = IRN.2
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_str_2 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_str_3
+		icon = GFX_goals_IRN_Selection
+		cost = 1.00
+		prerequisite = {
+			focus = irn_nf_str_2
+		}
+		x = 11
+		y = 2
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_str_3 entered"
+			}
+
+			hidden_effect = {
+				set_technology = {
+					robot_automation_tech = 1
+					robot_makeshift_automatons_tech = 1
+					robot_protectron_tech_1 = 1
+				}
+			}
+
+			country_event = {
+				id = IRN.3
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_str_3 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_str_4
+		icon = GFX_goals_IRN_Fist
+		cost = 1.00
+		prerequisite = {
+			focus = irn_nf_str_3
+		}
+		x = 11
+		y = 3
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_str_4 entered"
+			}
+			country_event = {
+				id = IRN.4
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_str_4 exited"
+			}
+		}
+	}
+	
+	focus = {
+		id = irn_nf_str_5
+		icon = GFX_goals_IRN_ENSLAVE_WEST
+		cost = 4.3
+		prerequisite = {
+			focus = irn_nf_str_4
+		}
+		x = 5
+		y = 4
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_str_5 entered"
+			}
+			add_political_power = 60
+			WHD = {add_opinion_modifier = { target = IRN modifier = medium_decrease }}
+			YMP = {add_opinion_modifier = { target = IRN modifier = medium_decrease }}
+			FOR = {add_opinion_modifier = { target = IRN modifier = medium_decrease }}
+			PNT = {add_opinion_modifier = { target = IRN modifier = medium_decrease }}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_str_5 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_vlt_1
+		icon = GFX_goals_IRN_Entry
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_str_4
+		}
+		x = 17
+		y = 4
+		available_if_capitulated = yes
+		completion_reward = {
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_vlt_1 entered"
+			}
+			
+			custom_effect_tooltip = early_nf_tt
+			set_technology = {
+			resource_generator_tech = 1
+			}
+			country_event = {
+				id = IRN.5
+			}
+			
+			hidden_effect = {
+				add_popularity = {
+					ideology = intellectuals 
+					popularity = 0.15
+				}
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_vlt_1 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_1
+		icon = GFX_goals_IRN_Gate
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_vlt_1
+		}
+		x = 21
+		y = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_1 entered"
+			}
+			430 = {
+				add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+					type = arms_factory
+					level = 1
+			}
+			add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_1 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_mil_1
+		icon = GFX_goals_IRN_Command
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_str_5
+		}
+		x = 7
+		y = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_1 entered"
+			}
+			army_experience = 50
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_1 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_west_1
+		icon = GFX_goals_IRN_vWHD
+		cost = 8.6
+		x = 3
+		y = 5
+		prerequisite = {
+			focus = irn_nf_str_5
+		}
+		bypass = {
+			has_variable  = var_irn_whd
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		will_lead_to_war_with = WHD
+		
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_1 entered"
+			}
+			if = {
+				limit = { WHD = { exists = yes is_puppet = no }}
+				create_wargoal = { type = annex_everything target = WHD }
+				else = { 
+					activate_targeted_decision = { 
+						target = WHD 
+						decision = demand_stolen_territory
+					}
+				}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_1 exited"
+			}
+		}
+	}
+	}
+
+	focus = {
+		id = irn_nf_vlt_2
+		icon = GFX_goals_IRN_1
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_vlt_1
+		}
+		x = 13
+		y = 5
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_vlt_2 entered"
+			}
+			
+			custom_effect_tooltip = early_nf_tt
+			country_event = {
+				id = IRN.6
+			}
+
+
+			hidden_effect ={
+				add_popularity = {
+					ideology = intellectuals 
+					popularity = 0.15
+				}
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_vlt_2 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_2
+		icon = GFX_goals_IRN_Factory
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_1
+		}
+		x = 23
+		y = 6
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_2 entered"
+			}
+			374 = {
+				add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+					type = arms_factory
+					level = 2
+			}
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_2 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_3
+		icon = GFX_goals_IRN_Armoury
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_1
+		}
+		x = 19
+		y = 6
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_3 entered"
+			}
+			209 = {
+				add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+					type = arms_factory
+					level = 3
+			}
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_3 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_mil_5
+		icon = GFX_goals_IRN_Motorized
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_mil_3
+		}
+		x = 6
+		y = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_5 entered"
+			}
+
+			add_ideas = irn_hogs
+
+			add_tech_bonus = {
+				name = raider_vehicle_bonus
+				bonus = 0.5
+				uses = 2
+				category = vehicle_tech_category 
+				}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_5 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_mil_6
+		icon = GFX_goals_IRN_T-51
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_mil_3
+			focus = irn_nf_mil_4
+		}
+		x = 7
+		y = 9
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_6 entered"
+			}
+
+			add_ideas = irn_power_armour
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_6 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_mil_7
+		icon = GFX_goals_IRN_Robots
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_mil_4
+		}
+		x = 8
+		y = 8
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_7 entered"
+			}
+
+			add_ideas = irn_robots
+
+			add_tech_bonus = { 
+				bonus = 0.5 
+				uses = 2 
+				category = robotics_tech_category 
+				}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_7 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_mil_2
+		icon = GFX_goals_IRN_Auto
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_mil_1
+		}
+		x = 7
+		y = 6
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_2 entered"
+			}
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = cat_land_doctrine
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_2 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_west_2
+		icon = GFX_goals_IRN_Swords
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_west_1
+		}
+		available = {
+			WHD = {exists = no}
+		}
+
+		bypass = {
+			has_variable  = var_irn_whd
+		}
+		x = 3
+		y = 6
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_2 entered"
+			}
+			add_manpower = 	1500
+			510 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+			}
+			}
+
+			add_resource = {
+			type = energy 
+			amount = 12
+			state = 510
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_2 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_vlt_3
+		icon = GFX_goals_IRN_2
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_vlt_2
+		}
+		x = 13
+		y = 6
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_vlt_3 entered"
+			}
+
+			custom_effect_tooltip = early_nf_tt
+			country_event = {
+				id = IRN.10
+			}
+
+			hidden_effect = {
+				add_popularity = {
+					ideology = intellectuals 
+					popularity = 0.15
+				}
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_vlt_3 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_4
+		icon = GFX_goals_IRN_Reaserch
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_2
+		}
+		available = {
+			has_completed_focus = irn_nf_vlt_2
+		}
+		x = 25
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_4 entered"
+			}
+			add_research_slot = 1
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_4 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_5
+		icon = GFX_goals_IRN_Hand
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_2
+		}
+		x = 23
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_5 entered"
+			}
+			374 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+			}
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_5 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_6
+		icon = GFX_goals_IRN_Ammo
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_2
+			focus = irn_nf_ind_3
+		}
+		x = 21
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] armed_raiders entered"
+			}
+
+			add_ideas = irn_sterling_ambitions1
+			
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] armed_raiders exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_7
+		icon = GFX_goals_IRN_Slaves
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_3
+		}
+		x = 19
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_7 entered"
+			}
+			add_manpower = 500
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_7 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_8
+		icon = GFX_goals_IRN_Workshop
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_3
+		}
+		available = {
+			has_completed_focus = irn_nf_west_2
+		}
+		x = 17
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_8 entered"
+			}
+			custom_effect_tooltip = gentribal_cult_tt
+			hidden_effect = { set_technology = { warriorcult = 1 } }
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_8 exited"
+			}
+		}
+	}
+
+
+	focus = {
+		id = irn_nf_mil_3
+		icon = GFX_goals_IRN_Bulleteater
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_mil_2
+		}
+		mutually_exclusive = {
+		focus = irn_nf_mil_4
+		}
+		x = 6
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_3 entered"
+			}
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 2
+				category = cat_land_doctrine
+				}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_3 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_mil_4
+		icon = GFX_goals_IRN_Mesmer
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_mil_2
+		}
+		mutually_exclusive = {
+		focus = irn_nf_mil_3
+		}
+		x = 8
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_4 entered"
+			}
+			custom_effect_tooltip = mesmer_tt
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_mil_4 exited"
+			}
+		}
+	}
+
+		focus = {
+		id = irn_nf_west_3 
+		icon = GFX_goals_IRN_vYMP
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_west_2
+		}
+		x = 3
+		y = 7		
+		bypass = {
+			YMP = {
+				exists = no
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		will_lead_to_war_with = YMP
+		available_if_capitulated = no
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_3 entered"
+			}
+			
+			if = {
+				limit = { YMP = { exists = yes is_puppet = no }}
+				create_wargoal = { type = annex_everything target = YMP }
+				else = { 
+					activate_targeted_decision = { 
+						target = YMP 
+						decision = demand_stolen_territory
+					}
+				}
+				}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_3 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_west_4
+		icon = GFX_goals_IRN_Port
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_west_3
+		}
+		available = {
+			YMP = {exists = no}
+		}
+		x = 5
+		y = 8
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_4 entered"
+			}
+			add_political_power = 30
+			add_ideas = irn_boats
+			209 = {
+				add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+					type = dockyard
+					level = 2
+			}
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_4 exited"
+			}
+		}
+	}
+
+
+	focus = {
+		id = irn_nf_pac_1 
+		icon = GFX_goals_IRNPAC_CES
+		cost = 8.6
+		available = {
+			HAN = { exists = no } 
+		}
+		prerequisite = {
+			focus = irn_nf_vlt_3
+		}
+		mutually_exclusive = {
+		focus = irn_nf_bos_1
+		}
+		x = 11
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_1 entered"
+			}
+			add_ideas = {
+				war_economy
+			}
+			add_war_support = 0.1
+
+			#country_event = {
+			#	id = IRN.15
+			#}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_1 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_1 
+		icon = GFX_goals_IRNBOS_3
+		cost = 8.6
+		available = {
+			HAN = { exists = no } 
+		}
+		prerequisite = {
+			focus = irn_nf_vlt_3
+		}
+		mutually_exclusive = {
+		focus = irn_nf_pac_1
+		}
+		x = 15
+		y = 7
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_1 entered"
+			}
+			country_event = {
+				id = IRN.12
+
+			}
+
+			if = { limit = { has_idea = irn_far_from_home_1}
+			remove_ideas = irn_far_from_home_1
+			}
+			if = { limit = { has_idea = irn_far_from_home_2}
+			remove_ideas = irn_far_from_home_2
+			}
+			if = { limit = { has_idea = irn_far_from_home_3}
+			remove_ideas = irn_far_from_home_3
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_1 exited"
+			}
+		}
+		}
+	focus = {
+		id = irn_nf_ind_9
+		icon = GFX_goals_IRN_Supply
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_5
+		}
+		x = 23
+		y = 8
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_9 entered"
+			}
+			add_tech_bonus = {
+				name = drugdealers_bonus
+				bonus = 0.75
+				uses = 2
+				category = support_medical_tech_category
+				}
+			
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_9 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_10
+		icon = GFX_goals_IRN_Minigun
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_6
+		}
+		x = 21
+		y = 8
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_10 entered"
+			}
+			add_ideas = irn_sterling_ambitions2
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_10 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_11
+		icon = GFX_goals_IRN_Slave
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_7
+		}
+		x = 19
+		y = 8
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_11 entered"
+			}
+			add_ideas = irn_child_soliders
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_11 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_west_5
+		icon = GFX_goals_IRN_vFOR
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_west_3
+		}
+		x = 1
+		y = 8
+		bypass = {
+			FOR = {
+				exists = no
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		will_lead_to_war_with = FOR
+		available_if_capitulated = no
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_5 entered"
+			}
+			
+			if = {
+				limit = { FOR = { exists = yes is_puppet = no }}
+				create_wargoal = { type = annex_everything target = FOR }
+				else = { 
+					activate_targeted_decision = { 
+						target = FOR 
+						decision = demand_stolen_territory
+					}
+				}
+				}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_5 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_west_7 
+		icon = GFX_goals_IRN_vPNT
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_west_3
+		}
+		x = 3
+		y = 8
+		bypass = {
+			PNT = {
+				exists = no
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		will_lead_to_war_with = PNT
+		available_if_capitulated = no
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_7 entered"
+			}
+			
+			if = {
+				limit = { PNT = { exists = yes is_puppet = no }}
+				create_wargoal = { type = annex_everything target = PNT }
+				else = { 
+					activate_targeted_decision = { 
+						target = PNT 
+						decision = demand_stolen_territory
+					}
+				}
+				}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_7 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_2 
+		icon = GFX_goals_IRNPAC_CES
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_pac_1
+		}
+		x = 11
+		y = 8
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_2 entered"
+			}
+
+			IRN = { give_guarantee = WHD }
+			add_opinion_modifier = { target = WHD modifier = huge_increase }
+			IRN = { give_guarantee = SCO }
+			add_opinion_modifier = { target = SCO modifier = huge_increase }
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_2 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_2 
+		icon = GFX_goals_IRNBOS_Radio
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_1
+		}
+		x = 15
+		y = 8
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_2 entered"
+			}
+
+			create_corps_commander = {
+					name = "Mesmer"
+					picture = "ree_2.png"
+					skill = 2
+					traits = {
+						armor_officer
+						offensive_doctrine
+					}
+					attack_skill = 3
+					defense_skill = 1
+					planning_skill = 1
+					logistics_skill = 2
+				}
+
+			add_ideas = irn_hypnotized_staff
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_2 exited"
+			}
+		}
+	}
+
+
+	focus = {
+		id = irn_nf_ind_12 
+		icon = GFX_goals_IRN_Reaserch
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_9
+		}
+		available = {
+			has_completed_focus = irn_nf_vlt_3
+		}
+		x = 25
+		y = 9
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_12 entered"
+			}
+			add_research_slot = 1
+			if = { limit = { has_idea = irn_long_march_3}
+			remove_ideas = irn_long_march_3
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_12 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_13 
+		icon = GFX_goals_IRN_Compass
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_9
+		}
+		x = 23
+		y = 9
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_13 entered"
+			}
+			
+			add_ideas = irn_organized_raiders
+
+			if = { limit = { has_idea = irn_long_march_2}
+			remove_ideas = irn_long_march_2
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_13 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_14
+		icon = GFX_goals_IRN_T-51
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_10
+		}
+		x = 21
+		y = 9
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_14 entered"
+			}
+			add_equipment_to_stockpile = {
+				type = power_armor_equipment_1 
+				amount = 750
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_14 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_15
+		icon = GFX_goals_IRN_Altilery
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_11
+		}
+		x = 19
+		y = 9
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_15 entered"
+			}
+
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.75
+				uses = 3
+				category = support_demolitions_tech_category
+			}
+			
+			
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_15 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ind_16
+		icon = GFX_goals_IRN_QUICK
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_11
+		}
+		available = {
+			has_completed_focus = irn_nf_west_8
+		}
+		x = 17
+		y = 9
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_16 entered"
+			}
+			custom_effect_tooltip = quick_asp_tt
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_16 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_west_6 
+		icon = GFX_goals_IRNBOS_Gasmask
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_west_5
+		}
+		x = 1
+		y = 9
+		available = {
+			FOR = {exists = no}
+			#TTM = {exists = no}
+		}
+		bypass = {
+			check_variable = {
+				var = var_irn_retrieval
+  				value = 6
+				}
+		}
+		
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_6 entered"
+			}
+			add_political_power = 30
+			add_ideas = irn_slave_scientists
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_6 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_west_8
+		icon = GFX_goals_IRN_Swords
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_west_7
+		}
+		x = 3
+		y = 9
+		available = {
+			PNT = {exists = no}
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_8 entered"
+			}
+			add_political_power = 30
+			add_ideas = irn_graffiti
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_west_8 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_4
+		icon = GFX_goals_IRNPAC_HAN
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_pac_2
+		}
+		x = 11
+		y = 9
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_4 entered"
+			}
+
+			create_corps_commander = {
+				name = "Bares His Teeth"
+				picture = "portrait_raider_generic_13.dds"
+				skill = 4
+				traits = {
+					infantry_officer
+					commando 
+				}
+				attack_skill = 4
+				defense_skill = 3
+				planning_skill = 4
+				logistics_skill = 2
+			}
+			
+			custom_effect_tooltip = dog_leftovers_tt
+
+			hidden_effect ={
+				load_oob  = dog_leftovers
+			}
+
+			add_ideas = irn_dogs 
+
+			add_popularity = {
+				ideology = ruler 
+				popularity = 0.15
+			}
+
+			hidden_effect = {
+				set_variable = {
+  					var = var_irn_han
+  					value = 1
+				}
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_4 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_3
+		icon = GFX_goals_IRNPAC_WHD
+		cost = 8.6
+		available = {
+			WHD  = { exists = yes }
+		}
+		prerequisite = {
+			focus = irn_nf_pac_2
+		}
+		x = 9
+		y = 9
+		bypass = {
+			WHD  = { exists = no }
+			controls_state = 256
+			controls_state = 465
+			controls_state = 453
+			controls_state = 510
+			controls_state = 390
+			controls_state = 401
+			controls_state = 310
+			controls_state = 191
+			controls_state = 494
+			controls_state = 560
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_3 entered"
+			}
+			
+			create_corps_commander = {
+				name = "Old Dog"
+				picture = "Portrait_WHD_Leader.dds"
+				skill = 3
+				traits = {
+				old_guard
+				infantry_officer 
+				}
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 2
+				logistics_skill = 4
+				}
+ 
+			IRN = { annex_country = { target = WHD transfer_troops = yes } }
+			IRN = { set_country_flag = WHD_annexed_peacefully }
+			
+
+			add_popularity = {
+				ideology = ruler 
+				popularity = 0.15
+			}
+
+			hidden_effect = {
+				set_variable = {
+  					var = var_irn_whd
+  					value = 1
+				}
+			}
+			
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_3 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_5
+		icon = GFX_goals_IRNPAC_SCO
+		cost = 8.6
+		available = {
+			SCO  = { exists = yes }
+		}
+		prerequisite = {
+			focus = irn_nf_pac_2
+		}
+		x = 13
+		y = 9
+		bypass = {
+			SCO  = { exists = no }
+			controls_state = 315
+			controls_state = 593
+			controls_state = 524
+			controls_state = 112
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_5 entered"
+			}
+			
+			create_corps_commander = {
+				name = "Stinger"
+				picture = "Portrait_SCO_Leader.dds"
+				skill = 2
+				traits = {
+					cavalry_officer
+					offensive_doctrine
+				}
+				attack_skill = 3
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 2
+			}
+
+			IRN = { annex_country = { target = SCO transfer_troops = yes } }
+			IRN = { set_country_flag = SCO_annexed_peacefully }
+
+			hidden_effect = {
+			}
+
+			add_popularity = {
+				ideology = ruler 
+				popularity = 0.15
+			}
+
+			hidden_effect = {
+				set_variable = {
+  					var = var_irn_sco
+  					value = 1
+				}
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_5 exited"
+			}
+		}
+	}
+
+
+focus = {
+		id = irn_nf_bos_3 
+		icon = GFX_goals_IRNBOS_Radio
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_2
+		}
+		x = 15
+		y = 9
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_3 entered"
+			}
+			
+			swap_ideas = {
+				remove_idea = irn_hypnotized_staff
+				add_idea = irn_zombie_soliders
+			}
+
+			add_popularity = {
+				ideology = intellectuals 
+				popularity = 0.55
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_3 exited"
+			}
+		}
+	}
+
+focus = {
+		id = irn_nf_ind_17
+		icon = GFX_goals_IRN_Slums
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ind_13
+			}
+		prerequisite = {
+			focus = irn_nf_ind_14
+			}
+		prerequisite = {
+			focus = irn_nf_ind_15
+			}
+		x = 21
+		y = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_17 entered"
+			}
+			add_ideas = irn_sterling_ambitions3
+			430 = {
+				add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+					type = arms_factory
+					level = 3
+			}
+			}
+			if = { limit = { has_idea = irn_long_march_1}
+			remove_ideas = irn_long_march_1
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ind_17 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ncn_1
+		icon = GFX_goals_IRN_Cross
+		cost = 1
+		prerequisite = {
+			focus = irn_nf_west_8
+		}
+		x = 3
+		y = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_1 entered"
+			}			
+			country_event = IRN.11
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_1 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_6
+		icon = GFX_goals_IRNPAC_PAC
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_pac_3
+		}
+		prerequisite = {
+			focus = irn_nf_pac_4
+		}
+		prerequisite = {
+			focus = irn_nf_pac_5
+		}
+
+		x = 11
+		y = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_6 entered"
+			}
+
+			country_event = {
+				id = IRN.16
+			}
+
+			custom_effect_tooltip = ecc_tt
+			hidden_effect = {
+
+				#Gain cores of:
+				#SCO
+				315 = { add_core_of = ROOT }
+				593 = { add_core_of = ROOT }
+				524 = { add_core_of = ROOT }
+				112 = { add_core_of = ROOT }
+				#WHD
+				256 = { add_core_of = ROOT }
+				465 = { add_core_of = ROOT }
+				453 = { add_core_of = ROOT }
+				510 = { add_core_of = ROOT }
+				390 = { add_core_of = ROOT }
+				401 = { add_core_of = ROOT }
+				310 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				494 = { add_core_of = ROOT }
+				560 = { add_core_of = ROOT }
+				#HAN
+				525 = { add_core_of = ROOT }
+				568 = { add_core_of = ROOT }
+				109 = { add_core_of = ROOT }
+				490 = { add_core_of = ROOT }
+				82 = { add_core_of = ROOT }
+				610 = { add_core_of = ROOT }
+				550 = { add_core_of = ROOT }
+				586 = { add_core_of = ROOT }
+				645 = { add_core_of = ROOT }
+				405 = { add_core_of = ROOT }
+				185 = { add_core_of = ROOT }
+				414 = { add_core_of = ROOT }
+				460 = { add_core_of = ROOT }
+				544 = { add_core_of = ROOT }
+				}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_6 exited"
+			}
+		}
+	}
+
+	#focus = {
+		#id = irn_nf_bos_4 
+		#icon = GFX_goals_IRNBOS_Scull2
+		#cost = 8.6
+		#prerequisite = {
+		#	focus = irn_nf_bos_3
+		#}
+		#x = 13
+		#y = 10
+		#available_if_capitulated = yes
+		#completion_reward = {
+		#	if = {
+		#		limit = { has_global_flag = debug_logs }
+		#		log = "[GetDateText]: [Root.GetName] irn_nf_bos_4 entered"
+		#	}
+#
+		#	swap_ideas = {
+		#		remove_idea = irn_hypnotized_soliders
+		#		add_idea = irn_zombie_soliders
+		#	}
+#
+		#	if = {
+		#		limit = { has_global_flag = debug_logs }
+		#		log = "[GetDateText]: [Root.GetName] irn_nf_bos_4 exited"
+		#	}
+		#}
+#	}
+
+	focus = {
+		id = irn_nf_bos_5 
+		icon = GFX_goals_IRNBOS_MOJ
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_3
+		}
+		mutually_exclusive = {
+			focus = irn_nf_bos_10
+		}
+		x = 16
+		y = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_5 entered"
+			}
+
+			
+			add_opinion_modifier = { target = MOJ modifier = large_increase }
+			MOJ = {add_opinion_modifier = { target = IRN modifier = large_increase }}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_5 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_10 
+		icon = GFX_goals_IRNBOS_VLT
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_3
+		}
+		mutually_exclusive = {
+			focus = irn_nf_bos_5
+		}
+		x = 14
+		y = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_10 entered"
+			}
+
+			
+			add_opinion_modifier = { target = VLT modifier = large_increase }
+			VLT = {add_opinion_modifier = { target = IRN modifier = large_increase }}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_10 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ncn_2
+		icon = GFX_goals_IRN_vUIN
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ncn_1
+		}
+		mutually_exclusive = {
+			focus = irn_nf_ncn_3
+		}
+		x = 2
+		y = 11
+		bypass = {
+			UIN = {
+				exists = no
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		will_lead_to_war_with = UIN
+		available_if_capitulated = no
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_2 entered"
+			}
+			
+			NCN = {add_opinion_modifier = { target = IRN modifier = medium_decrease }}
+
+			if = {
+				limit = { UIN = { exists = yes is_puppet = no }}
+				create_wargoal = { type = annex_everything target = UIN }
+				else = { 
+					activate_targeted_decision = { 
+						target = UIN 
+						decision = demand_stolen_territory
+					}
+				}
+				}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_2 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ncn_3
+		icon = GFX_goals_IRN_Bible
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ncn_1
+		}
+		mutually_exclusive = {
+			focus = irn_nf_ncn_2
+		}
+		x = 4
+		y = 11
+		available = {
+			YMP = {exists = no}
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_3 entered"
+			}
+
+			add_opinion_modifier = { target = NCN modifier = large_increase }
+			
+			NCN = { 
+			transfer_state = 222 
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_3 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_7
+		icon = GFX_goals_IRNPAC_Selection
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_pac_6
+		}
+		x = 11
+		y = 11
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_7 entered"
+			}
+
+			set_variable = {
+  				var = var_irn_irn
+  				value = 1
+			}
+
+			country_event = {
+				id = IRN.17
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_7 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_6 
+		icon = GFX_goals_IRNBOS_FIST
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_3
+		}
+		available = {
+			has_idea = irn_zombie_decay
+		}
+		x = 18
+		y = 10
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_6 entered"
+			}
+
+			country_event = {
+				id = IRN.22
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_6 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_12 
+		icon = GFX_goals_IRNBOS_FIST
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_6
+		}
+		mutually_exclusive = {
+			focus = irn_nf_bos_13
+		}
+		available = {
+			has_idea = irn_zombie_decay
+		}
+		x = 17
+		y = 11
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_12 entered"
+			}
+
+			custom_effect_tooltip = for_decisions_tt
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_12 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_13 
+		icon = GFX_goals_IRNBOS_FIST
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_6
+		}
+		mutually_exclusive = {
+			focus = irn_nf_bos_12
+		}
+		available = {
+			has_idea = irn_slave_scientists
+			has_idea = irn_zombie_decay
+		}
+		x = 19
+		y = 11
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_13 entered"
+			}
+
+			remove_ideas = irn_zombie_decay
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_13 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_7 
+		icon = GFX_goals_IRNBOS_T-45
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_5
+			focus = irn_nf_bos_10
+		}
+		x = 15
+		y = 11
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_7 entered"
+			}
+
+			add_equipment_to_stockpile = {
+				type = power_armor_equipment_1 
+				amount = -250
+			}
+			
+			if = { limit = {
+					has_completed_focus = irn_nf_bos_5
+						}
+			MOJ = {
+				add_equipment_to_stockpile = {
+				type = power_armor_equipment_1 
+				amount = 250
+			}
+			}
+			}
+
+
+			if = { limit = {
+					has_completed_focus = irn_nf_bos_10
+						}
+			VLT = {
+				set_technology = { stripped_pa_tech = 1 }
+			}
+			}
+		
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_7 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ncn_4
+		icon = GFX_goals_IRN_vNCN
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ncn_2
+		}
+		x = 2
+		y = 12
+		available = {
+			UIN = {exists = no}
+		}
+		bypass = {
+			NCN = {
+				exists = no
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		will_lead_to_war_with = NCN
+		available_if_capitulated = no
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_4 entered"
+			}
+			
+			if = {
+				limit = { NCN = { exists = yes is_puppet = no }}
+				create_wargoal = { type = annex_everything target = NCN }
+				else = { 
+					activate_targeted_decision = { 
+						target = NCN 
+						decision = demand_stolen_territory
+					}
+				}
+				}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_4 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ncn_5
+		icon = GFX_goals_IRN_Paradise
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ncn_3
+		}
+		x = 4
+		y = 12
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_5 entered"
+			}
+			
+			add_ideas = irn_baptized
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_5 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ncn_6
+		icon = GFX_goals_IRN_Father_Dead
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ncn_4
+		}
+		x = 2
+		y = 13
+		available = {
+			NCN = {exists = no}
+		}
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_6 entered"
+			}
+			
+			add_ideas = irn_mormon_slaves
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_6 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_ncn_7
+		icon = GFX_goals_IRN_Father
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_ncn_5
+		}
+		x = 4
+		y = 13
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_6 entered"
+			}
+			
+			NCN = {add_to_faction = IRN}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_ncn_6 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_8
+		icon = GFX_goals_IRNPAC_Selection
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_pac_7
+		}
+		x = 11
+		y = 12
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_8 entered"
+			}
+
+			custom_effect_tooltip = PAC_advisors_tt
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_8 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_8 
+		icon = GFX_goals_IRNBOS_Gasmask
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_7
+		}
+		x = 15
+		y = 12
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_8 entered"
+			}
+
+			custom_effect_tooltip = staff_and_military_command_tt
+
+			hidden_effect = {
+			create_corps_commander = {
+					name = "Matthew Miller"
+					picture = "portrait_settler_generic_4.dds"
+					skill = 3
+					traits = {
+						old_guard
+						commando
+					}
+					attack_skill = 2
+					defense_skill = 4
+					planning_skill = 1
+					logistics_skill = 2
+				}
+
+			create_corps_commander = {
+					name = "Patricia Price"
+					picture = "portrait_settler_generic_5.dds"
+					skill = 4
+					traits = {
+						offensive_doctrine
+						trait_reckless
+					}
+					attack_skill = 4
+					defense_skill = 3
+					planning_skill = 1
+					logistics_skill = 3
+				}
+			}
+
+			add_manpower = -1500
+
+			if = { limit = {
+					has_completed_focus = irn_nf_bos_5
+						}
+			MOJ = {add_manpower = 1500}
+			}
+
+			if = { limit = {
+					has_completed_focus = irn_nf_bos_10
+						}
+			VLT = {add_manpower = 1500}
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_8 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_9
+		icon = GFX_goals_IRNPAC_vCES
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_pac_11
+		}
+		mutually_exclusive = {
+			focus = irn_nf_pac_10
+		}
+		x = 10
+		y = 14
+		bypass = {
+			CES = {
+				exists = no
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+
+		will_lead_to_war_with = CES
+		available_if_capitulated = no
+
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_9 entered"
+			}
+
+			if = {
+				limit = { CES = { exists = yes is_puppet = no }}
+				declare_war_on = { type = annex_everything target = CES }
+				else = { 
+					activate_targeted_decision = { 
+						target = CES 
+						decision = demand_stolen_territory
+					}
+				}
+				}
+
+			custom_effect_tooltip = bull_war_tt
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_9 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_11
+		icon = GFX_goals_IRNPAC_CES
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_pac_8
+		}
+		mutually_exclusive = {
+			focus = irn_nf_pac_9
+		}
+		x = 11
+		y = 13
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_11 entered"
+			}
+
+			country_event = {
+				id = IRN.21
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_11 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_pac_10
+		icon = GFX_goals_IRNPAC_CESOK
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_pac_11
+		}
+		mutually_exclusive = {
+			focus = irn_nf_pac_9
+		}
+		x = 12
+		y = 14
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_10 entered"
+			}
+
+			#CES = {add_to_faction = IRN}		
+			CES = { puppet = IRN }
+
+			hidden_effect = {
+				add_opinion_modifier = { target = CES modifier = huge_increase }
+				CES = {add_opinion_modifier = { target = IRN modifier = huge_increase }}
+
+				transfer_state = 109
+				transfer_state = 568
+				transfer_state = 525
+				transfer_state = 82
+				transfer_state = 490
+				transfer_state = 185
+				transfer_state = 460
+				transfer_state = 414
+				transfer_state = 544
+				transfer_state = 645
+				transfer_state = 610
+				transfer_state = 405
+				transfer_state = 586
+				transfer_state = 550
+
+				set_capital = 525
+			}
+
+			if = { limit = { has_idea = irn_far_from_home_1}
+			remove_ideas = irn_far_from_home_1
+			}
+			if = { limit = { has_idea = irn_far_from_home_2}
+			remove_ideas = irn_far_from_home_2
+			}
+			if = { limit = { has_idea = irn_far_from_home_3}
+			remove_ideas = irn_far_from_home_3
+			}
+
+			custom_effect_tooltip = puppet_tt
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_pac_10 exited"
+			}
+		}
+	}
+
+
+	focus = {
+		id = irn_nf_bos_9 
+		icon = GFX_goals_IRNBOS_BOS
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_8
+		}
+		mutually_exclusive = {
+			focus = irn_nf_bos_11
+		}
+		available = {
+			has_completed_focus = irn_nf_bos_5
+		}
+		x = 16
+		y = 13
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_9 entered"
+			}
+
+			country_event = {
+				id = IRN.14
+			}	
+
+			custom_effect_tooltip = new_sterlings_brotherhood_tt
+
+			hidden_effect = {
+				set_technology = {
+					enclave_pa_unlock_tech = 1
+					plasma_unlock_tech = 1
+					gauss_unlock_tech = 1
+				}
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_9 exited"
+			}
+		}
+	}
+
+	focus = {
+		id = irn_nf_bos_11
+		icon = GFX_goals_IRNBOS_NSV
+		cost = 8.6
+		prerequisite = {
+			focus = irn_nf_bos_8
+		}
+		mutually_exclusive = {
+			focus = irn_nf_bos_9
+		}
+		available = {
+			has_completed_focus = irn_nf_bos_10
+		}
+		x = 14
+		y = 13
+		available_if_capitulated = yes
+		completion_reward = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_11 entered"
+			}
+
+			country_event = {
+				id = IRN.23
+			}
+			
+			custom_effect_tooltip = new_sterlings_vault_tt
+
+			set_country_flag = is_vault_tec_nation
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] irn_nf_bos_11 exited"
+			}
+		}
+	}
+}
