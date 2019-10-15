@@ -1,0 +1,500 @@
+﻿add_namespace = nf_fort
+
+country_event = {
+    id = nf_fort.1
+    title = nf_fort.1.t
+    desc = nf_fort.1.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.1.option.a
+		add_equipment_to_stockpile = { 
+				type = power_armor_equipment_2
+				amount = 200
+				producer = FRT			
+			}
+		add_popularity = {
+				ideology = elites
+				popularity = 0.05
+			}
+	}
+	option = {
+		name = nf_fort.1.option.b
+		546 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		add_popularity = {
+				ideology = people
+				popularity = 0.05
+			}
+			
+	}	
+    option = {
+		name = nf_fort.1.option.c
+		set_technology = {
+			grand_army = 1
+			grand_battle_plan_owb = 1
+		}
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.05
+			}
+    }
+}
+country_event = {
+    id = nf_fort.2
+    title = nf_fort.2.t
+    desc = nf_fort.2.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.2.option.b
+		add_tech_bonus = {
+				name = medical_bonus
+				bonus = 0.5
+				uses = 2
+				category = chem_tech
+			}
+		add_popularity = {
+				ideology = people
+				popularity = 0.05
+			}
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.05
+			}
+	}
+	option = {
+		name = nf_fort.2.option.a
+		add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		add_popularity = {
+				ideology = people
+				popularity = 0.05
+			}
+	}	
+    option = {
+		name = nf_fort.2.option.c
+		add_manpower = 600
+		add_popularity = {
+				ideology = elites
+				popularity = 0.05
+			}
+    }
+}
+country_event = {
+    id = nf_fort.3
+    title = nf_fort.3.t
+    desc = nf_fort.3.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.3.option.a
+		546 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		add_popularity = {
+				ideology = people
+				popularity = 0.05
+			}
+	}
+	option = {
+		name = nf_fort.3.option.b
+		add_equipment_to_stockpile = { 
+				type = energy_equipment_2
+				amount = 500
+				producer = FRT			
+			}
+		add_popularity = {
+				ideology = elites
+				popularity = 0.05
+			}
+	}	
+    option = {
+		name = nf_fort.3.option.c
+		add_equipment_to_stockpile = { 
+				type = fighter_equipment_2
+				amount = 20
+				producer = FRT			
+			}
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.05
+			}
+    }
+}
+country_event = {
+    id = nf_fort.4
+    title = nf_fort.4.t
+    desc = nf_fort.4.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.4.option.a
+		546 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		add_popularity = {
+				ideology = people
+				popularity = 0.05
+			}
+	}
+	option = {
+		name = nf_fort.4.option.b
+		546 = {
+			add_resource = {
+			type = metal
+			amount = 10
+			}
+			add_resource = {
+			type = water
+			amount = 10
+			}
+		}
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.05
+			}
+	}	
+    option = {
+		name = nf_fort.4.option.c
+		add_manpower = 650
+		add_popularity = {
+				ideology = elites
+				popularity = 0.05
+			}
+    }
+}
+country_event = {
+    id = nf_fort.5
+    title = nf_fort.5.t
+    desc = nf_fort.5.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.5.option.a
+		add_manpower = 900
+		create_wargoal = {
+				type = puppet_wargoal_focus
+				target = YGG
+			}
+	}
+	option = {
+		name = nf_fort.5.option.b
+		add_equipment_to_stockpile = { 
+				type = energy_equipment_2
+				amount = 400
+				producer = FRT			
+			}
+		create_wargoal = {
+				type = puppet_wargoal_focus
+				target = YGG
+			}
+	}	
+}
+country_event = {
+    id = nf_fort.6
+    title = nf_fort.6.t
+    desc = nf_fort.6.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.6.option.a
+		FRT = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = YGG
+			}
+		}
+	}
+	option = {
+		name = nf_fort.6.option.b
+		add_equipment_to_stockpile = { 
+				type = energy_equipment_2
+				amount = 400
+				producer = FRT			
+			}
+		FRT = {
+			puppet = YGG
+		}
+		ai_chance = { factor = 100 }
+	}	
+}
+country_event = {
+    id = nf_fort.7
+    title = nf_fort.7.t
+    desc = nf_fort.7.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.7.option.a
+		set_technology = {
+				apc_tech_1 = 1
+			}
+		add_equipment_to_stockpile = { 
+				type = apc_equipment_3
+				amount = 300
+				producer = FRT			
+			}
+	}
+	option = {
+		name = nf_fort.7.option.b
+		add_equipment_to_stockpile = { 
+				type = energy_equipment_2
+				amount = 1000
+				producer = FRT			
+			}
+	}	
+}
+country_event = {
+    id = nf_fort.8
+    title = nf_fort.8.t
+    desc = nf_fort.8.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.8.option.a
+		set_technology = {
+				p80_nuclear = 1
+			}
+		add_equipment_to_stockpile = { 
+				type = fighter_equipment_4
+				amount = 50
+				producer = FRT			
+			}
+	}
+	option = {
+		name = nf_fort.8.option.b
+		set_technology = {
+				anti_tank_tech_5 = 1
+			}
+		add_equipment_to_stockpile = { 
+				type = anti_tank_equipment_3
+				amount = 100
+				producer = FRT			
+			}
+	}	
+}
+country_event = {
+    id = nf_fort.9
+    title = nf_fort.9.t
+    desc = nf_fort.9.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.9.option.a
+		set_technology = {
+				power_armour_t51b = 1
+			}
+		add_equipment_to_stockpile = { 
+				type = power_armor_equipment_3
+				amount = 800
+				producer = FRT			
+			}
+	}
+	option = {
+		name = nf_fort.9.option.b
+		set_technology = {
+				laser_tech_5 = 1
+			}
+		add_equipment_to_stockpile = { 
+				type = laser_equipment_3
+				amount = 150
+				producer = FRT			
+			}
+	}	
+}
+country_event = {
+	id = nf_fort.10
+	title = nf_fort.10.t
+	desc = nf_fort.10.desc
+	picture = GFX_event_generic_settlement_1
+	is_triggered_only = yes
+
+	
+	option = {
+		name = nf_fort.10.option.a
+		add_popularity = {
+				ideology = elites
+				popularity = 0.05
+			}
+		add_ideas = {
+				iron_hand
+			}
+	}
+	option = {
+		name = nf_fort.10.option.b
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.05
+			}
+		add_ideas = {
+				ivory_tower
+			}
+	}
+	option = {
+		name = nf_fort.10.option.c
+		add_popularity = {
+				ideology = people
+				popularity = 0.05
+			}
+		add_stability = 0.1
+	}
+	option = {
+		name = nf_fort.10.option.d
+		add_popularity = {
+		ideology = ruler
+				popularity = 0.05
+				}
+				add_ideas = pleb_riots
+				}
+}
+country_event = {
+	id = nf_fort.11
+	title = nf_fort.11.t
+	desc = nf_fort.11.desc
+
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = FRT
+		date > 2277.1.1
+	}
+	option = {
+		name = nf_fort.11.option.a
+		trigger = { people > 0.33 }
+		add_ideas = democracy_prevails
+		set_politics = { ruling_party = people elections_allowed = yes }
+		add_popularity = {
+				ideology = people
+				popularity = 0.15
+				}
+	}
+	option = {
+		name = nf_fort.11.option.b
+		trigger = { elites > 0.33 }
+		add_ideas = jupiter_rising
+		set_politics = { ruling_party = elites elections_allowed = no }
+		add_popularity = {
+				ideology = elites
+				popularity = 0.15
+				}
+	}
+	option = {
+		name = nf_fort.11.option.c
+		trigger = { intellectuals > 0.33 }
+		add_ideas = ivory_succeed
+		set_politics = { ruling_party = intellectuals elections_allowed = no }
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.15
+				}
+	}
+option = {
+name =	nf_fort.11.option.d
+trigger = { ruler > 0.35 }
+add_ideas = junta_leadership
+set_politics = { ruling_party = ruler elections_allowed = no }
+remove_ideas = growing_dissent
+}
+}
+
+
+
+country_event = {
+    id = nf_fort.12
+    title = nf_fort.12.t
+    desc = nf_fort.12.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.12.option.a
+		add_equipment_to_stockpile = { 
+				type = power_armor_equipment_2
+				amount = 1200
+				producer = FRT			
+			}
+	}
+	option = {
+		name = nf_fort.12.option.b
+		add_equipment_to_stockpile = { 
+				type = energy_equipment_2
+				amount = 1500
+				producer = FRT			
+			}
+	}	
+}
+country_event = {
+    id = nf_fort.13
+    title = nf_fort.13.t
+    desc = nf_fort.13.desc
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = nf_fort.13.option.a
+		add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.4
+				uses = 3
+				category = industry
+			}
+		add_tech_bonus = {
+				name = support_bonus
+				bonus = 0.5
+				uses = 2
+				category = support_tech
+			}
+	}
+	option = {
+		name = nf_fort.13.option.b
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+		add_tech_bonus = {
+			name = explosive_bonus
+			bonus = 0.4
+			uses = 1
+			category = explosive_tech
+		}
+		add_tech_bonus = {
+			name = robot_bonus
+			bonus = 0.5
+			uses = 1
+			category = robotics_tech
+		}
+	}	
+}		

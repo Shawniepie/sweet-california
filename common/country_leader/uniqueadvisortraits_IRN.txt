@@ -1,0 +1,52 @@
+leader_traits = {
+
+	mad_dog= { #HAN
+		random = no
+		conscription = 0.1
+		stability_factor = -0.1 
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reformed_tyrant = { #Bulleteater
+		enemy_partisan_effect = -0.25
+		foreign_subversive_activites = -0.3
+		non_core_manpower = 0.10
+		local_resources_factor = 0.05
+		stability_factor = -0.1 
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	hog_leader = { #Stinger
+		army_speed_factor = 0.10
+		army_attack_factor = 0.1
+		stability_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	war_hero = { #Old Dog
+		war_support_weekly = 0.0025
+		stability_factor = -0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	passive_resister = { #Bos Scribe 
+		stability_weekly = 0.002
+		war_support_weekly = -0.001
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
+	

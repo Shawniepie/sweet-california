@@ -1,0 +1,868 @@
+﻿add_namespace = IRN
+
+
+#The Beginning
+
+#Long March
+country_event = {
+    id = IRN.1
+    title = IRN.1.t
+    desc = IRN.1.d
+    picture = GFX_event_generic_raider_1
+
+    is_triggered_only = yes
+    
+		option = {
+		name = IRN.1.1
+		add_ideas = irn_long_march_1
+		}
+
+		option = {
+		name = IRN.1.2
+		add_ideas = irn_long_march_2
+		}
+	
+		option = {
+		name = IRN.1.3
+		add_ideas = irn_long_march_3
+		}
+}
+
+#Far From Home
+country_event = {
+    id = IRN.2
+    title = IRN.2.t
+    desc = IRN.2.d
+    picture = GFX_event_generic_raider_1
+
+    is_triggered_only = yes
+    
+		option = {
+		name = IRN.2.1
+		add_ideas = irn_far_from_home_1
+		}
+
+		option = {
+		name = IRN.2.2
+		add_ideas = irn_far_from_home_2
+		}
+	
+		option = {
+		name = IRN.2.3
+		add_ideas = irn_far_from_home_3
+		}
+}
+
+
+#Mesmer
+country_event = {
+    id = IRN.3
+    title = IRN.3.t
+    desc = IRN.3.d
+    is_triggered_only = yes
+    picture = GFX_event_generic_ruins_2
+
+    immediate = {
+
+    hidden_effect ={
+    create_country_leader  = {
+	name = "Mesmer"
+	desc = "Bulleteater_DESC"
+	picture = "gfx/leaders/IRN/ree_2.png"
+	expire = "3000.1.1"
+	ideology = technocracy
+	traits = {
+		old_world_blues 
+		}
+	}
+	
+	load_oob  = mesmers_robots
+
+	}
+
+    }
+		option = {
+		name = IRN.3.1
+		}
+}
+
+#Hope
+country_event = {
+    id = IRN.4
+    title = IRN.4.t
+    desc = IRN.4.d
+    picture = GFX_event_generic_raider_1
+
+    is_triggered_only = yes
+    
+		option = {
+		name = IRN.4.1
+		add_ideas = irn_hopes_1
+		}
+
+		option = {
+		name = IRN.4.2
+		add_ideas = irn_hopes_2
+		}
+	
+		option = {
+		name = IRN.4.3
+		add_ideas = irn_hopes_3
+		}
+}
+
+
+#Vault
+
+#Entry to the Vault
+country_event = {
+    id = IRN.5
+    title = IRN.5.t
+    desc = IRN.5.d
+	picture = GFX_event_BOS_bunker_door
+
+    is_triggered_only = yes
+    
+		option = {
+		name = IRN.5.1
+		add_resource = {
+			type = advanced 
+			amount = 12
+			state = 430
+			}
+		}
+
+		option = {
+		name = IRN.5.2
+		add_resource = {
+			type = composites
+			amount = 12
+			state = 430
+			}
+		}
+
+		option = {
+		name = IRN.5.3
+		add_resource = {
+			type = energy 
+			amount = 12
+			state = 430
+			}
+		}
+}
+
+#First Floor
+country_event = {
+    id = IRN.6
+    title = IRN.6.t
+    desc = IRN.6.d
+    picture = GFX_event_BOS_bunker_door
+
+    is_triggered_only = yes
+
+		option = { #Balistic Weaponry
+		name = IRN.6.1
+		set_technology = {
+			ballistic_weaponry_tech_1 = 1
+		}
+		custom_effect_tooltip = irn_basic_tt
+		country_event = {
+			id = IRN.7
+			days = 7
+		}
+		}
+
+		option = { #Melee Weaponry
+		name = IRN.6.2
+		set_technology = {
+			melee_weaponry_tech_2 = 1
+			melee_weaponry_tech_3 = 1
+		}
+		custom_effect_tooltip = irn_melee_tt
+		country_event = {
+			id = IRN.8
+			days = 7
+		}
+		}
+
+		option = { #Robots
+		name = IRN.6.3
+		set_technology = {
+			robot_alloy_tech  = 1
+			robot_protectron_tech_2  = 1
+		}
+		custom_effect_tooltip = irn_robots_tt
+		country_event = {
+			id = IRN.9
+			days = 7
+		}
+		}
+}
+
+#Shipment for the First Floor
+country_event = { # Ballistic Weaponry
+	id = IRN.7
+	title = IRN.7.t
+	desc = IRN.7.d
+	picture = GFX_event_BOS_bunker_door
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = ballistic_equipment_1
+			amount = 2000
+		}
+	}
+
+	option = {
+		name = IRN.7.1
+	}
+}
+
+country_event = { # Melee Weaponry
+	id = IRN.8
+	title = IRN.8.t
+	desc = IRN.8.d
+	picture = GFX_event_BOS_bunker_door
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = melee_equipment_3
+			amount = 1000
+		}
+	}
+
+	option = {
+		name = IRN.8.1
+	}
+}
+
+country_event = { # Robots
+	id = IRN.9
+	title = IRN.9.t
+	desc = IRN.9.d
+	picture = GFX_event_BOS_bunker_door
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = support_robot_protectron_equipment_2
+			amount = 500
+		}
+	}
+
+	option = {
+		name = IRN.9.1
+	}
+}
+
+
+#Seccond Floor
+country_event = {
+    id = IRN.10
+    title = IRN.10.t
+    desc = IRN.10.d
+    picture = GFX_event_BOS_bunker_door
+
+    is_triggered_only = yes
+
+		option = { #Pa
+		name = IRN.10.1
+		set_technology = {
+			simple_servo_tech = 1
+			scav_pa_tech = 1
+		}
+
+		custom_effect_tooltip = irn_pa_tt
+		country_event = {
+			id = IRN.70
+			days = 7
+		}
+		}
+
+		option = { #Vechicles
+		name = IRN.10.2
+		set_technology = {
+			bike_tech_2 = 1
+			car_tech_1 = 1
+		}
+
+		custom_effect_tooltip = irn_vechicles_tt
+		country_event = {
+			id = IRN.80
+			days = 7
+		}
+		}
+
+		option = { #Doogos
+		name = IRN.10.3
+		set_technology = {
+			dog_tech_1 = 1
+			dog_equipment_tech_2  = 1
+		}
+
+		custom_effect_tooltip = irn_dog_tt
+		country_event = {
+			id = IRN.90
+			days = 7
+		}
+		}
+
+}
+
+#Shipment for the Seccond Floor
+country_event = { # PA's
+	id = IRN.70
+	title = IRN.70.t
+	desc = IRN.70.d
+	picture = GFX_event_BOS_bunker_door
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = power_armor_equipment_2
+			amount = 1000
+		}
+	}
+
+	option = {
+		name = IRN.70.1
+	}
+}
+
+country_event = { # Vechicles
+	id = IRN.80
+	title = IRN.80.t
+	desc = IRN.80.d
+	picture = GFX_event_BOS_bunker_door
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = car_equipment_1
+			amount = 1000
+		}
+	}
+
+	option = {
+		name = IRN.80.1
+	}
+}
+
+country_event = { # Doggos
+	id = IRN.90
+	title = IRN.90.t
+	desc = IRN.90.d
+	picture = GFX_event_BOS_bunker_door
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_equipment_to_stockpile = {
+			type = dogs_equipment_2
+			amount = 2000
+		}
+	}
+
+	option = {
+		name = IRN.90.1
+	}
+}
+
+
+#Mormon Question
+country_event = {
+    id = IRN.11
+    title = IRN.11.t
+    desc = IRN.11.d
+    picture = GFX_event_HEA_bishop2
+
+    is_triggered_only = yes
+
+		option = {
+		name = IRN.11.1
+		}
+
+}
+
+
+#BOS
+
+#Mesmer's Takeover
+country_event = {
+    id = IRN.12
+    title = IRN.12.t
+    desc = IRN.12.d
+    picture = GFX_event_radio_new_vegas
+    
+    is_triggered_only = yes
+
+	option = {
+		name = IRN.12.1
+
+		set_politics = {
+			ruling_party = intellectuals
+			elections_allowed = no
+		}
+
+		add_popularity = {
+				ideology = intellectuals 
+				popularity = 0.15
+			}
+
+		swap_ideas = { 
+  		remove_idea = irn_bullet_1_ns 
+  		add_idea = irn_mesmer_1_ns
+		}
+
+		hidden_effect = {
+
+			create_country_leader  = {
+				name = "Mesmer"
+				desc = "Bulleteater_DESC"
+				picture = "gfx/leaders/IRN/ree_2.png"
+				expire = "3000.1.1"
+				ideology = peoples_militia
+
+				traits = {
+					old_world_blues 
+				}
+			}
+
+			create_country_leader  = {
+				name = "Mesmer"
+				desc = "Bulleteater_DESC"
+				picture = "gfx/leaders/IRN/ree_2.png"
+				expire = "3000.1.1"
+				ideology = feudalism
+
+				traits = {
+					old_world_blues 
+				}
+			}	
+
+			create_country_leader  = {
+				name = "Mesmer"
+				desc = "Bulleteater_DESC"
+				picture = "gfx/leaders/IRN/ree_2.png"
+				expire = "3000.1.1"
+				ideology = warlordship
+
+				traits = {
+					old_world_blues 
+				}
+			}		
+
+			IRN = { country_event = { id = IRN.13 days = 5 } } #make it 100
+		}
+
+		custom_effect_tooltip = mesmer_soliders_tt
+
+		}
+	}
+
+#Sudden Decay
+country_event = {
+    id = IRN.13
+    title = IRN.13.t
+    desc = IRN.13.d
+    picture = GFX_event_radio_new_vegas
+
+    is_triggered_only = yes
+
+	option = {
+		name = IRN.13.1
+		add_ideas = irn_zombie_decay
+		}
+	}
+
+
+# Deal with the Decay
+country_event = {
+    id = IRN.22
+    title = IRN.22.t
+    desc = IRN.22.d
+    picture = GFX_event_CES_camp_2
+
+    is_triggered_only = yes
+
+
+	option = {
+		name = IRN.22.1
+	}
+
+}
+
+#Becomes Brotherhood
+country_event = {
+    id = IRN.14
+    title = IRN.14.t
+    desc = IRN.14.d
+    picture = GFX_event_BOS_desert_patrol
+
+    is_triggered_only = yes
+
+		option = {
+		name = IRN.14.1
+		set_cosmetic_tag = IRN_BOS_cosmetic_tag
+		set_technology = { scientific_civilization  = 1 }
+		add_research_slot = 1
+		swap_ideas = { 
+  		remove_idea = irn_mesmer_1_ns 
+ 		add_idea = irn_mesmer_2_ns
+		}
+		}
+}
+
+#Becomes Vault Country
+country_event = {
+    id = IRN.23
+    title = IRN.23.t
+    desc = IRN.23.d
+    picture = GFX_event_BOS_desert_patrol
+
+    is_triggered_only = yes
+
+		option = {
+		name = IRN.23.1
+		set_cosmetic_tag = IRN_VLT_cosmetic_tag
+		set_technology = { scientific_civilization  = 1 }
+		add_research_slot = 1
+		swap_ideas = { 
+  		remove_idea = irn_mesmer_1_ns 
+ 		add_idea = irn_mesmer_3_ns
+		}
+		}
+}
+
+
+#The Pack
+#Forming The Pack
+country_event = {
+    id = IRN.16
+    title = IRN.16.t
+    desc = IRN.16.d
+    picture = GFX_event_generic_raider_1
+
+    is_triggered_only = yes
+
+
+	option = {
+		name = IRN.16.1
+		set_cosmetic_tag = IRN_PAC_cosmetic_tag
+	}
+
+}
+
+#One to Rule The Pack
+# All aviable
+country_event = {
+    id = IRN.17
+    title = IRN.17.t
+    desc = IRN.17.d
+    picture = GFX_event_generic_raider_1
+
+    is_triggered_only = yes
+
+		option = {
+		name = IRN.17.1 #Bulleteater
+		trigger = {
+			has_variable  = var_irn_irn
+		}
+
+		clear_variable = var_irn_irn
+
+		create_country_leader = {
+				name = "Bulleteater"
+				desc = "final_Bulleteater_DESC"
+				picture = "Portrait_IRN_Leader.dds"
+				expire = "3000.1.1"
+				ideology = warlordship
+
+			traits = {
+				reformed_tyrant
+			}
+			}
+
+			swap_ideas = { 
+  			remove_idea = irn_bullet_1_ns 
+  			add_idea = irn_bullet_2_ns
+			}
+
+			hidden_effect = {
+
+			create_country_leader = {
+				name = "Bulleteater"
+				desc = "final_Bulleteater_DESC"
+				picture = "Portrait_IRN_Leader.dds"
+				expire = "3000.1.1"
+				ideology = technocracy
+
+			traits = {
+				reformed_tyrant
+			}
+			}
+
+			create_country_leader = {
+				name = "Bulleteater"
+				desc = "final_Bulleteater_DESC"
+				picture = "Portrait_IRN_Leader.dds"
+				expire = "3000.1.1"
+				ideology = peoples_militia
+
+			traits = {
+				reformed_tyrant
+			}
+			}
+
+			create_country_leader = {
+				name = "Bulleteater"
+				desc = "final_Bulleteater_DESC"
+				picture = "Portrait_IRN_Leader.dds"
+				expire = "3000.1.1"
+				ideology = feudalism
+
+			traits = {
+				reformed_tyrant
+			}
+			}
+
+			}
+		}
+
+
+		
+		option = {
+			name = IRN.17.2 #Old Dog
+			trigger = {
+				has_variable  = var_irn_whd
+			}
+
+			clear_variable = var_irn_whd
+
+			create_country_leader = {
+				name = "Old Dog"
+				desc = "final_OLDDOG_DESC"
+				picture = "Portrait_WHD_Leader.dds"
+				expire = "3000.1.1"
+				ideology = benevolent_dictatorship
+			traits = {
+				war_hero
+			}
+			}
+
+			swap_ideas = { 
+  			remove_idea = irn_bullet_1_ns 
+  			add_idea = irn_whd_ns
+			}
+
+			hidden_effect = {
+				set_technology = { ghoul_civilization = 1 }
+
+				create_country_leader = {
+				name = "Old Dog"
+				desc = "final_OLDDOG_DESC"
+				picture = "Portrait_WHD_Leader.dds"
+				expire = "3000.1.1"
+				ideology = technocracy
+			traits = {
+				war_hero
+			}
+			}
+
+			create_country_leader = {
+				name = "Old Dog"
+				desc = "final_OLDDOG_DESC"
+				picture = "Portrait_WHD_Leader.dds"
+				expire = "3000.1.1"
+				ideology = peoples_militia
+			traits = {
+				war_hero
+			}
+			}
+
+			create_country_leader = {
+				name = "Old Dog"
+				desc = "final_OLDDOG_DESC"
+				picture = "Portrait_WHD_Leader.dds"
+				expire = "3000.1.1"
+				ideology = feudalism
+			traits = {
+				war_hero
+			}
+			}
+			}
+
+			custom_effect_tooltip = ghoul_soliders_tt
+	
+		}
+
+		option = {
+		name = IRN.17.3 #Stinger
+		trigger = {
+			has_variable  = var_irn_sco
+		}
+
+		clear_variable = var_irn_sco
+
+		create_country_leader = {
+			name = "Stinger"
+			desc = "final_Stinger_DESC"
+			picture = "Portrait_SCO_Leader.dds"
+			expire = "3000.1.1"
+			ideology = gang
+		traits = {
+			hog_leader
+		}
+		}
+
+		swap_ideas = { 
+  			remove_idea = irn_bullet_1_ns 
+  			add_idea = irn_sco_ns
+			}
+
+		hidden_effect = {
+
+		create_country_leader = {
+			name = "Stinger"
+			desc = "final_Stinger_DESC"
+			picture = "Portrait_SCO_Leader.dds"
+			expire = "3000.1.1"
+			ideology = peoples_militia
+		traits = {
+			hog_leader
+		}
+		}
+
+		create_country_leader = {
+			name = "Stinger"
+			desc = "final_Stinger_DESC"
+			picture = "Portrait_SCO_Leader.dds"
+			expire = "3000.1.1"
+			ideology = feudalism
+		traits = {
+			hog_leader
+		}
+		}
+
+		create_country_leader = {
+			name = "Stinger"
+			desc = "final_Stinger_DESC"
+			picture = "Portrait_SCO_Leader.dds"
+			expire = "3000.1.1"
+			ideology = technocracy
+		traits = {
+			hog_leader
+		}
+		}
+		}
+		}
+
+		option = {
+		name = IRN.17.4 #Bares His Teeth
+		trigger = {
+			has_variable  = var_irn_han
+		}
+
+		clear_variable = var_irn_han
+
+		create_country_leader = {
+			name = "Bares His Teeth"
+			desc = "final_TEETH_DESC"
+			picture = "gfx/leaders/raider/portrait_raider_generic_13.dds"
+			expire = "3000.1.1"
+			ideology = gang
+		traits = {
+			mad_dog
+		}
+	}
+
+	swap_ideas = { 
+  			remove_idea = irn_bullet_1_ns 
+  			add_idea = irn_han_ns
+			}
+
+	hidden_effect = {
+
+	create_country_leader = {
+			name = "Bares His Teeth"
+			desc = "final_TEETH_DESC"
+			picture = "gfx/leaders/raider/portrait_raider_generic_13.dds"
+			expire = "3000.1.1"
+			ideology = technocracy
+		traits = {
+			mad_dog
+		}
+	}
+
+	create_country_leader = {
+			name = "Bares His Teeth"
+			desc = "final_TEETH_DESC"
+			picture = "gfx/leaders/raider/portrait_raider_generic_13.dds"
+			expire = "3000.1.1"
+			ideology = peoples_militia
+		traits = {
+			mad_dog
+		}
+	}
+
+	create_country_leader = {
+			name = "Bares His Teeth"
+			desc = "final_TEETH_DESC"
+			picture = "gfx/leaders/raider/portrait_raider_generic_13.dds"
+			expire = "3000.1.1"
+			ideology = feudalism
+		traits = {
+			mad_dog
+		}
+	}
+
+
+	}
+}
+}
+
+# Seccond Thoughts
+country_event = {
+    id = IRN.21
+    title = IRN.21.t
+    desc = IRN.21.d
+    picture = GFX_event_CES_camp_2
+
+    is_triggered_only = yes
+
+
+	option = {
+		name = IRN.21.1
+	}
+
+}
+
+#Fleed Scientists (Forgers)
+#country_event = {
+#    id = IRN.420
+#    title = IRN.420.t
+#    desc = IRN.420.d
+#    picture = GFX_event_KHA_followers_of_the_apocalypse
+#
+#    trigger = {
+#    	TTM = { has_defensive_war = yes }
+#    }
+#
+#	immediate = {
+#		FOR = {
+#			add_ideas = irn_fleed_scientists
+#		}
+#	}
+#
+#	option = {
+#		name = IRN.420.1
+#		add_ideas = irn_fleed_scientists
+#	}
+#}

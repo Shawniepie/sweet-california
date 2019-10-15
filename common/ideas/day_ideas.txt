@@ -1,0 +1,515 @@
+ideas = {
+	country = {
+        
+
+establishedtraderoutes = {
+            
+            picture = generic_goods_red_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.03
+            }
+        }
+		
+		ExpansionisticPast  = {
+            
+            picture = FRA_national_mobilization_focus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.01
+					
+            }
+        }
+		
+				Fresh_Blood  = {
+            
+            picture = tfv_can_conscription_crisis
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.03
+					
+            }
+        }
+		
+								OfficerCorps = {
+			
+			picture = general_staff
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.05
+			}
+			
+		}
+		
+		PatrioticPropaganda = {
+			
+			picture = ger_revive_the_kaiserreich
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+					conscription = 0.02
+					
+			}
+			
+		}
+		
+				ReorgArmy = {
+			
+			picture = chi_army_corruption3
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+
+					
+				army_core_defence_factor = 0.05
+				
+				army_core_attack_factor = 0.05
+			}
+			
+		}
+		
+		
+		
+		TrainingDrills = {
+			picture = chi_wargaming_division 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			equipment_bonus = {
+				category_all_infantry = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+					defense = 0.05
+				}
+			}
+		}
+		
+		militarydoctrine = {
+		
+			picture = hol_gateway_to_europe
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				max_planning = 0.15
+				planning_speed = 0.15
+			}
+			
+		}
+		
+		
+		
+		reconstruction = {
+            picture = generic_build_infrastructure
+
+            allowed = {
+            }
+
+            removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.10
+            }
+        }
+		
+		
+			GlowingCity = {
+			
+			picture = ger_the_great_red_menace
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				local_resources_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}			
+		}
+		exploiting = {
+			
+			picture = generic_exploit_mines
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				local_resources_factor = 0.10
+			}			
+		}
+		
+		Rapids = {
+			
+			picture = chi_forced_conscription
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+					conscription = 0.05
+					
+			}
+			
+		}
+				BajaLaws = {
+			picture = saf_history_of_segregation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.05
+			}
+		}
+		
+		Pride = {
+			
+			picture = jap_interservice_rivalry_navy_dominant
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+					conscription = 0.005
+					
+			}
+			
+		}
+				ZAXComputer = {
+			picture = jap_supremacy_of_technology
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.10
+			}
+		}
+		GlowSchematics = {
+			
+			picture = man_five_year_plan_tank
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				industrial_capacity_factory = 0.05
+
+			}			
+		}
+		
+		Federation = {
+            
+            picture = usa_desegregation_2
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.1
+            }
+        }
+		
+		Currency = {
+			
+			picture = generic_foreign_capital
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				industrial_capacity_factory = 0.05
+				 production_speed_buildings_factor = 0.10
+
+			}			
+		}
+		
+				Streamlined = {
+			
+			picture = man_five_year_plan_industry
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				industrial_capacity_factory = 0.15
+	
+
+			}			
+		}
+		
+		Fervor = {
+			
+			picture = usa_desegregation_1
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+					conscription = 0.05
+					
+			}
+			
+		}
+		
+		
+			UnitedPopulace = {
+			
+			picture = hol_liveration
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+					conscription = 0.03
+					
+			}
+			
+		}
+		
+		Masters = {
+			
+			picture = raj_marginalized_muslim_community_angry
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				elites_drift = 0.05
+		    }
+		}
+		
+		MutantMigration = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.1
+		    }
+		}
+		
+		MasterWork = {
+			picture = warren
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.1
+			}
+		}
+		
+		MutantMigration2 = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.1
+		    }
+		}
+		
+		
+			Army = {
+			
+			picture = saf_history_of_segregation_2
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.10
+			
+			}
+		
+		}
+		
+		MutantArmy = {
+			
+			picture = prc_low_popular_support2
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+					conscription = 0.03
+					
+			}
+			
+		}
+		
+		
+		
+		Hayes = {
+			
+			picture = can_defence_of_canada_regulations_democratic
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				intellectuals_drift = 0.05
+		    }
+		}
+		
+		
+		PoseidoNet = {
+            
+            picture = can_wartime_prices_and_trade_board
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.05
+            }
+        }
+
+Refined = {
+			picture = FRA_matignon_agreements
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.25
+			}
+
+		
+	}
+	
+	PowerArmor = {
+		
+			picture = generic_acquire_tanks
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			equipment_bonus = {
+				power_armor_equipment = {
+					build_cost_ic = -0.20
+					instant = yes
+				}
+			}
+			}
+			
+			
+			WestTek2 = {
+			
+			picture = generic_central_management
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				industrial_capacity_factory = 0.15
+			}			
+		}
+		
+		
+		Westtek = {
+			picture = generic_research_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+		
+		
+		Vertibirds = {
+		
+			picture = generic_air_research
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			equipment_bonus = {
+				cas_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				transport_plane_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+			}
+	
+}

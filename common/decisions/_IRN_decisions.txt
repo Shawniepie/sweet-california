@@ -1,0 +1,641 @@
+#Vault Decisions
+
+irn_vlt_1_decisions = {
+	irn_decision_vlt_1_energy = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_1 }
+		available = { has_completed_focus = irn_nf_vlt_1 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 25
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			add_resource = {
+				type = energy 
+				amount = 4
+				state = 430
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_vlt_1_advanced = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_1 }
+		available = { has_completed_focus = irn_nf_vlt_1 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 25
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove entered"
+			}
+			add_resource = {
+				type = advanced 
+				amount = 4
+				state = 430
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_vlt_1_composites = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_1 }
+		available = { has_completed_focus = irn_nf_vlt_1 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 25
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			add_resource = {
+				type = composites 
+				amount = 4
+				state = 430
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+}
+
+
+irn_vlt_2_decisions = {
+	irn_decision_vlt_2_common = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_2 }
+		available = { has_completed_focus = irn_nf_vlt_2 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			add_tech_bonus = {
+				name = ballistic_bonus
+				bonus = 1
+				uses = 1
+				category = ballistic_weaponry_tech_category
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_vlt_2_melee = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_2 }
+		available = { has_completed_focus = irn_nf_vlt_2 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove entered"
+			}
+			add_tech_bonus = {
+				name = melee_bonus
+				bonus = 1
+				uses = 1
+				category = melee_weaponry_tech_category
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_vlt_2_robots = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_2 }
+		available = { has_completed_focus = irn_nf_vlt_2 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			add_tech_bonus = {
+				name = robotic_bonus
+				bonus = 0.5
+				uses = 3
+				category = robotics_tech_category
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+}
+
+irn_vlt_3_decisions = {
+	irn_decision_vlt_3_dog_tech = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_3 }
+		available = { has_completed_focus = irn_nf_vlt_3 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 75
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.75
+				uses = 3
+				category = support_dog_tech_category
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_vlt_3_pa_tech = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_3 }
+		available = { has_completed_focus = irn_nf_vlt_3 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 75
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove entered"
+			}
+			add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.75
+				uses = 3
+				category = power_armor_tech_category
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_vlt_3_vehicles_tech = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_vlt_3 }
+		available = { has_completed_focus = irn_nf_vlt_3 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 75
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.75
+				uses = 3
+				category = vehicle_tech_category
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+}
+
+
+# Scientist Retrieval Decisions
+
+irn_bos_12_decisions = {
+	irn_decision_bos_12_1 = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_bos_12}
+		available = { has_completed_focus = irn_nf_bos_12}
+		#modifier = { civilian_factory_use = 5 }
+		cost = 10
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			
+			set_variable = {
+  				var = var_irn_retrieval
+  				value = 1
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+
+	irn_decision_bos_12_2 = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { check_variable = {
+				var = var_irn_retrieval
+  				value = 1
+				}
+		}
+		available = { has_completed_focus = irn_nf_bos_12}
+		#modifier = { civilian_factory_use = 5 }
+		cost = 10
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+		
+			set_variable = {
+  				var = var_irn_retrieval
+  				value = 2
+			}
+		
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+				}
+			}
+		}
+
+	irn_decision_bos_12_3 = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { check_variable = {
+				var = var_irn_retrieval
+  				value = 2
+				}
+		}
+		available = { has_completed_focus = irn_nf_bos_12}
+		#modifier = { civilian_factory_use = 5 }
+		cost = 10
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			
+			set_variable = {
+  				var = var_irn_retrieval
+  				value = 3
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_bos_12_4 = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { check_variable = {
+				var = var_irn_retrieval
+  				value = 3
+				}
+		}
+		available = { has_completed_focus = irn_nf_bos_12}
+		#modifier = { civilian_factory_use = 5 }
+		cost = 10
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			
+			set_variable = {
+  				var = var_irn_retrieval
+  				value = 4
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_bos_12_5 = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { check_variable = {
+				var = var_irn_retrieval
+  				value = 4
+				}
+		}
+		available = { has_completed_focus = irn_nf_bos_12}
+		#modifier = { civilian_factory_use = 5 }
+		cost = 10
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			
+			set_variable = {
+  				var = var_irn_retrieval
+  				value = 5
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_bos_12_6 = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { check_variable = {
+				var = var_irn_retrieval
+  				value = 5
+				}
+		}
+		available = { has_completed_focus = irn_nf_bos_12}
+		#modifier = { civilian_factory_use = 5 }
+		cost = 10
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+
+			set_variable = {
+  				var = var_irn_retrieval
+  				value = 6
+			}
+			remove_ideas = irn_zombie_decay
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+}
+
+# The Pack's Decisions against Caesar
+
+irn_pac_9_decisions = {
+	irn_decision_pac_9_propaganda = {
+		fire_only_once = no
+		days_remove = 7
+		#days_re_enable = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_pac_9 }
+		available = { has_war_with = CES }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 25
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			add_manpower = 100
+			CES = {add_manpower = -100}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_pac_9_steal = {
+		fire_only_once = no
+		days_remove = 7
+		#days_re_enable = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_pac_9 }
+		available = { has_war_with = CES }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 25
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove entered"
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_1
+				amount = 100
+			}
+			CES = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_1
+					amount = -100
+				}
+			}
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_pac_9_raid = {
+		fire_only_once = no
+		days_remove = 30
+		#days_re_enable = 30
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_pac_9 }
+		available = { has_war_with = CES }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 25
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+
+			add_political_power = 75
+			CES = { 
+				random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					}
+				damage_building = {
+					type = industrial_complex
+					damage = 0.6
+					}
+				}
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+}
+
+# The Pack's Move Capital Decision
+
+irn_pac_move_capital = {
+	irn_decision_move_capital_1 = {
+		fire_only_once = yes
+		days_remove = 30
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_pac_9 }
+		available = { owns_state = 525 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+
+			set_capital = 525
+
+			if { limit = { has_idea = irn_far_from_home_1}
+			remove_ideas = irn_far_from_home_1
+			}
+			if { limit = { has_idea = irn_far_from_home_2}
+			remove_ideas = irn_far_from_home_2
+			}
+			if { limit = { has_idea = irn_far_from_home_3}
+			remove_ideas = irn_far_from_home_3
+			}
+
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+}
+
+
+# The Pack's Decisions The Compromise
+
+irn_pac_10_decisions = {
+	irn_decision_pac_10_nomadsoul = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_pac_10 }
+		available = { has_completed_focus = irn_nf_pac_10 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			set_technology = { nomadsoul = 1 }
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_pac_10_clanfightingstyles = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_pac_10 }
+		available = { has_completed_focus = irn_nf_pac_10 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove entered"
+			}
+			set_technology = { clanfightingstyles = 1 }
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_graven_ship (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_pac_10_pathfinders = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_pac_10 }
+		available = { has_completed_focus = irn_nf_pac_10 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			set_technology = { pathfinders = 1 }
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+
+	irn_decision_pac_10_mansbestfriend = {
+		fire_only_once = yes
+		days_remove = 7
+		ai_will_do = { factor = 10 }
+		visible = { has_completed_focus = irn_nf_pac_10 }
+		available = { has_completed_focus = irn_nf_pac_10 }
+		#modifier = { civilian_factory_use = 5 }
+		cost = 50
+		remove_effect = {
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove entered"
+			}
+			set_technology = { mansbestfriend  = 1 }
+			if = {
+				limit = { has_global_flag = debug_logs }
+				log = "[GetDateText]: [Root.GetName] brk_decision_build_the_fleet (decision) remove exited"
+			}
+		}
+	}
+}

@@ -1,0 +1,138 @@
+ideas = {
+
+	country = {
+	
+		ssrresearch = {
+		
+			removal_cost = -1
+			
+			allowed = {
+			}
+			
+			picture = generic_research_bonus
+			
+			modifier = {
+				research_speed_factor = 0.10
+			}
+			
+		}
+	
+		rangertraining = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			equipment_bonus = {
+				spec_ops = {
+					soft_attack = 0.1
+					hard_attack = 0.05
+					defense = 0.05
+					instant = yes
+				}
+			}
+		}
+	
+		ssrnationalizebarons = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = 0.2
+			}
+		}
+	
+		ssrnationalizecc = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		
+		}
+	
+		ssrmovefunding = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.06
+				war_support_factor = 0.05
+				special_forces_cap = -0.10
+			}
+
+			equipment_bonus = {
+				spec_ops = {
+					soft_attack = -0.1
+					hard_attack = -0.1
+					defense = -0.1
+					instant = yes
+				}
+			}
+		}
+	
+		ssrkimballarmy = {
+		
+			picture = generic_infantry_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				max_planning = 0.25
+				army_org_factor = 0.05
+			}	
+		}
+	
+		morerangers = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				special_forces_cap = 0.15
+			}
+			
+		}
+		
+		settlescr = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				stability_factor = -0.05
+			}
+			
+		}
+		
+		
+}

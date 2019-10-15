@@ -1,0 +1,24 @@
+IRN_PAC_cosmetic_tag = {
+	color = rgb {0 49 83 }
+	color_ui = rgb {0 49 83 }
+	#color = rgb {70 104 145 }
+	#color_ui = rgb {70 104 145 }
+}
+
+IRN_BOS_cosmetic_tag = {
+	#color = rgb {255 255 255 }
+	#color_ui = rgb {255 255 255 }
+	color = rgb {229 229 229 }
+	color_ui = rgb {229 229 229 }
+	#color = rgb {200 200 200 }
+	#color_ui = rgb {200 200 200 }
+}
+
+IRN_VLT_cosmetic_tag = {
+	#color = rgb {255 255 255 }
+	#color_ui = rgb {255 255 255 }
+	color = rgb {229 229 229 }
+	color_ui = rgb {229 229 229 }
+	#color = rgb {200 200 200 }
+	#color_ui = rgb {200 200 200 }
+}

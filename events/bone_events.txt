@@ -1,0 +1,253 @@
+﻿add_namespace = bone_event
+
+country_event = {
+    id = bone_event.0
+    title = bone.0.t
+    desc = bone.0.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+		option = {
+    name = bone.0.a
+		add_stability = -0.05
+		add_manpower = 2000
+	}
+		option = {
+    name = bone.0.b
+		load_oob = BNSOldArmy
+					add_equipment_to_stockpile = { 
+				type = power_armor_equipment_2
+				amount = 500
+				producer = BOS			
+			}
+			add_equipment_to_stockpile = { 
+				type = energy_equipment_2
+				amount = 500
+				producer = BOS		
+			}
+			
+		}	
+    	option = {
+    name = bone.0.c
+		add_stability = 0.05
+		add_ideas = letinintellectuals
+    }
+}
+
+country_event = {
+    id = bone_event.1
+    title = bone.1.t
+    desc = bone.1.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+    name = bone.1.a
+		350 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+	}
+	option = {
+    name = bone.1.b
+		396 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}		
+	}
+	option = {
+    name = bone.1.c
+		350 = {
+			add_resource = {
+				type = electricity
+				amount = 24
+			}
+		}
+    }	
+}
+
+country_event = {
+    id = bone_event.2
+    title = bone.2.t
+    desc = bone.2.d
+    picture = GFX_event_generic_settlement_2
+    is_triggered_only = yes
+    
+	option = {
+		name = bone.2.a
+		add_ideas = raidergangs
+	}
+	option = {
+		name = bone.2.b
+		add_stability = 0.1
+		add_war_support = -0.05
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.1
+			}
+	}	
+    option = {
+		name = bone.2.c
+		add_ideas = cityadytum
+    }
+}
+
+country_event = {
+    id = bone_event.3
+    title = bone.3.t
+    desc = bone.3.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = bone.3.a
+		add_equipment_to_stockpile = { 
+				type = energy_equipment_2
+				amount = 500
+				producer = BOS	
+			}
+		add_opinion_modifier = { target = BOS modifier = brotherhoodopinion }
+	}
+	option = {
+		name = bone.3.b
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.15
+			}
+		add_stability = -0.05
+		load_oob = mutants	
+		}	
+}
+
+
+
+
+
+
+##  Employ For The Rippers 
+country_event = {
+    id = bone_event.4
+    title = bone.4.t
+    desc = bone.4.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = bone.4.a
+		add_manpower = -500
+		add_stability = 0.05
+	}
+}
+
+
+##  Battle For The Blades
+country_event = {
+    id = bone_event.5
+    title = bone.5.t
+    desc = bone.5.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = bone.5.a
+		add_manpower = -300
+		add_stability = 0.05
+	}
+}
+
+
+##  Battle For The Regulators  
+country_event = {
+    id = bone_event.6
+    title = bone.6.t
+    desc = bone.6.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = bone.6.a
+		add_manpower = -750
+		add_stability = 0.05
+	}
+}
+
+
+
+
+
+
+
+
+##  Employ The Regulators   
+country_event = {
+    id = bone_event.7
+    title = bone.7.t
+    desc = bone.7.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+	name = bone.7.a
+		load_oob = Regulators
+		add_stability = -0.05
+	}
+}
+
+
+
+##  Employ The Blades 
+country_event = {
+    id = bone_event.9
+    title = bone.9.t
+    desc = bone.9.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+	name = bone.9.a
+		load_oob = Blades
+		add_stability = -0.05
+	}
+}
+
+
+
+##  Employ The Rippers  
+country_event = {
+    id = bone_event.8
+    title = bone.8.t
+    desc = bone.8.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+	name = bone.8.a
+		load_oob = Rippers
+		add_stability = -0.15
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

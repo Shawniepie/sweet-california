@@ -1,0 +1,129 @@
+﻿capital = 430
+oob = "IRN_2275"
+
+set_technology = {
+	tribal_civilization = 1
+	settled_civilization = 1
+	tool_engineering = 1
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+	support_weaponry = 1
+	demolitions_weaponry_tech = 1
+	fireteam_weaponry_tech = 1
+	dog_equipment_tech_1 = 1
+	bike_tech_1 = 1
+	raider_reckless_aggression = 1
+	spec_ops_equipment_tech_1 = 1
+	spec_ops_equipment_tech_2 = 1
+	hardening_armour_tech = 1
+	stripped_pa_tech = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		nautics_tech_1 = 1
+		light_navy_hull_tech_1 = 1
+		waterproof_sealing_tech = 1
+		naval_invasion_tech_1 = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		nautics_tech_non_mtg_1 = 1
+		light_navy_hull_tech_non_mtg_1 = 1
+		waterproof_sealing_tech_non_mtg = 1
+		naval_invasion_tech_non_mtg_1 = 1
+	}
+}
+
+set_stability = 0.2
+set_war_support = 0.55
+set_convoys = 20
+
+set_politics = {
+	ruling_party = ruler
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 0
+	elites = 0
+	intellectuals = 0
+	ruler = 100
+}
+
+add_ideas = {
+	irn_bullet_1_ns
+	raider_nation
+	reckless_aggression
+	#roaring_machines
+	#neutrality_owb
+}
+
+create_country_leader  = {
+	name = "Bulleteater"
+	desc = "Bulleteater_DESC"
+	picture = "Portrait_IRN_Leader.dds"
+	expire = "3000.1.1"
+	ideology = warlordship
+
+	traits = {
+		cruel_tyrant
+		warmonger
+	}
+}
+create_country_leader  = {
+	name = "Bulleteater"
+	desc = "Bulleteater_DESC"
+	picture = "Portrait_IRN_Leader.dds"
+	expire = "3000.1.1"
+	ideology = technocracy
+
+	traits = {
+		cruel_tyrant
+		warmonger
+	}
+}
+create_country_leader  = {
+	name = "Bulleteater"
+	desc = "Bulleteater_DESC"
+	picture = "Portrait_IRN_Leader.dds"
+	expire = "3000.1.1"
+	ideology = peoples_militia
+
+	traits = {
+		cruel_tyrant
+		warmonger
+	}
+}
+create_country_leader  = {
+	name = "Bulleteater"
+	desc = "Bulleteater_DESC"
+	picture = "Portrait_IRN_Leader.dds"
+	expire = "3000.1.1"
+	ideology = feudalism
+
+	traits = {
+		cruel_tyrant
+		warmonger
+	}
+}
+create_corps_commander = {
+	name = "Bulleteater"
+	picture = "Portrait_IRN_Leader.dds"
+	skill = 3
+	traits = {
+		hill_fighter
+
+	}
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

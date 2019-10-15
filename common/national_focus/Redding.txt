@@ -1,0 +1,1390 @@
+focus_tree = { 
+
+	country = {
+		id = RNG
+	}
+	default = no
+	#Focus for The Mines
+	focus = { 
+		id = Redding_themines
+		icon = GFX_goal_generic_construction2
+		x = 11
+		y = 0
+		cost = 1
+		available_if_capitulated = yes 
+		ai_will_do = {
+ 		factor = 1
+ 		completion_reward = {
+			country_event = {
+				id = redding_event.2
+			}
+	 	}
+	}
+
+
+	focus = { 
+		id = Redding_puppetofthebarons
+		icon = GFX_goal_generic_major_war
+		x = 11	#Focus for Puppet of the Barons
+		y = 1
+		completion_reward = {
+			country_event = { id = redding_event.3 }
+		 
+		}
+
+		cost = 1
+		available_if_capitulated = yes 
+		prerequisite = { focus = Redding_themines } 
+		ai_will_do = { 
+			factor = 1
+ 		} 
+	} 
+ 
+ 
+ 
+ 
+
+	#Focus for War For Independence
+	focus = { 
+		id = Redding_warforindependence
+		icon = GFX_goal_generic_fortify_city
+		x = 11
+		y = 2
+		completion_reward = {
+			country_event = { id = redding_event.4 }
+		}
+
+		cost = 1
+		available_if_capitulated = yes 
+		prerequisite = { focus = Redding_puppetofthebarons } 
+		ai_will_do = { 
+ 			factor = 1
+ 		} 
+ 	} 
+
+	focus = { 
+		id = Redding_diggingdeep
+		icon = GFX_goal_generic_construction2
+		x = 11
+		y = 3
+		completion_reward = {
+			country_event = { id = redding_event.5 }
+		} 
+		cost = 1
+		available_if_capitulated = yes 
+		prerequisite = { focus = Redding_warforindependence } 
+		ai_will_do = { 
+ 		factor = 1
+ 	} 
+} 
+
+ 
+ 
+ 
+ 
+ 
+ 
+#Focus for Ensuring Our Survival
+focus = { 
+id = Redding_ensuringoursurvival
+icon = GFX_focus_generic_little_entente
+x = 2
+y = 4
+ completion_reward = {
+			add_ideas = Survival
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_diggingdeep } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+ 
+#Focus for The Need For Weaponry
+focus = { 
+id = Redding_theneedforweaponry
+icon = GFX_goal_generic_allies_build_infantry
+x = 1
+y = 5
+ completion_reward = {
+		add_equipment_to_stockpile = { 
+				type = ballistic_equipment_1  
+				amount = 1000
+				producer = VLT
+			}
+			add_equipment_to_stockpile = { 
+				type = explosive_equipment_1  
+				amount = 250
+				producer = RNG
+			}
+			add_equipment_to_stockpile = { 
+				type = anti_personnel_equipment_1  
+				amount = 250
+				producer = NCR
+			}
+			}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_ensuringoursurvival } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+ 
+#Focus for Conscript The Miners
+focus = { 
+id = Redding_conscripttheminers
+icon = GFX_goal_rhineland
+x = 3
+y = 5
+ completion_reward = {
+			add_ideas = ReddingMiners
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_ensuringoursurvival } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+ 
+
+ 
+#Focus for The Future Of Our Army
+focus = { 
+id = Redding_thefutureofourarmy
+icon = GFX_goal_generic_secret_weapon
+x = 2
+y = 6
+completion_reward = {
+			add_ideas = Future
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_conscripttheminers focus = Redding_theneedforweaponry } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+#Focus for Militarize Our Population
+focus = { 
+id = Redding_militarizeourpopulation
+icon = GFX_goal_generic_CAS
+x = 1
+y = 7
+completion_reward = {
+			add_ideas = Society
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_thefutureofourarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+ 
+ 
+#Focus for A Professional Army
+focus = { 
+id = Redding_aprofessionalarmy
+icon = GFX_goal_tfv_can_forced_quebec_conscription
+x = 3
+y = 7
+completion_reward = {
+add_ideas = Army
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_thefutureofourarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+
+#Focus for Old World Training
+focus = { 
+id = Redding_oldworldtraining5
+icon = GFX_goal_generic_defence
+x = 3
+y = 8
+completion_reward = {
+add_ideas = TrainingDrills
+}
+
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_aprofessionalarmy } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+ 
+ 
+ 
+ 
+#Focus for Will Of Redding
+focus = { 
+id = Redding_willofredding
+icon = GFX_goal_generic_construct_military
+x = 3
+y = 9
+completion_reward = {
+add_ideas = Will
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_oldworldtraining5 } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+
+ 
+ #Focus for Mandatory Service
+focus = { 
+id = Redding_mandatoryservice
+icon = GFX_goal_generic_small_arms
+x = 1
+y = 8
+completion_reward = {
+			add_ideas = Society2
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_militarizeourpopulation } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+ 
+ 
+#Focus for Support Of The People
+focus = { 
+id = Redding_supportofthepeople
+icon = GFX_goal_generic_wolf_pack
+x = 1
+y = 9
+completion_reward = {
+			add_ideas = Mobilizations
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_mandatoryservice } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+
+
+
+#Focus for The Mines Of Redding
+focus = { 
+id = Redding_theminesofredding
+icon = GFX_goal_generic_production
+x = 6
+y = 4
+ completion_reward = {
+			141 = {
+				add_resource = {
+					type = metal
+					amount = 24
+				} 
+				 
+			}
+			141 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_diggingdeep } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+
+#Focus for Repair The Lower Mineshafts
+focus = { 
+id = Redding_repairthelowermineshafts
+icon = GFX_goal_generic_production2
+x = 5
+y = 5
+completion_reward = {
+			141 = {
+				add_resource = {
+					type = metal
+					amount = 24
+				} 
+				add_resource = {
+					type = fuel
+					amount = 24
+				} 
+				 
+			}
+			 
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_theminesofredding } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+  
+#Focus for Utilize The Wealth of Redding
+focus = { 
+id = Redding_utilizethewealthofredding
+icon = GFX_goal_generic_construct_civ_factory
+x = 7
+y = 5
+ completion_reward = {
+			country_event = { id = redding_event.0 }
+		} 
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_theminesofredding } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+#Focus for Advanced Mining Techniques
+focus = { 
+id = Redding_advancedminingtechniques
+icon = GFX_goal_generic_construct_civilian
+x = 6
+y = 6
+completion_reward = { 
+                        add_ideas = GlowingCity }
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_utilizethewealthofredding focus = Redding_repairthelowermineshafts } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+ 
+#Focus for The Mines Of Chico
+focus = { 
+id = Redding_theminesofchico
+icon = GFX_goal_generic_construct_civ_factory
+x = 5
+y = 7
+completion_reward = {
+			162 = {
+				add_resource = {
+					type = metal
+					amount = 24
+				} 
+				add_resource = {
+					type = fuel
+					amount = 8
+				} 
+				 
+			}
+			 
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_advancedminingtechniques } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+#Focus for Refining The Yellow Cake
+focus = { 
+id = Redding_refiningtheyellowcake
+icon = GFX_goal_generic_scientific_exchange
+x = 7
+y = 8
+completion_reward = {
+			162 = {
+				add_resource = {
+					type = advanced_technology
+					amount = 24
+				
+				 
+			}
+			 
+		}
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_theminesofetna } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+#Focus for Repair The Rails
+focus = { 
+id = Redding_repairtherails
+icon = GFX_goal_generic_position_armies
+x = 5
+y = 8
+completion_reward = {
+141 = {
+add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+			369 = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+			162 = {
+			add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}
+			}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_theminesofchico } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+
+#Focus for The Mines of Etna
+focus = { 
+id = Redding_theminesofetna
+icon = GFX_goal_generic_construct_civ_factory
+x = 7
+y = 7
+completion_reward = {
+			add_ideas = Gold
+				 
+			
+	
+		}
+		
+		
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_advancedminingtechniques } 
+ai_will_do = { 
+ factor = 1
+ }
+} 
+
+  
+
+ 
+ 
+#Focus for Encourage Investment
+focus = { 
+id = Redding_encourageinvestment
+icon = GFX_goal_generic_intelligence_exchange
+completion_reward = {
+			add_ideas = Investment
+			}
+x = 5
+y = 10
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_fromtowntocity } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+#Focus for From Town To City
+focus = { 
+id = Redding_fromtowntocity
+icon = GFX_goal_generic_fortify_city
+x = 6
+y = 9
+completion_reward = {
+
+			add_ideas = City
+				 
+			
+			141 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			} 
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_refiningtheyellowcake focus = Redding_repairtherails } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+ 
+ 
+#Focus for Repair The Mining Droids
+focus = { 
+id = Redding_repairtheminingdroids
+icon = GFX_goal_continuous_naval_production
+x = 7
+y = 10
+completion_reward {
+				set_technology = { mr_handy_tech = 1 }
+				add_equipment_to_stockpile = { 
+				type = medium_robot_equipment_1  
+				amount = 600
+				producer = RNG
+				}
+				load_oob = Droids
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_fromtowntocity } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+ 
+#Focus for Economic Prosperity
+focus = { 
+id = Redding_economicprosperity
+icon = GFX_goal_generic_positive_trade_relations
+x = 6
+y = 11
+completion_reward = {
+
+		
+				 
+			
+			141 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			} 
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_repairtheminingdroids focus = Redding_encourageinvestment } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+ 
+#Focus for Create The R.N.S.
+focus = { 
+id = Redding_createtherns
+icon = GFX_goal_generic_occupy_states_coastal
+x = 2
+y = 11
+completion_reward = {
+			369 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+available = {
+			has_completed_focus = Redding_diggingdeep
+		}	
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+
+#Focus for Repair Desolate Barges
+focus = { 
+id = Redding_repairdesolatebarges
+icon = GFX_goal_generic_navy_cruiser
+x = 3
+y = 12
+completion_reward = {
+load_oob = RNS
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_createtherns } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+ 
+#Focus for Naval Exercises
+focus = { 
+id = Redding_navalexercises
+icon = GFX_goal_generic_navy_doctrines_tactics
+x = 1
+y = 12
+ completion_reward = {
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 2
+				category =	naval_doctrine
+			}
+			
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_createtherns } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+  
+ 
+#Focus for R.N.S. Redding
+focus = { 
+id = Redding_rnsredding
+icon = GFX_goal_generic_navy_battleship
+x = 2
+y = 13
+completion_reward = {
+load_oob = rnsnavy
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_navalexercises focus = Redding_repairdesolatebarges } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+ 
+ 
+#Focus for Reddings Manifest Destiny
+focus = { 
+id = Redding_reddingsmanifestdestiny
+icon = GFX_focus_jap_strike_south
+x = 11
+y = 4
+ completion_reward {
+			add_political_power = 100
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_diggingdeep } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+#Focus for The Klamath Question
+focus = { 
+id = Redding_theklamathquestion
+icon = GFX_goal_generic_demand_territory
+x = 11
+y = 5
+ completion_reward = {
+			country_event = { id = redding_event.1 }
+		} 
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_reddingsmanifestdestiny } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+ 
+#Focus for Reaching The Coast
+focus = { 
+id = Redding_reachingthecoast
+icon = GFX_goal_generic_amphibious_assault
+mutually_exclusive = {
+		focus = Redding_thecannibalsoforegon
+		}
+x = 9
+y = 6
+  completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target =UMB 
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_theklamathquestion } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+
+#Focus for The Cannibals Of Oregon
+focus = { 
+id = Redding_thecannibalsoforegon
+icon = GFX_focus_RAJ_indian_gurkhas
+mutually_exclusive = {
+		focus = Redding_reachingthecoast
+		}
+x = 13
+y = 6
+completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BPT
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_theklamathquestion } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+
+#Focus for Dealing With The Slavers
+focus = { 
+id = Redding_dealingwiththeslavers
+icon = GFX_focus_AST_squander_bug
+x = 11
+y = 8
+completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = DEN 
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_theklamathquestion } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+ 
+#Focus for The Mirelurk Abominations
+focus = { 
+id = Redding_themirelurkabominations
+icon = GFX_goal_generic_secret_weapon
+x = 13
+y = 7
+completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target =MLT 
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_thecannibalsoforegon } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for Home of the Chosen One
+focus = { 
+id = Redding_homeofthechosenone
+icon = GFX_goal_generic_small_arms
+x = 9
+y = 7
+completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = ARR 
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_reachingthecoast } 
+ai_will_do = { 
+ factor = 1
+ }
+ } 
+ 
+ 
+ 
+
+#Focus for Rebuilding Klamath
+focus = { 
+id = Redding_rebuildingklamath
+icon = GFX_goal_generic_air_production
+x = 11
+y = 7
+completion_reward = {
+
+				 
+			
+			454 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			KLA = {
+				add_ideas = Rapids
+			}
+			
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_theklamathquestion } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+
+#Focus for The Maw
+focus = { 
+id = Redding_themaw
+icon = GFX_goal_generic_military_deal
+x = 13
+y = 8
+completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = PMR 
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_themirelurkabominations } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for The Ridgers
+focus = { 
+id = Redding_theridgers
+icon = GFX_goal_generic_occupy_states_ongoing_war
+x = 9
+y = 8
+completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = RID  
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_homeofthechosenone } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+
+#Focus for The Future Of Redding?
+focus = { 
+id = Redding_thefutureofredding
+icon = GFX_goal_generic_political_pressure
+x = 17
+y = 4
+completion_reward { add_political_power = 100 } 
+ cost = 2
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_diggingdeep } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+
+#Focus for The Man of Iron
+focus = { 
+id = Redding_themanofiron
+icon = GFX_goal_support_fascism
+mutually_exclusive = {
+		focus = Redding_themorningstarminingco
+		}
+mutually_exclusive = {
+		focus = Redding_earlsrally
+		}
+x = 15
+y = 5
+completion_reward {
+ 
+ 
+		set_politics = {
+			ruling_party = ruler
+			elections_allowed = no
+		}
+		
+		add_stability = -0.1
+		add_popularity = {
+			ideology = ruler
+			popularity = 0.40
+		}
+	}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_thefutureofredding } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for Prepare For The Worst
+focus = { 
+id = Redding_preparefortheworst
+icon = GFX_focus_generic_military_academy
+x = 15
+y = 6
+completion_reward {
+add_ideas = Society3
+add_popularity = {
+				ideology = ruler
+				popularity = 0.40
+			}
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_themanofiron } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for Crush The Opposition
+focus = { 
+id = Redding_crushtheopposition
+icon = GFX_goal_generic_intelligence_exchange
+x = 17
+y = 7
+completion_reward {
+add_popularity = {
+				ideology = elites
+				popularity = 0.40
+			}
+			add_stability = .10
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_enacttheslaverylaw } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+
+#Focus for Unyielding Doctrine
+focus = { 
+id = Redding_unyieldingdoctrine
+icon = GFX_focus_CZE_german_puppet
+x = 15
+y = 7
+completion_reward {
+add_ideas = Survival2
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_preparefortheworst } 
+ai_will_do = { 
+ factor = 1
+ } 
+ }
+ 
+ 
+ 
+ 
+
+#Focus for Modernization Of Redding
+focus = { 
+id = Redding_modernizationofredding
+icon = GFX_goal_generic_demand_territory
+x = 15
+y = 8
+completion_reward {
+add_ideas = Investment
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_unyieldingdoctrine } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for The Morningstar Mining Co.
+focus = { 
+id = Redding_themorningstarminingco
+icon = GFX_focus_generic_strike_at_democracy1
+mutually_exclusive = {
+		focus = Redding_themanofiron
+		}
+mutually_exclusive = {
+		focus = Redding_earlsrally
+		}
+x = 17
+y = 5
+completion_reward {
+
+add_popularity = {
+				ideology = elites
+				popularity = 0.40
+			}
+ 
+ set_cosmetic_tag = RNG
+			set_politics = {
+			ruling_party = elites
+			elections_allowed = no
+		}
+		
+			add_stability = -0.1
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_thefutureofredding } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for Earl's Rally
+focus = { 
+id = Redding_earlsrally
+icon = GFX_goal_support_democracy
+mutually_exclusive = {
+		focus = Redding_themanofiron
+		}
+mutually_exclusive = { 	
+		focus = Redding_themorningstarminingco
+		}
+x = 19
+y = 5
+completion_reward {	
+		add_political_power = 50
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_thefutureofredding } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for Enact The Slavery Law
+focus = { 
+id = Redding_enacttheslaverylaw
+icon = GFX_goal_generic_army_artillery2
+x = 17
+y = 6
+completion_reward {
+ 
+ 
+add_ideas = Gold
+		
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_themorningstarminingco } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for An Army of Slaves
+focus = { 
+id = Redding_anarmyofslaves
+icon = GFX_goal_generic_national_unity
+x = 17
+y = 8
+completion_reward {
+  
+ 
+add_ideas = Slaves
+		
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_crushtheopposition } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for The New Kingdom
+focus = { 
+id = Redding_thenewkingdom
+icon = GFX_goal_tfv_strengthen_commonwealth_ties
+x = 17
+y = 9
+
+ completion_reward {
+ add_stability = .30
+ 
+
+ }
+ 
+
+		
+		
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_anarmyofslaves } 
+ai_will_do = { 
+ factor = 1
+ } 
+}
+ 
+ 
+ 
+ 
+ 
+
+#Focus for Breaking the Barons
+focus = { 
+id = Redding_breakingthebarons
+icon = GFX_goal_generic_major_war
+x = 15
+y = 9
+completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BRR  
+				}
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_modernizationofredding } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for Unite The People
+focus = { 
+id = Redding_unitethepeople
+icon = GFX_goal_tfv_can_compromise_with_quebec
+x = 19
+y = 6
+completion_reward = {
+		add_stability = .20
+				}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_earlsrally } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+ 
+
+#Focus for The Beacon Of Democracy
+focus = { 
+id = Redding_thebeaconofdemocracy
+icon = GFX_focus_generic_the_giant_wakes
+x = 19
+y = 7
+completion_reward = {
+add_popularity = {
+				ideology = people
+				popularity = 0.40
+			}
+			add_stability = .10
+			set_rule = { can_create_factions = yes }
+}
+
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_unitethepeople } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+ 
+ 
+ 
+
+#Focus for Democratic Propaganda
+focus = { 
+id = Redding_democraticpropaganda
+icon = GFX_focus_chi_mission_to_the_us
+x = 19
+y = 8
+completion_reward {
+  
+ 
+add_ideas = Prop
+		
+		}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_thebeaconofdemocracy } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+ 
+ 
+#Focus for Old World Spirit
+focus = { 
+id = Redding_oldworldspirit
+icon = GFX_goal_generic_defence
+x = 19
+y = 9
+completion_reward {
+add_ideas = OldWorld
+}
+ cost = 8.6
+available_if_capitulated = yes 
+prerequisite = { focus = Redding_democraticpropaganda } 
+ai_will_do = { 
+ factor = 1
+ } 
+ } 
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+#End of focuses 
+ }

@@ -1,0 +1,180 @@
+ideas = {
+	
+	country = {
+		efficienttrade2 = {
+			
+			picture = SOV_scientist_defect
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = 0.8
+			
+			}
+			
+			
+		}
+		victorianefficiency = {
+		
+			picture = generic_naval_manufacturer_3 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				destroyer_equipment = {
+					build_cost_ic = -0.15
+				}
+				siege_ship_equipment = {
+					build_cost_ic = -0.15
+				}
+			}
+		}
+		financialbacking = {
+		
+			picture = generic_victors_of_ww1
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			   conscription = 0.015
+		    }
+			
+		
+		}
+		allin = {
+		
+			picture = generic_purge
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+			   conscription = 0.015
+		    }
+			
+		
+		}
+		defendingonward = {
+		
+			picture = saf_history_of_segregation
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+		        production_speed_bunker_factor = 0.2
+				max_dig_in = 10
+		    }
+			
+		
+		}
+		vicintellectualsoldier = {
+		
+			picture = generic_production_bonus 
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			modifier = {
+				army_org_Factor = 0.10
+			}
+				equipment_bonus = {
+				power_armor_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+		going_alone= {
+
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+		
+			modifier = {		
+				justify_war_goal_time = -0.25
+				generate_wargoal_tension = -0.4
+				war_support_factor = 0.05
+				join_faction_tension = 1
+			}
+		}
+	
+		victorianairforce = {
+			picture = generic_fighter_production_diverted
+					
+				allowed = {
+				}
+
+				removal_cost = 1
+				
+				equipment_bonus = {
+				light_fighter = {
+					build_cost_ic = -0.25
+					instant = yes
+				}
+			
+			}
+		}
+		victorian_drilling = {
+			
+			picture = idea_generic_reserve_divisions
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				training_time_army_factor = -0.15
+			}
+	    }	
+		victoriannavy = {
+		
+				picture = generic_navy_bonus
+					
+				allowed = {
+				}
+
+				removal_cost = 1
+				
+				modifier = {
+					naval_hit_chance = 0.2
+					naval_detection = 0.2
+				}
+		}	
+		victorianrobots = {
+		
+				picture = hol_de_vaarolicht
+					
+				allowed = {
+				}
+
+				removal_cost = 1
+			equipment_bonus = {
+			    robot_equipment = {
+					build_cost_ic = -0.15
+				}
+			}
+		}	
+		}
+
+}

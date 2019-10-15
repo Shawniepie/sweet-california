@@ -1,0 +1,238 @@
+ideas = {
+	country = {
+       
+	   
+	  ReddingMiners  = {
+            
+            picture = generic_exploit_mines
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					
+            }
+        }
+		
+		  Society  = {
+            
+            picture = generic_infantry_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.01
+					
+            }
+        }
+		
+		 Society2  = {
+            
+            picture = FRA_national_mobilization
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.01
+					
+            }
+        }
+	
+	Survival = {
+			
+			picture = sisu
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+
+					
+				army_core_defence_factor = 0.05
+				
+				army_core_attack_factor = 0.05
+			}
+			
+		}
+	
+	Future = {
+		
+			picture = generic_oppression
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				max_planning = 0.15
+				planning_speed = 0.15
+			}
+			
+		}
+		
+		
+		Mobilizations = {
+		
+			picture = generic_secret_police 
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.25
+			}
+		}
+	
+	Gold = {
+            
+            picture = chi_hyper_inflation3
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					consumer_goods_factor = -0.10
+            }
+        }
+		
+		City = {
+			
+			picture = generic_morale_bonus
+			
+			allowed = {
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+			MONTHLY_POPULATION = 0.15
+		    }
+		}
+		
+		Investment = {
+			
+			picture = generic_production_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				 production_speed_buildings_factor = 0.10
+
+			}			
+		}
+		
+		
+		Will = {
+			
+			picture = generic_infantry_bonus
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_org_factor = 0.10
+		
+				supply_consumption_factor = -0.10
+			}
+}
+
+ Slaves  = {
+            
+            picture = saf_history_of_segregation_2
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.03
+					
+            }
+        }
+
+ Society3  = {
+            
+            picture = generic_morale_bonus
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					
+            }
+        }
+		
+		
+		Survival2 = {
+			
+			picture = ger_the_great_red_menace
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+			
+			 modifier = {
+
+					
+				army_core_defence_factor = 0.10
+				
+				army_core_attack_factor = 0.10
+			}
+			
+		}
+		 Prop  = {
+            
+            picture = usa_desegregation_1
+            
+            allowed = {
+            }
+
+            removal_cost = -1
+            
+            modifier = {
+					conscription = 0.02
+					
+            }
+        }
+		
+		OldWorld = {
+			
+			picture = sour_loser
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+				
+			modifier = {
+				 production_speed_buildings_factor = 0.10
+
+			}			
+		}

@@ -1,0 +1,730 @@
+ideas = {
+
+	country = {
+
+		irn_long_march_1 = {
+
+			picture = prc_the_long_march
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		irn_long_march_2 = {
+
+			picture = prc_the_long_march
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_org = -10
+			}
+		}
+
+		irn_long_march_3 = {
+
+			picture = prc_the_long_march
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.07
+			}
+		}
+
+		irn_far_from_home_1 = {
+
+			picture = shottol
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = -0.15
+			}
+		}
+
+		irn_far_from_home_2 = {
+
+			picture = shottol
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_speed_factor = -0.1
+				army_defence_factor = -0.1
+				army_attack_factor = -0.1
+			}
+		}
+
+		irn_far_from_home_3 = {
+
+			picture = shottol
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.20
+			}
+		}
+
+		irn_hopes_1 = {
+
+			picture = bunker_blues
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+
+		irn_hopes_2 = {
+
+			picture = bunker_blues
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.05
+				stability_factor = 0.1
+			}
+		}
+
+		irn_hopes_3 = {
+
+			picture = bunker_blues
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.03
+				stability_factor = 0.1
+			}
+		}
+
+		irn_sterling_ambitions1 = {
+
+			picture = bunker_blues
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.03
+			}
+		}
+
+		irn_sterling_ambitions2 = {
+
+			picture = bunker_blues
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.15
+				#conscription = 0.02
+				#industry_air_damage_factor = -0.8
+				#trade_opinion_factor = -0.8
+				#foreign_subversive_activites = -0.8
+				#enemy_partisan_effect = -0.4
+			}
+		}
+
+		irn_sterling_ambitions3 = {
+
+			picture = bunker_blues
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#monthly_population = 0.01
+				consumer_goods_factor = -0.05
+				conscription = 0.04
+
+			}
+		}
+
+		irn_further_enslavment = {
+
+			picture = KHA_ourown_slave_trade
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.05
+			}
+
+			#research_bonus = {
+				#land_doctrine = 0.1
+			#}
+		}
+
+		irn_zombie_decay = {
+
+			picture = chi_war_of_resistance3
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_org = -10
+				army_speed_factor = -0.1
+				army_defence_factor = -0.25
+				army_attack_factor = -0.25
+			}
+		}
+
+		irn_hypnotized_soliders = {
+
+			picture = prc_low_popular_support2
+
+			allowed = {
+			}
+ 
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.20
+			}
+		}
+
+		irn_zombie_soliders = {
+
+			picture = prc_low_popular_support3
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.35
+			}
+		}
+
+		irn_baptized = {
+
+			picture = HEA_idea_precursers
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.1
+				stability_factor = 0.1
+			}
+		}
+
+		irn_fleed_scientists = {
+
+			picture = navarro_scribes
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.07
+			}
+		}
+
+		irn_slave_scientists = {
+
+			picture = navarro_scribes
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.03
+			}
+		}
+
+		irn_child_soliders = {
+
+			picture = KHA_ourown_slave_trade
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				#MONTHLY_POPULATION = -0.03
+				conscription = 0.02
+			}
+		}
+
+		irn_mormon_slaves = {
+
+			picture = KHA_ourown_slave_trade
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				stability_factor = -0.1
+			}
+		}
+
+		irn_hypnotized_staff = {
+
+			picture = prc_low_popular_support
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			non_core_manpower = 0.05
+			}
+		}
+
+		irn_boats = {
+
+			picture = generic_naval_manufacturer_1
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				convoy_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+
+		irn_graffiti = {
+
+			picture = KHA_vault_22_sign_idea
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			stability_factor = 0.15
+			}
+		}
+
+		irn_power_armour = {
+
+			picture = paladin_council
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				power_armor_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		irn_robots = {
+
+			picture = robot_salvaging_expertise
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				light_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				medium_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				heavy_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		irn_hogs = {
+
+			picture = cult_of_nas
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				apc_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		irn_dogs = {
+
+			picture = shottol
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				dog_company = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		irn_organized_raiders = {
+
+			picture = generic_infantry_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.02
+				research_speed_factor = 0.1
+			}
+		}
+
+#############################################################################
+# Military Policies
+#############################################################################
+
+		irn_bullet_1_ns = {
+			picture = Bulleteater_NS
+
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+
+			modifier = {
+			special_forces_min = 25
+			}
+			
+
+			equipment_bonus = {
+				power_armor_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+			}
+		}
+
+		irn_bullet_2_ns = {
+
+			picture = Bulleteater_NS
+
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+
+			modifier = {
+			special_forces_min = 50
+			}
+			
+
+			equipment_bonus = {
+				power_armor_equipment = {
+					instant = yes
+					build_cost_ic = -0.1
+					soft_attack = 0.2
+					hard_attack = 0.05
+					defense = 0.1
+				}
+			}
+		}
+
+		irn_whd_ns = {
+			
+			picture = WHD_NS
+
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+
+			modifier = {
+			conscription = 0.1
+			}
+			
+
+			equipment_bonus = {
+				infantry_equipment   = {
+					instant = yes
+					build_cost_ic = -0.2
+					soft_attack = 0.05
+					defense = 0.05
+				}
+			}
+		}
+
+		irn_han_ns = {
+
+			picture = PCK_NS
+
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+
+			modifier = {
+			}
+			
+
+			equipment_bonus = {
+				infantry_equipment  = {
+					instant = yes
+					soft_attack = 0.1
+					defense = 0.1
+				}
+
+				dog_company = {
+					instant = yes
+					soft_attack = 0.1
+					breakthrough = 0.1
+					defense = 0.1
+				}
+			}
+		}
+
+		irn_sco_ns = {
+
+			picture = Scorpion_NS
+
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+
+			modifier = {
+			army_speed_factor = 0.1
+			}
+			
+
+			equipment_bonus = {
+				motorized_equipment  = {
+					instant = yes
+					soft_attack = 0.2
+					hard_attack = 0.05
+					defense = 0.1
+				}
+
+				apc_equipment = {
+					instant = yes
+					soft_attack = 0.2
+					hard_attack = 0.05
+					defense = 0.1
+
+				}
+
+				tank_equipment = {
+					instant = yes
+					soft_attack = 0.2
+					hard_attack = 0.05
+					defense = 0.1
+				}
+
+			}
+		}
+
+
+		irn_mesmer_1_ns = {
+
+			picture = Mesmer_NS
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				special_forces_min = 25
+			}
+
+			equipment_bonus = {
+
+				power_armor_equipment  = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+				light_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				medium_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				heavy_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		irn_mesmer_2_ns = {  # Power Armour
+
+			picture = Mesmer_NS
+
+			allowed = {
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				special_forces_min = 50
+			}
+
+
+			equipment_bonus = {
+				power_armor_equipment  = {
+					instant = yes
+					build_cost_ic = -0.1
+					soft_attack = 0.2
+					hard_attack = 0.05
+					defense = 0.1
+				}
+				light_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				medium_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				heavy_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		irn_mesmer_3_ns = {  # Robots
+
+			picture = Mesmer_NS
+
+			allowed = {
+			}
+
+			modifier = {
+				special_forces_min = 25
+			}
+
+
+			removal_cost = -1
+			
+
+			equipment_bonus = {
+
+				power_armor_equipment  = {
+					instant = yes
+					build_cost_ic = -0.1
+				}
+				light_robot_equipment = {
+					build_cost_ic = -0.1
+					soft_attack = 0.2
+					hard_attack = 0.05
+					defense = 0.1
+					instant = yes
+				}
+				medium_robot_equipment = {
+					build_cost_ic = -0.1
+					soft_attack = 0.2
+					hard_attack = 0.05
+					defense = 0.1
+					instant = yes
+				}
+				heavy_robot_equipment = {
+					build_cost_ic = -0.1
+					soft_attack = 0.2
+					hard_attack = 0.05
+					defense = 0.1
+					instant = yes
+				}
+			}
+		}
+	}
+}
+
+
+	
