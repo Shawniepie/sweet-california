@@ -11,6 +11,7 @@ bookmarks = {
 		
 		"NCR" = {
 			history = "NCR_SC_DESC"
+			ideology = people
 			ideas = {
 				ncrguns
 			}
