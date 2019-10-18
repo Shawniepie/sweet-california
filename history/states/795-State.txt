@@ -1,0 +1,25 @@
+state={
+	id=795
+	name="STATE_UVALDE"
+	resources = {
+		circuitry = 2
+	}
+	history={
+		owner = ENU
+		add_core_of = ENU
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+		}
+		victory_points = {
+			9705 10
+		}
+	}
+
+	provinces={
+		9699 9700 9701 9705 9709 9711 9713
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

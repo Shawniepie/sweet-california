@@ -1,0 +1,119 @@
+﻿l_english:
+
+#The Beginning
+IRN.1.t:0 "Great Migration"
+IRN.1.d:0 "The journey to the New Sterling Vault was difficult for Bulleteater and his crew, due to the distance that they had to cover. The problems started piling up quickly, with much of the Iron Alliance becoming exhausted from the walk. Many of the raiders became disorganized, some even losing sight of the purpose of the search. The biggest problem, though, was..."
+IRN.1.1:0 "Exhaustion"
+IRN.1.2:0 "Disorganization"
+IRN.1.3:0 "Losing Sight"
+
+IRN.2.t:0 "Far From Home"
+IRN.2.d:0 "The further Bulleteater and his men got from Dog City, the more divided his crew got. Many of the raiders wanted to go back, due to Bulleteater's tyrannical character, militaristic stagnation, and the lack of slaves. Out of all of these issues, the most concerning one was…"
+IRN.2.1:0 "Tyrannical Character"
+IRN.2.2:0 "Militaristic Stagnation"
+IRN.2.3:0 "Lack of Slaves"
+
+IRN.3.t:0 "Mesmer Joins Iron Alliance"
+IRN.3.d:0 "Bulleteater’s crew encountered a stranger who went by the name of “Mesmer”. Mesmer was also in search of New Sterling's Vault, using his self-made Protectron battalion as his personal army. After some consideration, Bulleteater decided to appoint him as the Head Researcher of the Iron Alliance. After all, Mesmer technological expertise would surely help in uncovering New Sterling's Secret Vault. Plus, if Mesmer became a liability, he could be disposed of at any time."
+IRN.3.1:0 "Mesmer Joins Iron Alliance"
+
+IRN.4.t:0 "Ambitions in New Sterling"
+IRN.4.d:0 "With Bulleteater's might and Mesmer's expertise, New Sterling's Secret Vault would almost certainly be found by the Iron Alliance. With this newfound hope, an ambition for the future, called New Sterling Ambition was born. New Sterlings Ambition has many definitions. While it can be the hope to discover the Secret Vault, it can also be the hope to build something new, or even to establish something grand. New Sterlings Ambition has many definitions, but the most correct definition is:"
+IRN.4.1:0 "To Establish"
+IRN.4.2:0 "To Discover"
+IRN.4.3:0 "To Build"
+
+#Vault
+IRN.5.t:0 "Entry to the Vault"
+IRN.5.d:0 "With Mesmer’s help, the Iron Alliance finally cracked open the New Sterling Vault. The crew managed to secure a lot of loot and resources. To be more precise, raiders managed to find an abundance of…"
+IRN.5.1:0 "Advanced Components"
+IRN.5.2:0 "Composite Materials"
+IRN.5.3:0 "Energy"
+
+IRN.6.t:0 "First Floor"
+IRN.6.d:0 "Despite the delay, the raiders managed to descend into the depth of the New Sterling Vault, stopping by the first floor. The first floor held even greater riches than the vault's entrance did, providing the raiders with..."
+IRN.6.1:0 "Basic Ballistic Weapons"
+IRN.6.2:0 "Heavy Melee Weapons"
+IRN.6.3:0 "Security Protectrons"
+
+IRN.10.t:0 "Seccond Floor"
+IRN.10.d:0 "Similarly to the first floor, the second floor also took some time to descend to. The Vault's second floor contained numerous blueprints of highly advanced Old-World technology, the most complete of which were the blueprints for..."
+IRN.10.1:0 "Scavanged-PAs"
+IRN.10.2:0 "Salvaged Cars"
+IRN.10.3:0 "Dog Equipment"
+
+#Shipment
+IRN.7.t:0 "Shipment"
+IRN.7.d:0 ""
+IRN.7.1:0 "Basic Ballistic Weapons"
+
+IRN.8.t:0 "Shipment"
+IRN.8.d:0 ""
+IRN.8.1:0 "Heavy Melee Weapons"
+
+IRN.9.t:0 "Shipment"
+IRN.9.d:0 ""
+IRN.9.1:0 "Security Protectrons"
+
+IRN.70.t:0 "Shipment"
+IRN.70.d:0 ""
+IRN.70.1:0 "Scavanged-PAs"
+
+IRN.80.t:0 "Shipment"
+IRN.80.d:0 ""
+IRN.80.1:0 "Salvaged Cars"
+
+IRN.90.t:0 "Shipment"
+IRN.90.d:0 ""
+IRN.90.1:0 "Dog Equipment"
+
+
+#Mormon Question
+IRN.11.t:0 "The Mormon Question"
+IRN.11.d:0 "While the Iron Alliance was aware of the Mormons from the West, the crew had never really communicated with them face-to-face. This encounter was the first contact that New Canaanites had made with the Alliance. According to their leaders, the mission of the Mormons was to spread the Gospel and to cleanse the Colorado raiders of their sin. The Iron Alliance has to choose to either reject the Mormons or to accept their forgiveness. It is time to decide which path we will take."
+IRN.11.1:0 "We will need to decide"
+
+#Mesmer's Takeover
+IRN.12.t:0 "Third Floor"
+IRN.12.d:0 "Just in the nick of time, the Iron Alliance managed to loot the third floor before the New Sterling Vault collapsed. The raiders uncovered a mysterious Old-World device called the Polybius, whose purpose was unknown to most of the Iron alliance. Before Bulleteater and his crew managed to understand what Polybius was, Mesmer had already hypnotized the entire high command of the Iron Alliance. Polybius was the mysterious mind-control device that Mesmer had been searching for all along, and now that Polybius was in his hands, Mesmer could make the world kneel at his feet."
+IRN.12.1:0 "Mesmer's Takeover"
+
+IRN.13.t:0 "Sudden Decay"
+IRN.13.d:0 "The raiders being mind-controlled by the Polybius are experiencing an unexpected dip in overall efficiency and productivity. This dip in performance needs to be fixed as soon as possible, before the problem starts hurting our ability to fight. Mesmer needs to locate the escaped scientists from Twin Mothers, currently taking refuge in the territory of the Foragers, as those scientists are the only people that might know what happened to our men."
+IRN.13.1:0 "We Need to fined a way to patch them up"
+
+IRN.14.t:0 "Iron Alliance Joins The Brotherhood"
+IRN.14.d:0 "In the interest of future cooperation, The Mojave Brotherhood offered the Iron Alliance a helping hand in becoming like them:advanced, educated, and well equipped. It's time to finally become advanced, it's time to become the New Sterling Brotherhood."
+IRN.14.1:0 "The Sterling's Brotherhood"
+
+IRN.23.t:0 "Iron Alliance Joins Vault City"
+IRN.23.d:0 "In the interest of future cooperation, Vault City offered the Iron Alliance a helping hand in becoming like them:advanced, educated, and well equipped. It's time to finally become advanced, it's time to become the New Sterling Vault."
+IRN.23.1:0 "The New Sterling's Vault"
+
+#The Pack
+#WIP
+#IRN.15.t:0 "Secret Vault Burried"
+#IRN.15.d:0 "We now have a non-aggression pact with [From.GetName], giving us a bit of time to prepare in the case of a attack against them"
+#IRN.15.1:0 "OOUF"
+
+IRN.16.t:0 "Forming The Pack"
+IRN.16.d:0 "Now that all of the raider leaders of Colorado are united in these difficult times, it is time to unite, to stand under one banner, and to form The Pack. Together, we will be able to retake Dog City, topple Caesar's Legion, and gain control over all of East and Central Colorado. Hell, it’s time to take over all of Colorado!"
+IRN.16.1:0 "Comming Together"
+
+#Selecting a Leader of The Pack
+IRN.17.t:0 "One to Rule The Pack"
+IRN.17.d:0 "With Colorado’s raiders standing under one banner as one united raiding party, we will need to decide who the new boss of The Pack will be. While all of the raider leaders will maintain reasonable power within this new organization, there can be only one alpha wolf in The Pack, and there can be only one person who will lead us into the future."
+IRN.17.1:0 "Bulleteater should remain as the boss."
+IRN.17.2:0 "We need Old Dog's expertise."
+IRN.17.3:0 "We require a new faster approach."
+IRN.17.4:0 "Spirituality is all we need."
+
+IRN.21.t:0 "Seccond Thoughts"
+IRN.21.d:0 "The last time the Hangdogs fought against Caesar's Legion, they suffered catastrophic levels of casualties. Since the remnants of the Hangdogs form much of The Pack, there is a some that believe that prosecuting another war against Caesar's Legion would be equally disastrous. Perhaps there are other ways for us to end this conflict."
+IRN.21.1:0 "It's time to decide"
+
+IRN.22.t:0 "Dealing with the Decay"
+IRN.22.d:0 "It's time to decide on how to deal with the unfortunate condition of our soldiers. From what we can tell, there’s two solutions to choose from, both of which should be enough to return our raiders back to normal. One of them involves dispatching a specialized team to retrieve people that can help us, the other involves combing through the territory of the Foragers and bring these people back forcefully."
+IRN.22.1:0 "It's time to decide"
+
+

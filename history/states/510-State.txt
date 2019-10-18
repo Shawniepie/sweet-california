@@ -1,0 +1,24 @@
+state = {
+	id = 510
+	name = "STATE_FORT_COLLINS"
+	manpower = 4000
+	state_category = large_town
+
+	history = {
+		owner = ENF
+		add_core_of = ENF
+		victory_points = {
+			6875 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+	}
+
+	provinces = {
+		1799 6870 6871 6873 6875 6879 6926
+	}
+}

@@ -1,0 +1,1331 @@
+focus_tree = {
+	id = 'hub'
+	country = {
+		factor=0
+		modifier = {
+			add = 20
+			tag = HUB
+		}
+	}
+	default = no
+	#Custom focuses start here
+	#Focus for From Humble Beginnings 
+	focus = { 
+		id = fromhumblebeginnings 
+		icon = GFX_focus_generic_concessions 
+		  
+		x =14 
+		y =0 
+		completion_reward = {
+			country_event = { id = hub_event.1 }
+		} 
+		cost = 1
+		available_if_capitulated = yes  
+	}
+	#Focus for The Great Merchant War  
+	focus = { 
+		id = thegreatmerchantwar 
+		icon = GFX_focus_generic_little_entente 
+		  
+		x =14 
+		y =1 
+		completion_reward = {
+			country_event = { id = hub_event.2 }
+		}
+		prerequisite = { focus = fromhumblebeginnings} 
+		cost = 1 
+		available_if_capitulated = yes  
+	}
+	#Focus for Our Revered Leader 
+	focus = { 
+		id = ourreveredleader 
+		icon = GFX_focus_generic_military_academy 
+		  
+		x =14 
+		y =2 
+		completion_reward = {
+			country_event = { id = hub_event.3 }
+		}
+		prerequisite = { focus = thegreatmerchantwar} 
+		cost = 1 
+		available_if_capitulated = yes  
+	}
+	#Focus for The Perks of Business  
+	focus = { 
+		id = theperksofbusiness 
+		icon = GFX_goal_generic_improve_relations 
+		  
+		x =14 
+		y =3 
+		completion_reward = {
+			country_event = { id = hub_event.4 }
+		}
+		prerequisite = { focus = ourreveredleader} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Securing Our Future  
+	focus = { 
+		id = securingourfuture 
+		icon = GFX_goal_generic_build_tank 
+		  
+		x =7 
+		y =5 
+		completion_reward = {
+			add_political_power = 100
+		}
+		prerequisite = { focus = theperksofbusiness} 
+		cost = 8.6 
+		available_if_capitulated = yes  
+	}
+	#Focus for Consolidate Our Resources  
+	focus = { 
+		id = consolidateourresources 
+		icon = GFX_goal_generic_position_armies 
+		  
+		x =14 
+		y =5 
+		completion_reward = {
+			add_ideas = consolidateResources
+		}
+		prerequisite = { focus = theperksofbusiness} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+
+	
+	
+	#Focus for The Future Of The Hub? 
+	focus = { 
+		id = thefutureofthehub 
+		icon = GFX_goal_generic_large_scale_normal_industry_focus 
+		  
+		x =29 
+		y =5 
+		completion_reward = {
+			country_event = { id = hub_event.5 }
+		}
+		prerequisite = { focus = theperksofbusiness} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Join The Arms Trade  
+	focus = { 
+		id = jointhearmstrade 
+		icon = GFX_goal_generic_construct_mil_factory 
+		  
+		x =5 
+		y =6 
+		completion_reward = {
+			1 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		prerequisite = { focus = securingourfuture} 
+		cost = 8.6 
+		available_if_capitulated = yes  
+	}
+	#Focus for Expand Mercenary Operations  
+	focus = { 
+		id = expandmercenaryoperations 
+		icon = GFX_focus_generic_military_mission 
+		  
+		x =7 
+		y =6 
+		completion_reward = {
+			add_ideas = {
+				hubmercenaries
+			}
+		}
+		prerequisite = { focus = securingourfuture} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Reinforce The City  
+	focus = { 
+		id = reinforcethecity 
+		icon = GFX_goal_generic_bunkers_focus 
+		ai_will_do = { factor = 0} 
+		x =9 
+		y =6 
+		completion_reward = {
+			1 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2409
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2410
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2411
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2412
+					instant_build = yes
+				}
+			}
+		}
+		prerequisite = { focus = securingourfuture} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Expand The Water Trade  
+	focus = { 
+		id = expandthewatertrade 
+		icon = GFX_goal_generic_intelligence_exchange 	  
+		x =12 
+		y =6 
+		completion_reward = {
+			1 = {
+			add_resource = {
+				type = water
+				amount = 75
+			}
+			}
+			add_stability = 0.05
+			
+		
+		}
+
+		prerequisite = { focus = consolidateourresources} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Jumpstart Our Industries  
+	focus = { 
+		id = jumpstartourindustries 
+		icon = GFX_goal_generic_construct_civ_factory 
+		ai_will_do = { factor = 0} 
+		x =14 
+		y =6 
+		completion_reward = {
+			1 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		prerequisite = { focus = consolidateourresources} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Ruins of Fillmore  
+	focus = { 
+		id = theruinsoffillmore 
+		icon = GFX_goal_generic_construction 
+		ai_will_do = { factor = 0} 
+		x =16 
+		y =6 
+		completion_reward = {
+			180 = {
+				add_resource = {
+					type = metal
+					amount = 40
+				}
+			}
+		}
+		prerequisite = { focus = consolidateourresources} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+
+	
+	
+	#Focus for Why Change?  
+	focus = { 
+		id = whychange 
+		icon = GFX_goal_generic_neutrality_focus 
+		  
+		x =26 
+		y =6
+		completion_reward {
+			add_ideas = hubwhychange
+		}
+		mutually_exclusive = { 	focus = brotherhoodideals
+								focus = democraticideals
+								focus = thehubunderground
+							 }  
+		prerequisite = { focus = thefutureofthehub} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Brotherhood Ideals  
+	focus = { 
+		id = brotherhoodideals 
+		icon = GFX_goal_bos_generic 
+		  
+		x =28 
+		y =6 
+		completion_reward { 
+			add_ideas = hubbrotherhoodideals 
+			add_opinion_modifier = { target = BOS modifier = medium_increase }
+		}
+		mutually_exclusive = { 	focus = whychange
+								focus = democraticideals
+								focus = thehubunderground
+							 } 
+		prerequisite = { 	focus = thefutureofthehub
+					   } 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Democratic Ideals  
+	focus = { 
+		id = democraticideals 
+		icon = GFX_focus_generic_the_giant_wakes 
+		  
+		x =30 
+		y =6 
+		completion_reward = {
+			add_ideas = hubdemocratic
+			add_political_power = 50
+		}
+		mutually_exclusive = { 	focus = whychange
+								focus = brotherhoodideals
+								focus = thehubunderground
+							 } 
+		prerequisite = { focus = thefutureofthehub} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Hub Underground  
+	focus = { 
+		id = thehubunderground 
+		icon = GFX_goal_generic_cities_focus
+		  
+		x =32 
+		y =6 
+		completion_reward = {
+			add_ideas = hubunderground
+			add_political_power = 50
+		}
+		mutually_exclusive = { 	focus = democraticideals
+								focus = brotherhoodideals
+								focus = whychange
+							 } 
+		prerequisite = { focus = thefutureofthehub} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Hire Gunsmiths  
+	focus = { 
+		id = hiregunsmiths 
+		icon = GFX_goal_generic_common_firearms_focus 
+		  
+		x =5 
+		y =7 
+		completion_reward = {
+			1 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = {
+				hireGunsmiths
+			}
+		}
+		prerequisite = { focus = jointhearmstrade} 
+		cost = 8.6
+		available_if_capitulated = yes  
+	}
+	#Focus for Quality Standards  
+	focus = { 
+		id = qualitystandards 
+		icon = GFX_goal_generic_small_arms 
+		  
+		x =7 
+		y =7 
+		completion_reward = {
+			add_ideas = {
+				hubprot
+			}
+		}
+		prerequisite = { focus = expandmercenaryoperations} 
+		cost = 8.6 
+		available_if_capitulated = yes  
+	}
+	#Focus for Defend The Borders  
+	focus = { 
+		id = defendtheborders 
+		icon = GFX_focus_generic_provoke_border_clashes 
+		  
+		x =9 
+		y =7 
+		completion_reward = {
+			1 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					instant_build = yes
+				}
+			}
+			19 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					instant_build = yes
+				}
+			}
+			180 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					instant_build = yes
+				}
+			}
+		}
+		prerequisite = { focus = reinforcethecity} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Expand The Water Tower  
+	focus = { 
+		id = expandthewatertower 
+		icon = GFX_goal_generic_bunkers_focus 
+		  
+		x =12 
+		y =7 
+		completion_reward = {
+			1 = {
+				add_resource = {
+					type = water
+					amount = 50
+				}
+				
+			}
+			add_ideas = hubharold
+		}
+		prerequisite = { focus = expandthewatertrade} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Improve Our Trade Routes  
+	focus = { 
+		id = improveourtraderoutes 
+		icon = GFX_goal_generic_construction2 
+		ai_will_do = { factor = 0} 
+		x =14 
+		y =7 
+		completion_reward = {
+			19 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			180 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			1 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 4
+					instant_build = yes
+				}
+			}    
+		} 
+		prerequisite = { focus = jumpstartourindustries} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Repair The Power Plant  
+	focus = { 
+		id = repairthepowerplant 
+		icon = GFX_focus_generic_socialist_science 
+		ai_will_do = { factor = 0} 
+		x =16 
+		y =7 
+		completion_reward = {
+			180 = {
+				add_resource = {
+					type = energy
+					amount = 75
+				}
+			}
+		}
+		prerequisite = { focus = theruinsoffillmore} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+
+	
+	
+	#Focus for Consolidate The Merchants Power  
+	focus = { 
+		id = consolidatethemerchantspower 
+		icon = GFX_goal_generic_political_pressure 
+		  
+		x =26 
+		y =7 
+		completion_reward = {
+			add_popularity = {
+				ideology = elites 
+				popularity = 0.1
+			}
+			add_ideas = hubconsolidatemerchant
+		}
+		prerequisite = { focus = whychange} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Maxson Trade Agreement  
+	focus = { 
+		id = maxsontradeagreement 
+		icon = GFX_goal_generic_position_armies 
+		  
+		x =28 
+		y =7 
+		completion_reward { 
+			add_ideas = hubbrotherhoodideals 
+			add_opinion_modifier = { target = BOS modifier = medium_increase }
+			1 = {
+				add_resource = {
+					type = water
+					amount = -15
+				}
+				add_resource = {
+					type = advanced
+					amount = -2
+				}
+			}
+			157 = {
+				add_resource = {
+					type = water
+					amount = 25
+				}
+				add_resource = {
+					type = advanced
+					amount = 2
+				}
+			}
+			set_technology = {
+			energy_weaponry_tech_2 = 1
+			overcharged_ammunition = 1
+			}
+		}
+		prerequisite = { focus = brotherhoodideals} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Crush The Monopolies  
+	focus = { 
+		id = crushthemonopolies 
+		icon = GFX_goal_generic_ideological_fury_focus 
+		  
+		x =30 
+		y =7 
+		completion_reward {
+			add_popularity = {
+				ideology = elites 
+				popularity = -0.2
+			}
+			add_ideas = hubequalopportunity
+		}
+		prerequisite = { focus = democraticideals} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Deckers Plan  
+	focus = { 
+		id = deckersplan 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+		x =32 
+		y =7 
+		completion_reward {
+			add_popularity = {
+				ideology = ruler 
+				popularity = +0.2
+			}
+			add_ideas = hubdeckersplan
+		}
+		mutually_exclusive = { } 
+		prerequisite = { focus = thehubunderground} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Pre-War Schematics 
+	focus = { 
+		id = hubprewarschematics 
+		icon = GFX_focus_generic_license_production 
+		x =5 
+		y =8 
+		completion_reward = {
+			set_technology = {
+			improved_ballistic_weaponry = 1
+			stripped_pa_tech = 1
+			}
+		}
+		prerequisite = { focus = hiregunsmiths} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Wastelands Safest Borders  
+	focus = { 
+		id = thewastelandssafestborders 
+		icon = GFX_goal_generic_trade 
+		  
+		x =7 
+		y =8 
+		completion_reward = {
+			add_ideas = {
+				hubsafestborders
+			}
+		}
+		prerequisite = { focus = qualitystandards} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Impenetrable City  
+	focus = { 
+		id = theimpenetrablecity 
+		icon = GFX_goal_generic_walls_focus 
+		  
+		x =9 
+		y =8 
+		completion_reward = {
+			1 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2409
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2410
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2411
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = 2412
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker2
+					level = 2
+					province = 2409
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker2
+					level = 2
+					province = 2410
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker2
+					level = 2
+					province = 2411
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker2
+					level = 2
+					province = 2412
+					instant_build = yes
+				}
+			}
+		}
+		prerequisite = { focus = defendtheborders} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	 }
+	 #Focus for Breach the Aquifer  
+	focus = { 
+		id = breachtheaquifer 
+		icon = GFX_goal_generic_secret_weapon 
+		  
+		x =12 
+		y =8 
+		completion_reward = {
+			1 = {
+				add_resource = {
+					type = water
+					amount = 100
+				}
+			}
+		}
+		prerequisite = { focus = expandthewatertower} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Hubs Free Economic Zone  
+	focus = { 
+		id = thehubsfreeeconomiczone 
+		icon = GFX_goal_generic_consumer_goods 
+		ai_will_do = { factor = 0} 
+		x =14 
+		y =8 
+		completion_reward = {
+			add_ideas = hubfreezone
+		}
+		prerequisite = { focus = improveourtraderoutes} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Create The Hub's Technological Institute 
+	focus = { 
+		id = createthehubstechnologicalinstitute 
+		icon = GFX_goal_generic_advanced_technology_focus 
+		ai_will_do = { factor = 0} 
+		x =16 
+		y =8 
+		completion_reward = {
+			1 = {
+				add_resource = {
+					type = advanced
+					amount = 25
+				}
+			}
+		}
+		prerequisite = { focus = repairthepowerplant} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+
+	
+	
+	#Focus for Seize The Water  
+	focus = { 
+		id = seizethewater 
+		icon = GFX_goal_generic_small_arms 
+		  
+		x =26 
+		y =8 
+		completion_reward = {
+			add_political_power = 50
+			add_stability = -0.3
+			country_event = { id = hub_event.6 }
+		}		
+		prerequisite = { focus = consolidatethemerchantspower} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Focus On Technology  
+	focus = { 
+		id = focusontechnology 
+		icon = GFX_goal_generic_advanced_technology_focus 
+		  
+		x =28 
+		y =8 
+		completion_reward {
+			add_research_slot = 1
+		}
+		prerequisite = { focus = maxsontradeagreement} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Take To The Streets  
+	focus = { 
+		id = taketothestreets 
+		icon = GFX_goal_generic_small_arms 
+		  
+		x =30 
+		y =8 
+		completion_reward {
+			add_popularity = {
+				ideology = people
+				popularity = 0.15
+			}
+			add_stability = -0.3
+		}
+		prerequisite = { focus = crushthemonopolies} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Gain The Support of The People  
+	focus = { 
+		id = gainthesupportofthepeople 
+		icon = GFX_goal_generic_recruitment_focus 
+		  
+		x =32 
+		y =8 
+		completion_reward {
+			add_popularity = {
+				ideology = ruler
+				popularity = 0.15
+			}
+			add_equipment_to_stockpile = { 
+				type = ballistic_equipment_1
+				amount = 2000
+				producer = NCR			
+			}
+		}
+		mutually_exclusive = { } 
+		prerequisite = { focus = deckersplan} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Mainstream Weapon Production  
+	focus = { 
+		id = mainstreamweaponproduction 
+		icon = GFX_goal_generic_small_arms 
+		  
+		x =5 
+		y =9 
+		completion_reward = {
+			add_ideas = hubstreamlinedweaponry
+		}
+		prerequisite = { focus = hubprewarschematics} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+
+	
+	
+	#Focus for The Second Merchant War  
+	focus = { 
+		id = thesecondmerchantwar 
+		icon = GFX_goal_generic_neutrality_focus 
+		  
+		x =26 
+		y =9 
+		completion_reward {
+			country_event = { id = hub_event.7 }
+		}
+		prerequisite = { focus = seizethewater} 
+		cost = 2
+		available_if_capitulated = yes  
+	}
+	#Focus for Persuade The Brotherhood  
+	focus = { 
+		id = persuadethebrotherhood 
+		icon = GFX_goal_generic_positive_trade_relations 
+		  
+		x =28 
+		y =9 
+		completion_reward { 
+			add_opinion_modifier = { target = BOS modifier = medium_increase }
+			1 = {
+				add_resource = {
+					type = advanced
+					amount = -2
+				}
+			}
+			157 = {
+				add_resource = {
+					type = advanced_technology
+					amount = 2
+				}
+			}
+			180 = {
+				add_resource = {
+					type = energy
+					amount = -10
+				}
+			}
+			157 = {
+				add_resource = {
+					type = energy
+					amount = 10
+				}
+			}			
+		}
+		prerequisite = { focus = focusontechnology} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Fight For Our Rights  
+	focus = { 
+		id = fightforourrights 
+		icon = GFX_goal_NEW_new_capital 
+		  
+		x =30 
+		y =9 
+		completion_reward = { 
+			country_event = hub_event.19
+		}
+		prerequisite = { focus = taketothestreets} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Crush The Merchants  
+	focus = { 
+		id = crushthemerchants 
+		icon = GFX_goal_generic_ideological_fury_focus 
+		  
+		x =32 
+		y =9 
+		completion_reward = { 
+			country_event = hub_event.21
+		}
+		prerequisite = { focus = gainthesupportofthepeople} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	
+	
+	
+	#Focus for Crush All Who Oppose  
+	focus = { 
+		id = crushallwhooppose 
+		icon = GFX_focus_generic_diplomatic_treaty 
+		  
+		x =26 
+		y =10 
+		completion_reward {
+			add_popularity = {
+				ideology = elites 
+				popularity = 1
+			}
+			add_stability = 0.1
+		}
+		prerequisite = { focus = thesecondmerchantwar} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Deal  
+	focus = { 
+		id = thedeal 
+		icon = GFX_goal_generic_scientific_exchange 
+		  
+		x =28 
+		y =10 
+		completion_reward = {
+			add_opinion_modifier = { target = BOS modifier = medium_increase }
+			set_technology = {
+			power_armour_t45d = 1
+			stealth_boy_tech = 1
+			}
+			add_timed_idea = { idea = hubbosdebts days = 360 }
+			BOS = {add_timed_idea = { idea = boshubdebts days = 360 }}
+		}
+		prerequisite = { focus = persuadethebrotherhood} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Democratic Elections  
+	focus = { 
+		id = democraticelections 
+		icon = GFX_focus_generic_the_giant_wakes 
+		  
+		x =30 
+		y =10 
+		completion_reward {
+			add_popularity = {
+				ideology = people
+				popularity = 0.5
+			}
+			add_ideas = hubdemoelections
+		} 
+		prerequisite = { focus = fightforourrights} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Absolute Power  
+	focus = { 
+		id = absolutepower 
+		icon = GFX_focus_rom_parties_end 
+		  
+		x =32 
+		y =10 
+		completion_reward = {
+			1 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				}
+				add_popularity = {
+				ideology = ruler
+				popularity = 0.5
+			}
+			
+		}
+		mutually_exclusive = { } 
+		prerequisite = { focus = crushthemerchants} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	
+	
+	
+	#Focus for Service For Water  
+	focus = { 
+		id = serviceforwater 
+		icon = GFX_focus_generic_little_entente 
+		  
+		x =26 
+		y =11 
+		completion_reward {
+			add_ideas = hubserviceforwater
+		}
+		prerequisite = { focus = crushallwhooppose} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Technological Sanctuary  
+	focus = { 
+		id = technologicalsanctuary 
+		icon = GFX_goal_tfv_generic_tech_sharing 
+		  
+		x =28 
+		y =11 
+		completion_reward = {
+			add_research_slot = 1
+			1 = {
+				add_resource{
+					amount = 25
+					type = advanced
+			}
+			BOS = {
+			add_to_faction = HUB 
+		}
+		add_popularity = {
+				ideology = intellectuals
+				popularity = 0.4
+			}
+			 set_politics = {
+			ruling_party = intellectuals
+			elections_allowed = no }
+			set_cosmetic_tag = HUB
+		}
+		prerequisite = { focus = thedeal} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Join The New California Republic  
+	focus = { 
+		id = jointhenewcaliforniarepublic 
+		icon = GFX_goal_generic_improve_relations 
+		  
+		x =30 
+		y =11 
+		bypass = {
+			NCR = { exists = no }
+		}
+		completion_reward = {
+			NCR = {
+				country_event = hub_event.10
+
+			}
+		}
+		prerequisite = { focus = democraticelections} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Expand The Armed Forces  
+	focus = { 
+		id = expandthearmedforces 
+		icon = GFX_focus_generic_military_mission 
+		  
+		x =32 
+		y =11 
+		completion_reward = {
+			add_ideas = {
+				hubmilitaryexpansion
+			}
+		}
+		mutually_exclusive = { } 
+		prerequisite = { focus = absolutepower} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Barons  
+	focus = { 
+		id = thebarons 
+		icon = GFX_goal_generic_dangerous_deal 
+		  
+		x =26 
+		y =12 
+		completion_reward {
+			create_faction = "The Merchant League"
+			BAR = {
+				country_event = { id = hub_event.9 }
+			}
+		}
+		prerequisite = { focus = serviceforwater} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Demand Thousand Oaks  
+	focus = { 
+		id = demandthousandoaks 
+		icon = GFX_goal_generic_major_war 
+		  
+		x =31 
+		y =12 
+		completion_reward {
+			BON = {
+				country_event = { id = hub_event.13 }
+			}
+		}
+		prerequisite = { focus = expandthearmedforces} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Demand Bakersfield  
+	focus = { 
+		id = demandbakersfield 
+		icon = GFX_focus_generic_support_the_left_right 
+		  
+		x =33 
+		y =12 
+		completion_reward {
+			BOS = {
+				country_event = { id = hub_event.16 }
+			}
+		}
+		prerequisite = { focus = expandthearmedforces} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+#Focus for Explore New Ways To Transport Goods  
+	focus = { 
+		id = transportgoods 
+		icon = GFX_goal_NCR_Exodus 
+		  
+		x =21
+		y =5
+		completion_reward = {
+			add_political_power = 100
+		}
+		prerequisite = { focus = theperksofbusiness} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Mechanized Transportation  
+	focus = { 
+		id = mechanizedtransportation 
+		icon = GFX_goal_generic_army_motorized 
+		  
+		x =19
+		y =6
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 0.5
+				uses = 1
+				category = motorized_equipment_category
+			}
+		} 
+		prerequisite = { focus = transportgoods} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Explore The San Gabriel Scrap Yard   [Uncompleted] 
+	focus = { 
+		id = ScrapYard 
+		icon = GFX_goal_generic_building_focus 
+		  
+		x =19
+		y =7
+		completion_reward {
+			add_equipment_to_stockpile = { 
+				type = car_tech_1
+				amount = 300
+				producer = NCR	
+			}
+			set_technology = {
+			truck_tech_1 = 1
+			}
+			
+		}
+		prerequisite = { focus = mechanizedtransportation} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Crimson Caravans Mechanized Corps   
+	focus = { 
+		id = CrimsonCaravansMechanizedCorps 
+		icon = GFX_goal_NCR_Army_of_Mobility 
+		  
+		x =19
+		y =8
+		completion_reward {
+		load_oob = HubTrucks
+			
+		}
+		prerequisite = { focus = ScrapYard} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for The Sea  
+	focus = { 
+		id = TheSea 
+		icon = GFX_goal_generic_navy_submarine 
+		  
+		x =21
+		y =6
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 2
+				category =	naval_tech_category
+			}
+			set_technology = {
+			capital_ship_tech = 1
+		}
+		}
+		prerequisite = { focus = transportgoods} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Employ The San Gabriel Naval Guild 
+	focus = { 
+		id = EmployNavalGuild 
+		icon = GFX_goal_bos_steel_cage 
+		  
+		x =21
+		y =7
+		completion_reward {
+		manpower = 1500
+			
+		}
+		prerequisite = { focus = TheSea} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Absorb The San Gabriel Naval Guild  
+	focus = { 
+		id = AbsorbNavalGuild 
+		icon = GFX_goal_generic_navy_battleship 
+		  
+		x =21
+		y =8
+		completion_reward {
+		add_research_slot = 1
+			
+		}
+		prerequisite = { focus = EmployNavalGuild} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for Flying Machines  
+	focus = { 
+		id = FlyingMachines 
+		icon = GFX_goal_generic_airbases_focus 
+		  
+		x =23
+		y =6
+		completion_reward = {
+			1 = {
+				manpower = 650
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+			
+				}
+			}
+		}
+
+		prerequisite = { focus = transportgoods} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	
+	#Focus for Explore Meadows Airfield  
+	focus = { 
+		id = ExploreAirfield
+		icon = GFX_goal_generic_air_doctrines_focus 
+		  
+		x =23
+		y =7
+		completion_reward {
+			add_equipment_to_stockpile = { 
+				type = transport_plane_equipment_1 
+				amount = 25
+				producer = HUB		
+			}
+
+			set_technology = {
+				aerodynamics_tech_4 = 1
+			}
+		}
+		
+		prerequisite = { focus = FlyingMachines} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	
+	#Focus for Escort Planes   
+	focus = { 
+		id = EscortPlanes 
+		icon = GFX_goal_generic_navy_carrier 
+		  
+		x =23
+		y =8
+		completion_reward {
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_1
+				amount = 25
+				producer = HUB		
+			}
+		}
+		prerequisite = { focus = ExploreAirfield} 
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	#Focus for A True Jack Of All Trades 
+	focus = { 
+		id = JackOfAllTrades 
+		icon = GFX_goal_generic_intelligence_exchange 
+		  
+		x =21
+		y =9
+		completion_reward = {
+			add_ideas = efficienttrade1
+		}
+		prerequisite = { focus = EscortPlanes}		 
+		prerequisite = { focus = AbsorbNavalGuild}
+		prerequisite = { focus = CrimsonCaravansMechanizedCorps}
+		cost = 8.6  
+		available_if_capitulated = yes  
+	}
+	
+
+	#End of focuses 
+}

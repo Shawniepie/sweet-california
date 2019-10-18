@@ -1,53 +1,18 @@
 ﻿capital = 548
-
+oob = "DAY_2275"
 set_technology = {
 	grand_army = 1
 	standard_weaponry_tech = 1
 	melee_weaponry_tech_1 = 1
 	ballistic_weaponry_tech_1 = 1
 	support_weaponry = 1
-	fireteam_weaponry_tech = 1
 	recon_company_tech_1 = 1
-	bike_tech_1 = 1
 	tribal_civilization = 1
 	settled_civilization = 1
-	truck_tech_1 = 1
-	anti_tank_equipment_tech_1 = 1
 	special_forces_doctrine = 1
 	spec_ops_equipment_tech_1 = 1
 }
 
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		nautics_tech_1 = 1
-		light_navy_hull_tech_1 = 1
-		waterproof_sealing_tech = 1
-		medium_navy_hull_tech_1 = 1
-		heavy_navy_hull_tech_1 = 1
-		naval_invasion_tech_1 = 1
-		naval_module_tech = 1
-		naval_armour_tech_1 = 1
-		naval_pd_module_tech_1 = 1
-		naval_communications_module_tech_1 = 1
-		naval_weapons_module_tech = 1
-	}
-}
-if = {
-	limit = {
-		NOT = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		nautics_tech_non_mtg_1 = 1
-		light_navy_hull_tech_non_mtg_1 = 1
-		waterproof_sealing_tech_non_mtg = 1
-		medium_navy_hull_tech_non_mtg_1 = 1
-		naval_invasion_tech_non_mtg_1 = 1
-		heavy_navy_hull_tech_non_mtg_1 = 1
-	}
-}
 
 set_stability = 0.65
 set_war_support = 0.2

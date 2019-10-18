@@ -1,0 +1,40 @@
+﻿division_template = {
+	name = "Enclave PA Infantry"
+	
+	regiments = {
+		power_armour = { x = 0 y = 0 }
+		power_armour = { x = 0 y = 1 }
+		power_armour = { x = 0 y = 2 }
+		power_armour = { x = 0 y = 3 }
+		power_armour = { x = 1 y = 0 }
+		power_armour = { x = 1 y = 1 }
+		power_armour = { x = 1 y = 2 }
+		power_armour = { x = 1 y = 3 }
+	}
+
+units = {
+	division {
+		name = "1st Nevada Core"
+		location = 3438
+		division_template = "Enclave PA Infantry"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+
+	division {
+		name = "Danielle Defense Company"
+		location = 3438
+		division_template = "Enclave PA Infantry"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	
+	division {
+		name = "Navarro Purifiers"
+		location = 3438
+		division_template = "Enclave PA Infantry"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}
+# vim: set ft=pdx ts=2 sw=2 tw=79 :

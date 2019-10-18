@@ -1,0 +1,202 @@
+ideas = {
+	political_advisor = {
+
+		manofcom = {
+
+			picture = generic_advisor20
+
+			available = { is_allowed_settler_generic_political_advisors = yes }
+			visible = { is_allowed_settler_generic_political_advisors = yes }
+
+			traits = { man_of_commun }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		brahminman = {
+
+			picture = generic_advisor8
+
+			available = { is_allowed_settler_generic_political_advisors = yes }
+			visible = { is_allowed_settler_generic_political_advisors = yes }
+
+			traits = { caravan_trader }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		honestspeaker = {
+
+			picture = generic_advisor15
+
+			available = { is_allowed_settler_generic_political_advisors = yes }
+			visible = { is_allowed_settler_generic_political_advisors = yes }
+
+			traits = { honest_speaker }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		settler_captain_of_industry = {
+
+			picture = generic_advisor34
+
+			available = { is_allowed_settler_generic_political_advisors = yes }
+			visible = { is_allowed_settler_generic_political_advisors = yes }
+
+			traits = { captain_of_industry }
+		}
+
+		settler_physician = {
+
+			picture = generic_advisor32
+
+			available = { is_allowed_settler_generic_political_advisors = yes }
+			visible = { is_allowed_settler_generic_political_advisors = yes }
+
+			traits = { head_physician }
+		}
+	}
+	high_command = {
+
+		localsherrif = {
+
+			picture = generic_advisor11
+
+			available = { is_allowed_settler_generic_high_command = yes }
+			visible = { is_allowed_settler_generic_high_command = yes }
+
+			traits = { local_sherrif }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		caravanguard = {
+
+			picture = generic_advisor5
+
+			available = { is_allowed_settler_generic_high_command = yes }
+			visible = { is_allowed_settler_generic_high_command = yes }
+
+			traits = { caravan_guard }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		kindmercenary = {
+
+			picture = generic_advisor22
+
+			available = { is_allowed_settler_generic_high_command = yes }
+			visible = { is_allowed_settler_generic_high_command = yes }
+
+			traits = { kind_mercenary }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		frontlineopsettler = {
+
+			picture = generic_advisor12
+
+			available = { is_allowed_settler_generic_high_command = yes }
+			visible = { is_allowed_settler_generic_high_command = yes }
+
+			traits = { frontline_operative }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	army_chief = {
+
+		settler_attack = {
+
+			picture = generic_advisor6
+
+			available = { is_allowed_settler_generic_chiefs = yes }
+			visible = { is_allowed_settler_generic_chiefs = yes }
+
+			traits = { settler_expansion }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		settler_defense = {
+
+			picture = generic_advisor13
+
+			available = { is_allowed_settler_generic_chiefs = yes }
+			visible = { is_allowed_settler_generic_chiefs = yes }
+
+			traits = { settler_defend }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	navy_chief = {
+
+		settler_navy_chief = {
+
+			picture = generic_advisor33
+
+			available = { is_allowed_settler_generic_chiefs = yes }
+			visible = { is_allowed_settler_generic_chiefs = yes }
+
+			traits = { settler_navy_buff }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	air_chief = {
+
+		settler_air_chief = {
+
+			picture = generic_advisor41
+
+			available = { is_allowed_settler_generic_chiefs = yes }
+			visible = { is_allowed_settler_generic_chiefs = yes }
+
+			traits = { settler_air_buff }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	theorist = {
+
+		settler_military_theorist = {
+
+			picture = generic_advisor32
+
+			available = { is_allowed_settler_generic_theorists = yes }
+			visible = { is_allowed_settler_generic_theorists = yes }
+
+			research_bonus = {
+				cat_grand_army = 0.10
+			}
+
+			traits = { military_theorist }
+		}
+	}
+}

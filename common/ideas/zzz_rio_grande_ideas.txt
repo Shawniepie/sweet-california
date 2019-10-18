@@ -1,0 +1,776 @@
+ideas = {
+	country = {
+		rrg_idea_texas_arms_fams = {
+			picture = rrg_texas2
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+			}
+		}
+
+		rrg_overtime = {
+			picture = generic_production_bonus
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		rrg_unity = {
+			picture = rrg_texas2
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.02
+				consumer_goods_factor = -0.02
+			}
+		}
+
+		rrg_idea_mexican_spirit = {
+			picture = generic_morale_bonus
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				supply_consumption_factor = -0.05
+			}
+		}
+
+		high_on_drugs = {
+			picture = drug_runners
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = -0.05
+				army_core_defence_factor = -0.05
+				supply_consumption_factor = 0.03
+			}
+		}
+
+		rrg_eyebots_civilian = {
+			picture = great_depression
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				enemy_partisan_effect = -0.25
+				war_support_factor = 0.05
+			}
+		}
+
+		rrg_puppet_master = {
+			picture = generic_armor
+			removal_cost = -1
+			modifier = {
+				planning_speed = 0.15
+				max_planning = 0.15
+				heat_attrition_factor = -0.15
+			}
+			equipment_bonus = {
+				support_robot_equipment = {
+					build_cost_ic = -0.15
+					soft_attack = 0.1
+					defense = 0.1
+					instant = yes
+				}
+				combat_robot_equipment = {
+					build_cost_ic = -0.15
+					soft_attack = 0.1
+					defense = 0.1
+					instant = yes
+				}
+			}
+		}
+		rrg_robot_friends = {
+			picture = generic_armor
+			removal_cost = -1
+			modifier = {
+				heat_attrition_factor = -0.15
+			}
+			equipment_bonus = {
+				support_robot_equipment = {
+					build_cost_ic = -0.15
+					soft_attack = 0.1
+					defense = 0.1
+					instant = yes
+				}
+				combat_robot_equipment = {
+					build_cost_ic = -0.15
+					soft_attack = 0.1
+					defense = 0.1
+					instant = yes
+				}
+			}
+		}
+
+		rrg_eyebots_military= {
+			picture = great_depression
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				land_night_attack = 0.10
+				recon_factor = 0.10
+			}
+		}
+
+		rrg_bank_mexico_idea = {
+			picture = generic_armor
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.01
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+
+		rrg_new_deal = {
+			picture = new_deal
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				production_speed_industrial_complex_factor = 0.40
+				production_speed_infrastructure_factor = 0.20
+				industry_repair_factor = 0.50
+				political_power_gain = 0.01
+			}
+		}
+
+		rrg_radio = {
+			picture = generic_democratic_drift_bonus
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.05
+				enemy_partisan_effect = -0.05
+			}
+		}
+
+		rrg_drug_pacification = {
+			picture = monopolies
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				supply_consumption_factor = -0.05
+				enemy_partisan_effect = -0.05
+			}
+		}
+
+		mexican_unity = {
+			picture = generic_mass_infantry
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.10
+				enemy_partisan_effect = -0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+
+		rrg_new_deal2 = {
+			picture = pre-war_industry
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_infrastructure_factor = 0.20
+				industry_repair_factor = 0.25
+				political_power_gain = 0.05
+			}
+		}
+
+		rrg_economic_crackdown1 = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.10
+				production_speed_arms_factory_factor = 0.40
+				production_speed_infrastructure_factor = 0.20
+				political_power_gain = 0.01
+			}
+		}
+
+		rrg_economic_crackdown2 = {
+			picture = generic_goods_red_bonus
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.10
+				production_speed_arms_factory_factor = 0.15
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+				conscription_factor = 0.05
+				mobilization_speed = 0.05
+			}
+		}
+
+		rrg_idea_paullus_raiders = {
+			picture = generic_raids
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.02
+			}
+		}
+
+		rrg_idea_vencedores_night = {
+			picture = KHA_overwhelming_firepower
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				land_night_attack = 0.10
+				recon_factor = 0.10
+			}
+		}
+
+		rrg_idea_vencedores_rocks = {
+			picture = KHA_overwhelming_firepower
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.10
+			}
+		}
+
+		rrg_river_guild_support = {
+			picture = generic_build_ships
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_dockyard_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
+				local_resources_factor = 0.10
+			}
+		}
+
+		matadatores = {
+			picture = generic_manpower_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_leader_start_level = 1
+			}
+		}
+
+		rrg_idea_rgrb = {
+			picture = salvaged_military_industry
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.02
+				production_speed_industrial_complex_factor = 0.02
+				production_speed_dockyard_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+			}
+		}
+
+		rrg_idea_rgrb_mod = {
+			picture = salvaged_military_industry
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				production_speed_infrastructure_factor = 0.07
+			}
+		}
+
+		rrg_idea_reclaim_rio = {
+			picture = salvaged_military_industry
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_leader_start_attack_level = 1
+				conscription_factor = 0.05
+				justify_war_goal_time = -0.10
+			}
+		}
+		rrg_guerra_eterna_idea = {
+			picture = salvaged_military_industry
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				war_support_factor = 0.05
+				justify_war_goal_time = -0.25
+			}
+		}
+
+		rdd_idea_radic = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				motorized_attack_factor = 0.05
+				motorized_defence_factor = 0.05
+				army_speed_factor = 0.05
+			}
+		}
+
+		rrg_national_crisis = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.30
+				war_support_factor = -0.15
+				conscription_factor = -0.05
+				production_speed_buildings_factor = -0.40
+			}
+		}
+
+		rrg_stabilization = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = -0.10
+				production_speed_buildings_factor = -0.20
+			}
+		}
+
+		rrg_stabilization2 = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.05
+				production_speed_buildings_factor = -0.10
+			}
+		}
+		rrg_texas_secessionists = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.15
+				supply_consumption_factor = 0.15
+				army_morale_factor = -0.05
+				mobilization_speed = -0.30
+				war_support_factor = -0.20
+			}
+		}
+
+		rrg_guerra_revenge = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = -0.05
+				army_morale_factor = -0.10
+				mobilization_speed = -0.05
+				war_support_factor = -0.05
+			}
+		}
+
+		rrg_vindicta_idea = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = 0.05
+				army_morale_factor = 0.05
+				mobilization_speed = 0.03
+				war_support_factor = 0.03
+			}
+		}
+
+		rrg_clutch_rifles_idea = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = 0.05
+				army_morale_factor = 0.05
+				mobilization_speed = 0.03
+				war_support_factor = 0.03
+			}
+		}
+
+		rrg_vindicta_idea1 = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = 0.05
+				army_morale_factor = 0.05
+				mobilization_speed = 0.05
+				war_support_factor = 0.08
+			}
+		}
+
+		rrg_vindicta_idea2 = {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription_factor = 0.05
+				army_morale_factor = 0.05
+				mobilization_speed = 0.05
+				war_support_factor = 0.08
+			}
+			targeted_modifier = {
+				tag = CES
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+		}
+		rrg_wedding_crashers= {
+			#picture =
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = MAX
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+			}
+		}
+
+		TAA_demoralization_campaign = {
+			#picture =
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.10
+				stability_factor = -0.10
+				army_attack_factor = -0.05
+				army_morale_factor = -0.10
+				surrender_limit = -0.10
+			}
+		}
+
+		rrg_new_draft = {
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				consumer_goods_factor = 0.05
+				}
+		}
+
+		rrg_new_army = {
+			#picture =
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				training_time_army_factor = 0.10
+				experience_gain_army = 0.05
+			}
+		}
+
+		rrg_caffeinated = {
+			picture = aztlan_land_distribution
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.03
+			}
+		}
+
+		rrg_stole_iea_itz = {
+			picture = aztlan_land_distribution
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+				dig_in_speed_factor = 0.05
+			}
+		}
+
+		brotherhood_interference_rrg_idea = {
+			picture = generic_morale_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.02
+				research_speed_factor =0.05
+			}
+		}
+
+		brotherhood_interference_rrg_idea2 = {
+			picture = generic_morale_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.02
+				research_speed_factor =0.08
+			}
+		}
+
+		brotherhood_influence_rrg_idea = {
+			picture = generic_morale_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.03
+			}
+		}
+
+		rrg_destruction_means_ideas = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				combat_robot_equipment = {
+					build_cost_ic = -0.025
+					instant = yes
+				}
+			}
+		}
+
+		pocket_general_idea= {
+			picture = generic_armor
+			removal_cost = -1
+			modifier = {
+				heat_attrition_factor = -0.01
+			}
+			equipment_bonus = {
+				support_robot_equipment = {
+					build_cost_ic = -0.025
+					instant = yes
+				}
+				combat_robot_equipment = {
+					build_cost_ic = -0.025
+					instant = yes
+				}
+			}
+		}
+
+		rrg_all_the_single_ladies_idea = {
+			picture = trl_zappa
+			removal_cost = -1
+			modifier = {
+				heat_attrition_factor = -0.01
+			}
+			equipment_bonus = {
+				support_robot_equipment = {
+					build_cost_ic = -0.025
+					instant = yes
+				}
+				combat_robot_equipment = {
+					build_cost_ic = -0.025
+					instant = yes
+				}
+			}
+		}
+
+		rrg_machine_empress_idea = {
+			picture = trl_zappa
+			removal_cost = -1
+			modifier = {
+				heat_attrition_factor = -0.2
+			}
+			equipment_bonus = {
+				support_robot_equipment = {
+					build_cost_ic = -0.023
+					instant = yes
+				}
+				combat_robot_equipment = {
+					build_cost_ic = -0.03
+					instant = yes
+				}
+			}
+		}
+
+		rrg_idea_drug_runs = {
+			picture = drug_runners
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
+		rrg_idea_automated_extraction = {
+			picture = robot_salvaging_expertise
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.10
+			}
+		}
+		rrg_zapnuke = {
+			picture = robot_salvaging_expertise
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.01
+			}
+		}
+
+		rio_apprenticeships = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+
+		rio_pluck = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_production_bonus
+			removal_cost = -1
+			modifier = {
+				equipment_conversion_speed = 0.15
+			}
+		}
+
+		rrg_slowshift = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_morale_bonus
+			removal_cost = -1
+			modifier = {
+				ruler_drift = 0.10
+			}
+		}
+	}
+}

@@ -1,0 +1,427 @@
+ideas = {
+	country = {
+
+		coautl_cult_idea = {
+			picture = generic_democratic_drift_bonus
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				army_bonus_air_superiority_factor = 0.10
+				air_air_superiority_attack_factor = 0.10
+				air_air_superiority_defence_factor	= 0.10
+			}
+		}
+		ate_vaccination = {
+			picture = GFX_idea_generic_medicine
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				monthly_population = 0.10
+			}
+		}
+		ate_longsighted_1 = {
+			picture = GFX_idea_generic_compass
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				encryption_factor = 0.10
+				decryption_factor = 0.10
+			}
+		}
+		ate_tribal1 = {
+			picture = GFX_idea_generic_baddass
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				conscription_factor	 = -0.50
+				special_forces_attack_factor = 0.10
+				special_forces_defence_factor = 0.10
+				army_infantry_defence_factor = -0.05
+				army_infantry_attack_factor = -0.05
+				special_forces_cap = 0.06
+				army_morale_factor = 0.05
+			}
+		}
+		humbled_jaguars = {
+			picture = GFX_idea_generic_baddass
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				special_forces_attack_factor = 0.03
+				special_forces_defence_factor = 0.03
+				army_infantry_defence_factor = 0.01
+				army_infantry_attack_factor = 0.01
+				army_morale_factor = 0.02
+			}
+		}
+		ate_true_mexica = {
+			#picture =
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			targeted_modifier = {
+				tag = MOC
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+		noble_cult_warfare = {
+			picture = GFX_idea_aztlan_warfare
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				conscription_factor	 = -0.65
+				special_forces_attack_factor = 0.12
+				special_forces_defence_factor = 0.12
+				army_infantry_defence_factor = -0.08
+				army_infantry_attack_factor = -0.08
+				special_forces_cap = 0.07
+			}
+		}
+		noble_cult_warfare2 = {
+			picture = GFX_idea_aztlan_warfare
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				conscription_factor	 = -0.70
+				special_forces_attack_factor = 0.14
+				special_forces_defence_factor = 0.14
+				special_forces_cap = 0.08
+			}
+		}
+		ate_tribal2 = {
+			picture = GFX_idea_aztlan_warfare
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				conscription_factor	 = -0.40
+				special_forces_attack_factor = 0.10
+				special_forces_defence_factor = 0.10
+				army_infantry_defence_factor = 0.05
+				army_infantry_attack_factor = 0.05
+				special_forces_cap = 0.06
+				army_morale_factor = 0.05
+			}
+		}
+
+		ate_serpent_rises_idea = {
+			picture = GFX_idea_generic_naval_invasion
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				naval_retreat_chance = 0.10
+				naval_retreat_speed = 0.20
+				spotting_chance = 0.10
+			}
+		}
+
+		aztlan_warfare = {
+			picture = GFX_idea_aztlan_warfare
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				conscription_factor	 = -0.60
+				special_forces_attack_factor = 0.10
+				special_forces_defence_factor = 0.10
+				army_infantry_defence_factor = -0.15
+				army_infantry_attack_factor = -0.15
+				special_forces_cap = 0.06
+			}
+		}
+
+		imperial_reform1 = {
+			picture = GFX_idea_aztlan_warfare
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				conscription_factor	 = -0.45
+				special_forces_attack_factor = 0.10
+				special_forces_defence_factor = 0.10
+				army_infantry_defence_factor = -0.07
+				army_infantry_attack_factor = -0.07
+				special_forces_cap = 0.04
+			}
+		}
+		imperial_reform2 = {
+			picture = GFX_idea_generic_compass
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				conscription_factor	 = -0.30
+				supply_consumption_factor = -0.10
+				dig_in_speed_factor = 0.10
+				special_forces_attack_factor = 0.10
+				special_forces_defence_factor = 0.10
+				special_forces_cap = 0.04
+			}
+		}
+		aztlan_land_distribution = {
+			picture = GFX_idea_aztlan_land_distribution
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				local_resources_factor = 0.08
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_industrial_complex_factor = -0.10
+				production_speed_arms_factory_factor = -0.10
+				production_speed_infrastructure_factor = 0.20
+				consumer_goods_factor = 0.08
+				industrial_capacity_factory = -0.10
+
+			}
+		}
+		tribal_development_idea1 = {
+			picture = generic_goods_red_bonus
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				local_resources_factor = 0.12
+				production_speed_buildings_factor = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_infrastructure_factor = 0.20
+				consumer_goods_factor = 0.04
+				industrial_capacity_factory = -0.05
+
+			}
+		}
+		tribal_development_idea2 = {
+			picture = generic_goods_red_bonus
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				local_resources_factor = 0.16
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_speed_buildings_factor = -0.05
+				production_speed_infrastructure_factor = 0.30
+
+			}
+		}
+		heartland_strength_1 = {
+			picture = GFX_idea_generic_mass_infantry
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				local_resources_factor = 0.10
+				industrial_capacity_dockyard = -0.10
+				industrial_capacity_factory = -0.10
+				production_speed_arms_factory_factor = -0.10
+				production_speed_water_generator_factor = 0.30
+				production_speed_industrial_complex_factor = -0.10
+				production_speed_electricity_generator_factor = 0.30
+				production_speed_metal_generator_factor = 0.30
+				consumer_goods_factor = 0.05
+				production_speed_infrastructure_factor = 0.30
+
+			}
+		}
+		heartland_strength_2 = {
+			picture = GFX_idea_generic_mass_infantry
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				local_resources_factor = 0.10
+				consumer_goods_factor = 0.05
+				production_speed_water_generator_factor = 0.30
+				industrial_capacity_factory = -0.05
+				production_speed_electricity_generator_factor = 0.30
+				production_speed_metal_generator_factor = 0.30
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+				production_speed_infrastructure_factor = 0.30
+
+			}
+		}
+		ate_lords_atlzani1 = {
+			picture = GFX_idea_generic_mass_infantry
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				local_resources_factor = 0.05
+				consumer_goods_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
+				research_speed_factor = 0.03
+				industrial_capacity_factory = -0.10
+
+			}
+		}
+	ate_lords_atlzani2 = {
+			picture = GFX_idea_generic_mass_infantry
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				local_resources_factor = 0.05
+				consumer_goods_factor = 0.10
+				production_speed_buildings_factor = 0.10
+				research_speed_factor = 0.05
+				industrial_capacity_factory = -0.10
+				production_factory_max_efficiency_factor = 0.10
+
+			}
+		}
+
+		lifebringer1 = {
+			picture = GFX_idea_generic_geck
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				stability_factor = 0.075
+				war_support_factor = 0.075
+			}
+		}
+
+		lifebringer2 = {
+			picture = GFX_idea_generic_geck
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				stability_factor = 0.075
+			}
+		}
+		lifebringer3 = {
+			picture = GFX_idea_generic_geck
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				war_support_factor = 0.075
+			}
+		}
+		feathered_serpent = {
+			# picture =
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				surrender_limit = 0.10
+				army_morale_factor = 0.10
+				army_speed_factor = 0.10
+			}
+		}
+		flayed_man = {
+			picture = GFX_idea_ate_flag_flayed_man
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				army_org_factor = 0.10
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		aztec_wasps = {
+			picture = triumphant_will
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				mobilization_speed = 0.10
+				conscription = 0.05
+			}
+		}
+		aztec_oaxaca = {
+			picture = triumphant_will
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.05
+			}
+		}
+		aztec_oaxaca2 = {
+			picture = generic_coastal_navy
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				consumer_goods_factor = -0.08
+				local_resources_factor = 0.08
+			}
+		}
+		CAF_oaxaca = {
+			picture = generic_agrarian_society
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				consumer_goods_factor = 0.025
+				local_resources_factor = -0.025
+			}
+		}
+		CAF_oaxaca2 = {
+			picture = generic_agrarian_society
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				consumer_goods_factor = 0.05
+				local_resources_factor = -0.05
+			}
+		}
+
+		legacy_lost1 = {
+			picture = generic_disjointed_gov
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				research_speed_factor = -0.06
+				conscription = 0.02
+				experience_gain_army = 0.10
+			}
+		}
+		legacy_lost2 = {
+			picture = generic_disjointed_gov
+			allowed_civil_war = { always = yes }
+			removal_cost = 1
+			modifier = {
+				research_speed_factor = 0.06
+				conscription = -0.02
+				max_command_power = -50
+			}
+		}
+
+		aztec_construction = {
+
+			# picture =
+
+			allowed_civil_war = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.25
+				production_speed_industrial_complex_factor = 0.25
+			}
+		}
+		ate_lawmaker = {
+			picture = generic_constitutional_guarantee
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.10
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+		ate_conqueror = {
+			picture = generic_war_preparation
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.025
+				training_time_army_factor = -0.05
+			}
+		}
+		ate_emancipator = {
+			picture = generic_democratic_drift_bonus
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				conscription_factor	 = 0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		ate_manifest_destiny = {
+			picture = generic_fascism_drift_bonus
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.10
+			}
+		}
+	}
+}

@@ -1,0 +1,486 @@
+ideas = {
+	country = {
+		bonepicks = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+			}
+			removal_cost = -1
+
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					instant = yes
+				}
+			}
+		}
+		warren_profession = {
+			picture = generic_war_preparation
+
+			allowed = {
+			}
+			removal_cost = -1
+
+			modifier = {
+				max_planning = 0.15
+				planning_speed = 0.15
+			}
+		}
+		warren_home = {
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		warrenprimativearmy = {
+			picture = GFX_idea_trl_primitive_army
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.1
+			}
+		}
+		warren_big_brother = {
+			picture = generic_armor
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				behemoth_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+		warren_thunder_smoke = {
+			picture = generic_infantry_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {#ballistic_weaponry_tech
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+		warren_tooth_claw = {
+			picture = generic_infantry_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+			modifier = {
+				conscription = 0.01
+			}
+		}
+		warren_people = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.15
+			}
+		}
+		warren_warriors = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.01
+			}
+		}
+		warren_zappa = {
+			picture = GFX_idea_trl_zappa
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		warren_dakka = {
+			picture = GFX_idea_trl_dakka
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		warren_zappa2 = {
+			picture = generic_infantry_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					instant = yes
+				}
+			}
+		}
+		warren_dakka2 = {
+			picture = generic_infantry_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					soft_attack = 0.1
+					instant = yes
+				}
+			}
+		}
+		warren_realm_goliath = {
+			picture = generic_war_preparation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		warrenwarriorswild = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				army_morale_factor = 0.04
+				planning_speed = 0.04
+			}
+		}
+		warrenguardianswild = {
+			picture = generic_war_preparation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.05
+				max_dig_in = 0.5
+				army_org_Factor = 0.01
+			}
+		}
+		warrencallofgiants = {
+			picture = generic_armor
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				behemoth_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		warrencallofhorde = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		warrencallofthefirst = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.2
+			}
+		}
+		warrensonsofman = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+			}
+		}
+		warrenamassingfleet = {
+			picture = generic_naval_manufacturer_3
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				ship_hull_medium = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				ship_hull_heavy = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		warrenraidingculture = {
+			picture = generic_naval_manufacturer_3
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				ship_hull_light = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		warrenhouseslaves = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.2
+			}
+		}
+		warrengatherers = {
+			picture = generic_war_preparation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.1
+			}
+		}
+		warrenmutantlabor = {
+			picture = generic_war_preparation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.03
+			}
+		}
+		warrenmilitarizedlabor = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		warrentrollsofthewarren = {
+			picture = generic_armor
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				behemoth_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}
+		}
+		warrenreadyforwar = {
+			picture = generic_pp_unity_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+		warrenrewardsofvictory = {
+			picture = generic_pp_unity_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+			}
+		}
+		warrendefendingthewarren = {
+			picture = generic_pp_unity_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_bunker_factor = 0.1
+			}
+		}
+		pittman1 = {
+			picture = FRA_fortification_focus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				elites_drift = 0.3
+			}
+		}
+		pittman2 = {
+			picture = generic_war_preparation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_speed_factor = 0.05
+			}
+		}
+		pittman3 = {
+			picture = generic_war_preparation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.05
+			}
+		}
+		pittman4 = {
+			picture = FRA_fortification_focus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				elites_drift = 0.3
+				army_speed_factor = 0.05
+				army_attack_factor = 0.05
+				non_core_manpower = 0.05
+				training_time_factor = -0.10
+			}
+		}
+		bonesnarl1 = {
+			picture = ger_rebuild_the_nation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				people_drift = 0.03
+			}
+		}
+		bonesnarl2 = {
+			picture = ger_rebuild_the_nation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				people_drift = 0.3
+				non_core_manpower = -0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		bonesnarl3 = {
+			picture = ger_rebuild_the_nation
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				people_drift = 0.3
+				non_core_manpower = -0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				conscription = 0.02
+				training_time_factor = -0.05
+			}
+		}
+		bonesnarl4 = {
+			picture = FRA_fortification_focus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				elites_drift = 0.3
+				non_core_manpower = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				conscription = 0.02
+				training_time_factor = -0.05
+
+			}
+		}
+		warren_chemult_armory = {
+			picture = generic_infantry_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+		warren_bountiful_coast = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.03
+			}
+		}
+		warren_mirelurk = {
+			picture = generic_naval_manufacturer_3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				amphibious_invasion = 0.1
+			}
+		}
+		warren_betty_1 = {
+			picture = generic_research_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				intellectuals_drift = 0.3
+			}
+		}
+		warren_betty_2 = {
+			picture = generic_research_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				intellectuals_drift = 0.3
+				conscription = 0.01
+				army_attack_factor = 0.03
+			}
+		}
+		warren_forcedroads = {
+			picture = generic_pp_unity_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+		warren_slave_workshops = {
+			picture = generic_pp_unity_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+	}
+}

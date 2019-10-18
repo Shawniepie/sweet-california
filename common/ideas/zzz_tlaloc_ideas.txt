@@ -1,0 +1,297 @@
+ideas = {
+	country = {
+		wayward_frontier = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment  = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				power_armor_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				fireteam_equipment  = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+
+		chosen_son = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				research_speed_factor = -0.05
+			}
+		}
+
+		protector_mexico = {
+			picture = generic_armor
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		exploiter_mexico = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+
+				consumer_goods_factor = -0.05
+				research_speed_factor = -0.05
+				local_resources_factor = 0.08
+
+			}
+		}
+		pacification_subroutines = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+				local_resources_factor = 0.05
+				enemy_partisan_effect = -0.3
+			}
+		}
+
+		victorious_protector = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_defence_factor = 0.15
+				local_resources_factor = 0.10
+			}
+		}
+
+		tla_agriculture = {
+			picture = generic_central_management
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		tla_compensation = {
+			picture = generic_goods_red_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+				people_drift = 0.01
+			}
+		}
+		tla_feeding_people = {
+			picture = generic_production_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+
+			}
+		}
+		tla_concessions = {
+			picture = generic_goods_red_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				intellectuals_drift = 0.01
+				industrial_capacity_factory = -0.05
+			}
+		}
+		tla_political = {
+			picture = prc_low_popular_support2
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+
+			}
+		}
+		tla_organising_people = {
+			picture = prc_low_popular_support3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				MONTHLY_POPULATION = 0.25
+			}
+		}
+		tla_mil = {
+			picture = mex_politicised_army
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.03
+			}
+		}
+		tla_protecting_people = {
+			picture = mex_politicised_army2
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+			}
+		}
+		tla_self_defense = {
+			picture = ast_volunteer_defense_corps
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				training_time_army_factor = -0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		tla_compliance = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				mobilization_speed = 0.25
+				elites_drift = 0.01
+			}
+		}
+
+		tla_research_bonus = {
+			picture = generic_research_bonus
+			allowed = {
+				TLA = { exists = yes }
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+		tla_finished_gifts = {
+			picture = HUN_treaty_of_triannon
+			allowed = {
+				TLA = { exists = yes }
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.15
+			}
+		}
+		tla_untimely_death = {
+			picture = chi_war_of_resistance3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.25
+				army_org_factor = -0.35
+				army_morale_factor = -0.1
+
+			}
+		}
+
+		tla_protectors_guarantee = {
+			picture = tla_guaranteed
+			allowed = {
+				TLA = { exists = yes }
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		tla_the_guarantees = {
+			picture = tla_guarantor
+			allowed = {
+				TLA = { exists = yes }
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		tla_corrupting_memory = {
+			picture = tla_memory_failure
+			allowed = {
+				TLA = { exists = yes }
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		tla_memory_loss_idea = {
+			picture = tla_memory_failure
+			allowed = {
+				TLA = { exists = yes }
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		tla_efficiency_code = {
+			picture = tla_memory_failure
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				max_fuel_factor = 1
+			}
+			equipment_bonus = {
+				combat_robot_equipment = {
+					instant = yes
+					fuel_consumption = -0.5
+				}
+				support_robot_equipment = {
+					instant = yes
+					fuel_consumption = -0.5
+				}
+			}
+		}
+		tla_nuclear_shellshock = {
+			picture = generic_nuclear_aftermath
+			allowed = {
+				has_war_with = TLA
+			}
+			removal_cost = -1
+			modifier = {
+				surrender_limit = -0.15
+			}
+		}
+	}
+}

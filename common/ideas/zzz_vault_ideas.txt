@@ -1,0 +1,798 @@
+ideas = {
+	country = {
+		lessyears = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+			}
+		}
+		years = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		moreyears = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+		crimserv = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+			}
+		}
+		crimslaves = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		crimwar = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		crimkill = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				enemy_partisan_effect = -0.4
+			}
+		}
+		courtyard = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.075
+			}
+		}
+		utopia = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.03
+			}
+		}
+		vaultmed = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			research_bonus = {
+				support_medical_tech_category = 0.2
+			}
+		}
+		festus = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		citizen1 = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.05
+			}
+		}
+		courtyardcrackdown = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				elites_drift = 0.10
+			}
+		}
+		ghoulconferences = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				people_drift = 0.10
+			}
+		}
+		oldways = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				intellectuals_drift = 0.10
+			}
+		}
+		molethumb = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				ruler_drift = 0.10
+			}
+		}
+		braintrust = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.03
+			}
+		}
+		vaultmartiallaw = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.05
+			}
+		}
+		vaultpride = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.025
+			}
+		}
+		impenetrablecity = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.15
+			}
+		}
+		flockdoc = {
+			picture = flockgoggles
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			research_bonus = {
+				support_medical_tech_category = 0.5
+			}
+		}
+		gift80s = {
+			picture = 80sgift
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+		def80s = {
+			picture = 80sgift
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.01
+			}
+		}
+		vault_robosec = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				combat_robot_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+				support_robot_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}
+		}
+		citizenservice = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.025
+			}
+		}
+		milsecurity = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.1
+			}
+		}
+		courtyarddraft = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.015
+			}
+		}
+		vaultmedreg = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+			}
+		}
+		firstutopia = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.05
+			}
+		}
+		loyalcitizens = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.03
+			}
+		}
+		populationcontrol = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.10
+				non_core_manpower = 0.10
+			}
+		}
+		controlapparati = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.15
+			}
+		}
+		humanbreed = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.2
+			}
+		}
+		advinfsup = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				combat_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				support_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				power_armor_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		advmotsup = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				fighter_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		firsteconomy = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		firstmilitary = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+		vcprot = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				max_dig_in = 0.15
+			}
+		}
+		avcprot = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				max_dig_in = 0.15
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+			}
+		}
+		oldworldideals = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				research_speed_factor =0.03
+			}
+		}
+		modernprag = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.02
+				production_speed_buildings_factor = 0.1
+				training_time_factor = -0.1
+			}
+		}
+		servrights = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.025
+				industrial_capacity_factory = 0.05
+			}
+		}
+		servreg = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = 0.10
+			}
+		}
+		servskill = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		servunskill = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		servshifts = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		servwork = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				local_resources_factor = 0.10
+			}
+		}
+		houndsnorth = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+			}
+		}
+		eagercyclops = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+		eagercyclops2 = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				support_robot_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+		vault_sho_reserve = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+			}
+		}
+		vault_rip_militia = {
+			picture = vault_open_bonus
+			allowed = {
+
+			}
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+			}
+		}
+		vault_tribals_idea = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.25
+			}
+		}
+	}
+}

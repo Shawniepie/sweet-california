@@ -1,0 +1,184 @@
+ideas = {
+	political_advisor = {
+
+		juan_efectivo = {#johnny cash
+
+			picture = juan_efectivo_advisor
+
+			allowed = {
+				original_tag = CAF
+			}
+
+			traits = {
+				affable_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		grant_stone = {#tourist
+
+			picture = grant_stone_advisor
+
+			allowed = { original_tag = CAF }
+
+			traits = {
+				foreign_capitalist_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		the_baron = {#big man
+
+			picture = baron_advisor
+
+			allowed = { original_tag = CAF }
+
+			traits = {
+				baron_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	high_command = {
+
+		rafael_hernandez = { #militray mission
+
+			picture = rafael_hernandez
+			allowed = {
+				original_tag = CAF
+			}
+			available = {
+				has_completed_focus = caf_request_aztlan_support
+				NOT = {
+					has_country_flag = caf_dismissed_advisors
+				}
+			}
+
+			traits = { aztlan_officer_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		la_mano_derecha = {#right hand
+
+			picture = la_mano_derecha_command
+
+			allowed = {
+				original_tag = CAF
+			}
+
+			traits = { right_hand_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		el_capitan = {#naval commander
+
+			picture = el_capitan_command
+
+			allowed = {
+				original_tag = CAF
+			}
+
+			traits = { el_capitan_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	army_chief = {
+		lopez_chief_of_army = {#big dumbo
+
+			picture = lopez
+
+			allowed = {
+				original_tag = CAF
+			}
+
+			available = {
+			}
+
+			traits = { lopez_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		la_mano_derecha_chief_of_army = {#right hand again
+
+			picture = la_mano_derecha_command
+
+			allowed = {
+				original_tag = CAF
+			}
+
+			available = {
+			}
+
+			traits = { right_hand_army_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	navy_chief = {
+		el_capitan_chief_of_navy = {#navy guy again
+
+			picture = el_capitan_command
+
+			allowed = {
+				original_tag = CAF
+			}
+
+			available = {
+			}
+
+			traits = { el_capitan_navy_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	theorist = {
+		rafael_hernandez_theorist = {#mission guy again
+
+			picture = rafael_hernandez
+
+			allowed = {
+				original_tag = CAF
+			}
+			available = {
+				has_completed_focus = caf_request_aztlan_support
+				NOT = {
+					has_country_flag = caf_dismissed_advisors
+				}
+			}
+
+			research_bonus = {
+				cat_grand_army = 0.10
+			}
+
+			traits = { aztlan_officer_theorist_trait }
+		}
+	}
+}

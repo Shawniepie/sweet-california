@@ -1,0 +1,69 @@
+﻿division_template = {
+	name = "Redding National Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+
+	}
+	support = {
+		explosive_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division {
+			name = "Redding Defence Force"
+			location = 4938
+			division_template = "Redding National Guard"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+		}
+	division {
+			name = "Redding Defence Force "
+			location = 4983
+			division_template = "Redding National Guard"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+	}
+	division {
+			name = "Old Chico Defence Force"
+			location = 4805
+			division_template = "Redding National Guard"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+	}
+	division {
+			name = "Etna Defence Force"
+			location = 4938
+			division_template = "Redding National Guard"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+	}
+	division {
+			name = "Anti-Slavery Rangers"
+			location = 5025
+			division_template = "Redding National Guard"
+			start_experience_factor = 1.0
+			start_equipment_factor = 1.0
+	}
+	division {
+			name = "Barons Front Defence Force"
+			location = 4987
+			division_template = "Redding National Guard"
+			start_experience_factor = 0.5
+			start_equipment_factor = 1.0
+	}
+
+}
+
+
+
+	
+
+
+	
+

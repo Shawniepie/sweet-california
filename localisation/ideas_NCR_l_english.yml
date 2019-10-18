@@ -1,0 +1,227 @@
+﻿l_english:
+  ncr_bureacracy: "Old World Government"
+  ncr_bureacracy_desc: "The NCR's Government is heavily based on the Old World system, with a President and Congress. As such much of the Republic is bogged down in bureaucracy and nothing much gets done."
+  revalued_ncr: "Revalued NCR Dollars"
+  ncrbank: "NCR Central Bank"
+  ncrjustice: "Supreme Court"
+  ncrmotroops: "Military Propaganda"
+  ncrcentral: "Centralised State"
+
+  hooverdamvictor: "Hoover Dam Victor"
+  hooverdamvictor_desc: "This country was victorious at Hoover Dam, giving them control of the Mojave desert and much prestige."
+  ranger_jackson: "Ranger Jackson"
+  dennis_crocker: "Dennis Crocker"
+  colonel_hsu: "Colonel Hsu"
+  colonel_moore: "Colonel Moore"
+  chief_hanlon: "Chief Hanlon"
+  col_royez: "Colonel Royez"
+  chief_lee_oliver: "General Lee Oliver"
+  alice_mclafferty: "Alice McLafferty"
+  al_chestbreach: "Al Chestbreach"
+  joseph_dodge: "Joseph Dodge"
+
+  oldworldmachines: "Old World Machines"
+  oldworldmachines_desc: ""
+
+  oldworldarmour_tt: "Gain a technology that increases your armies attack and defense in Urban terrain by 10%"
+
+  oldworldtheatre: "Old World Theatre"
+  oldworldtheatre_desc: ""
+
+  denmotherpenalty: "The Den Mother Penalty"
+  denmotherpenalty_desc: ""
+
+  long15: "Long 15"
+  long15_desc: ""
+
+  brahminbarons: "Brahmin Barons"
+  brahminbarons_desc: ""
+
+  ncrguns: "Retooling Firearms Production"
+  ncrguns_desc: ""
+
+  ncrguns2: "Refitting Firearms"
+  ncrguns2_desc: ""
+
+  heavytroops: "Heavy Troopers"
+  heavytroops_desc: ""
+
+  scavunion: "Scavenger Union"
+  scavunion_desc: ""
+
+  allarewelcome: "All Are Welcome"
+  allarewelcome_desc: ""
+
+  immigrationlimits: "Immigration Limits"
+  immigrationlimits_desc: ""
+
+  mutantlabour: "Mutant Labour"
+  mutantlabour_desc: ""
+
+  flyingbears: "The Flying Bears"
+  flyingbears_desc: ""
+
+  hubdrugs: "Hub Drug Trade"
+  hubdrugs_desc: ""
+
+  hubweapons: "Hub Weapons"
+  hubweapons_desc: ""
+
+  mechcore: "Mechanized Corps"
+  mechcore_desc: ""
+
+  shockcomp: "Shock Companies"
+  shockcomp_desc: ""
+
+  rapidadvance: "Rapid Advance"
+  rapidadvance_desc: ""
+
+  onlythebest: "Only the Best"
+  onlythebest_desc: ""
+
+  gunrunnerliscense: "Gun Runner's License"
+  gunrunnerliscense_desc: ""
+
+  drummondsarmy: "Drummond's Army"
+  drummondsarmy_desc: ""
+
+  blastfromthepast: "Blast from the Past"
+  blastfromthepast_desc: ""
+
+  mobilearmy: "Mobile Army"
+  mobilearmy_desc: ""
+
+  speartip: "Speartip Tactics"
+  speartip_desc: ""
+
+  bigjim: "Big Jim"
+  bigjim_desc: ""
+
+  legacyofnavarro1: "Legacy of Navarro"
+  legacyofnavarro1_desc: ""
+
+  legacyofnavarro2: "Legacy of Navarro"
+  legacyofnavarro2_desc: ""
+
+  legacyofnavarro3: "Legacy of Navarro"
+  legacyofnavarro3_desc: ""
+
+  aradesh: "Aradesh"
+  aradesh_desc: ""
+
+  seth: "Seth"
+  seth_desc: ""
+
+  tandi: "Tandi"
+  tandi_desc: ""
+
+  baronswar: "The Baronswar"
+  baronswar_desc: ""
+
+  baronswarbuyout: "Baron Buyout"
+  baronswarbuyout_desc: ""
+
+  ncrbarons: "The Barons"
+  ncrbarons_desc: ""
+
+  baronofbarons: "Baron of Barons"
+  baronofbarons_desc: ""
+
+  rattletailrepaid: "Rattletail Repaid"
+  rattletailrepaid_desc: ""
+
+  banditopayments: "Bandito Payments"
+  banditopayments_desc: ""
+
+  brahminbill: "Brahmin Bill"
+  brahminbill_desc: ""
+
+  rationing: "Rationing"
+  rationing_desc: ""
+
+  oldworldmilitary: "Old World Military"
+  oldworldmilitary_desc: ""
+
+  militindustrial: "Military Industrial Complex"
+  militindustrial_desc: ""
+
+  draftstandards: "Draft Standards"
+  draftstandards_desc: ""
+
+  riverpatrols: "River Patrols"
+  riverpatrols_desc: ""
+
+  nevtradeagreements: "Nevada Trade Agreements"
+  nevtradeagreements_desc: ""
+
+  monopoly: "Monopolies"
+  monopoly_desc: ""
+
+  newleague: "The New League"
+  newleague_desc: ""
+
+  leagueradio: "League Radio"
+  leagueradio_desc: ""
+
+  ncrdraft: "The Draft"
+  ncrdraft_desc: ""
+
+  hundredeighteenthcore: "108th Corps"
+  hundredeighteenthcore_desc: ""
+
+  theatoms: "The Atoms"
+  theatoms_desc: ""
+
+  aaronkimball: "Aaron Kimball"
+  aaronkimball_desc: ""
+
+  urbandraft: "Urban Draft"
+  urbandraft_desc: ""
+
+  ncrmarch: "The March"
+  ncrmarch_desc: ""
+
+  jimdraft: "Jim's Draft"
+  jimdraft_desc: ""
+
+  rangergenmossman: "Ranger Mossman"
+  rangergenmossman_desc: ""
+
+  ncrrangerprop: "Ranger Propup"
+  ncrrangerprop_desc: ""
+
+  followerfunding: "Followers Funding"
+  followerfunding_desc: ""
+
+  ncrmint: "NCR Minting"
+  ncrmint_desc: ""
+
+  theboneyard: "The Boneyard"
+  theboneyard_desc: ""
+
+  gizmoslegacy: "Gizmo's Legacy"
+  gizmoslegacy_desc: ""
+
+  gunrunnerexpanded: "Gun Runner's Expansion"
+  gunrunnerexpanded_desc: ""
+
+  ncr_revolt_exhaustion_1: "Slight War Exhaustion"
+  ncr_revolt_exhaustion_1_desc: ""
+  ncr_revolt_exhaustion_2: "Mild War Exhaustion"
+  ncr_revolt_exhaustion_2_desc: ""
+  ncr_revolt_exhaustion_3: "Moderate War Exhaustion"
+  ncr_revolt_exhaustion_3_desc: ""
+  ncr_revolt_exhaustion_4: "Major War Exhaustion"
+  ncr_revolt_exhaustion_4_desc: ""
+  ncr_revolt_exhaustion_5: "Extreme War Exhaustion"
+  ncr_revolt_exhaustion_5_desc: ""
+  ncr_revolt_exhaustion_6: "Critical War Exhaustion"
+  ncr_revolt_exhaustion_6_desc: ""
+
+  ncr_revolts_development: "Developing the Phoenix Federation"
+  ncr_revolts_development_desc: "As per our peace deal with the Phoenix Federation, we must pay a large portion of our income to them to assist their economic recovery. This may come back to assist us, however - it will mean more developed adn civilized countries with which to trade."
+
+  ncr_revolts_payments: "Reparation Payments from the NCR"
+
+  opening_long_15: "Opening the Long 15"
+  opening_long_15_desc: "In order to reopen the Long 15 and gain access to the Mojave wastes, we must first evict the local raider populations."

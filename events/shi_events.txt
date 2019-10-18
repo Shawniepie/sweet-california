@@ -1,0 +1,258 @@
+﻿add_namespace = shi_event
+
+
+# The Great War 
+country_event = {
+    id = shi_event.1
+    title = shi_event.1.t
+    desc = shi_event.1.d
+    picture = GFX_event_BOS_bunker_door
+    is_triggered_only = yes
+    
+	option = {
+		name = shi_event.1.a
+		add_manpower = 250
+		163 = {
+			add_resource = {
+				metal = 2
+				circuitry = 2
+				advanced = 2
+					
+			}
+		}
+	}
+
+	option = {
+	name = shi_event.1.b
+			add_equipment_to_stockpile = { 
+				type = infantry_equipment_1
+				amount = 1000
+				producer = SHI
+			}
+		}
+	}
+		
+	option = {
+		name = shi_event.1.c
+		add_ideas = ScientificResearch
+	}
+}
+
+# The Initial Years
+
+country_event = {
+    id = shi_event.2
+    title = shi_event.2.t
+    desc = shi_event.2.d
+    picture = GFX_event_BOS_bunker_door
+    is_triggered_only = yes
+    
+	
+	option = {
+	name = shi_event.2.a
+		163 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = shi_event.2.b
+			163 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}	
+		}
+	}
+		
+
+	option = {
+		name = shi_event.2.c
+		163 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 4
+				instant_build = yes	
+			}
+		}
+	}
+}
+
+# The Rise of the Shi 
+
+country_event = {
+    id = shi_event.3
+    title = shi_event.3.t
+    desc = shi_event.3.d
+    picture = GFX_event_BOS_bunker_door
+    is_triggered_only = yes
+    
+	
+	option = {
+		name = shi_event.3.a
+		add_ideas = shirealiability2
+	}
+			
+	option = {
+		name = shi_event.3.b
+		add_ideas = shirealiability
+	}
+		
+	option = {
+		name = shi_event.3.c
+		set_technology = { mr_handy_tech = 1}
+	}	
+}
+
+#Sillicone Valley Expedition
+country_event = {
+	id = shi_event.4
+	title = shi_event.4.t
+	desc = shi_event.4.d
+	picture = GFX_event_generic_ruins_1
+	is_triggered_only = yes
+
+	option = {
+		name = shi_event.4.a
+		add_ideas = siliconvalley
+	}
+
+	option = {
+		name = shi_event.4.b
+		104 = {
+			add_resource = {
+				type = metal
+				amount = 18
+			}
+		}
+	}
+}
+
+# Eastern Expedition
+country_event = {
+	id = shi_event.5
+	title = shi_event.5.t
+	desc = shi_event.5.d
+	picture = GFX_event_generic_ruins_1
+	is_triggered_only = yes
+
+	option = {
+		name = shi_event.5.a
+		add_stability = 0.15
+	}
+}
+
+# Reaching Hawaii
+country_event = {
+	id = shi_event.6
+	title = shi_event.6.t
+	desc = shi_event.6.d
+	picture = GFX_event_generic_ruins_1
+	is_triggered_only = yes
+
+	option = {
+		name = shi_event.6.a
+		add_equipment_to_stockpile = {
+				type = power_armor_equipment_2
+				amount = 750
+				producer = BOS
+		}
+	}
+}
+
+# Reaching Japan 
+country_event = {
+	id = shi_event.7
+	title = shi_event.7.t
+	desc = shi_event.7.d
+	picture = GFX_event_generic_ruins_1
+	is_triggered_only = yes
+
+	option = {
+		name = shi_event.7.a
+		add_ideas = japtraderoutes
+	}
+}
+
+# Reaching The Mainland 
+country_event = {
+	id = shi_event.8
+	title = shi_event.8.t
+	desc = shi_event.8.d
+	picture = GFX_event_generic_ruins_1
+	is_triggered_only = yes
+
+	option = {
+		name = shi_event.8.a
+		add_ideas = ourhomeland
+		add_ideas = ensuringourfuture
+	}
+}
+
+# The Future Of Our Armed Forces
+country_event = {
+	id = shi_event.9
+	title = shi_event.9.t
+	desc = shi_event.9.d
+	picture = GFX_event_generic_ruins_1
+	is_triggered_only = yes
+
+	option = {
+		name = shi_event.9.a
+		163 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+	
+	option = {
+		name = shi_event.9.b
+		add_manpower = 2750
+	}
+
+	option = {
+		name = shi_event.9.c
+		add_equipment_to_stockpile = {   
+			type = power_armor_equipment_2
+			amount = 250
+			producer = BOS		 
+		}
+	}
+}
+
+# Allow Brotherhood Scribes
+country_event = {
+	id = shi_event.10
+	title = shi_event.10.t
+	desc = shi_event.10.d
+	picture = GFX_event_generic_ruins_1
+	is_triggered_only = yes
+
+	option = {
+		name = shi_event.10.a
+		SHI = {
+			add_ideas = BOSScribes
+			add_opinion_modifier = { target = BOS modifier = Allies }
+		}
+	
+		BOS = {
+			add_ideas = BOSScribes
+			add_opinion_modifier = { target = SHI modifier = Allies }
+		}
+	}
+}
+
+	
+				

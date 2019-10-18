@@ -1,0 +1,28 @@
+state = {
+	id = 344
+	name = "STATE_RUBY_HILL"
+	manpower = 1000
+	state_category = rural
+
+	resources = {
+		water = 2
+		metal = 4
+	}
+
+	history = {
+		owner = BOO
+		add_core_of = BOO
+		victory_points = {
+			8849 5
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces = {
+		3225 8849 8850 8853
+	}
+}

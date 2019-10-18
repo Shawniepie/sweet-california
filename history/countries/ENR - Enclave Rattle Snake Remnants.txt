@@ -1,0 +1,252 @@
+capital = 265
+set_war_support = 0.20
+set_stability = 0.35
+###############################
+# TECHNOLOGY
+###############################
+
+add_research_slot = 2
+set_technology = {
+	enclave_pa_unlock_tech = 1
+	elite_army = 1
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+	ballistic_weaponry_tech_1 = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	nautics_tech_1 = 1
+	energy_weaponry_tech_1 = 1
+	energy_weaponry_tech_2 = 1
+	spec_ops_equipment_tech_1 = 1
+	spec_ops_equipment_tech_2 = 1
+	hardening_armour_tech = 1
+	simple_servo_tech = 1
+	stripped_pa_tech = 1
+	scav_pa_tech = 1
+	light_navy_hull_tech_1 = 1
+	waterproof_sealing_tech = 1
+	medium_navy_hull_tech_1 = 1
+	multi_deck_construction_tech = 1
+	heavy_navy_hull_tech_1 = 1
+	naval_module_tech = 1
+	naval_weapons_module_tech = 1
+	naval_support_module_tech = 1
+	naval_armour_tech_1 = 1
+	naval_communications_module_tech_1 = 1
+	robot_makeshift_automatons_tech  = 1
+	power_armour_enclave_1 = 1
+	vertibird_tech = 1
+	vertibird_cas_tech =1
+}
+
+set_country_flag = not_allowed_to_core_flag
+set_country_flag = generic_decisions_disabled
+set_country_flag = no_generic_manufacturer
+set_country_flag = coring_button_hidden
+set_variable = { enc_good_allignment = 0 }
+set_variable = { enc_evil_allignment = 0 }
+
+###############################
+# POLITICS
+###############################
+set_party_name = { ideology = intellectuals long_name = ERB_intellectuals_party name = ERB_intellectuals_party_long }
+set_party_name = { ideology = elites long_name = ERB_elites_party name = ERB_elites_party_long }
+set_party_name = { ideology = ruler long_name = ERB_ruler_party name = ERB_ruler_party_long }
+set_party_name = { ideology = people long_name = ERB_people_party name = ERB_people_party_long }
+
+set_politics = {
+	ruling_party = ruler
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 20
+	elites = 40
+	intellectuals = 30
+	ruler = 10
+}
+
+###############################
+# RULES
+###############################
+set_rule = { can_declare_war_on_same_ideology = yes }
+set_rule = { can_force_government = no }
+set_rule = { can_send_volunteers = no }
+set_rule = { can_puppet = no }
+set_rule = { can_lower_tension = yes }
+set_rule = { can_only_justify_war_on_threat_country = no }
+set_rule = { can_guarantee_other_ideologies = no }
+set_rule = { can_join_factions = no }
+
+###############################
+# LEADERS
+###############################
+create_country_leader  = {
+	name = "Franklin Anderson"
+	desc = "Anderson_desc"
+	picture = "gfx/leaders/portrait_Anderson.dds"
+	expire = "3000.1.1"
+	ideology = militarist_technocracy
+	traits = {}
+}
+
+create_country_leader  = {
+	name = "Douglas Granite"
+	desc = "Granite_desc"
+	picture = "gfx/leaders/portrait_douglas_enclave.dds"
+	expire = "3000.1.1"
+	ideology = technocracy
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Sergeant Dornan"
+	desc = Dornan_DESC
+	picture = "gfx/leaders/portrait_sarge.dds"
+	expire = "3000.1.1"
+	ideology = benevolent_dictatorship
+	traits = {
+		drill_sargeant
+	}
+}
+create_country_leader = {
+	name = "Chief Engineer R. Bishop"
+	desc = "Dornan_DESC"
+	picture = "gfx/leaders/ENC/Portrait_Enclave_Generic.dds"
+	expire = "3000.1.1"
+	ideology = town_hall_democracy
+	traits = {}
+}
+
+create_field_marshal = {
+	name = "Major General Grimm"
+	portrait_path = "gfx/leaders/ERB/Portrait_Enclave_Generic_6.dds"
+	skill = 5
+	traits = {
+		enc_purist
+	}
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = { # Jacob 'Dwemer' Freeman
+	name = "Jacob 'Dwemer' Freeman"
+	portrait_path = "gfx/leaders/ERB/Portrait_Enclave_Generic_11.dds"
+	skill = 2
+	traits = {
+		enc_reformer
+	}
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = { # Lt. Mary Orwich
+	name = "Lt. Mary Orwich"
+	portrait_path = "gfx/leaders/ERB/Portrait_Enclave_Generic_3.dds"
+	skill = 4
+	traits = {
+		enc_purist
+		armor_officer
+	}
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+create_corps_commander = { # Colonel David Stevenson
+	name = "Colonel David Stevenson"
+	portrait_path = "gfx/leaders/ERB/Portrait_Enclave_Generic_8.dds"
+	skill = 2
+	traits = {
+		enc_reformer
+	}
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = { # Lt. Scott Blair
+	name = "Lt. Scott Blair"
+	portrait_path = "gfx/leaders/ERB/Portrait_Enclave_Generic_9.dds"
+	skill = 2
+	traits = {
+		enc_reformer
+		politically_connected
+	}
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = { # Chris "Hamilton" Regular
+	name = "Chris 'Hamilton' Regular"
+	portrait_path = "gfx/leaders/ERB/Portrait_Enclave_Generic_2.dds"
+	skill = 2
+	traits = {
+		infantry_leader
+	}
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = { # Jack 'Shadow' Churchill
+	name = "Jack 'Shadow' Churchill"
+	portrait_path = "gfx/leaders/ERB/Portrait_Enclave_Generic_10.dds"
+	skill = 4
+	traits = {
+		enc_purist
+		trait_reckless
+	}
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+###############################
+# RELATIONS
+###############################
+add_opinion_modifier = { target = NCR modifier = bitterEnemies }
+add_opinion_modifier = { target = BOS modifier = bitterEnemies }
+add_opinion_modifier = { target = ARR modifier = bitterEnemies }
+NCR = {add_opinion_modifier = { target = ERB modifier = bitterEnemies }}
+BOS = {add_opinion_modifier = { target = ERB modifier = bitterEnemies }}
+ARR = {add_opinion_modifier = { target = ERB modifier = bitterEnemies }}
+
+every_country = {
+	add_opinion_modifier = { target = ERB modifier = genocidal_maniacs }
+	ERB = { add_opinion_modifier = { target = PREV modifier = dirty_muties }}
+}
+
+# IDEAS
+add_ideas = ENC_infighting
+add_ideas = enc_scientists
+add_ideas = ENC_officers
+add_ideas = hidden_economy
+add_ideas = the_remnants
+add_ideas = ENC_special_forces
+add_manpower = 500
+
+# 4rth of july
+country_event = { id = enc_reformers.23 days = 25 }
+
+ set_variable = {
+	var = enc_rebels_we_have_armed
+	value = 0
+ }
+
+ # AI Strategies to guide the Enclave story
+
+ # we don't want this ever
+ NCR = {
+    add_ai_strategy = {
+        type = declare_war
+        id = CES
+        value = -8000
+    }
+}

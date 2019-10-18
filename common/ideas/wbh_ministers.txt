@@ -1,0 +1,223 @@
+ideas = {
+	army_chief = {
+
+		head_paladin_blair = {
+			picture = WBH_advisor4
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			available = {
+				original_tag = WBH
+			}
+
+			traits = {
+				general_wait_and_see
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		paladin_jetson = {
+			picture = WBH_advisor6
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			available = {
+				original_tag = WBH
+			}
+
+			traits = {
+				veteran_paladin
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	high_command = {
+
+		inquisitor_abram = {
+			picture = WBH_advisor2
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			traits = {
+				field_medic
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		paladin_talso = {
+			picture = WBH_advisor1
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			traits = {
+				brotherhood_distinguished_paladin
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		knight_boston = {
+			picture = WBH_advisor5
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			traits = {
+				military_quartermaster
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		scout_cormac = {
+			picture = WBH_advisor4
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			traits = {
+				reconnaissance_expert
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		black_paladin_landon = {
+
+			picture = WBH_advisor8
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			available = {
+				has_completed_focus = WBH_black_paladins
+			}
+
+			traits = {
+				black_paladin_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	political_advisor = {
+		knight_kamala = {
+
+			picture = WBH_advisor7
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			traits = {
+				political_mastermind
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		inquisitor_torland = {
+
+			picture = WBH_advisor3
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			traits = {
+				brotherhood_scribe
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		paladin_jakzin = {
+
+			picture = WBH_advisor8
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			traits = {
+				decorated_hero
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		inquisitor_fritz = {
+
+			picture = WBH_advisor9
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			traits = {
+				surveyor
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	theorist = {
+
+		WBH_military_theorist = {
+
+			picture = WBH_advisor3
+
+			allowed = {
+				original_tag = WBH
+			}
+
+			research_bonus = {
+				cat_elite_army = 0.10
+			}
+
+			traits = { military_theorist }
+		}
+	}
+}

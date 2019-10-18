@@ -1,0 +1,26 @@
+state = {
+	id = 442
+	name = "STATE_SANDPOINT_TRIBELANDS"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		water = 6
+		energy = 2
+	}
+
+	history = {
+		owner = RSR
+		add_core_of = RSR
+		victory_points = {
+			6622 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		5082 5083 5084 5085 5086 5087 5090 5091 5092 5336 6622
+	}
+}

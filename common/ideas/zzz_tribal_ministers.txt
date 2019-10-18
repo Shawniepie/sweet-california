@@ -1,0 +1,182 @@
+ideas = {
+	political_advisor = {
+
+		tribal_1 = {
+
+			picture = generic_advisor18
+
+			available = { is_allowed_tribal_generic_political_advisors = yes }
+			visible = { is_allowed_tribal_generic_political_advisors = yes }
+
+			traits = { tribal_elder }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		tribal_2 = {
+
+			picture = generic_advisor21
+
+			available = { is_allowed_tribal_generic_political_advisors = yes }
+			visible = { is_allowed_tribal_generic_political_advisors = yes }
+
+			traits = { wall_painter }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		tribal_3 = {
+
+			picture = generic_advisor30
+
+			available = { is_allowed_tribal_generic_political_advisors = yes }
+			visible = { is_allowed_tribal_generic_political_advisors = yes }
+
+			traits = { tribal_shaman }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		tribal_4 = {
+
+			picture = generic_advisor39
+
+			available = { is_allowed_tribal_generic_political_advisors = yes }
+			visible = { is_allowed_tribal_generic_political_advisors = yes }
+
+			traits = { tribal_peaceful }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+	high_command = {
+
+		tribalwarrior = {
+
+			picture = generic_advisor1
+
+			available = { is_allowed_tribal_generic_high_command = yes }
+			visible = { is_allowed_tribal_generic_high_command = yes }
+
+			traits = { tribal_warrior }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		tribalbirth = {
+
+			picture = generic_advisor28
+
+			available = { is_allowed_tribal_generic_high_command = yes }
+			visible = { is_allowed_tribal_generic_high_command = yes }
+
+			traits = { tribal_birth }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		tribalfuture = {
+
+			picture = generic_advisor24
+
+			available = { is_allowed_tribal_generic_high_command = yes }
+			visible = { is_allowed_tribal_generic_high_command = yes }
+
+			traits = { tribal_foresight }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		triballogistics = {
+
+			picture = generic_advisor38
+
+			available = { is_allowed_tribal_generic_high_command = yes }
+			visible = { is_allowed_tribal_generic_high_command = yes }
+
+			traits = { tribal_logistics }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+	army_chief = {
+
+		tribal_attack = {
+
+			picture = generic_advisor12
+
+			available = { is_allowed_tribal_generic_chiefs = yes }
+			visible = { is_allowed_tribal_generic_chiefs = yes }
+
+			traits = { tribal_expansion }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		tribal_defense = {
+
+			picture = generic_advisor17
+
+			available = { is_allowed_tribal_generic_chiefs = yes }
+			visible = { is_allowed_tribal_generic_chiefs = yes }
+
+			traits = { tribal_defend }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	navy_chief = {
+
+		tribal_navy_chief = {
+
+			picture = bares_his_teeth_advisor_portrait
+
+			available = { is_allowed_tribal_generic_chiefs = yes }
+			visible = { is_allowed_tribal_generic_chiefs = yes }
+
+			traits = { tribal_navy_buff }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	theorist = {
+
+		tribal_military_theorist = {
+
+			picture = generic_advisor31
+
+			available = { is_allowed_tribal_generic_theorists = yes }
+			visible = { is_allowed_tribal_generic_theorists = yes }
+
+			research_bonus = {
+				cat_terror_tactics = 0.10
+			}
+
+			traits = { military_theorist }
+		}
+	}
+}

@@ -1,0 +1,907 @@
+ideas = {
+
+	country = {
+
+		settlerbodyguards = {
+
+			picture = General_Staff
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 1
+
+			modifier = {
+				conscription = 0.02
+				justify_war_goal_time = -0.15
+			}
+		}
+
+		caravanmilitia = {
+
+			picture = idea_generic_local_self_management
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		}
+
+		settler_nation = {
+
+			picture = generic_morale_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				training_time_factor = -0.08
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		erect_palisade = {
+
+			picture = idea_ast_naval_auxiliary_patrol
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				max_dig_in = 5
+			}
+		}
+
+		local_pride = {
+
+			picture = generic_morale_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		labor_treaties = {
+
+			picture = idea_generic_army_war_college
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		new_schools = {
+
+			picture = SOV_scientist_defect
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor =0.03
+			}
+		}
+
+		firefighter_protection = {
+
+			picture = FRA_scw_intervention_republicans_focus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industry_repair_factor = 0.1
+			}
+		}
+
+		police_protection = {
+
+			picture = generic_secret_police
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				enemy_partisan_effect = -0.15
+				industry_repair_factor = 0.1
+			}
+		}
+		tato_farming = {
+
+			picture = idea_generic_agrarian_reform
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+			}
+		}
+
+		brahmin_herding = {
+
+			picture = idea_generic_agrarian_reform.
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				MONTHLY_POPULATION = 0.1
+			}
+		}
+
+		enforced_trade_laws = {
+
+			picture = idea_generic_flexible_foreign_policy2
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.03
+			}
+		}
+			construction_protection = {
+
+			picture = FRA_factory_strikes
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industry_repair_factor = 0.1
+			}
+		}
+
+		wall_construction = {
+
+			picture = idea_generic_fortify_the_borders
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				max_dig_in = 5
+			}
+		}
+
+		established_armory = {
+
+			picture = idea_ast_volunteer_defence_corps
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+			}
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+			}
+		}
+
+		intellectuals = {
+
+			picture = generic_research_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				intellectuals_drift = 0.05
+			}
+		}
+
+		people = {
+
+			picture = disjointed_government
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				people_drift = 0.05
+			}
+		}
+
+		ruler = {
+
+			picture = Hungarian_Monarchy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				ruler_drift = 0.05
+			}
+		}
+
+		elites = {
+
+			picture = idea_hun_treaty_of_trianon
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				elites_drift = 0.05
+			}
+		}
+
+		chem_lab = {
+
+			picture = generic_research_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		settler_robco = {
+
+			picture = generic_license_production
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				combat_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				support_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+			modifier = {
+				research_speed_factor =0.03
+			}
+		}
+
+		oligarchical_power = {
+
+			picture = rom_carol_ii_hedonist
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+				elites_drift = 0.05
+			}
+		}
+
+		settler_monopoly = {
+
+			picture = new_deal
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				elites_drift = 0.05
+			}
+		}
+
+		eliminating_rivals = {
+
+			picture = generic_intel_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.15
+			}
+		}
+
+		loyalty = {
+
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				enemy_justify_war_goal_time = 0.20
+				political_power_gain = 0.5
+				people_drift = 0.05
+			}
+		}
+
+		settler_subsidized_weapon_manufacturers = {
+
+			picture = idea_generic_local_self_management
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+			}
+		}
+
+		militia_posters = {
+
+			picture = Bitter_Loser
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		encourage_women = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.04
+			}
+		}
+
+		militia_drilling = {
+
+			picture = idea_generic_reserve_divisions
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				training_time_army_factor = -0.10
+			}
+		}
+
+		marching_drills = {
+
+			picture = generic_war_preparation
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_speed_factor = 0.1
+			}
+		}
+
+		settler_old_tactics = {
+
+			picture = idea_cze_planning_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_org_Factor = 0.10
+			}
+		}
+
+		settler_militia_organization = {
+
+			picture = FRA_scw_intervention_nationalists_focus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_org_Factor = 0.10
+			}
+		}
+
+		settler_standardized_military = {
+
+			picture = General_Staff
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				supply_consumption_factor = -0.10
+			}
+		}
+
+		settler_fallback_tactics = {
+
+			picture = idea_cze_planning_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_morale_factor = 0.1
+				supply_consumption_factor = -0.10
+			}
+		}
+
+		settler_tactical_awareness = {
+
+			picture = idea_raj_indian_gentlemen_officers
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				recon_factor = 0.05
+				army_org_Factor = 0.10
+			}
+		}
+
+		settler_point_defence = {
+
+			picture = Protected_by_the_Maginot_Line
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				defence = 0.05
+			}
+		}
+
+		settler_wasteland_settlers = {
+
+			picture = generic_infantry_bonus
+
+			allowed = {
+			}
+
+			removal_cost = 2
+
+			modifier = {
+				MONTHLY_POPULATION = 0.15
+			}
+		}
+
+		settler_long_distance_movements = {
+
+			picture = Tfv_can_conscription_crisis
+
+			allowed = {	}
+
+			removal_cost = 1
+
+			modifier = {
+				org_loss_when_moving = -0.10
+				army_speed_factor = 0.1
+			}
+		}
+
+		settler_militia_commanders = {
+
+			picture = General_Staff
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = 1
+
+			modifier = {
+				army_leader_start_level = 1
+			}
+		}
+
+		settlercleanwater = {
+
+			picture = idea_ast_naval_auxiliary_patrol
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+				MONTHLY_POPULATION = 0.1
+			}
+		}
+
+		settlerpowerful = {
+
+			picture = idea_ast_naval_auxiliary_patrol
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.1
+			}
+		}
+
+		settleradvanced = {
+
+			picture = idea_ast_naval_auxiliary_patrol
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor =0.1
+			}
+		}
+
+		settlerwealthy = {
+
+			picture = idea_ast_naval_auxiliary_patrol
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		settlerdefendingwitha = {
+
+			picture = idea_ast_naval_auxiliary_patrol
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				experience_gain_army = 0.05
+				send_volunteer_size = 2
+			}
+		}
+
+		settlerdefendingwithb = {
+
+			picture = idea_ast_naval_auxiliary_patrol
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = 0.10
+			}
+		}
+
+		settlerdefendingwithc = {
+
+			picture = idea_ast_naval_auxiliary_patrol
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = 0.25
+				enemy_justify_war_goal_time = 0.15
+			}
+		}
+		settler_council_of_minds = {
+
+			picture = us_army_knowledge
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor =0.1
+			}
+		}
+	}
+}

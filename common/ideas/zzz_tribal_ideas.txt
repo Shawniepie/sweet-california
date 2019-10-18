@@ -1,0 +1,576 @@
+ideas = {
+
+	country = {
+
+		tribal_nation = {
+
+			picture = generic_morale_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.25
+				conscription = 0.03
+			}
+
+		}
+
+		tribal_defence = {
+
+			picture = generic_wall_line
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				max_dig_in = 2
+			}
+
+		}
+
+		tribalunity = {
+
+			picture = generic_morale_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.1
+			}
+		}
+
+		tribal_tradition = {
+
+			picture = generic_production_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+
+		war_chief1 = {
+
+			picture = generic_fascism_drift_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				elites_drift = 0.05
+			}
+		}
+
+		war_chief2 = {
+
+			picture = generic_fascism_drift_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				elites_drift = 0.05
+				justify_war_goal_time = -0.15
+			}
+		}
+
+		high_shaman = {
+
+			picture = generic_communism_drift_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				intellectuals_drift = 0.05
+			}
+		}
+
+		elder1 = {
+
+			picture = generic_democratic_drift_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				people_drift = 0.05
+			}
+		}
+
+		elder2 = {
+
+			allowed = {
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		elder3 = {
+
+			allowed = {
+			}
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				MONTHLY_POPULATION = 0.15
+			}
+		}
+
+		highchief1 = {
+
+			picture = generic_morale_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				# neutral
+				ruler_drift = 0.05
+			}
+		}
+
+		highchief2 = {
+
+			picture = generic_morale_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				# neutral
+				ruler_drift = 0.05
+				drift_defence_factor = 0.25
+			}
+		}
+
+		highchief3 = {
+
+			picture = generic_morale_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				ruler_drift = 0.05
+				drift_defence_factor = 0.25
+			}
+
+			research_bonus = {
+				cat_land_doctrine = 0.15
+			}
+		}
+
+		elders = {
+
+			picture = generic_pp_unity_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.5
+			}
+
+		}
+
+		outsideragreement = {
+
+			picture = generic_goods_red_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		tribal_volunteers = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_volunteer_expedition_bonus
+
+			modifier = {
+				send_volunteer_divisions_required = -0.25
+			}
+		}
+
+		tribal_mercenaries = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_volunteer_expedition_bonus
+
+			modifier = {
+				send_volunteer_divisions_required = -0.5
+				send_volunteer_size = 2
+			}
+		}
+
+		tribalyouth = {
+
+			allowed = {
+			}
+
+			picture = generic_manpower_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+		}
+
+		tribalchamps = {
+
+			allowed = {
+			}
+
+			picture = generic_manpower_bonus
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		healingpowder = {
+
+			picture = generic_infantry_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			research_bonus = {
+				support_medical_tech_category = 0.25
+			}
+		}
+
+		tribalsecrets = {
+
+			picture = generic_research_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				support_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+
+		tribalmuster = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				training_time_army_factor = -0.1
+			}
+		}
+
+		tribalhoundmasters = {
+
+			picture = generic_infantry_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				dogs_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+
+		}
+
+		tribalskirmish = {
+
+			picture = generic_wall_line
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				max_dig_in = 5
+			}
+
+		}
+
+		tribalfervor = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+			}
+		}
+
+		tribalfragprod = {
+
+			picture = generic_production_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				demolitions_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+			}
+		}
+
+		spirits = {
+
+			picture = generic_research_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor =0.03
+			}
+
+		}
+
+		sacredlands = {
+
+			picture = FRA_fortification_focus
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		tribalwasteland = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		tribaldrums = {
+
+			picture = generic_intel_bonus
+
+			allowed = {
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.1
+			}
+
+		}
+
+		slipperyenemies = {
+
+			picture = generic_wall_line
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				enemy_justify_war_goal_time = 0.35
+			}
+		}
+		rivergods = {
+			picture = generic_manpower_bonus
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				naval_invasion_capacity = 15
+			}
+			equipment_bonus = {
+				ship_hull_medium = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				ship_hull_heavy = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				ship_hull_super_heavy = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				convoy = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		sungods = {
+			picture = generic_manpower_bonus
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				heat_attrition_factor = -0.05
+			}
+		}
+		mountaingods = {
+			picture = mountain_gods
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				winter_attrition_factor = -0.05
+			}
+		}
+		warlegend = {
+			picture = generic_manpower_bonus
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.15
+			}
+		}
+		shamanlegend = {
+			picture = generic_manpower_bonus
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		builderlegend = {
+			picture = generic_manpower_bonus
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+		erawar = {
+			picture = generic_manpower_bonus
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				training_time_army_factor = -0.1
+				experience_gain_army = 0.03
+			}
+		}
+		eramigration = {
+			picture = generic_manpower_bonus
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				non_core_manpower = 0.1
+				army_speed_factor = 0.1
+			}
+		}
+		eraprosperity = {
+			picture = generic_manpower_bonus
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.1
+			}
+		}
+	}
+}

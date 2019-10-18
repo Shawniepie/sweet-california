@@ -1,0 +1,25 @@
+state = {
+	id = 112
+	name = "STATE_MARS_VALLEY"
+	manpower = 2000
+	state_category = town
+
+	history = {
+		owner = IRN
+		add_core_of = IRN
+		victory_points = {
+			1057 5
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+			7813 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		1057 1065 1830 1850 3035 6637 7812 7813 7852 7853 7854 7855 7856 7857
+	}
+}

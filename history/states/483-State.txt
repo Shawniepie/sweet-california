@@ -1,0 +1,27 @@
+state = {
+	id = 483
+	name = "STATE_COCONINO"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		circuitry = 6
+	}
+
+	history = {
+		owner = PHR
+		add_core_of = PHR
+		add_core_of = CES
+		victory_points = {
+			7911 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces = {
+		1688 7880 7881 7882 7883 7885 7886 7887 7911 7912 7913 7914 7916
+	}
+}

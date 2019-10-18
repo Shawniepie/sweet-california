@@ -1,6 +1,19 @@
 ideas = {
 	country = {
-        
+
+		efficienteconomy = {
+			
+			picture = generic_exploit_mines
+			
+			allowed = {
+			}
+			
+			removal_cost = -1
+		
+			modifier = {
+				max_fuel_factor = 0.25
+			}
+		}       
 		consolidateResources = {
 			
 			picture = generic_exploit_mines

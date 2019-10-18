@@ -1,0 +1,73 @@
+ideas = {
+	country = {
+		pale_folk_photophobia = {
+			picture = flockgoggles
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				# Negate the air night operations penalty.
+				# Doesn't seem to work as an idea currently.
+				# air_night_penalty = -0.3
+
+				# The idea here is that the Pale Folks should suffer no penalty at
+				# night, but suffer a 50% penalty during the day.
+				land_night_attack = 1.5
+				army_attack_factor = -0.50
+			}
+		}
+
+		pale_folk_photophobia_goggles = {
+			picture = flockgoggles
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				# Negate the air night operations penalty.
+				# Doesn't seem to work as an idea currently.
+				# air_night_penalty = -0.3
+
+				# Removes the previous day debuff, and adjusts the land_night_attack
+				# so that the Pale Folk have no debuff during the night.
+				# Yes, land_night_attack is getting smaller - but it also no longer
+				# needs to counteract the general debuff of the last idea.
+				land_night_attack = 0.5
+			}
+		}
+
+		pale_folk_pale_warriors = {
+			picture = vault_open_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+			}
+		}
+	}
+}
+# vim: set ft=pdx ts=2 sw=2 tw=79 :

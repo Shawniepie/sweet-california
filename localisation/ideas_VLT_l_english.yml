@@ -1,0 +1,160 @@
+﻿l_english:
+#Focus
+  lessyears: "70 Years"
+  lessyears_desc: ""
+
+  years: "100 Years"
+  years_desc: ""
+
+  moreyears: "120 Years"
+  moreyears_desc: ""
+
+  crimserv: "Servitude"
+  crimserv_desc: ""
+
+  crimslaves: "Slavery"
+  crimslaves_desc: ""
+
+  crimwar: "Conscription"
+  crimwar_desc: ""
+
+  crimkill: "Execution"
+  crimkill_desc: ""
+
+  courtyard: "Courtyard Inequality"
+  courtyard_desc: ""
+
+  utopia: "Post-War Utopia"
+  utopia_desc: ""
+
+  vaultmed: "Pre-War Medical Training"
+  vaultmed_desc: ""
+
+  festus: "Handyman"
+  festus_desc: ""
+
+  citizen1: "Intellectual Efficiency"
+  citizen1_desc: ""
+
+  courtyardcreackdown: "Courtyard Crackdowns"
+  courtyardcreackdown_desc: ""
+
+  ghoulconferences: "Ghoul Conferences"
+  ghoulconferences_desc: ""
+
+  oldways: "The Old Ways"
+  oldways_desc: ""
+
+  molethumb: "Brain's Moles"
+  molethumb_desc: ""
+
+  braintrust: "In Brain We Trust"
+  braintrust_desc: ""
+
+  vaultpride: "Vault-Tec Pride"
+  vaultpride_desc: ""
+
+  vaultmartiallaw: "Martial Law"
+  vaultmartiallaw_desc: ""
+
+  impenetrablecity: "Impenetrable City"
+  impenetrablecity_desc: ""
+
+  flockgoggles: "Vault Goggles"
+  flockgoggles_desc: ""
+
+  flockdoc: "Pale Folk Research"
+  flockdoc_desc: ""
+
+  gift80s: "Gifts of Thunder"
+  gift80s_desc: ""
+
+  def80s: "80s Draft Bill"
+  def80s_desc: ""
+
+  vault_robosec: "Automated Security"
+  vault_robosec_desc: ""
+
+  citizenservice: "Citizenship for Service"
+  citizenservice_desc: ""
+
+  milsecurity: "Security Militarization"
+  milsecurity_desc: ""
+
+  courtyarddraft: "Courtyard Draftees"
+  courtyarddraft_desc: ""
+
+  firstutopia: "Utopia"
+  firstutopia_desc: ""
+
+  loyalcitizens: "'Loyal' Citizens"
+  loyalcitizens_desc: ""
+
+  controlapparati: "Mind Control Apparati"
+  controlapparati_desc: ""
+
+  humanbreed: "Human Breeding Programs"
+  humanbreed_desc: ""
+
+  advinfsup: "Advanced Infantry Support"
+  advinfsup_desc: ""
+
+  advmotsup: "Advanced Vehicle Support"
+  advmotsup_desc: ""
+
+  firsteconomy: "Subsidized Civilian Industry"
+  firsteconomy_desc: ""
+
+  firstmilitary: "Subsidized Military Industry"
+  firstmilitary_desc: ""
+
+  vcprot: "Vault City Security Protocols"
+  vcprot_desc: ""
+
+  avcprot: "Vault City Security Protocols"
+  avcprot_desc: ""
+
+  oldworldideals: "Old World Ideals"
+  oldworldideals_desc: ""
+
+  modernprag: "Modern Day Pragmatism"
+  modernprag_desc: ""
+
+  populationcontrol: "Population Controls"
+  populationcontrol_desc: ""
+
+  servrights: "Servant's Rights"
+  servrights_desc: ""
+
+  servreg: "Regulated Servants"
+  servreg_desc: ""
+
+  servskill: "Skilled Servants"
+  servskill_desc: ""
+
+  servunskill: "Unskilled Servants"
+  servunskill_desc: ""
+
+  servshifts: "Work in Shifts"
+  servshifts_desc: ""
+
+  servwork: "Work Till You Drop"
+  servwork_desc: ""
+
+  houndsnorth: "Hounds of the North"
+  houndsnorth_desc: ""
+
+  vault_sho_reserve: "Shoshone Reservists"
+  vault_sho_reserve: ""
+
+  eagercyclops: "Protectron Schematics"
+  eagercyclops_desc: ""
+
+  vault_rip_militia: "Riperult Militia"
+  vault_rip_militia_desc: ""
+
+  vault_tribals_idea:0 "Vault-Tec Calling"
+  vault_tribals_idea_desc:0 ""
+
+ #Decisions
+

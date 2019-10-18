@@ -1,0 +1,31 @@
+state = {
+	id = 349
+	name = "STATE_PRESCOTT_TRIBELANDS"
+	manpower = 7000
+	state_category = shanty
+
+	resources = {
+		metal = 8
+	}
+
+	history = {
+		owner = PHR
+		add_core_of = CES
+		add_core_of = PHR
+		victory_points = {
+			7949 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			anti_air_building = 3
+			radar_station = 1
+			air_base = 1
+
+		}
+	}
+
+	provinces = {
+		885 1539 1684 1685 2836 2900 5158 5160 5161 5162 5163 5164 5165 5166 5633 7948 7949 7950 7951 7952 7953 7954 7955
+	}
+}

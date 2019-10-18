@@ -1,0 +1,43 @@
+﻿capital = 473
+oob = "BOL_2275"
+
+	set_technology = {
+		standard_weaponry_tech = 1
+		blunt_weaponry = 1
+		support_weaponry = 1
+		anti_personnel_tech = 1
+		recon_tech = 1
+		bike_tech_1 = 1
+			tribal_civilization = 1
+			settled_civilization = 1
+		destroyer_tech = 1
+		cruiser_tech = 1
+		battleship_tech = 1 
+		heavy_cruiser_tech = 1
+		truck_tech_1 = 1
+	}
+	
+	set_stability = 0.60
+	set_war_support = 0.30
+set_convoys = 15
+	set_popularities = {
+	 people = 0
+        elites = 100
+        intellectuals = 0 
+        ruler = 0 
+}
+    set_politics = {
+	ruling_party = elites
+	election_frequency = 0
+	elections_allowed = no
+}
+	
+add_ideas = { 
+	neutrality_owb
+}
+
+set_research_slots = 3
+
+
+
+

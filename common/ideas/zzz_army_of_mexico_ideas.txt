@@ -1,0 +1,363 @@
+ideas = {
+	country = {
+		el_caudillo = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				combat_robot_equipment = {
+					build_cost_ic = -0.03
+					soft_attack = 0.02
+				}
+			}
+		}
+
+		mechanical_volunteers = {
+			picture = generic_production_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				combat_robot_equipment = {
+					build_cost_ic = -0.025
+					instant = yes
+				}
+			}
+		}
+
+		el_presidente = {
+			picture = generic_morale_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		arm_mandatory_military_employment = {
+			picture = generic_production_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				industrial_capacity_factory = 0.07
+			}
+		}
+
+		arm_mandatory_civilian_employment = {
+			picture = generic_production_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				industrial_capacity_factory = 0.07
+			}
+		}
+
+		arm_divided_mandatory_employment = {
+			picture = generic_production_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				industrial_capacity_factory = 0.07
+			}
+		}
+
+		arm_unified_infrastructure = {
+			picture = generic_build_infrastructure
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		arm_steel_legions_1 = {
+			picture = generic_armor
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				planning_speed = 0.15
+				max_planning = 0.15
+			}
+		}
+
+		arm_steel_legions_2 = {
+			picture = generic_armor
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				planning_speed = 0.15
+				max_planning = 0.15
+				heat_attrition_factor = -0.15
+			}
+			equipment_bonus = {
+				support_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				combat_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		arm_steel_legions_3 = {
+			picture = generic_armor
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				planning_speed = 0.15
+				max_planning = 0.15
+				heat_attrition_factor = -0.15
+			}
+			equipment_bonus = {
+				support_robot_equipment = {
+					build_cost_ic = -0.15
+					soft_attack = 0.1
+					defense = 0.1
+					instant = yes
+				}
+				combat_robot_equipment = {
+					build_cost_ic = -0.15
+					soft_attack = 0.1
+					defense = 0.1
+					instant = yes
+				}
+			}
+		}
+
+		arm_mexican_regulars_1 = {
+			picture = chi_army_corruption
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+				conscription = 0.03
+			}
+		}
+
+		arm_mexican_regulars_2 = {
+			picture = chi_army_corruption2
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_infantry_attack_factor = 0.05
+				army_infantry_defence_factor = 0.05
+				conscription = 0.06
+				training_time_army_factor = -0.1
+			}
+		}
+
+		arm_mexican_regulars_3 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_infantry_attack_factor = 0.1
+				army_infantry_defence_factor = 0.1
+				conscription = 0.06
+				training_time_army_factor = -0.1
+				non_core_manpower = 0.2
+			}
+		}
+
+		arm_death_of_the_father_1 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+			}
+		}
+
+		arm_death_of_the_father_2 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+
+		arm_rio_corrupted = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.05
+				research_speed_factor = -0.05
+
+			}
+		}
+
+		arm_death_of_the_father_3 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.1
+
+			}
+		}
+		arm_death_of_the_father_4 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.05
+				research_speed_factor = 0.1
+				stability_factor = -0.10
+				war_support_factor = -0.10
+
+			}
+		}
+
+		arm_death_of_the_father_5 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.2
+				consumer_goods_factor = 0.1
+				research_speed_factor = 0.2
+				stability_factor = -0.20
+				war_support_factor = -0.20
+
+			}
+		}
+
+		arm_the_eldest_son = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.05
+				research_speed_factor = -0.05
+				stability_factor = 0.05
+				war_support_factor = 0.05
+
+			}
+		}
+
+		arm_cartel_blues = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		arm_militia_blues = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		arm_steps_towards_unity_1 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.1
+				conscription_factor = 0.1
+			}
+		}
+
+		arm_steps_towards_unity_2 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				conscription_factor = 0.1
+				surrender_limit = 0.1
+			}
+		}
+
+		arm_steps_towards_unity_3 = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.15
+				conscription_factor = 0.1
+				surrender_limit = 0.15
+				stability_factor = 0.10
+				war_support_factor = 0.10
+			}
+		}
+		arm_kindanna = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		arm_meananna = {
+			picture = chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				army_attack_factor = 0.05
+			}
+		}
+	}
+}

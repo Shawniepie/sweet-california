@@ -1,0 +1,28 @@
+state = {
+	id = 296
+	name = "STATE_BEARS_FLAT_TRIBELANDS"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		metal = 5
+	}
+
+	history = {
+		owner = WAP
+		add_core_of = CES
+		add_core_of = WAP
+		victory_points = {
+			1902 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces = {
+		887 1667 1687 1689 1899 1900 1901 1902 1904 1908 2038 3160 5316 5317 5318 7888 7889 7890 7895 7964 7965 7968 8141
+	}
+}

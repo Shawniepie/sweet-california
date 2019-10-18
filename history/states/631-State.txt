@@ -1,0 +1,22 @@
+state = {
+	id = 631
+	name = "STATE_BALDY_PEAK"
+	impassable = yes
+	manpower = 66
+	state_category = wasteland
+	resources = {
+	}
+
+	history = {
+		owner = TSI
+		add_core_of = CES
+		add_core_of = TSI
+		buildings = {
+
+		}
+	}
+
+	provinces = {
+		6623
+	}
+}

@@ -1,7 +1,11 @@
 focus_tree = { 
 
 	country = {
-		id = RNG
+		factor = 0
+		modifier = {
+			add = 10 #200
+			tag = RNG
+		}
 	}
 	default = no
 	#Focus for The Mines

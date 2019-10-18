@@ -1,0 +1,43 @@
+﻿l_english:
+ # Cosmetic Tag for the Pack
+	IRN_PAC_cosmetic_tag_ruler:0 "The Pack"
+	IRN_PAC_cosmetic_tag_ruler_ADJ:0 "The Pack"
+	IRN_PAC_cosmetic_tag_ruler_DEF:0 "The Pack"
+	IRN_PAC_cosmetic_tag_people:0 "The Pack"
+	IRN_PAC_cosmetic_tag_people_ADJ:0 "The Pack"
+	IRN_PAC_cosmetic_tag_people_DEF:0 "The Pack"
+	IRN_PAC_cosmetic_tag_intellectuals:0 "The Pack"
+	IRN_PAC_cosmetic_tag_intellectuals_ADJ:0 "The Pack"
+	IRN_PAC_cosmetic_tag_intellectuals_DEF:0 "The Pack"
+	IRN_PAC_cosmetic_tag_elites:0 "The Pack"
+	IRN_PAC_cosmetic_tag_elites_ADJ:0 "The Pack"
+	IRN_PAC_cosmetic_tag_elites_DEF:0 "The Pack"
+
+
+ # Cosmetic Tag for Sterling's BOS
+	IRN_BOS_cosmetic_tag_ruler:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_ruler_ADJ:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_ruler_DEF:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_people:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_people_ADJ:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_people_DEF:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_intellectuals:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_intellectuals_ADJ:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_intellectuals_DEF:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_elites:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_elites_ADJ:0 "New Sterling's Brotherhood"
+	IRN_BOS_cosmetic_tag_elites_DEF:0 "New Sterling's Brotherhood"
+
+ # Cosmetic Tag for Sterling's Vault
+	IRN_VLT_cosmetic_tag_ruler:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_ruler_ADJ:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_ruler_DEF:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_people:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_people_ADJ:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_people_DEF:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_intellectuals:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_intellectuals_ADJ:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_intellectuals_DEF:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_elites:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_elites_ADJ:0 "New Sterling's Vault"
+	IRN_VLT_cosmetic_tag_elites_DEF:0 "New Sterling's Vault"

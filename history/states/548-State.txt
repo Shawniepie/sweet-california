@@ -1,0 +1,45 @@
+state={
+	id=548
+	name="STATE_NAVARRO"
+	resources={
+		metal = 12
+		composites = 12
+		energy = 12
+		circuitry = 12
+		advanced = 12
+	}
+
+	history={
+		owner = ERB
+		add_core_of = ERB
+		victory_points = {
+			3434 20
+		}
+		buildings = {
+			3438 = {
+				naval_base = 8
+
+			}
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 2
+			anti_air_building = 2
+			radar_station = 1
+			air_base = 4
+			3434 = {
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3434 3435 3436 3437 3438
+	}
+	manpower=1500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

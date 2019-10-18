@@ -1,0 +1,138 @@
+ideas = {
+	country = {
+		ZAP_paramilitaries = {
+			picture = MEX_revolutionary_army
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			modifier = {
+				military_leader_cost_factor = 0.5
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		revolutionary_coffee = {
+			picture = prc_permit_opium_trade
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.03
+			}
+		}
+
+		cyber_democracy_idea = {
+			picture = generic_democratic_drift_bonus
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		revolution_not_yet_lost_idea = {
+			picture = generic_infantry_bonus
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				partisan_effect = 0.75
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				combat_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				support_robot_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		zap_ejido_worker_militias = {
+			picture = jap_the_unthinkable_option
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+				has_government = people
+			}
+
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		new_economic_policy_zapata = {
+			picture = prc_permit_opium_trade
+
+			allowed = {}
+
+			removal_cost = -1
+
+			modifier = {
+					MONTHLY_POPULATION = -0.05
+					production_speed_buildings_factor = 0.03
+			}
+		}
+
+		prewar_thought = {
+			picture = chi_war_of_resistance3
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.03
+				stability_factor = -0.05
+			}
+		}
+
+		zapata_neomaoism = {
+			picture = chi_war_of_resistance3
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.07
+				stability_factor = -0.10
+			}
+		}
+	}
+}

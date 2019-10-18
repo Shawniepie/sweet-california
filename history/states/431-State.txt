@@ -1,0 +1,25 @@
+state={
+	id=431
+	name="STATE_CIBECUE"
+
+	history={
+		owner = TSI
+		add_core_of = TSI
+		add_core_of = CES
+		victory_points = {
+			1906 5
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1690 1906 5096 5097 5098 5104 5105 5111 5112 5113 5319
+	}
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

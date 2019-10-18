@@ -1,0 +1,21 @@
+state = {
+	id = 633
+	name = "STATE_BLACK_RANGE"
+	impassable = yes
+	manpower = 77
+	state_category = wasteland
+	resources = {
+	}
+
+	history = {
+		owner = RSR
+		add_core_of = RSR
+		buildings = {
+
+		}
+	}
+
+	provinces = {
+		6621
+	}
+}

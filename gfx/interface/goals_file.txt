@@ -1,0 +1,13 @@
+﻿# GFX_goal_intellectual
+# GFX_goal_shi_ai
+# GFX_goal_focus_chinese_stealth_armour
+# GFX_goal_black_shi
+# GFX_goal_emperor
+# GFX_goal_advisor
+# GFX_goal_shi_fighter
+# GFX_goal_shi_plane
+# GFX_goal_Remnant
+# GFX_goal_enclave
+# GFX_goal_militia
+# GFX_goal_targetenclave
+# GFX_goal_Verti

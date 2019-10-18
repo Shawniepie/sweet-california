@@ -1,0 +1,27 @@
+state={
+	id=613
+	name="STATE_BOULDER_CITY"
+	resources={
+		water=3.000
+	}
+
+	history={
+		owner = FIE
+		add_core_of = FIE
+#TODO		victory_points = {
+#		 10
+#		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+		}
+
+	}
+
+	provinces={
+	 3206 3226 9068
+	}
+	manpower=15000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -4,11 +4,6 @@ on_actions = {
 			IRN = {
 				puppet = SCO
 				puppet = BSU
-				puppet = WHD
-				declare_war_on = {
-					target = HAN
-					type = annex_everything
-				}
 			}
         }
     }

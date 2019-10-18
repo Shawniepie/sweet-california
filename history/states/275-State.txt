@@ -1,0 +1,29 @@
+state={
+	id=275
+	name="STATE_10-SIGNS"
+	resources={
+		metal = 6
+	}
+
+	history={
+		owner = RBD
+		add_core_of = RBD
+		add_core_of = TSI
+		victory_points = {
+			2277 10
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		850 1694 2277 2278 2873 5227 5228 5231 5232 5233 5234
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

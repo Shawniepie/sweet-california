@@ -3,8 +3,8 @@ state={
 	name="STATE_OLD_VEGAS"
 
 	history={
-		owner = FRT
-		add_core_of = FRT
+		owner = SUF
+		add_core_of = SUF
 		victory_points = {
 			2869 10
 		}

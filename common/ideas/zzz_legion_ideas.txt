@@ -1,0 +1,1099 @@
+ideas = {
+
+	hidden_ideas = {
+		legion_gr_reduce_pop = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.5
+			}
+		}
+	}
+
+	country = {
+
+		national_spirit_rejection_of_automation = {
+
+			picture = rejection_of_automation
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_industrial_complex_factor = -0.75
+				production_speed_arms_factory_factor = -0.75
+				conversion_cost_civ_to_mil_factor = 0.75
+				conversion_cost_mil_to_civ_factor = 0.75
+				local_resources_factor = -0.7
+			}
+			research_bonus = {
+				robotics_tech_category = -0.6
+				energy_weaponry_tech_category = -0.6
+			}
+		}
+
+		cultofmars = {
+
+			picture = caesar's_legacy_2
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.1
+				non_core_manpower = 0.1
+				army_speed_factor = 0.05
+				attrition = -0.1
+			}
+
+			equipment_bonus = {
+				infantry = {
+					instant = yes
+					soft_attack = 0.05
+				}
+			}
+		}
+
+		# National Focus
+		legion_nf_shottol_god_of_dogs = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = shottol
+
+			equipment_bonus = {
+				dogs_equipment = {
+					soft_attack = 0.1
+					instant = yes
+				}
+			}
+		}
+
+		legion_nf_goddess_diana = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = cult_of_diana
+
+			modifier = {
+				land_reinforce_rate = 0.05
+			}
+		}
+
+		legion_nf_caesar_the_godslayer = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = caesar's_legacy
+
+			modifier = {
+				land_reinforce_rate = 0.05
+			}
+		}
+
+		legion_nf_cult_of_nas = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = cult_of_nas
+
+			equipment_bonus = {
+				apc_equipment = {
+					soft_attack = 0.05
+					breakthrough = 0.1
+					instant = yes
+				}
+				motorized_equipment = {
+					soft_attack = 0.05
+					breakthrough = 0.1
+					instant = yes
+				}
+			}
+		}
+
+		legion_nf_wyatt_the_demon = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = cult_of_wyatt
+
+			modifier = {
+				army_speed_factor = 0.1
+			}
+
+		}
+
+		legion_nf_legion_outlaws = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = cult_of_wyatt
+
+			modifier = {
+				army_speed_factor = 0.05
+			}
+
+		}
+
+		legion_nf_the_twin_temples = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = generic_research_bonus
+
+			modifier = {
+				research_speed_factor =0.08
+			}
+
+		}
+
+		legion_nf_nas_scriptures = {
+
+			picture = generic_infantry_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+			}
+		}
+
+		legion_nf_enslaved_dogs = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.05
+			}
+		}
+
+		legion_nf_flagstaff_slaves = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.05
+			}
+		}
+
+		legion_nf_phoenix_slaves = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.05
+			}
+		}
+
+		legion_nf_two_sun_slaves = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				monthly_population = 0.05
+			}
+
+		}
+
+		legion_nf_warcamp_slaves = {
+
+			picture = generic_infantry_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+			}
+		}
+
+		legion_nf_homestead_slaves = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+			}
+
+		}
+
+		legion_nf_numeri = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				training_time_army_factor = -0.2
+			}
+		}
+
+		legion_nf_lay_of_the_land = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				winter_attrition_factor = -0.1
+				heat_attrition_factor = -0.1
+				recon_factor = 0.05
+			}
+		}
+
+		legion_nf_legionary_grit = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_legion
+
+			modifier = {
+				no_supply_grace = 48
+			}
+		}
+
+		legion_nf_praetorian = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = praetorians
+
+			modifier = {
+				max_planning = 0.15
+				planning_speed = 0.15
+				conscription = -0.025
+			}
+		}
+
+		legion_nf_meritocracy = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_leader_start_level = 1
+			}
+		}
+
+		legion_nf_legionary_blacksmiths = {
+
+			picture = rejection_of_automation
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+
+		legion_nf_enslaved_scribes = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			picture = generic_research_bonus
+
+			modifier = {
+				research_speed_factor =0.03
+			}
+		}
+
+		legion_nf_gladiator = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			picture = generic_legion
+
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.025
+				attrition = -0.05
+			}
+		}
+
+		legion_nf_deconstructing_perfection = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			picture = praetorians			equipment_bonus = {
+				power_armor_equipment = {
+					build_cost_ic = -0.2
+					instant = yes
+				}
+			}
+		}
+
+		legion_nf_burned_man_rumours = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			picture = burned_man_rumours
+
+			modifier = {
+				army_org_factor = -0.1
+				max_planning = -0.2
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+
+		legion_nf_the_bulls_wounds = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+				land_reinforce_rate = 0.05
+			}
+
+		}
+
+		legion_nf_worthy_foe = {
+
+			picture = new_thesis
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+			}
+
+		}
+
+		legion_nf_nova_roma = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			picture = generic_legion
+
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.1
+			}
+		}
+
+		legion_nf_vegas_strip = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = free_trade
+
+			removal_cost = -1
+
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+			}
+
+		}
+
+		legion_nf_overextension = {
+
+			allowed = {
+				always = no
+				original_tag = NCR
+			}
+			picture = ENG_the_war_to_end_all_wars
+
+			removal_cost = -1
+
+			modifier = {
+				max_planning = -0.1
+			}
+		}
+
+		legion_nf_new_thesis = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			picture = caesar's_legacy
+
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				monthly_population = 0.3
+			}
+
+		}
+
+		legion_nf_immortal_empire = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			picture = immortal_empire
+
+			modifier = {
+				foreign_subversive_activites = -0.2
+				non_core_manpower = 0.4
+			}
+
+		}
+
+		legion_nf_spqr = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = spqr
+
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.1
+			}
+
+		}
+
+		legion_nf_pax_romana = {
+
+			picture = free_trade
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+			}
+		}
+
+		legion_nf_fort_focus = {
+
+			picture = generic_fortify_the_borders
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_bunker_factor = 0.1
+				production_speed_coastal_bunker_factor = 0.1
+			}
+		}
+
+		legion_nf_factory_focus = {
+
+			picture = free_trade
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+			}
+		}
+
+		legion_nf_follower_slaves = {
+
+			removal_cost = -1
+
+			allowed = {
+				always = no
+			}
+			picture = generic_research_bonus
+
+			modifier = {
+				research_speed_factor =0.025
+			}
+
+		}
+
+		legion_nf_servus = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		legion_nf_slave_collars = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				non_core_manpower = 0.05
+			}
+
+		}
+
+		legion_nf_freemen = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+				army_org_factor = 0.05
+			}
+		}
+
+		legion_nf_foundries_of_mars = {
+
+			picture = brotherhood_of_mars
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				combat_robot_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				support_robot_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = -0.10
+					instant = yes
+				}
+				#bus_equipment = {#doesn't exist
+				#	build_cost_ic = -0.10
+				#	instant = yes
+				#}
+			}
+		}
+
+		legion_nf_pax_per_bellum = {
+
+			picture = generic_legion
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				justify_war_goal_time = -0.15
+			}
+
+		}
+
+		legion_nf_child_soldiers = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.02
+				army_attack_factor = -0.1
+			}
+		}
+
+		legion_nf_hoover_dam = {
+
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.25
+				industrial_capacity_dockyard = 0.25
+			}
+		}
+
+		legion_nf_rubicon_crossed = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				training_time_army_factor = -0.1
+				minimum_training_level = -0.05
+			}
+		}
+
+		legion_nf_weapon_maintenance = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.1
+					instant = yes
+				}
+			}
+		}
+
+		legion_nf_unit_tactics = {
+			picture = legionary_unit_tactics
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_org_factor = 0.1
+			}
+		}
+
+		legion_nf_explosives_creation = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				demolitions_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+
+		legion_nf_ridgers_pyre = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.025
+			}
+		}
+
+		legion_nf_kaibab_crucifiction = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_morale_factor = 0.05
+			}
+		}
+
+		legion_nf_fredonian_arena = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				training_time_army_factor = -0.1
+			}
+		}
+
+		legion_nf_profligate_destruction = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				enemy_partisan_effect = -0.2
+			}
+		}
+
+		legion_nf_divide_et_impera = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				org_loss_when_moving = -0.1
+			}
+		}
+
+		legion_nf_decimatio = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = -0.01
+				military_leader_cost_factor = -0.1
+			}
+		}
+	}
+}

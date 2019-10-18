@@ -1,0 +1,208 @@
+ideas = {
+	political_advisor = {
+
+		chempusher = {
+
+			picture = generic_advisor7
+
+			available = { is_allowed_raider_generic_political_advisors = yes }
+			visible = { is_allowed_raider_generic_political_advisors = yes }
+
+			traits = { chem_pusher }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		slavebastard = {
+
+			picture = generic_advisor3
+
+			available = { is_allowed_raider_generic_political_advisors = yes }
+			visible = { is_allowed_raider_generic_political_advisors = yes }
+
+			traits = { slaving_bastard }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		settlementraider = {
+
+			picture = generic_advisor9
+
+			available = { is_allowed_raider_generic_political_advisors = yes }
+			visible = { is_allowed_raider_generic_political_advisors = yes }
+
+			traits = { settlement_raider }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		raiderpowerbroker = {
+
+			picture = generic_advisor10
+
+			available = { is_allowed_raider_generic_political_advisors = yes }
+			visible = { is_allowed_raider_generic_political_advisors = yes }
+
+			traits = { power_broker }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		raider_war_industrialist = {
+
+			picture = generic_advisor20
+
+			available = { is_allowed_raider_generic_political_advisors = yes }
+			visible = { is_allowed_raider_generic_political_advisors = yes }
+
+			traits = { war_industrialist }
+		}
+
+	}
+	high_command = {
+
+		raiderpunish = {
+
+			picture = generic_advisor26
+
+			available = { is_allowed_raider_generic_high_command = yes }
+			visible = { is_allowed_raider_generic_high_command = yes }
+
+			traits = { raider_punish }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		raiderrecruitment = {
+
+			picture = generic_advisor35
+
+			available = { is_allowed_raider_generic_high_command = yes }
+			visible = { is_allowed_raider_generic_high_command = yes }
+
+			traits = { raider_recruitment }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		raiderdoc = {
+
+			picture = generic_advisor25
+
+			available = { is_allowed_raider_generic_high_command = yes }
+			visible = { is_allowed_raider_generic_high_command = yes }
+
+			traits = { sawbones }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		raideraggressive = {
+
+			picture = generic_advisor29
+
+			available = { is_allowed_raider_generic_high_command = yes }
+			visible = { is_allowed_raider_generic_high_command = yes }
+
+			traits = { aggressive_attacker }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+	army_chief = {
+
+		raider_attack = {
+
+			picture = generic_advisor23
+
+			available = { is_allowed_raider_generic_chiefs = yes }
+			visible = { is_allowed_raider_generic_chiefs = yes }
+
+			traits = { raider_expansion }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		raider_defense = {
+
+			picture = generic_advisor19
+
+			available = { is_allowed_raider_generic_chiefs = yes }
+			visible = { is_allowed_raider_generic_chiefs = yes }
+
+			traits = { raider_defend }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	navy_chief = {
+
+		raider_navy_chief = {
+
+			picture = generic_advisor37
+
+			available = { is_allowed_raider_generic_chiefs = yes }
+			visible = { is_allowed_raider_generic_chiefs = yes }
+
+			traits = { raider_navy_buff }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	air_chief = {
+
+		raider_air_chief = {
+
+			picture = generic_advisor40
+
+			available = { is_allowed_raider_generic_chiefs = yes }
+			visible = { is_allowed_raider_generic_chiefs = yes }
+
+			traits = { raider_air_buff }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	theorist = {
+
+		raider_military_theorist = {
+
+			picture = generic_advisor24
+
+			available = { is_allowed_raider_generic_theorists = yes }
+			visible = { is_allowed_raider_generic_theorists = yes }
+
+			research_bonus = {
+				cat_grand_army = 0.10
+			}
+
+			traits = { military_theorist }
+		}
+	}
+}

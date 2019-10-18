@@ -9,8 +9,8 @@ state = {
 	}
 
 	history = {
-		owner = DIA
-		add_core_of = DIA
+		owner = BOS
+		add_core_of = BOS
 		victory_points = {
 			2263 10
 		}

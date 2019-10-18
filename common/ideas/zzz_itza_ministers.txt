@@ -1,0 +1,271 @@
+#########################
+# Chichen Itza Advisors #
+#   Scripted by Happy   #
+#########################
+
+ideas = {
+	army_chief = {
+		#Carlos Franco
+		ITZ_carlos_franco = {
+			picture = carlos_advisor
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			available = {
+				NOT = { has_country_leader = { name = "Halach Uinik Carlos Franco"} }
+				has_unit_leader = 12002
+			}
+
+			traits = {
+				ejercito_chief
+			}
+
+			ai_will_do = {
+				base = 1
+				modifier = {
+					factor = 10
+					ITZ_has_ai_behavior_carlos = yes
+				}
+				modifier = {
+					factor = 0
+					OR = {
+						ITZ_has_ai_behavior_clara = yes
+						ITZ_has_ai_behavior_kalomte = yes
+					}
+				}
+			}
+		}
+		#Mariano Arista
+		ITZ_marino_arista = {
+			picture = marino_arista_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			available = {
+				NOT = { has_completed_focus = itz_scrap_the_merodeadores }
+			}
+
+			traits = {
+				merodeadores_chief
+			}
+		}
+		#Montoya Tijerina
+		ITZ_montoya_tijerina = {
+			picture = montoya_tijerina_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			traits = {
+				massed_charge_mastermind
+			}
+		}
+	}
+	navy_chief = {
+		#Almirante Camila
+		ITZ_camila = {
+			picture = camila_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			traits = {
+				river_pirate
+			}
+
+			research_bonus = {
+				cat_naval_river_fleet_doctrine = 0.1
+			}
+		}
+		#Almirante Mateo
+		ITZ_mateo = {
+			picture = mateo_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			traits = {
+				gulf_patroller
+			}
+
+			research_bonus = {
+				cat_naval_dispersed_formation_doctrine = 0.1
+			}
+		}
+		#Almirante Luis
+		ITZ_luis = {
+			picture = luis_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			traits = {
+				decisive_battle_expert
+			}
+
+			research_bonus = {
+				cat_naval_force_concentration_doctrine = 0.1
+			}
+		}
+		#Almirante Perez
+		ITZ_perez = {
+			picture = perez_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			available = {
+				has_completed_focus = itz_promote_admiral_perez
+			}
+
+			traits = {
+				righteous_duelist
+			}
+
+			research_bonus = {
+				cat_naval_doctrine = 0.1
+			}
+		}
+	}
+	air_chief = {
+
+	}
+	political_advisor = {
+		#Ti'huun Clara Guzman
+		ITZ_clara_guzman = {
+			picture = clara_advisor
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			available = {
+				NOT = { has_country_leader = { name = "Ti'huun Clara Guzmán" } }
+				custom_trigger_tooltip = {
+					tooltip = itz_not_purged_clara
+					NOT = { has_global_flag = itz_purged_clara }
+				}
+			}
+
+			traits = {
+				speaker_of_the_council
+			}
+
+			ai_will_do = {
+				base = 1
+				modifier = {
+					factor = 10
+					OR = {
+						ITZ_has_ai_behavior_clara = yes
+						ITZ_has_ai_behavior_kalomte = yes
+					}
+				}
+				modifier = {
+					factor = 0
+					ITZ_has_ai_behavior_carlos = yes
+				}
+			}
+		}
+		#Martín Arrabal
+		ITZ_martin_arrabal = {
+			picture = martin_arrabal_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = itz_not_purged_clara
+					NOT = { has_global_flag = itz_purged_clara }
+				}
+			}
+
+			traits = {
+				up_and_coming_bureaucrat
+			}
+		}
+		#Armando Berganza
+		ITZ_armando_berganza = {
+			picture = armando_advisor
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			available = {
+				has_completed_focus = itz_begin_integration
+			}
+
+			traits = {
+				fifty_nine_theses_author
+			}
+		}
+		#Guillermo González
+		ITZ_guillermo_gonzalez = {
+			picture = guillermo_advisor
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			traits = {
+				staunch_expansionist
+			}
+		}
+	}
+	high_command = {
+		#Agustín Rasgado
+		ITZ_nacom_agustin_rasgado = {
+			picture = agustin_rasgado_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			available = {
+				has_completed_focus = itz_support_the_ejercito
+			}
+
+			traits = {
+				ejercito_supporter_trait
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		#Lucas Aguinaldo
+		ITZ_tupil_lucas_aguinaldo = {
+			picture = lucas_aguinaldo_advisor_portrait
+
+			allowed = {
+				original_tag = ITZ
+			}
+
+			available = {
+				has_completed_focus = itz_recast_the_ejercito
+			}
+
+			traits = {
+				diehard_reformer_trait
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	theorist = {
+
+	}
+}

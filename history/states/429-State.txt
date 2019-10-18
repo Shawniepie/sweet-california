@@ -1,0 +1,22 @@
+state = {
+	id = 429
+	name = "STATE_WINGSON"
+	manpower = 7000
+	state_category = rural
+
+	history = {
+		owner = PAS
+		add_core_of = PAS
+		add_core_of = MES
+		victory_points = {
+			5595 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		2941 2942 2944 2945 2946 2947 2948 2958 3007 3008 5402 5595 5596 5597 5598 5694 5696
+	}
+}

@@ -1,0 +1,95 @@
+﻿l_english:
+  spellcheck_ignore: "knighttactics,slayinggiants,rangerslegionwar,rangersnewthreat"
+
+  desertrangers: "Desert Rangers"
+  desertrangers_desc: ""
+
+  raiderconscripts: "Raider Conscripts"
+  raiderconscripts_desc: ""
+
+  rangercores: "Ranger Corps"
+  rangercores_desc: ""
+
+  rangerintervention: "Ranger Intervention"
+  rangerintervention_desc: ""
+
+  nevadarecruitment: "Nevada Recruitment"
+  nevadarecruitment_desc: ""
+
+  knighttactics: "Knight Tactics"
+  knighttactics_desc: ""
+
+  rangersworkbench: "Ranger's Workbench"
+  rangersworkbench_desc: ""
+
+  wastelandprotect: "Wasteland Protect"
+  wastelandprotect_desc: ""
+
+  rangersquartermaster: "Ranger Quartermaster"
+  rangersquartermaster_desc: ""
+
+  rangersmechanic: "Rangers Mechanic"
+  rangersmechanic_desc: ""
+
+  rangersrecruiter: "Rangers Recruiter"
+  rangersrecruiter_desc: ""
+
+  rangerspropaganda: "Rangers Propaganda"
+  rangerspropaganda_desc: ""
+
+  rangersoutreach: "Rangers Outreach"
+  rangersoutreach_desc: ""
+
+  rangersarmouries: "Rangers Armouries"
+  rangersarmouries_desc: ""
+
+  rangerdepot: "Ranger Depot"
+  rangerdepot_desc: ""
+
+  rangersaviation: "Rangers Aviation"
+  rangersaviation_desc: ""
+
+  standingtall: "Standing Tall"
+  standingtall_desc: ""
+
+  reorganizedrangers: "Reorganized Rangers"
+  reorganizedrangers_desc: ""
+
+  ncrfunding: "NCR Funding"
+  ncrfunding_desc: ""
+
+  bosfunding_tt: "BoS Funding"
+  bosfunding_tt_desc: " "
+
+  opjericho: "Operation Jericho"
+  opjericho_desc: ""
+
+  rangerslegionwar: "Rangers-Legion War"
+  rangerslegionwar_desc: ""
+
+  rangermarch: "Ranger March"
+  rangermarch_desc: ""
+
+  ncrhonours: "NCR Honours"
+  ncrhonours_desc: ""
+
+  nationalguard: "National Guard"
+  nationalguard_desc: ""
+
+  armyrangers: "Army Rangers"
+  armyrangers_desc: ""
+
+  acceptcrim: "Accepted Criminals"
+  acceptcrim_desc: ""
+
+  acceptpetty: "Accepted Petty Criminals"
+  acceptpetty_desc: ""
+
+  kickcrim: "Kicked out Criminals"
+  kickcrim_desc: ""
+
+  rangerinterventionism: "Ranger interventionism"
+  rangerinterventionism_desc: " "
+
+  DES_army_corps_of_engineers: "Army Corps of Engineers Origins"
+  DES_army_corps_of_engineers_desc: ""

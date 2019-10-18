@@ -1,0 +1,29 @@
+state={
+	id=313
+	name="STATE_JACOBSTOWN"
+	resources={
+		metal = 6
+	}
+
+	history={
+		owner = FIE
+		add_core_of = FIE
+		victory_points = {
+			3224 10
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		3191 3224 6606
+	}
+	manpower=3000
+	buildings_max_level_factor=1.000
+	state_category=shanty
+}

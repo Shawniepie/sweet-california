@@ -1,0 +1,546 @@
+ideas = {
+	political_advisor = {
+		mason_salvatore = {
+
+			picture = mason_salvatore_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				is_salvatore_not_leader = yes
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { two_timing_dealer }
+
+			ai_will_do = {
+				factor = 10
+			}
+			cancel_if_invalid = yes
+		}
+
+		christopher_wright = {
+
+			picture = christopher_wright_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				is_wright_not_leader = yes
+				NOT = { has_completed_focus = new_queen }
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { moonshine_intellectual }
+
+			ai_will_do = {
+				factor = 10
+			}
+			cancel_if_invalid = yes
+		}
+
+		mr_bishop = {
+
+			picture = mr_bishop_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				is_bishop_not_leader = yes
+				NOT = { has_completed_focus = new_bloodynight }
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { chessmaster }
+
+			ai_will_do = {
+				factor = 10
+			}
+			cancel_if_invalid = yes
+		}
+
+		lil_jesus_mordino = {
+
+			picture = lil_jesus_mordino_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				is_mordino_not_leader = yes
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { jet_baron }
+
+			ai_will_do = {
+				factor = 10
+			}
+			cancel_if_invalid = yes
+		}
+
+		tiaret_van_graff = {
+
+			picture = tiaret_van_graff_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_f3
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			research_bonus = {
+				energy_weaponry_tech = 0.10
+				laser_battery_tech = 0.1
+			}
+			traits = { bloody_bride_of_bishop }
+
+			ai_will_do = {
+				factor = 10
+			}
+			cancel_if_invalid = yes
+		}
+
+		ol_crookshanks = {
+
+			picture = ol_crookshanks_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_sanctuary
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { pre_war_administrator }
+
+			ai_will_do = {
+				factor = 10
+			}
+			cancel_if_invalid = yes
+		}
+
+		raul = {
+			picture = raul_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			visible = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			traits = { raul_engineer }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		judah_kreger = {
+			picture = judah_kreger_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			visible = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			traits = { judah_kreger_leader }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		quincy = {
+			picture = qunicy_advisor
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			visible = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			traits = { quincy_technician }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	high_command = {
+		pablo = {
+
+			picture = pablo_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_pablos
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC }
+			}
+
+			traits = { conquistador_captain }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		runs_with_hatred = {
+
+			picture = runs_with_hatred_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_vengefulsons
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+			}
+
+			traits = { burning_avenger }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		pit_master_frazz = {
+
+			picture = pit_master_frazz_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_gladiators
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+			}
+
+			traits = { erratic_engineer }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		warcrying_todd = {
+
+			picture = warcrying_todd_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_roadpsychos
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+			}
+
+			traits = { blitzer }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		tech_officer_hilden = {
+
+			picture = tech_officer_hilden_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_enctech
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { esoteric_engineer }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		karm_the_brilliant = {
+
+			picture = karm_the_brilliant_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_mutanttech
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC }
+			}
+			traits = { ancient_tactician }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		snookie = {
+			picture = snookie_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			visible = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			traits = { snookie_guard }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		sanders = {
+			picture = sanders_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			visible = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			traits = { sanders_spec_ops }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	army_chief = {
+		sergeant_granite = {
+
+			picture = sergeant_granite_chief
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_granite
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { drill_sergeant }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		thradd_the_immortal = {
+
+			picture = thradd_the_immortal_chief
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_thradd
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+			}
+			traits = { immortal_titan }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		colonel_jalabert = {
+
+			picture = colonel_jalabert_chief
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_roaring
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { the_bear_of_reno }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		tobias_halvorsen = {
+
+			picture = tobias_halvorsen_chief
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_completed_focus = new_artillery
+				hidden_trigger = {
+					NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+					NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+				}
+			}
+			visible = {
+				NOT = { has_cosmetic_tag = ENC_cosmetic_tag }
+				NOT = { has_cosmetic_tag = THR_cosmetic_tag }
+			}
+			traits = { flash_in_the_pan }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	air_chief = {
+		daisy_whitman = {
+			picture = snookie_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			visible = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+
+			traits = { air_close_air_support_3 }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	theorist = {
+		orion_moreno = {
+			picture = snookie_command
+
+			allowed = {
+				original_tag = NEW
+			}
+			available = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+			visible = {
+				has_cosmetic_tag = ENC_cosmetic_tag
+			}
+
+			research_bonus = {
+				cat_elite_army = 0.10
+			}
+
+			traits = { military_theorist }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}

@@ -1,0 +1,237 @@
+ideas = {
+	army_chief = {
+
+		chance_advisor = {
+			picture = KHA_chance
+
+			allowed = {
+				original_tag = KHA
+			}
+
+			available = {
+				has_completed_focus = KHA_focus_chance
+			}
+
+			traits = {
+				aggressive_attacker
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		mcmurphy_advisor = {
+			picture = KHA_mcmurphy
+
+			allowed = {
+				original_tag = KHA
+			}
+
+			available = {
+				has_completed_focus = KHA_focus_mcmurphy
+			}
+
+			traits = {
+				raider_expansion
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	high_command = {
+
+		the_armorer_advisor = {
+			picture = KHA_mcmurphy
+
+			allowed = {
+				original_tag = KHA
+			}
+
+			available = {
+				has_completed_focus = KHA_focus_the_armorer
+			}
+
+			traits = {
+				the_armorer_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		oscar_velasco_advisor = {
+			picture = KHA_oscar_velasco
+
+			allowed = {
+				original_tag = KHA
+			}
+
+			available = {
+				has_completed_focus = KHA_focus_oscar_velasco
+			}
+
+			traits = {
+				oscar_velasco_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		melissa_lewis_advisor = {
+			picture = KHA_melissa_lewis
+
+			allowed = {
+				original_tag = KHA
+			}
+
+			available = {
+				has_completed_focus = KHA_focus_melissa_lewis
+			}
+
+			traits = {
+				army_infantry_1
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		desmond_lans_advisor = {
+			picture = KHA_desmond
+
+			allowed = {
+				original_tag = KHA
+			}
+
+			available = {
+				has_completed_focus = KHA_focus_desmond_lans
+			}
+
+			traits = {
+				burning_avenger
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	political_advisor = {
+		jack_advisor = {
+
+			picture = KHA_jack
+
+			allowed = {
+				original_tag = KHA
+			}
+			available = {
+				has_completed_focus = KHA_focus_jack
+			}
+			traits = { jack_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		diane_advisor = {
+
+			picture = KHA_diane
+
+			allowed = {
+				original_tag = KHA
+			}
+			available = {
+				has_completed_focus = KHA_focus_diane
+			}
+			traits = { diane_trait
+
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		anders_advisor = {
+
+			picture = KHA_anders
+
+			allowed = {
+				original_tag = KHA
+			}
+			available =	{
+				has_completed_focus = KHA_focus_anders
+			}
+			traits = { jet_baron
+				prince_of_terror
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		jerry_the_punk_advisor = {
+
+			picture = KHA_jerry_the_punk
+
+			allowed = {
+				original_tag = KHA
+			}
+			available =	{
+				has_completed_focus = KHA_focus_jerry_the_punk
+			}
+			traits = { jerry_the_punk_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		emma_winslow_advisor = {
+
+			picture = KHA_emma_winslow
+
+			allowed = {
+				original_tag = KHA
+			}
+			available =	{
+				has_completed_focus = KHA_focus_emma_winslow
+			}
+			traits = { follower_of_the_apocalypse }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		dalia_advisor = {
+
+			picture = KHA_dalia
+
+			allowed = {
+				original_tag = KHA
+			}
+			available =	{
+				has_completed_focus = KHA_focus_dalia
+			}
+			traits = { honest_speaker }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+}

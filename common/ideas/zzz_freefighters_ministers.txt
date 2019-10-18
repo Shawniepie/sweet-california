@@ -1,0 +1,120 @@
+ideas = {
+	political_advisor = {
+		ffi_advisor_ortiz = {
+			picture = mexico_advisor3
+			available = {
+				original_tag = FFI
+				has_country_flag = ffi_ortiz_pardoned
+			}
+			visible = {
+				original_tag = FFI
+			}
+			traits = { ortiz_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ffi_advisor_gonzalez = {
+			picture = mexico_advisor4
+			available = {
+				original_tag = FFI
+				has_country_flag = ffi_gonzalez_agrees
+			}
+			visible = {
+				original_tag = FFI
+			}
+			traits = { gonzalez_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ffi_advisor_rodriguez = {
+			picture = mexico_advisor4
+			available = {
+				original_tag = FFI
+				has_country_flag = ffi_rodriguez_bows
+			}
+			visible = {
+				original_tag = FFI
+			}
+			traits = { rodriguez_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ffi_advisor_cruz = {
+			picture = mexico_advisor5
+			available = {
+				original_tag = FFI
+				has_country_flag = ffi_cruz_pardoned
+			}
+			visible = {
+				original_tag = FFI
+			}
+			traits = { cruz_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ffi_advisor_rivera = {
+			picture = mexico_advisor6
+			available = {
+				original_tag = FFI
+				has_country_flag = ffi_rivera_agrees
+			}
+			visible = {
+				original_tag = FFI
+			}
+			traits = { rivera_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		ffi_advisor_arellano = {
+			picture = mexico_advisor7
+			available = {
+				original_tag = FFI
+				has_country_flag = ffi_arellano_bows
+			}
+			visible = {
+				original_tag = FFI
+			}
+			traits = { arellano_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+	high_command = {
+		ffi_suneater_command = {
+			picture = suneater_advisor
+			available = {
+				original_tag = FFI
+				has_completed_focus = FFI_hero_of_people
+			}
+			visible = {
+				original_tag = FFI
+			}
+			traits = { suneater_trait }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	army_chief = {
+		#
+	}
+}

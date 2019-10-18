@@ -1,0 +1,25 @@
+state = {
+	id = 289
+	name = "STATE_THREE-ROADS"
+	manpower = 10000
+	state_category = city
+
+	history = {
+		owner = TSI
+		add_core_of = TSI
+		victory_points = {
+			3157 20
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			anti_air_building = 2
+			air_base = 1
+
+		}
+	}
+
+	provinces = {
+		857 2633 2744 2745 2800 3155 3156 3157 5194 5195 5196 5197 5198 5338
+	}
+}

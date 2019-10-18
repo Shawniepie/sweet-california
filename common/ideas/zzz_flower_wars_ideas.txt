@@ -1,0 +1,126 @@
+#####################
+# Flower Wars Ideas #
+# Scripted by Happy #
+#####################
+
+ideas = {
+	country = {
+		flw_the_flower_wars = {
+			picture = itz_idea_ocelotl
+			allowed = {
+				NOT = {
+					OR = {
+						AND = {
+							tag = ITZ
+							has_war_with = ATE
+						}
+						AND = {
+							tag = ATE
+							has_war_with = ITZ
+						}
+						ATE = { exists = no }
+						ITZ = { exists = no }
+						ATE = { is_in_faction_with = ITZ }
+					}
+				}
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				weekly_manpower = -10
+				experience_gain_army = 0.02
+			}
+		}
+
+		flw_holds_la_tumba = { # 815
+			picture = flw_owns_city
+			allowed = {
+				815 = { is_fully_controlled_by = ROOT } # removes / added via event
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = 0.05
+				war_support_factor = -0.05
+			}
+		}
+
+		flw_not_holds_la_tumba = {
+			picture = flw_not_owns_city
+			allowed = {
+				NOT = { 815 = { is_fully_controlled_by = ROOT } } # removes / added via event
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.05
+				war_support_factor = 0.05
+			}
+		}
+
+		flw_holds_hela = { # 817
+			picture = flw_owns_city
+			allowed = {
+				817 = { is_fully_controlled_by = ROOT } # removes / added via event
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = 0.05
+				war_support_factor = -0.05
+			}
+		}
+
+		flw_not_holds_hela = {
+			picture = flw_not_owns_city
+			allowed = {
+				NOT = { 815 = { is_fully_controlled_by = ROOT } } # removes / added via event
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.05
+				war_support_factor = 0.05
+			}
+		}
+
+		flw_holds_mexico_city = { # 803
+			picture = flw_owns_mexico_city
+			allowed = {
+				803 = { is_fully_controlled_by = ROOT } # removes / added via event
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = 0.05
+				war_support_factor = -0.05
+			}
+		}
+
+		flw_not_holds_mexico_city = {
+			picture = flw_not_owns_mexico_city
+			allowed = {
+				NOT = { 803 = { is_fully_controlled_by = ROOT } } # removes / added via event
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.10
+				stability_factor = -0.05
+				war_support_factor = 0.05
+			}
+		}
+	}
+}

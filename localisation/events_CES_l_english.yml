@@ -1,0 +1,72 @@
+﻿l_english:
+  nf_legion.1.t: "The White Legs Petition"
+  nf_legion.1.d: "An envoy from Caesar's Legion has visited our tribal grounds and offered us a deal. Pledge allegiance to Caesar's Legion and abandon the old ways. Refuse, and feel the full might of the legion."
+  nf_legion.1.a: "Of course, we accept"
+  nf_legion.1.b: "Never!"
+
+  nf_legion.2.t: "The Eighties Petition"
+  nf_legion.2.d: "An envoy from Caesar's Legion has visited our tribal grounds and offered us a deal. Pledge allegiance to Caesar's Legion and abandon the old ways. Refuse, and feel the full might of the legion."
+  nf_legion.2.a: "Of course, we accept"
+  nf_legion.2.b: "Never!"
+
+  nf_legion.5.t: "The Death Of Caesar"
+  nf_legion.5.d: "For years, Caesar has been subject to a malignant cancer - threatening his reign over the Legion. Today, on the eve of his Legion's finest hour, he has withdrawn to his tent, and death will surely claim him. In his final hours, he must name a successor."
+  nf_legion.5.a: "He names his Legate"
+  nf_legion.5.b: "He names Vulpes"
+  nf_legion.5.c: "A witch enters his tent..."
+
+  nf_legion.6.t: "Caesar Lives"
+  nf_legion.6.d: "A witch from the Twin Mothers tribe, spared death long ago, enters the tent of Caesar. In the morning, Caesar rises - more invigorated than ever. But the Praetorian guard stationed outside his tent are gone. Lucius, their leader, claims Caesar a heretic, using outlawed technology to restore his life. Him and his followers now question the Legion's ideals of rejecting technology."
+  nf_legion.6.a: "Have the disloyal Praetorians crucified"
+  nf_legion.6.b: "Heresy!"
+
+  nf_legion.7.t: "Expedition to Blackfoot"
+  nf_legion.7.d: "The expedition to the Blackfoot tribe was the defining event of Legion history. The tribe is the foundation of Caesar's great Legion, and it was through the flames of this primitive tribes wars that the iron will of Caesar was forged. His lessons to them were..."
+  nf_legion.7.a: "Weapon Maintenance"
+  nf_legion.7.b: "Unit Tactics"
+  nf_legion.7.c: "Explosives Creation"
+
+  nf_legion.8.t: "Death in the Canyons"
+  nf_legion.8.d: "The earliest years of the Legion were also some of the most brutal. In his conquest of the Canyons, Caesar brutally slaughtered three of the local tribes, each act just as cruel. But one act gained particular infamy in the wastes..."
+  nf_legion.8.a: "Ridgers"
+  nf_legion.8.b: "Kaibabs"
+  nf_legion.8.c: "Fredonians"
+
+  nf_legion.9.t: "The Malpais Legate"
+  nf_legion.9.d: "Joshua Graham, the Malpais Legate, was the co-founder of the Legion, and Caesar's greatest servant. A shrewd, cunning general - this early act cemented his legend across the Legion, and formed the basis of his military prowess..."
+  nf_legion.9.a: "He burnt Phoenix to the ground"
+  nf_legion.9.b: "He hunted his enemies to the last"
+  nf_legion.9.c: "He outwitted the Red Suns"
+
+  nf_legion.10.t: "Caesar, Son of Mars"
+  nf_legion.10.d: "Caesar's will is law. He is a god amongst men, the son of the god of war, Mars. All in his legion live to serve him, as a blade serves his master. He is the teacher and master of the tribes under him - and in his conquest, taught them many lessons. Chief among which..."
+  nf_legion.10.a: "Destroy the Profligates"
+  nf_legion.10.b: "Divide Et Impera"
+  nf_legion.10.c: "Decimatio"
+
+  #Placeholder Localisation Begins
+  nf_legion.11.t: "Outcome of the Hoover Dam"
+  nf_legion.11.d: "It's over what actually happened?"
+  nf_legion.11.a: "You lost loser"
+  nf_legion.11.b: "You won! Good job"
+
+  nf_legion.12.t: "Caesar sends us a 'request'"
+  nf_legion.12.d: "A messanger from Caesar has arrived and brings forth a letter of invitation to the legion. They wish to allow us to crush those who have dared threaten us and abused us.\n\nWhat should we do my Khan?"
+  nf_legion.12.a: "Accept his invitation"
+  nf_legion.12.b: "Decline. We don't need his assistance"
+
+  nf_legion.13.t: "The Khans Response"
+  nf_legion.13.d: "The Khans have accepted your generious invitation to the Legion. They will be powerful allies."
+  nf_legion.13.a: "Very Good"
+
+  nf_legion.14.d: "The Khans have refused your generious invitation to the Legion! They will pay for this transgression!"
+  nf_legion.14.a: "Fools"
+  #Placeholder Localisation Ends
+
+  vulpes_chosen: "Vulpes has to contend with Lanius' Eastern Legions"
+  lanius_chosen: "Lanius defends against a revolt by Vulpes Inculta"
+  lucius_chosen: "Switch to Lucius and revolt against Caesar's hypocrisy"
+  caesar_chosen: "Stay as Caesar and instate the New Thesis"
+  load_CES_crossing_party: "§Y5 Elite Infantry Units seize Parker Strip§!"
+  load_CES_crossing_party_nelson: "§Y5 Elite Infantry Units seize Nipton§!"
+  legion_had_civil_war: "Legion Civil War Begun"

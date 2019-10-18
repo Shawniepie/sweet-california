@@ -1,0 +1,1523 @@
+focus_tree = {
+	id = 'Shi'
+	country = {
+		factor=0
+		modifier = {
+			add = 20
+			tag = SHI
+		}
+	} 
+	default = no 	
+	#Focus for Arrival 
+	focus = { 
+		id = arrival
+		icon = GFX_focus_wonderweapons 
+		ai_will_do = { factor = 1 } 
+ 		x =22
+ 		y =0 
+		completion_reward = {
+			country_event = { id = shi_event.1 }
+		} 
+ 		cost = 1.0
+		available_if_capitulated = yes  
+	}	
+	#Focus for initialyears
+	focus = { 
+		id = initialyears
+		icon = GFX_focus_man_claim_the_mandate_of_heaven
+		ai_will_do = { factor = 1 } 
+ 		x =22
+ 		y =1 
+ 		completion_reward = {
+			country_event = { id = shi_event.2 }
+		}
+		mutually_exclusive = { } 
+ 		prerequisite = { focus = arrival } 
+ 		cost = 1.0
+		available_if_capitulated = yes 
+	}  
+	#Focus for rise of the shi
+	focus = { 
+		id = riseoftheshi
+		icon = GFX_goal_generic_war_with_comintern 
+		ai_will_do = { factor = 1 } 
+ 		x =22
+ 		y =2
+ 		completion_reward = {
+			country_event = { id = shi_event.3 }
+		}
+  
+ 		prerequisite = { focus = initialyears } 
+ 		cost = 1.0
+		available_if_capitulated = yes  
+	}
+	#Focus for Rebuild the PLNA
+	focus = { 
+		id = RebuildthePLNA
+		icon = GFX_goal_generic_navy_cruiser 
+		ai_will_do = { factor = 1 } 
+ 		x =24
+ 		y =4
+ 		completion_reward = {
+			add_tech_bonus = {
+				name = naval_doctrine_bonus
+				bonus = 0.5
+				uses = 2
+				category =	naval_doctrine
+			}
+		}
+
+ 		prerequisite = { focus = riseoftheshi } 
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Secure Pre-War Maps
+	focus = { 
+		id = secureprewarmaps
+		icon = GFX_goal_generic_intelligence_exchange 
+		ai_will_do = { factor = 1 } 
+ 		x =23
+		y =5
+		completion_reward = {
+			add_ideas = Shi_Range
+		}
+
+ 		mutually_exclusive = { } 
+		prerequisite = { focus = RebuildthePLNA } 
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+
+	#Focus for Rebuild The San Jose Dockyards
+	focus = { 
+		id = sanjosedockyards
+		icon = GFX_goal_generic_amphibious_assault 
+		ai_will_do = { factor = 1 } 
+ 		x =25
+ 		y =5
+ 		completion_reward = {
+			104 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+ 		prerequisite = { focus = RebuildthePLNA } 
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Prepare For The Eastern Expedition
+	focus = { 
+		id = easternexpedition
+		icon = GFX_goal_generic_war_with_comintern
+		ai_will_do = { factor = 1} 
+ 		x =24
+		y =6
+		completion_reward = {
+			country_event = { id = shi_event.5 }
+		}
+
+ 		mutually_exclusive = { } 
+ 		prerequisite = { focus = sanjosedockyards }
+ 		prerequisite = { focus = secureprewarmaps }
+ 		cost = 8.6
+		available_if_capitulated = yes  
+	}
+	#Focus for The Hawaiian Isles
+	focus = { 
+		id = hawaiianisles
+		icon = GFX_goal_generic_construct_naval_dockyard 
+		ai_will_do = { factor = 1} 
+ 		x =24
+ 		y =7
+ 		completion_reward = {
+			country_event = { id = shi_event.6 }
+		}
+
+ 		mutually_exclusive = { } 
+ 		prerequisite = { focus = easternexpedition }
+ 		cost = 8.6
+		available_if_capitulated = yes  
+	}
+	#Focus for The Japan Expedition
+	focus = { 
+		id = japanexpedition
+		icon = GFX_focus_AST_war_japan
+		ai_will_do = { factor = 1} 
+ 		x =24
+		y =8
+ 		ompletion_reward = {
+			country_event = { id = shi_event.7 }
+		}  
+ 		prerequisite = { focus = hawaiianisles }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	} 
+	#Focus for The Mainland Expedition
+	focus = { 
+		id = mainlandexpedition
+		icon = GFX_focus_chi_one_china_policy
+		ai_will_do = { factor = 1} 
+		x =24
+ 		y =9
+ 		completion_reward = {
+			country_event = { id = shi_event.8 }
+		}  
+  		prerequisite = { focus = japanexpedition }
+ 		cost = 8.6
+		available_if_capitulated = yes  
+	}
+	#Focus for The Power Struggle
+	focus = { 
+		id = Shi_PowerStruggle
+		icon = GFX_goal_generic_ideological_fury_focus
+		ai_will_do = { factor = 1} 
+ 		x =35
+ 		y =4
+ 		completion_reward = {
+			add_political_power = 50 
+		}
+
+		prerequisite = { focus = riseoftheshi }
+		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Jing Tie Gahng
+	focus = { 
+		id = JingTieGahng
+		icon = GFX_goal_intellectual
+		ai_will_do = { factor = 1} 
+		x =40
+ 		y =5
+		completion_reward = {
+ 			set_politics = {
+				ruling_party = intellectuals
+				elections_allowed = no		
+				create_country_leader = {
+					name = "Jing Tie Gahng"
+					id = 2753
+					desc = "Jing"
+					picture = "gfx/leaders/SHI/shiguy.dds"
+					expire = "3000.1.1"
+					ideology = technocracy
+					add_popularity = {
+						ideology = intellectuals
+						popularity = 0.30
+					}
+				}
+			}
+		}
+  
+		mutually_exclusive = { focus = TheAdvisor } 
+		mutually_exclusive = { focus = TheEmperor } 
+ 		prerequisite = { focus = Shi_PowerStruggle }
+		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Remove The Traditionalists 
+	focus = { 
+		id = removethetraditionalists
+		icon = GFX_goal_generic_demand_territory
+		ai_will_do = { factor = 1} 
+ 		x =40
+ 		y =6
+ 		completion_reward = {
+			add_stability = -.10
+			add_ideas = intellectualgrowthinshi	
+		}  
+ 		prerequisite = { focus = JingTieGahng }
+ 		cost = 8.6
+ 		available_if_capitulated = yes  
+	}
+	#Focus for Shi-Brotherhood Cooperation
+	focus = { 
+		id = shicooperation
+		icon = GFX_focus_research
+		ai_will_do = { factor = 1} 
+ 		x =40
+ 		y =7
+ 		completion_reward = {
+			add_research_slot = 1
+		}  
+ 		prerequisite = { focus = removethetraditionalists }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+ #Focus for Repair Shi-Vagrants Relations
+	focus = { 
+		id = shivagrantsrelations
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		ai_will_do = { factor = 1} 
+ 		x = 38
+ 		y = 7
+		completion_reward = {
+			add_opinion_modifier = { target = VAG modifier = ShiVagrelations }
+			VAG = {
+				add_opinion_modifier = { target = SHI modifier = Allies }
+			}
+		}  
+		prerequisite = { focus = removethetraditionalists }
+		cost = 8.6
+		available_if_capitulated = yes 
+	} 
+  #Focus for Vagrants No More
+	focus = { 
+		id = vagrantsnomore
+		icon = GFX_focus_generic_treaty 
+		ai_will_do = { factor = 1} 
+ 		x = 38
+ 		y = 8
+ 		completion_reward = {
+			annex_country = { target = VAG  }
+			set_technology = { capital_ship = 1 }
+			load_oob = Valdez
+		}
+
+ 		prerequisite = { focus = shivagrantsrelations }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Brotherhood Scribes
+	focus = { 
+		id = BrotherhoodScribes
+		icon = GFX_goal_moj_scribal_thought
+		ai_will_do = { factor = 1} 
+ 		x =40
+ 		y =8
+ 		completion_reward = {
+			BOS = {
+				country_event = { id = shi_event.10 }			
+			}
+		}  
+ 		prerequisite = { focus = shicooperation }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for The Codex
+	focus = { 
+		id = thecodex
+		icon = GFX_goal_HEA_focus_precursers
+		ai_will_do = { factor = 1} 
+ 		x =41
+ 		y =9
+ 		completion_reward = {
+			add_ideas = BOSTraining2
+		}  
+ 		prerequisite = { focus = BrotherhoodScribes }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}  
+	#Focus for Joint Shi-BOS Cooperation
+	focus = { 
+		id = shiboscooperation
+		icon = GFX_goal_generic_BoS_diplomatic_focus
+		ai_will_do = { factor = 1} 
+ 		x =39
+ 		y = 9
+ 		completion_reward = {
+			diplomatic_relation = { country = BOS relation = non_aggression_pact }
+		}
+		prerequisite = { focus = BrotherhoodScribes }
+		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for The Shi Chapter
+	focus = { 
+		id = Shi_ShiChapter
+		icon = GFX_goal_NCR_Steeldeal
+		ai_will_do = { factor = 1} 
+		x = 40
+ 		y = 10
+		completion_reward = {
+			BOS = {
+			add_to_faction = SHI
+		}
+
+		set_cosmetic_tag = SHI
+		}  
+ 		prerequisite = { focus = shiboscooperation }
+ 		prerequisite = { focus = thecodex }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}	
+	#Focus for The Advisor
+	focus = { 
+		id = TheAdvisor
+		icon = GFX_focus_generic_treaty
+		ai_will_do = { factor = 1} 
+ 		x =35
+ 		y =5
+ 		completion_reward = {
+			set_politics = {
+				ruling_party = elites
+				elections_allowed = no
+			}
+
+			create_country_leader = {
+				name = "Ken Lee"
+				id = 56464646
+				desc = "Ken"
+				picture = "gfx/leaders/SHI/advisor.dds"
+				expire = "3000.1.1"
+				ideology = conspiratory_oligarchy 
+				add_popularity = {
+					ideology = elites
+					popularity = 0.30
+				}
+			}
+		}
+
+		mutually_exclusive = { focus = JingTieGahng} 
+		mutually_exclusive = { focus = TheEmperor} 
+ 		prerequisite = { focus = Shi_PowerStruggle }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}	
+	#Focus for Crush The Hubologists
+		focus = { 
+		id = crushthehubologists
+		icon = GFX_goal_HEA_focus_tribals
+		ai_will_do = { factor = 1} 
+ 		x = 33
+ 		y =6
+ 		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BOL
+			}
+		}
+ 		prerequisite = {
+			focus = TheAdvisor
+			focus = TheEmperor
+		}
+
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for IncorporateConcord
+	focus = { 
+		id = shiincorporateconcord
+		icon = GFX_goal_generic_position_armies
+		ai_will_do = { factor = 1} 
+ 		x =33
+ 		y =7
+ 		completion_reward = {
+ 			add_state_core = 473
+ 			473 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}  
+		}
+
+		available = {
+			controls_state = 473
+		}
+
+ 		prerequisite = { focus = crushthehubologists }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Disperse The Vagrants
+	focus = { 
+		id = dispersethevagrants
+		icon = GFX_focus_generic_little_entente 
+		ai_will_do = { factor = 1} 
+ 		x =31
+ 		y =6
+ 		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = VAG
+				
+			}
+		} 
+		prerequisite = {
+			focus = TheAdvisor
+			focus = TheEmperor
+		}
+
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for PMV Valdez
+	focus = { 
+		id = Shi_repairthepmvvaldez
+		icon = GFX_goal_bos_steel_cage
+		ai_will_do = { factor = 1} 
+ 		x = 31
+ 		y =7
+ 		completion_reward = {
+  			add_state_core = 474
+			set_technology = { capital_ship = 1 }
+			manpower = 1250
+		}
+
+		available = {
+			controls_state = 474
+		}
+
+		prerequisite = { focus = dispersethevagrants }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Consolidate Power
+	focus = { 
+		id = ConsolidatePower
+		icon = GFX_goal_generic_ideological_fury_focus
+		ai_will_do = { factor = 1 } 
+ 		x =35
+		y =6
+ 		completion_reward = {
+			add_stability = -.10
+			add_ideas = elitegrowthinshi	
+		}
+
+ 		prerequisite = { focus = TheAdvisor }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Reveal The True Emperor 
+	focus = { 
+		id = revealtheemperor
+		icon = GFX_goal_emperor
+		ai_will_do = { factor = 1} 
+ 		x =35
+ 		y =7
+		completion_reward = {
+			add_stability = -.10
+			add_war_support  = .10
+			add_popularity = {
+				ideology = elites
+				popularity = 0.25
+			}
+			add_popularity = {
+				ideology = ruler
+				popularity = -0.30
+			}	
+		}
+
+		prerequisite = { focus = ConsolidatePower }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Revive The Red Menace
+	focus = { 
+		id = revivetheredmenace
+		icon = GFX_goal_generic_war_focus
+		ai_will_do = { factor = 1} 
+ 		x =35
+ 		y =8
+ 		completion_reward = {
+			add_ideas = Red_Menace
+		}  
+ 		prerequisite = { focus = revealtheemperor }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}	
+	#Focus for Prepare For The Inevitable
+	focus = { 
+		id = shi_preparefortheinevitable
+		icon = GFX_goal_NCR_Ranger_Can_Openers
+		ai_will_do = { factor = 1} 
+ 		x = 34
+ 		y = 9
+ 		completion_reward = {
+			add_ideas = Preparations_Shi		
+			163 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}	
+		}
+
+ 		prerequisite = { focus = revivetheredmenace }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}		
+	#Focus for Revive Pre-War Jingoism
+	focus = { 
+		id = revive_pre_war_jingoism
+		icon = GFX_focus_generic_diplomatic_treaty 
+		ai_will_do = { factor = 1} 
+ 		x = 36
+ 		y = 9
+ 		completion_reward = {
+			add_ideas = Jingoism_Shi 
+			add_war_support = .15			
+		}
+ 		prerequisite = { focus = revivetheredmenace }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}	
+	#Focus for Our Greatest Threat 
+	focus = { 
+		id = TheShiEmpire
+		icon = GFX_goal_bos_generic
+		ai_will_do = { factor = 1} 
+ 		x =35
+ 		y =10
+ 		completion_reward = {
+				create_wargoal = {
+				type = annex_everything
+				target = BOS
+			}
+		}
+		  
+ 		prerequisite = { focus = shi_preparefortheinevitable }
+		prerequisite = { focus = revive_pre_war_jingoism }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for TheEmperor
+	focus = { 
+		id = TheEmperor
+		icon = GFX_goal_shi_ai
+		ai_will_do = { factor = 1} 
+ 		x =28
+ 		y =5
+ 		completion_reward = {
+			add_stability = .10
+			add_war_support  = .10
+		}
+
+ 		prerequisite = { focus = Shi_PowerStruggle }
+		mutually_exclusive = { focus = JingTieGahng } 
+		mutually_exclusive = { focus = TheAdvisor } 
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}	
+	#Focus for Reinforce Shi Tradition
+	focus = { 
+		id = reinforceshitradition
+		icon = GFX_focus_prc_proclaim_the_peoples_republic
+		ai_will_do = { factor = 1} 
+ 		x =28
+ 		y =6
+ 		completion_reward = {
+			add_ideas = tradition22
+			add_stability = 0.05
+		}
+
+ 		prerequisite = { focus = TheEmperor }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Bolster Our Forces
+	focus = { 
+		id = bolsterourforces
+		icon = GFX_KHA_focus_army_2
+		ai_will_do = { factor = 1} 
+		x =29
+ 		y =7
+ 		completion_reward = {
+			add_ideas = bolsterourforces
+		}  
+ 		prerequisite = { focus = reinforceshitradition }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}	
+	#Focus for Shi Cultural Identity
+	focus = { 
+		id = solidifytheshiculturalidentity
+		icon = GFX_focus_prc_agrarian_socialism 
+		ai_will_do = { factor = 1} 
+ 		x =29
+ 		y =8
+		completion_reward = {
+			add_war_support = .20
+			add_ideas = shiculture
+		}  
+ 		prerequisite = { focus = bolsterourforces }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	} 
+	#Focus for Shi Cultural Identity
+	focus = { 
+		id = shiunity
+		icon = GFX_goal_generic_dangerous_deal 
+		ai_will_do = { factor = 1} 
+ 		x =29
+ 		y =9
+ 		completion_reward = {
+			add_ideas = UnityWithinRealm
+		}  
+ 		prerequisite = { focus = solidifytheshiculturalidentity }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Repair The Emperors Data Stores
+		focus = { 
+		id = emperordatastores
+		icon = GFX_goal_generic_data_focus
+		ai_will_do = { factor = 1} 
+ 		x =27
+ 		y =7
+ 		completion_reward = {
+			add_research_slot = 1
+		}  
+ 		prerequisite = { focus = reinforceshitradition }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Authorize Project Sentience
+	focus = { 
+		id = projectsentience
+		icon = GFX_goal_NEW_bio_med_gel_experiments
+		ai_will_do = { factor = 1} 
+ 		x =27
+ 		y =8
+ 		completion_reward = {
+			add_timed_idea = {
+				idea = ProjectSentience
+				days = 120
+			}
+		}
+
+ 		prerequisite = { focus = emperordatastores }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Make The Emperor Self-Aware
+	focus = { 
+		id = SelfAwareEmperor
+		icon = GFX_goal_generic_advanced_technology_focus
+		ai_will_do = { factor = 1} 
+ 		x =27
+ 		y =9
+ 		completion_reward = {
+			add_stability = 0.10
+			add_ideas = SelfAware
+		}
+
+ 		prerequisite = { focus = projectsentience }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for The Eternal Emperor
+		focus = { 
+		id = theeternalemperor
+		icon = GFX_goal_shi_ai
+		ai_will_do = { factor = 1 } 
+ 		x =28
+ 		y =10
+ 		completion_reward = {
+			add_stability = 0.15
+			add_ideas = EternalEmperor
+		}
+
+ 		prerequisite = { focus = shiunity }
+ 		prerequisite = { focus = SelfAwareEmperor }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Rebuild China Town 
+	focus = { 
+		id = rebuildchinatown
+		icon = GFX_focus_man_claim_the_mandate_of_heaven
+		ai_will_do = { factor = 1 }
+ 		x =20
+ 		y =4
+ 		completion_reward = {
+			163 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+ 		mutually_exclusive = { } 
+ 		prerequisite = { focus = riseoftheshi } 
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for The Rubble of San Jose
+		focus = { 
+		id = rubbleofsanjose
+		icon = GFX_goal_generic_slums_focus
+		ai_will_do = { factor = 1} 
+ 		x =21
+ 		y =5
+ 		completion_reward = {
+			104 = {
+			add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+ 		mutually_exclusive = { } 
+ 		prerequisite = { focus = rebuildchinatown } 
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}	
+	#Focus for Scavenge Silicon Valley
+	focus = { 
+		id = scavengesiliconvalley
+		icon = GFX_goal_generic_data_focus
+		ai_will_do = { factor = 1} 
+ 		x =21
+ 		y =6
+ 		completion_reward = {
+			104 = {
+				add_resource = {
+					type = metal
+					amount = 20
+				}
+			}
+		}
+
+ 		mutually_exclusive = { } 
+ 		prerequisite = { focus = rubbleofsanjose } 
+ 		cost = 8.6
+ 		available_if_capitulated = yes  
+	}
+	#Focus for Rebuild San Francisco
+	focus = { 
+		id = rebuildsanfrancisco
+		icon = GFX_goal_NCR_The_Boneyard
+		ai_will_do = { factor = 1} 
+ 		x = 19
+ 		y =5
+ 		completion_reward = {
+			163 = {
+			add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		} 
+
+		mutually_exclusive = { } 
+ 		prerequisite = { focus = rebuildchinatown } 
+ 		cost = 8.6
+  		available_if_capitulated = yes
+	}
+	#Focus for Build The Steel Palace
+	focus = { 
+		id = buildthesteelpalace
+		icon = GFX_goal_generic_bunkers_focus
+		ai_will_do = { factor = 1} 
+ 		x = 19
+ 		y =6
+ 		completion_reward = {
+			163 = {
+				add_resource = {
+					type = advanced_technology
+					amount = 8
+				}
+			}
+			163 = {
+				add_resource = {
+					type = electronics
+					amount = 8
+				}
+			}  
+		}
+ 		mutually_exclusive = { } 
+ 		prerequisite = { focus = rebuildsanfrancisco } 
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Advanced Construction Techniques
+	focus = { 
+		id = advancedconstructiontechniques
+		icon = GFX_goal_generic_military_industry_focus
+		ai_will_do = { factor = 1} 
+		x = 20
+ 		y =7
+ 		completion_reward = {
+			add_ideas = BuildingTech
+		}
+
+ 		prerequisite = { focus = buildthesteelpalace } 
+ 		prerequisite = { focus = scavengesiliconvalley } 
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for The Star of the Wastes
+	focus = { 
+		id = starofthewastes
+		icon = GFX_focus_prc_agrarian_socialism 
+		ai_will_do = { factor = 1} 
+ 		x = 20
+ 		y =8
+ 		completion_reward = {
+			add_ideas = Immigration
+		}
+
+ 		mutually_exclusive = { } 
+ 		prerequisite = { focus = advancedconstructiontechniques } 
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Dealing With The Cult
+	focus = { 
+		id = Shi_dealingwiththecult
+		icon = GFX_goal_HEA_focus_tribals
+		ai_will_do = { factor = 1} 
+ 		x = 42
+ 		y =7
+ 		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = BOL
+			}
+		}
+
+ 		prerequisite = {
+			focus = removethetraditionalists
+		}
+	
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for ConsolidateConcord
+	focus = { 
+		id = Shi_integrateconcord
+		icon = GFX_goal_generic_position_armies
+		ai_will_do = { factor = 1} 
+ 		x = 42
+ 		y =8
+ 		completion_reward = {
+			add_state_core = 473
+			473 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		prerequisite = { focus = Shi_dealingwiththecult }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for The Rebuilding The Shi Guard 
+	focus = { 
+		id = Shi_Guard
+		icon = GFX_focus_chi_whampoa_military_academy
+		ai_will_do = { factor = 1} 
+		x = 10
+ 		y = 4
+ 		completion_reward = {
+			country_event = { id = shi_event.9 }
+		}
+
+ 		prerequisite = { focus = riseoftheshi }
+ 		cost = 8.6 
+  		available_if_capitulated = yes  
+	}
+
+	#Focus for Outside Recruitment
+	focus = { 
+		id = outside_recruitment
+		icon = GFX_focus_generic_military_mission
+		ai_will_do = { factor = 1} 
+ 		x = 3
+ 		y = 5
+ 		completion_reward = {
+			add_political_power = 100
+		}		  
+ 		prerequisite = { focus = Shi_Guard }
+ 		cost = 2
+		available_if_capitulated = yes
+	}	
+	#Focus for Rebuild Pre-War Military Facilities
+	focus = { 
+		id = prewarfacilities
+		icon = GFX_goal_generic_military_industry_focus
+		ai_will_do = { factor = 1} 
+ 		x = 12
+ 		y = 5
+ 		completion_reward = {
+			163 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		prerequisite = { focus = Shi_Guard }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Technological Focus 
+	focus = { 
+		id = technological_focus
+		icon = GFX_goal_bos_generic_research
+		ai_will_do = { factor = 1} 
+ 		x = 16
+ 		y = 5
+ 		completion_reward = {
+			add_ideas = TechnologicalFocus
+		}
+
+ 		prerequisite = { focus = Shi_Guard }
+ 		cost = 8.6
+		available_if_capitulated = yes  
+	}
+	#Focus for Chinese_Armor
+	focus = {  
+		id = chinese_armor
+		icon = GFX_goal_focus_chinese_stealth_armour
+		ai_will_do = { factor = 1} 
+ 		x = 17
+ 		y = 6
+ 		completion_reward = {
+			set_technology = {
+				chinese_armour = 1
+			}
+
+			hidden_effect = {
+				load_oob = CrimsonDragoons1
+			}
+		}
+
+ 		prerequisite = { focus = technological_focus }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Establish The Crimson Dragoons
+	focus = { 
+		id = crimson_dragoons
+		icon = GFX_focus_chi_whampoa_military_academy
+		ai_will_do = { factor = 1} 
+ 		x = 17
+ 		y = 7
+ 		completion_reward = {
+			load_oob = CrimsonDragoons
+			add_ideas = CrimsonDragoons22
+			create_corps_commander = {				   
+				name = "Li Feng"
+    			portrait_path = "gfx/leaders/SHI/Crimson_Dragoon.dds"
+    			skill = 4
+    			traits = {  			
+					attack_skill = 4
+					defense_skill = 2
+					planning_skill = 3
+					logistics_skill = 3
+				}
+			}
+
+ 			prerequisite = { focus = chinese_armor }
+ 			cost = 8.6
+  			available_if_capitulated = yes  
+		}
+	}
+	#Focus for Improved Energy Schematics
+	focus = { 
+		id = energy_weapon
+		icon = GFX_goal_generic_common_energy_weapons_focus
+		ai_will_do = { factor = 1} 
+ 		x = 15
+ 		y = 6
+ 		completion_reward = {
+			set_technology = {
+			  improved_laser_weaponry = 1
+			}
+		}
+
+ 		prerequisite = { focus = technological_focus }
+ 		cost = 8.6
+  		available_if_capitulated = yes
+	}
+	#Focus for Rebuild The Early-Warning Weapons System
+	focus = { 
+		id = early_warning
+		icon = GFX_goal_NCR_Blast_from_the_Past
+		ai_will_do = { factor = 1} 
+ 		x = 13
+ 		y = 6
+ 		completion_reward = {
+			163 = {
+				add_building_construction = {
+					type = radar_station
+					level = 3
+					instant_build = yes
+				}
+			}
+
+			add_building_construction = {
+				type = anti_air_building
+				level = 3
+				instant_build = yes
+			}
+
+			104 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+		}		
+ 		prerequisite = { focus = prewarfacilities }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	} 	 
+	#Focus for Rebuild The San Jose Arsenal
+	focus = { 
+		id = rebuild_san_jose
+		icon = GFX_goal_generic_large_scale_normal_industry_focus
+		ai_will_do = { factor = 1} 
+ 		x = 11
+ 		y = 6
+ 		completion_reward = {
+		 	104 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			104 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+ 		prerequisite = { focus = prewarfacilities }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Streamlined Workshops 
+	focus = { 
+		id = streamlined_workshops
+		icon = GFX_goal_generic_production2 
+		ai_will_do = { factor = 1} 
+		x = 11
+ 		y = 7
+ 		completion_reward = {
+			add_ideas = Shi_Streamline
+		}
+
+ 		prerequisite = { focus = rebuild_san_jose }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Rebuild The San Francisco Defensive Line 
+	focus = { 
+		id = sanfrancisco_defensive_grid
+		icon = GFX_focus_generic_provoke_border_clashes
+		ai_will_do = { factor = 1} 
+ 		x = 13
+ 		y = 7
+ 		completion_reward = {
+			163 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = {
+						all_provinces = yes
+						limit_to_border = no
+					}
+					instant_build = yes
+				}
+			}
+			104 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+					instant_build = yes
+				}
+			}
+		}
+
+		prerequisite = { focus = early_warning }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+	#Focus for Offmap Factories
+	focus = { 
+		id = underground_workshops
+		icon = GFX_goal_generic_production2 
+		ai_will_do = { factor = 1} 
+ 		x = 12
+		y = 8
+ 		completion_reward = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 5
+			}
+		}
+
+ 		prerequisite = { focus = streamlined_workshops }
+ 		prerequisite = { focus = sanfrancisco_defensive_grid }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Maintain Traditional Conscription
+	focus = { 
+		id = Maintain_Traditional_Conscription
+		icon = GFX_KHA_focus_army_2
+		ai_will_do = { factor = 1} 
+ 		x = 1
+ 		y = 6
+ 		completion_reward = {
+			add_ideas = ShiOnly			
+			add_stability = .20			
+			add_war_support = .20			
+			add_political_power = 100
+		}
+
+ 		prerequisite = { focus = outside_recruitment }
+ 		mutually_exclusive = { focus = conscription_compromise } 
+ 		mutually_exclusive = { focus = necessity_conscription } 
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+
+ 
+	#Focus for The Conscription Compromise
+	focus = { 
+		id = conscription_compromise
+		icon = GFX_goal_generic_BoS_diplomatic_focus
+		ai_will_do = { factor = 1} 
+ 		x = 3
+ 		y = 6
+ 		completion_reward = {
+			add_ideas = shi_limited
+			add_ideas = LowMorale
+			add_stability = -0.10
+		}  
+ 		prerequisite = { focus = outside_recruitment }
+ 		mutually_exclusive = { focus = Maintain_Traditional_Conscription } 
+ 		mutually_exclusive = { focus = necessity_conscription } 
+ 		cost = 8.6 
+		available_if_capitulated = yes  
+	}
+	#Focus for Nessecary Conscription
+	focus = { 
+		id = necessity_conscription
+		icon = GFX_goal_generic_recruitment_focus
+		ai_will_do = { factor = 1} 
+ 		x = 5
+ 		y = 6
+ 		completion_reward = {
+			add_ideas = shi_all
+			add_ideas = MassConscription
+			add_stability = -.40
+		}
+
+ 		prerequisite = { focus = outside_recruitment }
+ 		mutually_exclusive = { focus = conscription_compromise } 
+ 		mutually_exclusive = { focus = Maintain_Traditional_Conscription } 
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+
+	#Focus for Cultural Unity
+	focus = { 
+		id = cultural_unity
+		icon = GFX_goal_generic_dangerous_deal
+		ai_will_do = { factor = 1} 
+ 		x = 1
+ 		y = 7
+ 		completion_reward = {
+			remove_ideas = ShiOnly
+			add_ideas = ShiOnly2
+		}  
+ 		prerequisite = { focus = Maintain_Traditional_Conscription }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Discipline The New Recruits
+	focus = { 
+		id = discipline_new_recruits
+		icon = GFX_focus_generic_little_entente
+		ai_will_do = { factor = 1} 
+ 		x = 3
+ 		y = 7
+ 		completion_reward = {
+			remove_ideas = LowMorale
+			
+		}
+
+ 		prerequisite = { focus = conscription_compromise }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Adapt To The New Times 
+	focus = { 
+		id = adapt_to_the_new_times
+		icon = GFX_focus_generic_military_academy
+		ai_will_do = { factor = 1} 
+ 		x = 5
+ 		y = 7
+ 		completion_reward = {
+			remove_ideas = MassConscription
+			add_ideas = newtimes
+		}
+		 
+ 		prerequisite = { focus = necessity_conscription }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+ 	#Focus for The Art Of War 
+	focus = { 
+		id = art_of_war
+		icon = GFX_goal_HEA_focus_precursers
+		ai_will_do = { factor = 1} 
+ 		x = 16
+ 		y = 8
+ 		completion_reward = {
+			add_ideas = ArtWar
+		}
+
+		prerequisite = { focus = gauss_weaponry22 }
+		prerequisite = { focus = crimson_dragoons }		
+ 		cost = 8.6
+		available_if_capitulated = yes
+	} 
+	#Focus for Gauss Weaponry
+	focus = { 
+		id = gauss_weaponry22
+		icon = GFX_goal_generic_advanced_technology_focus
+		ai_will_do = { factor = 1} 
+ 		x = 15
+ 		y = 7
+ 		completion_reward = {			
+			set_technology = { gauss_weaponry = 1 }			 
+		}
+
+		prerequisite = { focus = energy_weapon }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+ 	#Focus for Cheaper Stealth Armor
+	focus = { 
+		id = cheap_stealth
+		icon = GFX_goal_generic_data_focus
+		ai_will_do = { factor = 1} 
+		x = 17
+ 		y = 9 
+ 		completion_reward = {
+			add_ideas = CheapStealth
+		}
+
+ 		prerequisite = { focus = art_of_war }
+		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+ 	#Focus for Stealth Mk2
+	focus = { 
+		id = Stealth_mk2
+		icon = GFX_goal_black_shi
+		ai_will_do = { factor = 1} 
+ 		x = 15
+ 		y = 9
+ 		completion_reward = {
+			set_technology = {
+				chinese_armour_2 = 1
+			}
+		}
+
+ 		prerequisite = { focus = art_of_war }
+ 		cost = 8.6
+  		available_if_capitulated = yes   
+	}
+ 	#Focus for Create The Shi Airforce
+	focus = { 
+		id = shiairforce
+		icon = GFX_goal_Verti
+		ai_will_do = { factor = 1} 
+ 		x = 8
+ 		y = 5
+ 		completion_reward = {
+			set_technology = {	vertiberd_gunship = 1 }
+			set_technology = {	vertiberd_transport1 = 1 }
+			add_ideas = StreamlinedVertibirdProduction_Shi
+		}
+	 
+ 		prerequisite = { focus = Shi_Guard }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	} 
+	#Focus for Scavenge The San Francisco Airfield 
+	focus = { 
+		id = shiscavengeairfield
+		icon = GFX_goal_generic_air_fighter2 
+		ai_will_do = { factor = 1} 
+ 		x = 9
+ 		y = 6
+		completion_reward = {
+		    set_technology = {
+				salvaged_fighter = 1
+				scrap_divebomber = 1
+			}
+			add_equipment_to_stockpile = { 
+				type = fighter_equipment_1
+				amount = 25
+				producer = USA	
+			}
+			add_equipment_to_stockpile = { 
+				type = cas_equipment_1
+				amount = 25
+				producer = USA
+			} 						
+		}  
+ 		prerequisite = { focus = shiairforce }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Study Pre-War Aerial Doctrines
+	focus = { 
+		id = shiprewardoctrine
+		icon = GFX_goal_generic_advanced_technology_focus 
+		ai_will_do = { factor = 1} 
+ 		x = 7
+ 		y = 6
+ 		completion_reward = {
+			add_tech_bonus = {
+				name = air_bonus
+				bonus = 0.5
+				uses = 3
+				category = air_doctrine
+			}
+		}
+
+ 		prerequisite = { focus = shiairforce }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Rebuild The San Francisco Airfield
+	focus = { 
+		id = rebuildthesanfranciscoairfield
+		icon = GFX_goal_generic_airbases_focus 
+		ai_will_do = { factor = 1} 
+ 		x = 9
+ 		y = 7
+ 		completion_reward = {
+			163 = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+				
+			}
+		}
+
+ 		prerequisite = { focus = shiscavengeairfield }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for Streamlined Aerial Production
+	focus = { 
+		id = shistreamlinedaerial
+		icon = GFX_goal_generic_construct_mil_factory 
+		ai_will_do = { factor = 1} 
+ 		x = 7
+ 		y = 7
+ 		completion_reward = {
+			add_ideas = Shi_Simulations
+		}  
+ 		prerequisite = { focus = shiprewardoctrine }
+ 		cost = 8.6
+  		available_if_capitulated = yes  
+	}
+	#Focus for The Xian Project
+	focus = { 
+		id = xianfighterproject
+		icon = GFX_goal_shi_plane
+		ai_will_do = { factor = 1} 
+ 		x = 8
+ 		y = 8
+ 		completion_reward = {
+			set_technology = {
+			  xian_85_fighter = 1
+			}
+		}
+
+ 		prerequisite = { focus = shistreamlinedaerial }
+  		prerequisite = { focus = rebuildthesanfranciscoairfield }
+ 		cost = 8.6
+		available_if_capitulated = yes
+	}
+}
+
+
+
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	#End of focuses 

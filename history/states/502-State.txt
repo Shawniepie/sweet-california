@@ -1,0 +1,26 @@
+state = {
+	id = 502
+	name = "STATE_SALT-BEARER_TRIBELANDS"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+		water = 2
+	}
+
+	history = {
+		owner = TSI
+		add_core_of = TSI
+		victory_points = {
+			5337 5
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+
+	provinces = {
+		1910 1907 1898 2037 1911 1617 1669 2021 2920 5337 2839 2746 3066 3158
+	}
+}

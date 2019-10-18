@@ -1,0 +1,49 @@
+﻿l_english:
+ # decisions
+  irn_vlt_1_decisions: "Vault Entry"
+  irn_vlt_1_decisions_desc: "Besides the power armor that we found, the boys noticed that there are also other resources present in the vault’s entrance, and we should decide which resource we scavenge."
+  irn_decision_vlt_1_energy: "Energy"
+  irn_decision_vlt_1_composites: "Composit Materials"
+  irn_decision_vlt_1_advanced: "Advanced Technolog"
+
+
+  irn_vlt_2_decisions: "First Floor"
+  irn_vlt_2_decisions_desc: "In addition to the technology that we found in on the first floor, we also found scattered blueprints for other tech. Which blueprints should we scavenge?"
+  irn_decision_vlt_2_common: "Common Weaponry Technology"
+  irn_decision_vlt_2_melee: "Melee Weaponry Technology"
+  irn_decision_vlt_2_robots: "Robots Technology"
+
+  irn_vlt_3_decisions: "Seccond Floor"
+  irn_vlt_3_decisions_desc: "Besides the technology that we found in on the second floor, we also found scattered blueprints for other tech. Which blueprints should we scavenge?."
+  irn_decision_vlt_3_dog_tech: "K9 Technology"
+  irn_decision_vlt_3_pa_tech: "Power Armour Technology"
+  irn_decision_vlt_3_vehicles_tech: "Motorized Technology"
+
+  irn_bos_12_decisions: "Scientist Retrieval Decisions"
+  irn_bos_12_decisions_desc: "As we opted for the safer route, our least-affected men are going to retrive the scientists. Where should they look first?" 
+  irn_decision_bos_12_1: "Going through Last Hound"
+  irn_decision_bos_12_2: "Passing Castle Rock"
+  irn_decision_bos_12_3: "Going by the Colorado Springs"
+  irn_decision_bos_12_4: "Traversing through Pueblo City"
+  irn_decision_bos_12_5: "Sliding through Salida"
+  irn_decision_bos_12_6: "Ariving at Gunnison"
+
+
+  irn_pac_9_decisions: "Bull Wars"
+  irn_pac_9_decisions_desc: "While not the cleanest operation, some of our Hangdog raiders have infiltrated Caesar's Legion, and this gives us the opportunity to conduct sedition and sabotage on the Bull."
+  irn_decision_pac_9_propaganda: "Convince the Tribals to Join Us"
+  irn_decision_pac_9_steal: "Steal Thier Guns"
+  irn_decision_pac_9_raid: "Raid Thier Factories"
+
+  irn_pac_move_capital: "Move Capital"
+  irn_pac_move_capital_desc: "By moving our capital we will be able to reclaim our home, greatly increasing the morale of our people."
+  irn_decision_move_capital_1: "Move Capital to Dog City"
+
+  irn_pac_10_decisions: "Tribal Wisdom"
+  irn_pac_10_decisions_desc: "By integrating ourselves into Caesar's Legion, we have the chance to learn unique skills from the tribals that are a part of the Legion."
+  irn_decision_pac_10_nomadsoul: "Nomad Soul"
+  irn_decision_pac_10_clanfightingstyles: "Clan Fighting Styles"
+  irn_decision_pac_10_pathfinders: "Pathfinders"
+  irn_decision_pac_10_mansbestfriend: "Man's Best Friend"
+
+

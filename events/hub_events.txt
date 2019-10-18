@@ -1,0 +1,465 @@
+﻿add_namespace = hub_event
+
+country_event = {
+    id = hub_event.1
+    title = hub.0.t
+    desc = hub.0.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+
+    option = {
+    name = hub.0.a
+		1 = {
+			add_resource = {
+				type = metal
+				amount = 22
+			}
+		}
+	}
+
+	option = {
+		name = hub.0.b
+		1 = {
+			add_resource = {
+				type = advanced
+				amount = 12
+			}
+		}
+	}
+    option = {
+		name = hub.0.c
+		add_ideas = efficienteconomy
+		1 = {
+			add_resource = {
+				type = composites
+				amount = 32
+			}
+		}
+    }
+}
+
+country_event = {
+    id = hub_event.2
+    title = hub.1.t
+    desc = hub.1.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+    	name = hub.1.a
+		1 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+
+		add_popularity = {
+			ideology = people 
+			popularity = 0.20
+		}
+	}
+
+	option = {
+    	name = hub.1.b
+		1 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		add_popularity = {
+			ideology = elites 
+			popularity = 0.20
+		}		
+	}	
+}
+
+country_event = {
+    id = hub_event.3
+    title = hub.2.t
+    desc = hub.2.d
+    picture = GFX_event_generic_settlement_2                                        
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.2.a
+		1 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = hub.2.b
+		add_ideas = hubharold
+		add_stability = 0.1
+		add_war_support = 0.1
+	}
+
+    option = {
+		name = hub.2.c
+		add_stability = 0.15
+		add_war_support = 0.05
+		add_ideas = hubpoliceforce
+    }
+}
+
+country_event = {
+    id = hub_event.4
+    title = hub.3.t
+    desc = hub.3.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.3.a
+		19 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+
+	option = {
+		name = hub.3.b
+		19 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+	
+    option = {
+		name = hub.3.c
+		add_stability = 0.1
+		1 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 7
+				instant_build = yes
+			}
+		}
+    }
+
+	option = {
+		name = hub.3.d
+		add_equipment_to_stockpile = {
+			type = ballistic_equipment_1
+			amount = 2000
+			producer = NCR
+		}
+    }
+}
+
+country_event = {
+    id = hub_event.5
+    title = hub.4.t
+    desc = hub.4.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.4.a
+		add_political_power = 250
+	}
+
+}
+
+country_event = {
+    id = hub_event.6
+    title = hub.5.t
+    desc = hub.5.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.5.a
+		19 = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}		
+	}
+}
+
+country_event = {
+    id = hub_event.7
+    title = hub.6.t
+    desc = hub.6.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.6.a
+		country_event = hub_event.8
+	}
+}
+
+## Battle for the Hub takes place after 7
+country_event = {
+    id = hub_event.8
+    title = hub.7.t
+    desc = hub.7.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.7.a
+		add_manpower = -1500
+		add_stability = 0.3
+	}
+	
+	option = {
+		name = hub.7.b
+		add_manpower = 250
+		add_stability = -0.1
+	}
+}
+
+country_event = {
+    id = hub_event.9
+    title = hub.8.t
+    desc = hub.8.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = { #Say Yes#
+		name = hub.8.a
+		HUB= {
+			country_event = hub_event.11
+		}
+	}
+
+	option = { #Say No#
+		name = hub.8.b
+		HUB = { 
+			country_event = hub_event.12
+		}
+	}
+}
+
+country_event = {
+	id = hub_event.10
+	title = hub.9.t
+    desc = hub.9.d
+	picture = GFX_event_generic_settlement_1
+	is_triggered_only = yes
+	
+	option = {
+		name = hub_event.9.a 
+		NCR = {
+			add_to_faction = HUB 
+		}
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+	option = {
+		name = hub_event.9.b 
+	}
+}
+
+country_event = {
+    id = hub_event.11
+    title = hub.10.t
+    desc = hub.10.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {	     
+		name = hub.10.a
+		add_to_faction = BAR
+	}
+}
+
+country_event = {
+    id = hub_event.12
+    title = hub.11.t
+    desc = hub.11.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {	     
+		name = hub.11.a
+	}
+}
+
+country_event = { ## Boneyard Demands
+    id = hub_event.13
+    title = hub.12.t
+    desc = hub.12.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {	     
+		name = hub.12.a
+		country_event = hub_event.14	
+	}
+	
+	option = {	     
+		name = hub.12.b
+		country_event = hub_event.15
+	}
+}
+
+country_event = { ## Boneyard Accepts
+    id = hub_event.14
+    title = hub.13.t
+    desc = hub.13.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {	     
+		name = hub.13.a
+		transfer_state = 396
+		add_state_core = 396
+	}
+}
+
+country_event = { ## Boneyard Denies
+    id = hub_event.15
+    title = hub.14.t
+    desc = hub.14.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {	     
+		name = hub.14.a
+		add_state_core = 396
+		create_wargoal = {
+			type = annex_everything
+			target = BNS
+		}
+	}
+}
+
+country_event = { ## BOS Demands
+    id = hub_event.16
+    title = hub.15.t
+    desc = hub.15.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {	     
+		name = hub.15.a
+		country_event = hub_event.17
+	}
+	
+	option = {	     
+		name = hub.15.b
+		country_event = hub_event.18	
+	}
+}
+
+country_event = { ## BOS Accepts
+    id = hub_event.17
+    title = hub.16.t
+    desc = hub.16.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {	     
+		name = hub.16.a
+		transfer_state = 70
+		add_state_core = 70
+	}
+}
+
+country_event = { ## BOS Denies
+    id = hub_event.18
+    title = hub.17.t
+    desc = hub.17.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {	     
+		name = hub.17.a
+		add_state_core = 70
+		create_wargoal = {
+			type = annex_everything
+			target = BOS
+		}
+	}
+}
+
+country_event = {
+    id = hub_event.19
+    title = hub.18.t
+    desc = hub.18.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.18.a
+		country_event = hub_event.20
+	}
+}
+
+## Fight for our rights
+country_event = {
+    id = hub_event.20
+    title = hub.19.t
+    desc = hub.19.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.19.a
+		add_stability = 0.3
+		set_politics = {
+			ruling_party = people
+			elections_allowed = no
+		}
+	}
+}
+
+country_event = {
+    id = hub_event.21
+    title = hub.20.t
+    desc = hub.20.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.20.a
+		country_event = hub_event.22
+	}
+}
+
+## Fight for our rights
+country_event = {
+    id = hub_event.22
+    title = hub.21.t
+    desc = hub.21.d
+    picture = GFX_event_generic_settlement_1
+    is_triggered_only = yes
+    
+	option = {
+		name = hub.21.a
+		add_manpower = -1000
+		set_politics = {
+			ruling_party = ruler
+			elections_allowed = no
+		}
+	}
+}

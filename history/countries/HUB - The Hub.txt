@@ -1,138 +1,67 @@
 ﻿capital = 1
+oob = "HUB_2275"
 
-set_technology = {
-	grand_army = 1
-	standard_weaponry_tech = 1
-	melee_weaponry_tech_1 = 1
-	ballistic_weaponry_tech_1 = 1
-	support_weaponry = 1
-	fireteam_weaponry_tech = 1
-	recon_company_tech_1 = 1
-	bike_tech_1 = 1
-	tribal_civilization = 1
-	settled_civilization = 1
-	truck_tech_1 = 1
-	anti_tank_equipment_tech_1 = 1
-	special_forces_doctrine = 1
-	spec_ops_equipment_tech_1 = 1
-}
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
 	set_technology = {
-		nautics_tech_1 = 1
-		light_navy_hull_tech_1 = 1
-		waterproof_sealing_tech = 1
-		medium_navy_hull_tech_1 = 1
-		heavy_navy_hull_tech_1 = 1
-		naval_invasion_tech_1 = 1
-		naval_module_tech = 1
-		naval_armour_tech_1 = 1
-		naval_pd_module_tech_1 = 1
-		naval_communications_module_tech_1 = 1
-		naval_weapons_module_tech = 1
+		melee_weaponry_tech_1 = 1
+		grand_army = 1
+		ballistic_weaponry_tech_1 = 1
+		blunt_weaponry = 1
+		tribal_civilization = 1
+		settled_civilization = 1
 	}
+	
+	set_stability = 0.6
+	set_war_support = 0.2
+set_convoys = 25
+	set_popularities = {
+	 people = 20
+        elites = 80
+        intellectuals = 0
+        ruler = 0
 }
-if = {
-	limit = {
-		NOT = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		nautics_tech_non_mtg_1 = 1
-		light_navy_hull_tech_non_mtg_1 = 1
-		waterproof_sealing_tech_non_mtg = 1
-		medium_navy_hull_tech_non_mtg_1 = 1
-		naval_invasion_tech_non_mtg_1 = 1
-		heavy_navy_hull_tech_non_mtg_1 = 1
-	}
-}
-
-set_stability = 0.65
-set_war_support = 0.2
-set_convoys = 60
-set_research_slots = 4
-
-set_politics = {
-	ruling_party = ruler
+    set_politics = {
+	ruling_party = elites
+	election_frequency = 0
 	elections_allowed = no
 }
 
-set_popularities = {
-	people = 5
-	elites = 5
-	intellectuals = 5
-	ruler = 85
+set_research_slots = 3
+
+add_ideas = {
+	settler_nation
 }
 
-# Allgood: Ruler
-create_country_leader = {
-	name = "Allgood Murphy"
-	desc = "Allgood_DESC"
-	picture = "gfx/leaders/NCR/portrait_allgood.dds"
-	expire = "3000.1.1"
-	ideology = benevolent_dictatorship
+create_country_leader  = {
+    name = "Allen Green"
+    desc = ""
+    picture = "gfx/leaders/TheHub/allenGreen.dds"
+    expire = "3000.1.1"
+    ideology = militarist_oligarchy
+    
+    traits = {
+    }
+}
+create_corps_commander = {
+    name = "General_McGee"
+    portrait_path = "gfx/leaders/TheHub/General_McGee.dds"
+    skill = 2
+    traits = {
+    }
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 }
 
-create_equipment_variant = {
-	name = "River Boat"
-	type = ship_hull_light_1
-	name_group = NCR_LIGHT
-	parent_version = 0
-	modules = {
-		fixed_ship_command_slot = ship_command_module_1
-		fixed_ship_engine_slot = light_ship_oars_module
-		fixed_ship_engine_slot_1 = light_ship_oars_module
-		fixed_ship_battery_slot = ship_light_mounted_gun_module
-		fixed_ship_battery_slot_1 = ship_light_mounted_gun_module
-		fixed_ship_detection_slot = ship_detection_module_1
-		fixed_ship_detection_slot_1 = empty
-	}
+create_field_marshal = {
+   name = "General Royez"
+   portrait_path = "gfx/leaders/TheHub/GeneralRoyez.dds"
+   skill = 4
+   traits = {
+    }
+	attack_skill = 4
+	defense_skill =3
+	planning_skill = 2
+	logistics_skill = 3
 }
 
-create_equipment_variant = {
-	name = "Destroyer"
-	type = ship_hull_medium_1
-	name_group = NCR_MEDIUM
-	parent_version = 0
-	modules = {
-		fixed_ship_command_slot = ship_command_module_1
-		fixed_ship_engine_slot = medium_ship_oars_module
-		fixed_ship_engine_slot_1 = medium_ship_oars_module
-		fixed_ship_battery_slot = ship_medium_mounted_gun_module
-		fixed_ship_battery_slot_1 = ship_medium_mounted_gun_module
-		fixed_ship_detection_slot = ship_detection_module_1
-		fixed_ship_detection_slot_1 = empty
-		fixed_ship_armour_slot = empty
-		fixed_ship_point_defense_slot = ship_light_mounted_gun_module
-		fixed_ship_point_defense_slot_1 = ship_light_mounted_gun_module
-		front_1_custom_slot = ship_medium_mounted_gun_module
-	}
-}
-
-create_equipment_variant = {
-	name = "Heavy Ship"
-	type = ship_hull_heavy_1
-	name_group = NCR_HEAVY
-	parent_version = 0
-	modules = {
-		fixed_ship_command_slot = ship_command_module_1
-		fixed_ship_engine_slot = heavy_ship_oars_module
-		fixed_ship_engine_slot_1 = heavy_ship_oars_module
-		fixed_ship_battery_slot = ship_heavy_mounted_gun_module
-		fixed_ship_battery_slot_1 = ship_heavy_mounted_gun_module
-		fixed_ship_detection_slot = ship_detection_module_1
-		fixed_ship_detection_slot_1 = ship_detection_module_1
-		fixed_ship_armour_slot = heavy_ship_armour_module_1
-		fixed_ship_point_defense_slot = ship_pd_module_1
-		fixed_ship_point_defense_slot_1 = ship_pd_module_1
-		fixed_ship_subsurface_slot = empty
-		fixed_ship_communication_slot = ship_communications_module_1
-		fixed_ship_storage_slot = empty
-		fixed_ship_special_slot = empty
-		front_1_custom_slot = ship_heavy_mounted_gun_module
-	}
-}
-
-# vim: set ft=pdx ts=2 sw=2 tw=79 :

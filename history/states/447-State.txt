@@ -1,0 +1,35 @@
+state = {
+	id = 447
+	name = "STATE_MOUNTAIN_HOME_AFB"
+	manpower = 17000
+	state_category = town
+
+	resources = {
+		water = 4
+		metal = 8
+		circuitry = 4
+		energy = 4
+		advanced = 12
+	}
+
+	history = {
+		owner = ENS
+		add_core_of = ENS
+		victory_points = {
+			4266 10
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			7149 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+		1363 2178 3546 4143 4264 4265 4266 7142 7143 7145 7146 7149
+	}
+}

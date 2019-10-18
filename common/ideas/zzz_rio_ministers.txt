@@ -1,0 +1,404 @@
+ideas = {
+	army_chief = {
+
+		juanita_flores = {
+			picture = BOS_generic4
+
+			allowed = {
+				original_tag = RRG
+			}
+
+			available = {
+				original_tag = RRG
+			}
+
+			traits = {
+				general_wait_and_see
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		rinaldo_martinez = {
+			picture = BOS_generic6
+
+			allowed = {
+				original_tag = RRG
+			}
+
+			available = {
+				has_completed_focus = rrg_mora_amigos
+			}
+			traits = {
+				veteran_paladin
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		pablo_jimenes = {
+			picture = generic_advisor6
+			allowed = {
+				original_tag = RRG
+			}
+			available = {
+				original_tag = RRG
+			}
+			traits = { settler_expansion }
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		leonardo_poblete = {
+			picture = generic_advisor13
+			allowed = {
+				original_tag = RRG
+			}
+			available = {
+				original_tag = RRG
+			}
+			traits = { settler_defend }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+	navy_chief = {
+
+		vincente = {
+
+			picture = idea_Wallace_Regdan
+
+			allowed = {
+				original_tag = RRG
+			}
+			available = {
+				has_completed_focus = rrg_mora_amigos
+			}
+			traits = { navy_chief_reform_2 }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		RRG_martinez = {
+			picture = generic_advisor33
+			allowed = {
+				original_tag = RRG
+			}
+			available = {
+				has_completed_focus = rrg_tuhunaan
+			}
+			traits = { settler_navy_buff }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	air_chief = {
+
+		Alines = {
+
+			picture = idea_Sariah_June
+
+			allowed = {
+				original_tag = RRG
+			}
+			available = {
+				has_completed_focus = rrg_mora_amigos
+			}
+
+			traits = { mormon_air_buff }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	high_command = {
+
+		alejandro = {
+			picture = GFX_idea_pablo
+			allowed = {
+				original_tag = RRG
+			}
+			available = {
+				has_completed_focus = rrg_mora_amigos
+			}
+			traits = { conquistador_captain }
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		senor_cromwell = {
+			picture = mexico_advisor19
+
+			allowed = {
+				original_tag = RRG
+			}
+
+			available = {
+				original_tag = RRG
+			}
+			traits = {
+				field_medic
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		leo_scarazzo = {
+
+			picture = mexico_advisor18
+
+			allowed = {
+				original_tag = RRG
+			}
+
+			available = {
+
+			}
+			traits = { local_sherrif }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		maria_carlos = {
+
+			picture = mexico_advisor13
+
+			allowed = {
+				original_tag = RRG
+			}
+
+			available = {
+				original_tag = RRG
+			}
+
+			traits = { caravan_guard }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	political_advisor = {
+		amelia_martinez = {
+
+			picture = generic_advisor16
+
+			allowed = {
+				original_tag = RRG
+			}
+			available = { has_completed_focus = rrg_trade_baroness }
+
+			traits = {	baroness }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		carlos_avila = {
+			picture = mexico_advisor16
+
+			allowed = {
+				original_tag = RRG
+			}
+
+			available = {
+				has_completed_focus = rrg_contingency
+			}
+			traits = {
+				contingency_minister
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		southern_hummingbird = {
+
+			picture = generic_advisor34
+
+			allowed = {
+				original_tag = RRG
+			}
+			available = { has_completed_focus = rrg_tribus }
+
+			traits = {	war_industrialist  }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		justin_walton = {
+
+			picture = generic_advisor34
+
+			allowed = {
+				original_tag = RRG
+			}
+			available = { has_completed_focus = rrg_trade_mogul }
+
+			traits = {	two_timing_dealer  }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		gaius_aetius = {
+
+			picture = lucius_minister
+
+			allowed = {
+				original_tag = RRG
+			}
+			available = { has_completed_focus = rrg_paullus_directive }
+
+			traits = {
+				caesar_redeemed
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+		jacob_martinez = {
+
+			picture = mexico_advisor3
+
+			allowed = {
+				original_tag = RRG
+			}
+			available = { has_completed_focus = rrg_warn_TAA_citizens }
+
+			traits = {
+				minor_baron
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		dominic_unger = {
+
+			picture = mexico_advisor4
+
+			allowed = {
+				original_tag = RRG
+			}
+
+			traits = {
+				political_mastermind
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		fio_orezzoli = {
+
+			picture = generic_advisor36
+
+			allowed = {
+				original_tag = RRG
+			}
+
+				traits = { man_of_commun }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		kim_carrion = {
+
+			picture = generic_advisor1
+
+			allowed = {
+				original_tag = RRG
+			}
+			available = { has_completed_focus = rrg_mora_amigos }
+			visible = { original_tag = RRG }
+
+			traits = {
+				decorated_hero
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+
+	theorist = {
+
+		cesare_lopez = {
+
+			picture = generic_advisor32
+
+			available = { original_tag = RRG }
+			visible = { original_tag = RRG }
+
+			research_bonus = {
+				cat_grand_army = 0.10
+			}
+
+			traits = { military_theorist }
+		}
+	}
+	materiel_manufacturer = {
+
+		designer = yes
+
+		high_noon_inc = {
+
+			picture = high_noon_arms
+
+			allowed = {
+				tag = RRG
+			}
+			research_bonus = {
+				infantry_weapons_tech_category = 0.05
+			}
+
+			traits = { high_noon_manufacturer }
+
+		}
+
+		xiuhcoatl_inc = {
+
+			picture = xiuhcoatl
+
+			allowed = {
+				tag = RRG
+			}
+			research_bonus = {
+				infantry_weapons_tech_category = 0.10
+			}
+
+			traits = { xiuhcoatl_manufacturer1 }
+
+		}
+	}
+}

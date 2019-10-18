@@ -1,0 +1,117 @@
+ideas = {
+	country = {
+		vault_geck_13 = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.1
+			}
+		}
+		vault_15_heritage = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.3
+			}
+		}
+		vault_rebuilding = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = -0.2
+
+			}
+		}
+		vault_21_economy = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		vault_22_research = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+			}
+		}
+		vault_70_data = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = 0.15
+			}
+		}
+		vault_29_diana = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.15
+				research_speed_factor = 0.01
+			}
+		}
+		vault_29_ZAX = {
+			picture = vault_open_bonus
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+	}
+}

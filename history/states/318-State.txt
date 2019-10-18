@@ -1,0 +1,25 @@
+state = {
+	id = 318
+	name = "STATE_TONTO_TRIBELANDS"
+	manpower = 7000
+	state_category = rural
+
+	resources = {
+	}
+
+	history = {
+		owner = PHR
+		add_core_of = CES
+		add_core_of = PHR
+		victory_points = {
+			2022 5
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		875 1691 2022 2023 2026 2831 5179 5181 5182 7966 7967
+	}
+}

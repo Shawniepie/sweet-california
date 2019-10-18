@@ -1,0 +1,162 @@
+##########################
+# Tzotzil National Ideas #
+#Scripted by Happy & Zusk#
+##########################
+
+ideas = {
+	country = {
+		tdt_idea_survivor_of_titans = {
+			picture = tdt_defense
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			targeted_modifier = {
+				tag = ATE
+				defense_bonus_against = 0.1
+			}
+
+			targeted_modifier = {
+				tag = ITZ
+				defense_bonus_against = 0.1
+			}
+
+			modifier = {
+				war_support_factor = 0.05
+				production_speed_bunker_factor = 0.05
+			}
+		}
+
+		tdt_idea_religious_freedoms = {
+			picture = tdt_religion
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.05
+				non_core_manpower = 0.01
+				political_power_gain = -0.10
+			}
+		}
+
+		tdt_idea_new_clearings = {
+			#picture =
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_dockyard_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
+			}
+		}
+
+		tdt_idea_silver_tongues = {
+			#picture =
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				trade_opinion_factor = 0.15
+				improve_relations_maintain_cost_factor = -0.20
+				political_power_gain = 0.2
+			}
+		}
+
+		tdt_idea_quick_wits = {
+			#picture =
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				planning_speed = 0.05
+				dig_in_speed = 0.05
+				recon_factor = 0.05
+				army_org_factor = -0.25
+			}
+		}
+		tdt_idea_dora = {
+			#picture =
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				army_leader_start_attack_level= 1
+				conscription_factor = 0.05
+				justify_war_goal_time = -0.10
+			}
+		}
+		tdt_idea_defense_of_the_realm = {
+			#picture =
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+
+		tdt_idea_itzan_trade_routes = {
+			#picture =
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.1
+				research_speed_factor = 0.1
+				stability_factor = 0.1
+			}
+		}
+
+		tdt_idea_impending_intervention = {
+			#picture =
+			allowed = { always = yes }
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				mobilization_speed = 0.1
+
+			}
+		}
+
+	}
+
+	political_advisor = {
+
+		tdt_special_defense_minister = {#johnny cash
+
+			picture = juan_efectivo_advisor
+
+			allowed = {
+				original_tag = TDT
+				has_completed_focus = tdt_protect_the_crossings
+			}
+
+			targeted_modifier = {
+				tag = ATE
+				defense_bonus_against = 0.05
+			}
+
+			targeted_modifier = {
+				tag = ITZ
+				defense_bonus_against = 0.05
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+}

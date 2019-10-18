@@ -1,0 +1,761 @@
+ideas = {
+	country = {
+
+		KHA_idea_the_stories_we_tell_ruler = {
+			picture = generic_morale_bonus
+			removal_cost = -1
+			modifier = {
+				army_speed_factor = 0.05
+				offence = 0.05
+				supply_consumption_factor = -0.10
+			}
+		}
+
+		KHA_idea_the_stories_we_tell_people = {
+			picture = generic_morale_bonus
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.10
+				defence = 0.05
+				army_speed_factor = 0.05
+			}
+		}
+
+		KHA_idea_what_happened_in_new_vegas_ruler = {
+			picture = VEG_Potential_Coup
+			removal_cost = -1
+			modifier = {
+				army_morale_factor = 0.05
+				army_core_attack_factor = 0.05
+			}
+		}
+
+		KHA_idea_what_happened_in_new_vegas_people = {
+			picture = VEG_Potential_Coup
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.10
+			}
+		}
+
+		KHA_idea_the_bitter_springs_massacre_ruler = {
+			picture = generic_purge
+			removal_cost = -1
+			modifier = {
+				offence = 0.05
+				army_speed_factor = 0.05
+				training_time_army_factor = -0.05
+			}
+		}
+
+		KHA_idea_the_bitter_springs_massacre_people = {
+			picture = generic_purge
+			removal_cost = -1
+			modifier = {
+				defence = 0.05
+				army_speed_factor = 0.025
+				training_time_army_factor = -0.1
+			}
+		}
+
+		KHA_idea_followers_of_the_apocalypse_both = {
+			picture = followers_card
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.10
+			}
+		}
+
+		KHA_idea_followers_of_the_apocalypse_science = {
+			picture = followers_card
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.10
+			}
+		}
+
+		KHA_idea_legion_trade = {
+			picture = KHA_idea_legion_trade
+			removal_cost = -1
+			available = {
+				AND = {
+					country_exists = CES
+					NOT = {
+						has_war_with = CES
+					}
+				}
+			}
+			modifier = {
+				MONTHLY_POPULATION = 0.03
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		KHA_idea_ourown_slave_trade = {
+			picture = KHA_ourown_slave_trade
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		KHA_idea_ncr_trade = {
+			picture = KHA_idea_trade_ncr
+			removal_cost = -1
+			available = {
+				AND = {
+					country_exists = NCR
+					NOT = {
+						has_war_with = NCR
+					}
+				}
+			}
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		KHA_idea_founders_of_the_chem_trade = {
+			picture = KHA_drugged_up
+			removal_cost = -1
+			modifier = {
+				offence = 0.025
+				political_power_gain = 0.1
+				stability_factor = -0.02
+			}
+		}
+
+		KHA_idea_addicted_khans1 = {
+			picture = drug_runners
+			removal_cost = -1
+			modifier = {
+				offence = 0.05
+				stability_factor = -0.05
+				army_org_factor = -0.05
+			}
+		}
+
+		KHA_idea_addicted_khans2 = {
+			picture = drug_runners
+			removal_cost = -1
+			modifier = {
+				offence = 0.05
+				defence = 0.05
+				war_support_factor = 0.02
+				army_org_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+
+		KHA_idea_always_be_prepared_khan = {
+			picture = generic_manpower_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.1
+				industry_repair_factor = 0.1
+				attrition = -0.1
+			}
+		}
+
+		KHA_idea_great_hunts = {
+			picture = KHA_great_hunts
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				defence = 0.05
+				out_of_supply_factor = -0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		KHA_idea_warrior_scholars = {
+			picture = KHA_lessons_from_history
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.1
+				research_speed_factor =0.05
+				production_speed_buildings_factor = 0.05
+				monthly_population = 0.10
+			}
+		}
+
+		KHA_idea_lessons_of_history = {
+			picture = KHA_lessons_from_history
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				monthly_population = 0.10
+			}
+		}
+
+		KHA_idea_wasteland_survival = {
+			picture = KHA_lessons_from_history
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = -0.05
+				army_speed_factor = 0.05
+			}
+		}
+
+		KHA_idea_crimson_caravan_trade_deals = {
+			picture = KHA_crisom_caravan_trade
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				offence = 0.025
+				political_power_gain = 0.1
+				stability_factor = -0.02
+			}
+			research_bonus = {
+				infantry_weapons_tech_category = 0.05
+			}
+		}
+
+		KHA_idea_upgrade_the_arsenal_idea = {
+			picture = KHA_overwhelming_firepower
+			allowed = {
+			}
+			removal_cost = -1
+			research_bonus = {
+				infantry_weapons_tech_category = 0.05
+			}
+		}
+
+		KHA_idea_the_khan_arena = {
+			picture = KHA_khan_arena
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				military_leader_cost_factor = -0.30
+				army_leader_start_level = 2
+				army_leader_start_attack_level = 1
+			}
+		}
+
+		KHA_idea_karl_ceasars_advisor = {
+			picture = KHA_Karl
+			allowed = {
+				not = {
+					has_war_with = CES
+				}
+			}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.15
+				non_core_manpower = 0.02
+			}
+		}
+
+		KHA_idea_national_spirit_rejection_of_automation_kha = {
+			picture = rejection_of_automation
+			allowed = {
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+			research_bonus = {
+				robotics_tech_category = -2
+				energy_weaponry_tech_category = -2
+			}
+		}
+
+		KHA_idea_avenge_bitter_springs_idea = {
+			picture = KHA_avenge_bitter_springs
+			allowed = {
+				has_war_with = NCR
+			}
+			removal_cost = -1
+			targeted_modifier = {
+				tag = NCR
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = DES
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+			}
+			modifier = {
+				army_speed_factor = 0.05
+			}
+		}
+
+		KHA_idea_backhand_support_idea = {
+			picture = generic_morale_bonus
+			allowed = {
+				has_war_with = NCR
+			}
+			removal_cost = -1
+			modifier = {
+				send_volunteers_tension = -0.50
+				send_volunteer_divisions_required = -0.25
+				send_volunteer_size = 8
+			}
+		}
+
+		KHA_idea_fiends_drug_runs = {
+			picture = drug_runners
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
+		KHA_idea_weapon_manafacturing_quantity = {
+			picture = generic_production_bonus
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.20
+					reliability = -0.10
+					instant = yes
+				}
+			}
+		}
+
+		KHA_idea_iron_steeds = {
+			picture = KHA_iron_steeds
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				motorized_equipment = {
+					maximum_speed = 0.10
+					build_cost_ic = -0.05
+				}
+			}
+		}
+
+		KHA_idea_war_path = {
+			picture = ast_volunteer_defence_corps
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = -0.15
+				war_support_factor = 0.1
+				training_time_army_factor = -0.10
+			}
+		}
+
+		KHA_idea_new_construction_techniques = {
+			picture = salvaged_military_industry
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				monthly_population = 0.20
+			}
+		}
+
+		KHA_idea_improved_housing_idea = {
+			picture = salvaged_military_industry
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.20
+			}
+		}
+
+		KHA_idea_community_spirit = {
+			picture = VEG_Freeside_Support
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				monthly_population = 0.05
+				stability_factor = 0.05
+			}
+		}
+
+		KHA_idea_settle_the_wastes = {
+			picture = salvaged_military_industry
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				monthly_population = 0.20
+			}
+		}
+
+		KHA_idea_tamed_killer_plants = {
+			picture = KHA_vault_22_sign_idea
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.1
+			}
+		}
+
+		KHA_idea_keeley_researcher = {
+			picture = KHA_Keely
+			allowed = {
+			}
+			available = { not = { has_war_with = NCR } }
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.05
+			}
+		}
+
+		KHA_idea_tactic_overwhelming_firepower = {
+			picture = KHA_overwhelming_firepower
+			allowed = {
+			}
+			removal_cost = -1
+			equipment_bonus = {
+				demolitions_equipment = {
+					soft_attack = 0.1
+					build_cost_ic = -0.1
+					instant = yes
+
+				}
+			}
+		}
+
+		KHA_idea_enhanced_military_planning = {
+			picture = idea_ast_volunteer_defence_corps
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				max_planning = 0.15
+				land_reinforce_rate = 0.02
+				planning_speed = -0.10
+			}
+		}
+
+		KHA_idea_enhanced_warrior_training = {
+			picture = idea_chi_army_corruption3
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.05
+				max_planning = 0.15
+				land_reinforce_rate = 0.02
+				planning_speed = -0.10
+				training_time_army_factor = 0.15
+			}
+		}
+
+		KHA_idea_followers_teach_electronics = {
+			picture = VEG_Follower_Knowledge
+			allowed = {
+			}
+			removal_cost = -1
+			research_bonus = {
+				electronics = 0.1
+			}
+		}
+
+		KHA_idea_innovative_thinking = {
+			picture = idea_jap_supremacy_of_will
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.05
+			}
+		}
+
+		KHA_idea_field_medics = {
+			picture = doctor_verdrehtnerv_advisor
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				experience_loss_factor = -0.1
+				army_org = 5
+				army_morale_factor = 0.05
+			}
+		}
+
+		KHA_idea_directional_disagreements = {
+			picture = KHA_directional_disputes
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.5
+			}
+		}
+
+		KHA_idea_long_house_support = {
+			picture = KHA_long_house_united
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.1
+			}
+		}
+
+		KHA_idea_ncr_funding_idea = {
+			picture = KHA_ncr_funding
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				research_speed_factor =0.07
+			}
+		}
+
+		KHA_idea_ncr_sharecropper_production = {
+			picture = KHA_ncr_funding
+			allowed = {}
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				research_speed_factor =0.07
+			}
+		}
+
+		KHA_idea_for_the_republic_idea = {
+			picture = KHA_for_the_republic
+			allowed = {}
+			available = {
+				has_war_with = CES
+			}
+			removal_cost = -1
+			modifier = {
+				offence = 0.1
+				defence = 0.05
+				recon_factor = 0.05
+			}
+		}
+
+		KHA_idea_drugged_up = {
+			picture = KHA_drugged_up
+			allowed = {}
+			available = {}
+			removal_cost = -1
+			modifier = {
+				offence = 0.15
+				defence = 0.05
+			}
+		}
+
+		KHA_idea_a_new_silk_road_idea = {
+			picture = KHA_a_new_silk_road
+			allowed = {}
+			available = {}
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.03
+			}
+		}
+
+		KHA_idea_khan_warbands = {
+			picture = KHA_khan_culture
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				recon_factor = 0.05
+				army_attack_factor = 0.05
+				army_org = -3
+				land_reinforce_rate = -0.01
+			}
+		}
+
+		KHA_idea_khan_culture = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_speed_buildings_factor = -0.2
+				training_time_factor = 0.15
+				research_speed_factor = -0.15
+			}
+		}
+
+		KHA_idea_khan_culture_1_idea = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.2
+				training_time_factor = 0.15
+				research_speed_factor = -0.15
+			}
+		}
+
+		KHA_idea_khan_culture_2_idea = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.2
+				training_time_factor = 0.05
+				research_speed_factor = -0.15
+
+			}
+		}
+
+		KHA_idea_khan_culture_3_idea = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.2
+				training_time_factor = 0.05
+				research_speed_factor = -0.15
+				conscription = 0.05
+			}
+		}
+
+		KHA_idea_khan_culture_4_idea = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.2
+				training_time_factor = 0.05
+				research_speed_factor = -0.15
+				conscription = 0.05
+				army_speed_factor = 0.05
+				recon_factor = 0.05
+			}
+		}
+
+		KHA_idea_khan_culture_5_idea = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.15
+				research_speed_factor = -0.15
+			}
+		}
+
+		KHA_idea_khan_culture_6_idea = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.15
+				research_speed_factor = -0.05
+			}
+		}
+
+		KHA_idea_khan_culture_7_idea = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.15
+				research_speed_factor = -0.05
+				monthly_population = 0.1
+			}
+		}
+
+		KHA_idea_khan_culture_8_idea = {
+			picture = khan_culture_icon
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.15
+				research_speed_factor = -0.05
+				monthly_population = 0.1
+				max_dig_in = 2
+				defence = 0.05
+				max_planning = 0.05
+			}
+		}
+	}
+
+	mobilization_laws = {
+		law = yes
+		khan_culture_mobilisation = {
+			picture = KHA_culture_mobilisation
+			cost = 150
+			removal_cost = 2100
+			level = 6
+			allowed = {
+				original_tag = KHA
+			}
+			available = {
+				original_tag = KHA
+			}
+			modifier = {
+				conscription = 0.35
+			}
+			cancel_if_invalid = no
+		}
+
+		khan_culture_mobilisation_2 = {
+			picture = KHA_culture_mobilisation
+			cost = 150
+			removal_cost = 2100
+			level = 6
+			allowed = {
+				original_tag = KHA
+			}
+			available = {
+				original_tag = KHA
+			}
+			modifier = {
+				conscription = 0.30
+			}
+			cancel_if_invalid = no
+		}
+	}
+}

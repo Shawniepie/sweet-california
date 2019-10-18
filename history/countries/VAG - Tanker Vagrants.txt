@@ -1,0 +1,47 @@
+﻿capital = 474
+oob = "VAG_2275"
+
+
+set_technology = {
+    standard_weaponry_tech = 1
+	blunt_weaponry = 1
+    tribal_civilization = 1
+    settled_civilization = 1
+    scientific_civilization = 1
+
+}
+
+set_stability = 0.7
+set_war_support = 0.3
+
+
+set_popularities = {
+	 people = 0
+        elites = 0 
+        intellectuals = 20
+        ruler = 80
+}
+    set_politics = {
+	ruling_party = ruler
+	election_frequency = 0
+	elections_allowed = no
+}
+
+add_ideas = { }
+
+set_research_slots = 3
+
+create_country_leader  = {
+    name = "A. Ron Meyers"
+    desc = ""
+    picture = "gfx/leaders/SHI/Vagrant.dds"
+    expire = "3000.1.1"
+    ideology = benevolent_dictatorship
+    
+    traits = {
+    }
+}
+
+add_ideas = { 
+	neutrality_owb
+}

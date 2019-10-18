@@ -1,0 +1,38 @@
+﻿capital = 173
+oob = "MAS_2275"
+
+	set_technology = {
+		standard_weaponry_tech = 1
+		blunt_weaponry = 1
+		tribal_civilization = 1
+		super_mutant_civilization = 1
+		mutant_access = 1
+		super_mutant_behemoth = 1
+		super_mutant_melee_weapons = 1
+	}
+	
+	set_stability = 0.15
+	set_war_support = 0.40
+
+	set_popularities = {
+	 people = 0
+        elites = 0 
+        intellectuals = 0
+        ruler = 100
+}
+    set_politics = {
+	ruling_party = ruler
+	election_frequency = 0
+	elections_allowed = no
+}
+	
+add_ideas = { 
+	neutrality_owb
+	limited_conscription
+}
+
+set_research_slots = 2
+
+
+
+

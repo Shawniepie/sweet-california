@@ -1,0 +1,213 @@
+ideas = {
+	political_advisor = {
+
+		daniel = {
+			allowed = {
+				original_tag = NCN
+			}
+			available = {
+				has_completed_focus = ncn_sorrows
+			}
+
+			traits = { smooth_talking_charmer }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+
+		abraham = {
+			picture = GFX_idea_abraham
+
+			allowed = { original_tag = NCN }
+
+			available = { has_completed_focus = ncn_swordandcross }
+
+			traits = { unrelenting_crusader }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		matthew = {
+			picture = idea_Matthew_Green
+
+			allowed = { original_tag = NCN }
+
+			available = { has_completed_focus = ncn_missionaries }
+
+			traits = { peace_mission }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		eden = {
+			picture = idea_Eden_Dent
+
+			allowed = { original_tag = NCN }
+
+			traits = { calm_doc }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		aaron = {
+			picture = bares_his_teeth_advisor_portrait
+
+			allowed = { original_tag = NCN }
+
+			traits = { quatermaster_45 }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		waking_cloud = {
+			picture = bares_his_teeth_advisor_portrait
+
+			allowed = { original_tag = NCN }
+
+			traits = { coming_convert }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	high_command = {
+
+		gideon = {
+
+			picture = idea_Gideon_Maywater
+
+			allowed = { original_tag = NCN }
+
+			traits = { mormon_militia }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		mountain_hawk = {
+
+			picture = idea_Mountain_Hawk
+
+			allowed = { original_tag = NCN }
+
+			available = { has_completed_focus = ncn_deadhorse2 }
+
+			traits = { gods_warrior }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		rushing_wind = {
+
+			picture = idea_Rushing_Wing
+
+			allowed = { original_tag = NCN }
+
+			available = { has_completed_focus = ncn_tarwalkers }
+
+			traits = { tribal_mormon }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	army_chief = {
+
+		joel = {
+
+			picture = idea_Joel_Harnigan
+
+			allowed = {
+				original_tag = NCN
+			}
+
+			traits = { defender_priest }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		david = {
+
+			picture = idea_David_Toreen
+
+			allowed = {
+				original_tag = NCN
+			}
+
+			traits = { mormon_ranger }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		burnedman = {
+			allowed = {
+				original_tag = NCN
+			}
+			available = {
+				has_completed_focus = ncn_return
+			}
+
+			traits = { owb_army_chief_offensive_2 }
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	navy_chief = {
+
+		wallace = {
+
+			picture = idea_Wallace_Regdan
+
+			allowed = {
+				original_tag = NCN
+			}
+
+			traits = { mormon_navy_buff }
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+	}
+
+	air_chief = {
+
+		sariah = {
+
+			picture = idea_Sariah_June
+
+			allowed = {
+				original_tag = NCN
+			}
+
+			traits = { mormon_air_buff }
+
+			ai_will_do = {
+				factor = 10
+				}
+			}
+		}
+	}
