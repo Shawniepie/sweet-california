@@ -1,0 +1,67 @@
+﻿l_english:
+    nf_barons.1.t:0 "Our Founding"
+    nf_barons.1.d:0 "Our young nation ensured that we were kept safe by building up fortifications across the nation"
+    nf_barons.1.a:0 "The North"
+    nf_barons.1.b:0 "The South"
+    nf_barons.1.c:0 "The Capital"
+
+    nf_barons.2.t:0 "Our Ranches"
+    nf_barons.2.d:0 "Our ranches have provided us with a very strong economic base that will allowed us to make great leaps in the industry of our nation."
+    nf_barons.2.a:0 "Improve Civilian Industry"
+    nf_barons.2.b:0 "Improve Military Industry"
+    nf_barons.2.c:0 "Improve Infrastructure"
+
+    nf_barons.3.t:0 "Threats to the republic"
+    nf_barons.3.d:0 "The greatest threats out in the wastes would see us destroyed one group in particular is a thorn in our side"
+    nf_barons.3.a:0 "Supermutants"
+    nf_barons.3.b:0 "Wasteland Creatures"
+    nf_barons.3.c:0 "Raiders"
+
+    nf_barons.4.t:0 "Hostile Takeover"
+    nf_barons.4.d:0 "The political crisis has come to a point where any invested side could take over control of the entire nation."
+    nf_barons.4.a:0 "Anton Flynn Keeps Control"
+    nf_barons.4.b:0 "Heck Gunderson Takes Control"
+    nf_barons.4.c:0 "Walter Phebus Takes Control"
+    nf_barons.4.d:0 "Paladin Todd Takes Control"
+
+    nf_barons.5.t:0 "Revoke Gunderson Lands"
+    nf_barons.5.d:0 "With Gunderson removed from power we must decide what his land will be used for instead."
+    nf_barons.5.a:0 "Give The Land To Walter"
+    nf_barons.5.b:0 "Give The Land To Anton"
+    nf_barons.5.c:0 "Give The Land To Ted Gunderson"
+
+    nf_barons.6.t:0 "Reno Deals"
+    nf_barons.6.d:0 "We should send a deal to New Reno in an attempt to get more guns then would be possible with the current suppliers."
+    nf_barons.6.a:0 "Send Aggressive Deal"
+    nf_barons.6.b:0 "Send Fair Deal"
+    nf_barons.6.c:0 "Send Weak Deal"
+
+    nf_barons.7.t:0 "Deal From Barons"
+    nf_barons.7.d:0 "We have received a deal from the barons should we accept?"
+    nf_barons.7.a:0 "Accept The Deal"
+    nf_barons.7.b:0 "Decline The Deal"
+
+    nf_barons.8.t:0 "Deal From Barons"
+    nf_barons.8.d:0 "We have received a deal from the barons should we accept?"
+    nf_barons.8.a:0 "Accept The Deal"
+    nf_barons.8.b:0 "Decline The Deal"
+
+    nf_barons.9.t:0 "Deal From Barons"
+    nf_barons.9.d:0 "We have received a deal from the barons should we accept?"
+    nf_barons.9.a:0 "Accept The Deal"
+    nf_barons.9.b:0 "Decline The Deal"
+
+    nf_barons.10.t:0 "New Reno Accepts!"
+    nf_barons.10.a:0 "Excellent"
+
+    nf_barons.11.t:0 "New Reno Declines"
+    nf_barons.11.a:0 "Ok"
+
+    nf_barons.12.t:0 "Acquire Domestic Ranches"
+    nf_barons.12.d:0 "We have obtained Stockton as a new ranch so now we are in a good position to take over Flynn Ranch however we must decide on what we want to do with our former rivals land"
+    nf_barons.12.a:0 "Establish New Stockton"
+    nf_barons.12.b:0 "Establish Gunderson National Park"
+
+    nf_barons.13.t:0 "Prosecution Of The Century"
+    nf_barons.13.d:0 "Since the founding of this nation the Stockmens Association has undermind the common man in favour of giving greater power to the select few. On this great day however this is ending the entire group will be prosecuted in what is being described as the prosecution of the century!"
+    nf_barons.13.a:0 "Get On With It"

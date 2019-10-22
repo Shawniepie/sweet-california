@@ -1,0 +1,230 @@
+﻿l_english:
+    BAR_our_founding:0 "Our Founding"
+    BAR_our_founding_desc:0 "Our young nation was born out of necessity, we needed a strong political union to protect our ranches from those that would see harm done to our people and our brahmin."
+
+    BAR_our_ranches:0 "Our Ranches"
+    BAR_our_ranches_desc:0 "Our ranches are the envy of the entire wasteland we are able to effectively feed our entire population... for a price."
+
+    BAR_threats_to_the_republic:0 "Threats To The Republic"
+    BAR_threats_to_the_republic_desc:0 "The threats to our great republic have been many. We were able to defeat many of them however."
+
+    BAR_hostile_takeover:0 "Hostile Takeover"
+    BAR_hostile_takeover_desc:0 "Many people seek great change by way of political revolution we must prepare for this eventuality."
+
+    BAR_elite_victory:0 "Elite Victory"
+    BAR_elite_victory_desc:0 "As expected the barons reigned supreme!"
+
+    BAR_revoke_gunderson_lands:0 "Revoke Gunderson Lands"
+    BAR_revoke_gunderson_lands_desc:0 "As one of the perpetrators of this attack on our republic and being known as genuinely bad guy we will take the ranches away from Heck Gunderson."
+
+    BAR_increase_baron_rights:0 "Increase Baron Rights"
+    BAR_increase_baron_rights_desc:0 "The barons of this fine nation are what supply the food, and keep our economy afloat we should afford them more powers so that the can continue to prosper!"
+
+    BAR_reno_deals:0 "Reno Deals"
+    BAR_reno_deals_desc:0 "The people of New Reno should be a good choice for a potential new trading partner as they lack a domestic agriculture on a scale similar to our own."
+
+    BAR_reno_monopoly:0 "Reno Monopoly"
+    BAR_reno_monopoly_desc:0 "With our caravans bringing fresh food to the people of New Reno we have managed to develop an impressive monopoly over the countries agriculture markets"
+
+    BAR_stockmens_association_supreme:0 "Stockmens Association Supreme"
+    BAR_stockmens_association_supreme_desc:0 "All of what we have managed to achieve in our short amount of time in power is all thanks to the Stockmen's Association"
+
+    BAR_ruler_victory:0 "Ruler Victory"
+    BAR_ruler_victory_desc:0 "Heck Gunderson's victory was inevitable"
+
+    BAR_acquire_domestic_ranches:0 "Acquire Domestic Ranches"
+    BAR_acquire_domestic_ranches_desc:0 "We will force our way into purchasing ranches across the republic to improve our power."
+
+    BAR_look_for_southern_ranches:0 "Look For Southern Ranches"
+    BAR_look_for_southern_ranches_desc:0 "To the south are good lands ripe for ranching!"
+
+    BAR_new_reno_mercs:0 "New Reno Mercs"
+    BAR_new_reno_mercs_desc:0 "New Reno has plenty of mercenary companies we should hire some."
+
+    BAR_expand_northern_operations:0 "Expand Northern Operations"
+    BAR_expand_northern_operations_desc:0 "Redding in the north would be an excellent choice for expanding our republic."
+
+    BAR_stockmens_obsolete:0 "Stockmens Obsolete"
+    BAR_stockmens_obsolete_desc:0 "The Stockmen's Association just takes my money and spends it on making my rivals stronger. This will end right now!"
+
+    BAR_people_victory:0 "People Victory"
+    BAR_people_victory_desc:0 "Walter Phebus will lead our people"
+
+    BAR_prosecute_political_corruption:0 "Prosecute Political Corruption"
+    BAR_prosecute_political_corruption_desc:0 "The politically corrupt ranch owners must be prosecuted for the good of our republic"
+
+    BAR_revoke_corrupt_baron_property:0 "Revoke Corrupt Baron Property"
+    BAR_revoke_corrupt_baron_property_desc:0 "The barons of this nation have illegally obtained their power so they will have their ranches revoked"
+
+    BAR_neglected_industries:0 "Neglected Industries"
+    BAR_neglected_industries_desc:0 "Our entire industry has been based upon the brahmin ranches. This has lead to other industial sectors becoming neglected over time. We must take an effort to revive small industry."
+
+    BAR_gunrunner_buyout:0 "Gunrunner Buyout"
+    BAR_gunrunner_buyout_desc:0 "We must get rid of the gunrunners they charge an extortionate amount and bulk loads take an unreasonable amount of time to arrive to us."
+
+    BAR_prosecute_stockmens_association:0 "Prosecute Stockmens Association"
+    BAR_prosecute_stockmens_association_desc:0 "Finally the elitists allies in the Stockmens Association will be taken down for all of their many crimes of corruption."
+
+    BAR_intellectual_victory:0 "Intellectual Victory"
+    BAR_intellectual_victory_desc:0 "A brotherhood detachment was able to gain control over the barons republic"
+
+    BAR_map_out_potential_bunkers:0 "Map Out Potential Bunkers"
+    BAR_map_out_potential_bunkers_desc:0 "By looking for new bunkers we will be able to occupy them in order to better protect our nation."
+
+    BAR_build_armories:0 "Build Armories"
+    BAR_build_armories_desc:0 "By building up our armories throught the nation we will be able to build weaponry for our knights"
+
+    BAR_call_in_brotherhood_support:0 "Call In Brotherhood Support"
+    BAR_call_in_brotherhood_support_desc:0 "With our hold over the nation secure we will call in support from the brotherhood in order to keep control and help to eliminate some of the threats."
+
+    BAR_raid_van_graffs:0 "Raid Van Graffs"
+    BAR_raid_van_graffs_desc:0 "The Van Graff family in the north could serve a real threat to us as they continue to use and build the weapons that only served to help destroy the world."
+
+    BAR_raid_stockmens_association:0 "Raid Stockmens Association"
+    BAR_raid_stockmens_association_desc:0 "Working in the shadows and undermining us at every moment the Stockmens Association should be eliminated"
+
+    BAR_sac_city_expansion:0 "Sac City Expansion"
+    BAR_sac_city_expansion_desc:0 "By expanding our industry in the capital we will be better able to reach any industrial goal."
+
+    BAR_improved_abodes:0 "Improved Abodes"
+    BAR_improved_abodes_desc:0 "The housing of our people is very important to improve if our people are to live in relative safety."
+
+    BAR_immigration_expansion:0 "Immigration Expansion"
+    BAR_immigration_expansion_desc:0 "By allowing immigration as well as going out of our way to promote further immigration into our nation."
+
+    BAR_civillian_expansion_one:0 "Civilian Expansion I"
+    BAR_civillian_expansion_one_desc:0 "By expanding our civilian industry we will be able to improve our other industrial areas"
+
+    BAR_civillian_expansion_two:0 "Civilian Expansion II"
+    BAR_civillian_expansion_two_desc:0 "The further expansion of our civilian industry affords us greater potential in becoming an economic powerhouse!"
+
+    BAR_military_expansion_one:0 "Military Expansion I"
+    BAR_military_expansion_one_desc:0 "by imporving our number of arms workshops we should be able to produce the arms that are required for our troops to be effective."
+
+    BAR_military_expansion_two:0 "Military Expansion II"
+    BAR_military_expansion_two_desc:0 "Producing more guns will allow us to field a larger army worthy of our great nation!"
+
+    BAR_infrastructure_expansion_one:0 "Infrastructure Expansion I"
+    BAR_infrastructure_expansion_one_desc:0 "Improving the infrastructure around our ranches will allow us to have greater flexibility in rotating our brahmin."
+
+    BAR_infrastructure_expansion_two:0 "Infrastructure Expansion II"
+    BAR_infrastructure_expansion_two_desc:0 "Improving all of our infrastructure will allow the redployment of our army in order to meet any threat."
+
+    BAR_ranching_academy:0 "Ranching Academy"
+    BAR_ranching_academy_desc:0 "In order to produce the best ranchers possible we will setup an academy with the purpose of training new ranchers and developing new ranching techniques"
+
+    BAR_the_economy_reformed:0 "The Economy Reformed"
+    BAR_the_economy_reformed_desc:0 "With our economy now reformed we will be a force to be reckoned with by any other nation out in the wastes."
+
+    BAR_merc_training:0 "Merc Training"
+    BAR_merc_training_desc:0 "The techniques used by mercenaries under our command should be taught to our domestic forces in order to make a general improvement to our armed forces."
+
+    BAR_army_reforms:0 "Army Reforms"
+    BAR_army_reforms_desc:0 "We should focus on improving our army if we are to ensure the proper protection of our nation."
+
+    BAR_guns_for_troops:0 "Guns For Troops"
+    BAR_guns_for_troops_desc:0 "Providing our troops with more up to date equipment will help to ensure that the nation is properly protected."
+
+    BAR_big_guns:0 "Big Guns"
+    BAR_big_guns_desc:0 "Bigger guns will allow us to be more effective in combat situations."
+
+    BAR_conscript_ranch_hands:0 "Conscript Ranch Hands"
+    BAR_conscript_ranch_hands_desc:0 "By conscripting our ranch hands we will be able to increase the total number of people in our armed forces"
+
+    BAR_the_young_can_farm:0 "The Young Can Farm"
+    BAR_the_young_can_farm_desc:0 "Ok maybe we went a little too far in our conscription we should probably allow the young back to ranching in order to fix the issues that have arised"
+
+    BAR_reformed_army:0 "Reformed Army"
+    BAR_reformed_army_desc:0 "With our latest changes to our army we have managed to fully reform our army"
+
+    BAR_repair_beale_air_base:0 "Repair Beale Air Base"
+    BAR_repair_beale_air_base_desc:0 "By repairing the prewar airbase we will be able to control our entire airforce from this base."
+
+    BAR_better_planes:0 "Better Planes"
+    BAR_better_planes_desc:0 "The one thing that is integral to a good air force is planes. So we will develop the most advanced planes we can possibly build."
+
+    BAR_loot_domestic_hangars:0 "Loot Domestic Hangars"
+    BAR_loot_domestic_hangars_desc:0 "There are many hangars across our nation that still contain planes from before the great war. These would be put to better use in our own airforce"
+
+    BAR_sac_city_simulation_suite:0 "Sac City Simulation Suite"
+    BAR_sac_city_simulation_suite_desc:0 "A prototype flight simulation system was installed in a military facility in sac city before the great war with some work we can get it running again and start to use it training our own pilots."
+
+    BAR_recruit_all_people:0 "Recruit All People"
+    BAR_recruit_all_people_desc:0 "Anybody could be in the airforce so we should go out of our way to ensure that they know that."
+
+    BAR_train_new_pilots:0 "Train New Pilots"
+    BAR_train_new_pilots_desc:0 "By establishing a full pilot training academy based on our use of the simulation technology in the city we will be able to further improve our airforce."
+
+    BAR_naval_expansion:0 "Naval Expansion"
+    BAR_naval_expansion_desc:0 "We should expand our navy in order to protect our coastline from seafaring navies that pose a great threat to us."
+
+    BAR_small_ships:0 "Small Ships"
+    BAR_small_ships_desc:0 "We should produce better small ships in order to protect our larger ships"
+
+    BAR_medium_ships:0 "Medium Ships"
+    BAR_medium_ships_desc:0 "Producing ships of a medium ship will mean that they have good firepower and decent speed."
+
+    BAR_expanding_operations:0 "Expanding Operations"
+    BAR_expanding_operations_desc:0 "We will expand our operations allowing us to be able to produce more and better ships in a shorter span of time."
+
+    BAR_river_supremacy:0 "River Supremacy"
+    BAR_river_supremacy_desc:0 "Improving how our ships operate should result in us being able to launch more effective attacks against our enemies ships."
+
+    BAR_large_ships:0 "Large Ships"
+    BAR_large_ships_desc:0 "Large ships in our navy will be developed in order to allow our navy the chance of destroying other nations navies."
+
+    BAR_ocean_fairing_navy:0 "Ocean Fairing Navy"
+    BAR_ocean_fairing_navy_desc:0 "With all the improvements that we have made to our navy we are finally capable of sending them out into the great pacific ocean to contest the entire western coastline."
+
+    BAR_expanding_the_ranches:0 "Expanding The Ranches"
+    BAR_expanding_the_ranches_desc:0 "We should focus our efforts on eliminating rivals and asserting our dominance in the wastes"
+
+    BAR_expanding_northern_operations:0 "Expanding Northern Operations"
+    BAR_expanding_northern_operations_desc:0 "Redding to the north will make a fine opportunity for expanding our power!"
+
+    BAR_van_graff_barons:0 "Van Graff Barons"
+    BAR_van_graff_barons_desc:0 "The Van Graff family would make an excellent addition to the most elite of our society."
+
+    BAR_eliminate_redding_thugs:0 "Eliminate Redding Thugs"
+    BAR_eliminate_redding_thugs_desc:0 "The thugs of Redding should be eliminated if we are to use the region for our own profit"
+
+    BAR_redding_mining:0 "Redding Mining"
+    BAR_redding_mining_desc:0 "The mines in redding will give us the perfect opportunity of controlling a new market"
+
+    BAR_drug_enhanced_miners:0 "Drug Enhanced Miners"
+    BAR_drug_enhanced_miners_desc:0 "By giving drugs to the miners of Redding we should drastically increase their resource output"
+
+    BAR_drug_free_since_2273:0 "Drug Free Since 2273"
+    BAR_drug_free_since_2273_desc:0 "The miners of Redding have been operating without drugs for years and with a bit of possitivity they should be able to produce more."
+
+    BAR_expanding_southern_operations:0 "Expanding Southern Operations"
+    BAR_expanding_southern_operations_desc:0 "Woodlake to the south would make prime new land for ranches."
+
+    BAR_new_ranches:0 "New Ranches"
+    BAR_new_ranches_desc:0 "We will use former Woodlake territories for the use in expanding our ranching empire"
+
+    BAR_new_industries:0 "New Industries"
+    BAR_new_industries_desc:0 "Increasing our number of ranches would be pointless so we will build up our other industries instead."
+
+    BAR_woodlake_profits:0 "Woodlake Profits"
+    BAR_woodlake_profits_desc:0 "The latest investments have provided us with decent profits to invest in other areas."
+
+    BAR_woodlake_profits_local:0 "Woodlake Profits Spent Locally"
+    BAR_woodlake_profits_local_desc:0 "We will spend our latest profits on local improvements to the Woodlake region."
+
+    BAR_woodlake_profits_national:0 "Woodlake Profits Spent Nationwide"
+    BAR_woodlake_profits_national_desc:0 "The profits made in Woodlake will be shared throughout the Barons Republic"
+
+    BAR_barons_alliance:0 "Barons Alliance"
+    BAR_barons_alliance_desc:0 "The Barons will lead the greatest faction in the wastes"
+
+    BAR_join_the_faction:0 "Join The Faction"
+    BAR_join_the_faction_desc:0 "A nation alone in these wastes would surely only lead to ruin. We will seek out allies so that we can support eachother in the wastes."
+
+    BAR_reno_mercs:0 "Unlocks decisions to recruit New Reno Mercenaries"
+
+    BAR_unlock_decisions_for_industrial_improvemnts:0 "Unlocks decisions for improving the industry"
+
+    BAR_unlock_decisions_for_gunrunners_buyout:0 "Unlocks decisions for buying out the gun runners"
+
+    BAR_spawn_two_PA_divs:0 "Spawns two powerarmour divisions"
