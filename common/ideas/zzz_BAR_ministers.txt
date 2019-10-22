@@ -1,0 +1,64 @@
+ideas = {
+	political_advisor = {
+
+		BAR_ted_gunderson = {#Ted Gunderson
+
+			picture = generic_advisor8
+
+			allowed = {
+				original_tag = BAR
+			}
+
+			available = {
+				has_global_flag = ted_chosen
+			}
+
+			traits = {
+				BAR_gunderson_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		BAR_walter_phebus = {#Walter Phebus
+
+			picture = generic_advisor15
+
+			allowed = { original_tag = BAR }
+
+			available = {
+				has_global_flag = phebus_chosen
+			}
+
+			traits = {
+				BAR_phebus_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		BAR_anton_flynn = {#Anton Flynn
+
+			picture = anton_flynn
+
+			allowed = { original_tag = BAR }
+
+			available = {
+				has_global_flag = flynn_chosen
+			}
+
+			traits = {
+				BAR_flynn_trait
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+	}
+}
