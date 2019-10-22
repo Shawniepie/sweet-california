@@ -1,0 +1,389 @@
+﻿add_namespace = nf_barons
+
+country_event = {
+	id = nf_barons.1
+	title = nf_barons.1.t
+	desc = nf_barons.1.d
+	is_triggered_only = yes
+
+	option = {
+		name = nf_barons.1.a
+		
+		543 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+		}
+		421 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+		}
+		168 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = nf_barons.1.b
+
+		605 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+		}
+		603 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+		}
+		153 = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+		}
+	}
+	option = {
+		name = nf_barons.1.c
+
+		135 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nf_barons.2
+	title = nf_barons.2.t
+	desc = nf_barons.2.d
+	is_triggered_only = yes
+
+	option = {
+		name = nf_barons.2.a
+		
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+	option = {
+		name = nf_barons.2.b
+
+		random_owned_controlled_state = {
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 2
+		}
+	}
+	option = {
+		name = nf_barons.2.c
+
+		every_owned_state = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = nf_barons.3
+	title = nf_barons.3.t
+	desc = nf_barons.3.d
+	is_triggered_only = yes
+
+	option = {
+		name = nf_barons.3.a
+
+		add_ideas = {
+			BAR_supermutant_problem
+		}
+	}
+	option = {
+		name = nf_barons.3.b
+
+		add_ideas = {
+			BAR_wasteland_creatures_problem
+		}
+	}
+	option = {
+		name = nf_barons.3.c
+
+		add_ideas = {
+			BAR_raiders_problem
+		}
+	}
+}
+
+country_event = {
+	id = nf_barons.4
+	title = nf_barons.4.t
+	desc = nf_barons.4.d
+	is_triggered_only = yes
+
+	option = {#anton flynn - elites
+		name = nf_barons.4.a
+		complete_national_focus = BAR_elite_victory
+	}
+
+	option = {#Heck Gunderson - Ruler
+		name = nf_barons.4.b
+		complete_national_focus = BAR_ruler_victory
+	}
+
+	option = {#Walter Phebus - People
+		name = nf_barons.4.c
+		complete_national_focus = BAR_people_victory
+	}
+
+	option = {#Paladin Todd - Intellectuals
+		name = nf_barons.4.d
+		complete_national_focus = BAR_intellectual_victory
+	}
+
+}
+
+country_event = {
+	id = nf_barons.5
+	title = nf_barons.5.t
+	desc = nf_barons.5.d
+	is_triggered_only = yes
+
+	option = {#give land to Walter Phebus
+		name = nf_barons.5.a
+		60 = {
+			set_state_name = "Phebus Ranch"
+		}
+		set_global_flag = phebus_chosen
+	}
+	option = {#give land to Anton Flynn
+		name = nf_barons.5.b
+		60 = {
+			set_state_name = "Ant Ranch"
+		}
+		set_global_flag = flynn_chosen
+	}
+	option = {#give land to Ted Gunderson
+		name = nf_barons.5.c
+
+		set_global_flag = ted_chosen
+	}
+}
+
+country_event = {
+	id = nf_barons.6
+	title = nf_barons.6.t
+	desc = nf_barons.6.d
+	is_triggered_only = yes
+
+	option = {#send aggressive deal
+		name = nf_barons.6.a
+		NEW = {
+			country_event = nf_barons.7
+		}
+	}
+	option = {#send fair deal
+		name = nf_barons.6.b
+		NEW = {
+			country_event = nf_barons.8
+		}
+	}
+	option = {#send weak deal
+		name = nf_barons.6.c
+		NEW = {
+			country_event = nf_barons.9
+		}
+	}
+}
+
+country_event = {#aggressive deal response
+	id = nf_barons.7
+	title = nf_barons.7.t
+	desc = nf_barons.7.d
+	is_triggered_only = yes
+
+	option = {#accept
+		name = nf_barons.7.a
+		BAR = {
+			country_event = nf_barons.10
+			swap_ideas = {
+				remove_idea = BAR_gun_runner_hegemony
+				add_idea = BAR_new_reno_arms
+			}
+			add_stability = 0.15
+		}
+	}
+	option = {#decline
+		name = nf_barons.7.b
+		BAR = {
+			country_event = nf_barons.11
+		}
+	}
+}
+
+country_event = {#fair deal response
+	id = nf_barons.8
+	title = nf_barons.8.t
+	desc = nf_barons.8.d
+	is_triggered_only = yes
+
+	option = {#accept
+		name = nf_barons.8.a
+		BAR = {
+			country_event = nf_barons.10
+			swap_ideas = {
+				remove_idea = BAR_gun_runner_hegemony
+				add_idea = BAR_new_reno_arms
+			}
+			add_stability = 0.1
+		}
+		
+	}
+	option = {#decline
+		name = nf_barons.8.b
+		BAR = {
+			country_event = nf_barons.11
+		}
+	}
+}
+
+country_event = {#weak deal response
+	id = nf_barons.9
+	title = nf_barons.9.t
+	desc = nf_barons.9.d
+	is_triggered_only = yes
+
+	option = {#accept
+		name = nf_barons.9.a
+		BAR = {
+			country_event = nf_barons.10
+			swap_ideas = {
+				remove_idea = BAR_gun_runner_hegemony
+				add_idea = BAR_new_reno_arms
+			}
+			add_stability = 0.05
+		}
+	}
+	option = {#decline
+		name = nf_barons.9.b
+		BAR = {
+			country_event = nf_barons.11
+		}
+	}
+}
+
+country_event = {#accepted
+	id = nf_barons.10
+	title = nf_barons.10.t
+	desc = nf_barons.10.d
+	is_triggered_only = yes
+
+	option = {
+		name = nf_barons.10.a
+	}
+}
+
+country_event = {#declined
+	id = nf_barons.11
+	title = nf_barons.11.t
+	desc = nf_barons.11.d
+	is_triggered_only = yes
+
+	option = {
+		name = nf_barons.11.a
+	}
+}
+
+country_event = {
+	id = nf_barons.12
+	title = nf_barons.12.t
+	desc = nf_barons.12.d
+	is_triggered_only = yes
+
+	option = {
+		name = nf_barons.12.a
+		605 = {
+			set_state_name = "New Stockton"
+			add_building_construction = {
+				type = infrastructure
+				level = 2
+			}
+		}
+		add_stability = 0.1
+	}
+
+	option = {
+		name = nf_barons.12.b
+
+		605 = {
+			set_state_name = "Gunderson National Park"
+		}
+
+		add_stability = -0.05
+		
+		add_country_leader_trait = conceited_trait
+	}
+}
+
+country_event = {
+	id = nf_barons.13
+	title = nf_barons.13.t
+	desc = nf_barons.13.d
+	is_triggered_only = yes
+
+	option = {
+		name = nf_barons.13.a
+		
+		swap_ideas = {
+			remove_idea = BAR_stockmens_association
+			add_idea = BAR_stockmens_association_prosecuted
+		}
+	}
+}

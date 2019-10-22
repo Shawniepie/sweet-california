@@ -1,0 +1,253 @@
+bar_new_reno_mercs_category = {
+	hire_granite_defence_company = {
+		available = {
+			NEW = {
+				NOT = {
+					has_completed_focus = new_granite
+				}
+			}
+			has_tech = stripped_pa_tech
+		}
+
+		fire_only_once = yes
+		days_remove = 30
+		complete_effect = {
+		}
+		remove_effect = {
+			load_oob = BAR_new_granite
+		}
+	}
+	hire_thradds_immortals = {
+		available = {
+			NEW = {
+				NOT = {
+					has_completed_focus = new_thradd
+				}
+			}
+		}
+
+		fire_only_once = yes
+		days_remove = 30
+		complete_effect = {
+		}
+		remove_effect = {
+			hidden_effect = {
+				set_technology = { super_mutant_aux_infantry_tech = 1 }
+			}
+			load_oob = BAR_thradd_immortal
+		}
+	}
+	hire_the_roaring_bears = {
+		available = {
+			NEW = {
+				NOT = {
+					has_completed_focus = new_roaring
+				}
+			}
+		}
+
+		fire_only_once = yes
+		days_remove = 30
+		complete_effect = {
+		}
+		remove_effect = {
+			load_oob = BAR_the_roaring_bears
+		}
+	}
+	hire_the_hell_hammers = {
+		available = {
+			NEW = {
+				NOT = {
+					has_completed_focus = new_artillery
+				}
+			}
+		}
+
+		fire_only_once = yes
+		days_remove = 30
+		complete_effect = {
+		}
+		remove_effect = {
+			load_oob = BAR_the_hell_hammers
+		}
+	}
+}
+
+bar_industrial_diversification = {
+	improve_heartland_infrastructure = {
+		available = {
+			NOT = {
+				has_decision = mineral_extraction_methods
+			}
+		}
+
+		fire_only_once = yes
+		days_remove = 60
+		cost = 20
+
+		complete_effect = {
+			add_manpower = -250
+			add_timed_idea = {
+				idea = BAR_industrial_expansion
+				days = 60
+			}
+		}
+		remove_effect = {
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+				}
+			}
+		}
+	}
+	mineral_extraction_methods = {
+		available = {
+			NOT = {
+				has_decision = improve_heartland_infrastructure
+			}
+		}
+
+		fire_only_once = yes
+		days_remove = 60
+		cost = 20
+
+		complete_effect = {
+			add_manpower = -250
+			add_timed_idea = {
+				idea = BAR_industrial_expansion
+				days = 60
+			}
+		}
+		remove_effect = {
+			584 = {
+				add_resource = {
+					type = metal
+					amount = 10
+				}
+				add_resource = {
+					type = water
+					amount = 5
+				}
+			}
+		}
+	}
+}
+
+bar_gunrunners_buyout = {
+	buy_sac_city_factories = {
+		available = {
+			NOT = {
+				has_idea = BAR_recent_buyout
+			}
+		}
+
+		fire_only_once = yes
+		cost = 40
+
+		complete_effect = {
+			135 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			add_timed_idea = {
+				idea = BAR_recent_buyout
+				days = 40
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = gunrunner_buys
+						value = 1
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = gunrunner_buys
+					value = 1
+				}
+			}
+			else = {
+				add_to_variable = {
+					var = gunrunner_buys
+					value = 1
+				}
+			}
+		}
+	}
+	buy_stockton_branch = {
+		available = {
+			NOT = {
+				has_idea = BAR_recent_buyout
+			}
+		}
+
+		fire_only_once = yes
+		cost = 40
+
+		complete_effect = {
+			190 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			add_timed_idea = {
+				idea = BAR_recent_buyout
+				days = 40
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = gunrunner_buys
+						value = 1
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = gunrunner_buys
+					value = 1
+				}
+			}
+			else = {
+				add_to_variable = {
+					var = gunrunner_buys
+					value = 1
+				}
+			}
+		}
+	}
+	complete_buyout = {
+		available = {
+			NOT = {
+				has_idea = BAR_recent_buyout
+			}
+			check_variable = {
+				var = gunrunner_buys
+				value = 2
+				compare = equals
+			}
+		}
+		visible = {
+			check_variable = {
+				var = gunrunner_buys
+				value = 2
+				compare = equals
+			}
+		}
+
+		fire_only_once = yes
+		cost = 60
+
+		complete_effect = {
+			swap_ideas = {
+				remove_idea = BAR_gun_runner_hegemony
+				add_idea = BAR_barons_arms_company
+			}
+		}
+	}
+}

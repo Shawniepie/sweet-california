@@ -1,0 +1,86 @@
+﻿l_english:
+    BAR_stockmens_association:0 "Stockmens Association"
+
+    BAR_gun_runner_hegemony:0 "Gun Runner Hegemony"
+
+    BAR_barons_hegemony:0 "Barons Hegemony"
+
+    BAR_new_reno_arms:0 "New Reno Arms"
+
+    BAR_reno_monopoly:0 "Reno Monopoly"
+
+    BAR_brahmin_monopoly:0 "Brahmin Monopoly"
+
+    BAR_stockmens_association_reinforced:0 "Stockmens Association Reinforced"
+
+    BAR_stockmens_association_dismantled:0 "Stockmens Association Dismantled"
+
+    BAR_new_laws:0 "New Laws"
+
+    BAR_stockmens_association_prosecuted:0 "Stockmens Association Prosecuted"
+
+    BAR_industrial_expansion:0 "Industrial Expansion"
+
+    BAR_recent_buyout:0 "Recent Buyout"
+
+    BAR_barons_arms_company:0 "Barons Arms Company"
+
+    BAR_stockmens_association_destroyed:0 "Stockmens Association Destroyed"
+
+    BAR_brahmin_ranches:0 "Brahmin Ranches"
+
+    BAR_immigration:0 "Immigration"
+
+    BAR_conscripts_ranchers:0 "New Conscripts"
+
+    BAR_limited_conscription_reforms:0 "New Conscripts"
+
+    BAR_simulated_flight:0 "Simulated Flight"
+
+    BAR_every_plane_filled:0 "Every Plane Filled"
+
+    BAR_pilot_training_academy:0 "Pilot Training Academy"
+
+    BAR_operations_expanded:0 "Operations Expanded"
+
+    BAR_rivers_supremacy:0 "Rivers Supremacy"
+
+    BAR_ocean_supremacy:0 "Ocean Supremacy"
+
+    BAR_van_graffs:0 "Van Graffs"
+
+    BAR_redding_mining_company:0 "Redding Mining Company"
+
+    BAR_redding_mining_drug_company:0 "Redding Mining Company"
+
+    BAR_redding_mining_drugfree_company:0 "Redding Mining Company"
+
+    BAR_woodlake_profit:0 "Woodlake Profit"
+
+    BAR_supermutant_problem:0 "Supermutant Problem"
+
+    BAR_wasteland_creatures_problem:0 "Wasteland Creatures Problem"
+
+    BAR_raiders_problem:0 "Raiders Problem"
+
+    #ministers
+
+    BAR_ted_gunderson:0 "Ted Gunderson"
+
+    BAR_walter_phebus:0 "Walter Phebus"
+
+    BAR_anton_flynn:0 "Anton Flynn"
+
+    #traits
+
+    ted_chosen:0 "Ted Chosen"
+
+    phebus_chosen:0 "Phebus Chosen"
+
+    flynn_chosen:0 "Flynn Chosen"
+
+    BAR_gunderson_trait:0 "Gunderson"
+
+    BAR_phebus_trait:0 "Phebus"
+
+    BAR_flynn_trait:0 "Flynn"
