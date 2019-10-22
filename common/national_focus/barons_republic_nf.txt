@@ -1,0 +1,1650 @@
+focus_tree = {
+	id = 'barons_republic_nf'
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BAR
+		}
+	}
+	default = no
+
+	focus = {#starting event to choose how they were founded
+		id = BAR_our_founding
+		icon = GFX_goal_generic_alliance
+		cost = 1
+		x = 17
+		y = 1
+		completion_reward = {
+			country_event = nf_barons.1
+		}
+	}
+
+	focus = {#starting event to choose buildings for the barons
+		id = BAR_our_ranches
+		icon = GFX_goal_generic_food_focus
+		cost = 1
+		x = 17
+		y = 2
+		completion_reward = {
+			country_event = nf_barons.2
+		}
+		prerequisite = {
+			focus = BAR_our_founding
+		}
+	}
+
+	focus = {#starting event to focus on internal/external threats
+		id = BAR_threats_to_the_republic
+		icon = GFX_focus_secret_rearmament
+		cost = 1
+		x = 17
+		y = 3
+		completion_reward = {
+			country_event = nf_barons.3
+		}
+		prerequisite = {
+			focus = BAR_our_ranches
+		}
+	}
+
+	#barons leadership
+
+	focus = {#event to choose the new leadership
+		id = BAR_hostile_takeover
+		icon = GFX_goal_anschluss
+		cost = 4.4
+		x = 17
+		y = 4
+		completion_reward = {
+			country_event = nf_barons.4
+		}
+		prerequisite = {
+			focus = BAR_threats_to_the_republic
+		}
+	}
+
+	focus = {#elites are in charge
+		id = BAR_elite_victory
+		icon = GFX_focus_rom_parties_end
+		cost = 4.4
+		x = 9
+		y = 5
+		completion_reward = {
+			set_politics = {
+				ruling_party = elites
+			}
+			add_popularity = {
+				ideology = elites
+				popularity = 0.4
+			}
+		}
+		prerequisite = {
+			focus = BAR_hostile_takeover
+		}
+		mutually_exclusive = {
+			focus = BAR_people_victory
+			focus = BAR_ruler_victory
+			focus = BAR_intellectual_victory
+		}
+	}
+
+	focus = {#decides which advisor you will be able to gain
+		id = BAR_revoke_gunderson_lands
+		icon = GFX_goal_generic_war_focus
+		cost = 8.7
+		x = 8
+		y = 6
+		completion_reward = {
+			country_event = nf_barons.5
+		}
+		prerequisite = {
+			focus = BAR_elite_victory
+		}
+	}
+
+	focus = {#adds idea for increased political power and decreased consumer goods
+		id = BAR_increase_baron_rights
+		icon = GFX_goal_generic_ideological_fury_focus
+		cost = 8.7
+		x = 8
+		y = 7
+		completion_reward = {
+			add_ideas = {
+				BAR_barons_hegemony
+			}
+		}
+		prerequisite = {
+			focus = BAR_revoke_gunderson_lands
+		}
+	}
+
+	focus = {#chain of events that will allow the player to get cheaper guns
+		id = BAR_reno_deals
+		icon = GFX_goal_generic_common_firearms_focus
+		cost = 8.7
+		x = 10
+		y = 6
+		completion_reward = {
+			add_political_power = 60
+			country_event = nf_barons.6
+		}
+		prerequisite = {
+			focus = BAR_elite_victory
+		}
+	}
+
+	focus = {
+		id = BAR_reno_monopoly
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		cost = 8.7
+		x = 10
+		y = 7
+		completion_reward = {
+			add_ideas = {
+				BAR_reno_monopoly
+			}
+			NEW = {
+				add_ideas = {
+					BAR_brahmin_monopoly
+				}
+			}
+		}
+		prerequisite = {
+			focus = BAR_reno_deals
+		}
+	}
+
+	focus = {
+		id = BAR_stockmens_association_supreme
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 8.7
+		x = 9
+		y = 8
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_stockmens_association
+				add_idea = BAR_stockmens_association_reinforced
+			}
+		}
+		prerequisite = {
+			focus = BAR_reno_monopoly
+		}
+		prerequisite = {
+			focus = BAR_increase_baron_rights
+		}
+	}
+
+	focus = {#rulers are in charge
+		id = BAR_ruler_victory
+		icon = GFX_goal_generic_ideological_fury_focus
+		cost = 4.4
+		x = 14
+		y = 5
+		completion_reward = {
+			set_politics = {
+				ruling_party = ruler
+			}
+			add_popularity = {
+				ideology = ruler
+				popularity = 0.4
+			}
+		}
+		prerequisite = {
+			focus = BAR_hostile_takeover
+		}
+		mutually_exclusive = {
+			focus = BAR_elite_victory
+			focus = BAR_people_victory
+			focus = BAR_intellectual_victory
+		}
+	}
+
+	focus = {#gives event to get traits for the leader
+		id = BAR_acquire_domestic_ranches
+		icon = GFX_goal_generic_supplies_focus
+		cost = 8.7
+		x = 13
+		y = 6
+		completion_reward = {
+			190 = {
+				set_state_name = "Stockton Ranch"
+			}
+			country_event = nf_barons.12
+		}
+		prerequisite = {
+			focus = BAR_ruler_victory
+		}
+	}
+
+	focus = {
+		id = BAR_look_for_southern_ranches
+		icon = GFX_goal_generic_war_focus
+		cost = 8.7
+		x = 13
+		y = 7
+
+		will_lead_to_war_with = WOO
+
+		completion_reward = {
+			create_wargoal = {
+				target = WOO
+				type = annex_everything
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_acquire_domestic_ranches
+		}
+	}
+
+	focus = {
+		id = BAR_new_reno_mercs
+		icon = GFX_focus_generic_little_entente
+		cost = 8.7
+		x = 15
+		y = 6
+
+		completion_reward = {
+			custom_effect_tooltip = BAR_reno_mercs
+		}
+		prerequisite = {
+			focus = BAR_ruler_victory
+		}
+	}
+
+	focus = {
+		id = BAR_expand_northern_operations
+		icon = GFX_goal_generic_war_focus
+		cost = 8.7
+		x = 15
+		y = 7
+
+		will_lead_to_war_with = RNG
+		completion_reward = {
+			create_wargoal = {
+				target = RNG
+				type = annex_everything
+			}
+		}
+		prerequisite = {
+			focus = BAR_new_reno_mercs
+		}
+	}
+
+	focus = {
+		id = BAR_stockmens_obsolete
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 8.7
+		x = 14
+		y = 8
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_stockmens_association
+				add_idea = BAR_stockmens_association_dismantled
+			}
+		}
+		prerequisite = {
+			focus = BAR_expand_northern_operations
+		}
+		prerequisite = {
+			focus = BAR_look_for_southern_ranches
+		}
+	}
+
+	focus = {#people are in charge
+		id = BAR_people_victory
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 4.4
+		x = 20
+		y = 5
+		completion_reward = {
+			set_politics = {
+				ruling_party = people
+			}
+			add_popularity = {
+				ideology = people
+				popularity = 0.4
+			}
+		}
+		prerequisite = {
+			focus = BAR_hostile_takeover
+		}
+		mutually_exclusive = {
+			focus = BAR_elite_victory
+			focus = BAR_ruler_victory
+			focus = BAR_intellectual_victory
+		}
+	}
+
+	focus = {
+		id = BAR_prosecute_political_corruption
+		icon = GFX_goal_focus_spy
+		cost = 8.7
+		x = 19
+		y = 6
+
+		completion_reward = {
+			add_ideas = {
+				BAR_new_laws
+			}
+		}
+		prerequisite = {
+			focus = BAR_people_victory
+		}
+	}
+
+	focus = {
+		id = BAR_revoke_corrupt_baron_property
+		icon = GFX_goal_generic_ideological_fury_focus
+		cost = 8.7
+		x = 19
+		y = 7
+		completion_reward = {
+			60 = {
+				set_state_name = "Iselton"
+			}
+			605 = {
+				set_state_name = "Farmington"
+			}
+			add_political_power = 100
+			add_stability = 0.1
+		}
+		prerequisite = {
+			focus = BAR_prosecute_political_corruption
+		}
+	}
+
+	focus = {
+		id = BAR_neglected_industries
+		icon = GFX_goal_generic_large_scale_normal_industry_focus
+		cost = 8.7
+		x = 21
+		y = 6
+		completion_reward = {
+			custom_effect_tooltip = BAR_unlock_decisions_for_industrial_improvemnts
+		}
+		prerequisite = {
+			focus = BAR_people_victory
+		}
+	}
+
+	focus = {
+		id = BAR_gunrunner_buyout
+		icon = GFX_goal_generic_military_industry_focus
+		cost = 8.7
+		x = 21
+		y = 7
+		completion_reward = {
+			custom_effect_tooltip = BAR_unlock_decisions_for_gunrunners_buyout
+		}
+		prerequisite = {
+			focus = BAR_neglected_industries
+		}
+	}
+
+	focus = {
+		id = BAR_prosecute_stockmens_association
+		icon = GFX_goal_generic_walls_focus
+		cost = 8.7
+		x = 20
+		y = 8
+
+		completion_reward = {
+			country_event = nf_barons.13
+		}
+		prerequisite = {
+			focus = BAR_gunrunner_buyout
+		}
+		prerequisite = {
+			focus = BAR_revoke_corrupt_baron_property
+		}
+
+	}
+
+	focus = {#intellecuals are in charge
+		id = BAR_intellectual_victory
+		icon = GFX_goal_generic_BoS_diplomatic_focus
+		cost = 4.4
+		x = 26
+		y = 5
+		completion_reward = {
+			set_politics = {
+				ruling_party = intellectuals
+			}
+			add_popularity = {
+				ideology = intellectuals
+				popularity = 0.4
+			}
+		}
+		prerequisite = {
+			focus = BAR_hostile_takeover
+		}
+		mutually_exclusive = {
+			focus = BAR_ruler_victory
+			focus = BAR_elite_victory
+			focus = BAR_people_victory
+		}
+	}
+
+	focus = {
+		id = BAR_map_out_potential_bunkers
+		icon = GFX_goal_generic_bunkers_focus
+		cost = 8.7
+		x = 25
+		y = 6
+		completion_reward = {
+			135 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = 2428
+				}
+			}
+		}
+		prerequisite = {
+			focus = BAR_intellectual_victory
+		}
+	}
+
+	focus = {
+		id = BAR_build_armories
+		icon = GFX_goal_generic_advanced_firearms_focus
+		cost = 8.7
+		x = 25
+		y = 7
+		completion_reward = {
+			603 = {
+				set_state_name = "Copperopolis Armory"
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			190 = {
+				set_state_name = "Stockton Armory"
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+		prerequisite = {
+			focus = BAR_map_out_potential_bunkers
+		}
+	}
+
+	focus = {
+		id = BAR_call_in_brotherhood_support
+		icon = GFX_goal_generic_t51b_power_armour_focus
+		cost = 8.7
+		x = 27
+		y = 6
+		completion_reward = {
+			hidden_effect = {
+				if = {
+					limit = {
+						NOT = {
+							has_tech = stripped_pa_tech
+						}
+					}
+					set_technology = {
+						stripped_pa_tech = 1
+					}
+				}
+				load_oob = BAR_brotherhood_support
+			}
+			custom_effect_tooltip = BAR_spawn_two_PA_divs
+		}
+		prerequisite = {
+			focus = BAR_intellectual_victory
+		}
+	}
+
+	focus = {
+		id = BAR_raid_van_graffs
+		icon = GFX_goal_generic_war_focus
+		cost = 8.7
+		x = 27
+		y = 7
+
+		will_lead_to_war_with = RNG
+
+		completion_reward = {
+			create_wargoal = {
+				target = RNG
+				type = annex_everything
+			}
+		}
+		prerequisite = {
+			focus = BAR_call_in_brotherhood_support
+		}
+	}
+
+	focus = {
+		id = BAR_raid_stockmens_association
+		icon = GFX_goal_generic_war_focus
+		cost = 8.7
+		x = 26
+		y = 8
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_stockmens_association
+				add_idea = BAR_stockmens_association_destroyed
+			}
+		}
+		prerequisite = {
+			focus = BAR_raid_van_graffs
+		}
+		prerequisite = {
+			focus = BAR_build_armories
+		}
+	}
+
+	#industry focuses
+
+	focus = {
+		id = BAR_sac_city_expansion
+		icon = GFX_goal_generic_cities_focus
+		cost = 8.7
+		x = 17
+		y = 10
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = BAR_stockmens_association_supreme
+				has_completed_focus = BAR_stockmens_obsolete
+				has_completed_focus = BAR_prosecute_stockmens_association
+				has_completed_focus = BAR_raid_stockmens_association
+			}
+		}
+	}
+
+	focus = {
+		id = BAR_improved_abodes
+		icon = GFX_goal_generic_supplies_focus
+		cost = 8.7
+		x = 14
+		y = 11
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 2
+				category = habitation_category
+			}
+		}
+		prerequisite = {
+			focus = BAR_sac_city_expansion
+		}
+	}
+
+	focus = {
+		id = BAR_immigration_expansion
+		icon = GFX_goal_generic_cities_focus
+		cost = 8.7
+		x = 14
+		y = 12
+		completion_reward = {
+			add_ideas = {
+				BAR_immigration
+			}
+		}
+		prerequisite = {
+			focus = BAR_improved_abodes
+		}
+	}
+
+	focus = {
+		id = BAR_civillian_expansion_one
+		icon = GFX_goal_generic_building_focus
+		cost = 8.7
+		x = 16
+		y = 11
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		prerequisite = {
+			focus = BAR_sac_city_expansion
+		}
+	}
+
+	focus = {
+		id = BAR_civillian_expansion_two
+		icon = GFX_goal_generic_large_scale_normal_industry_focus
+		cost = 8.7
+		x = 16
+		y = 12
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		prerequisite = {
+			focus = BAR_civillian_expansion_one
+		}
+	}
+
+	focus = {
+		id = BAR_military_expansion_one
+		icon = GFX_goal_generic_ammo_boxes_focus
+		cost = 8.7
+		x = 18
+		y = 11
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		prerequisite = {
+			focus = BAR_sac_city_expansion
+		}
+	}
+
+	focus = {
+		id = BAR_military_expansion_two
+		icon = GFX_goal_generic_military_industry_focus
+		cost = 8.7
+		x = 18
+		y = 12
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		prerequisite = {
+			focus = BAR_military_expansion_one
+		}
+	}
+
+	focus = {#improved brahmin migration routes
+		id = BAR_infrastructure_expansion_one
+		icon = GFX_goal_generic_building_focus
+		cost = 8.7
+		x = 20
+		y = 11
+		completion_reward = {
+			168 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			60 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			584 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			543 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_sac_city_expansion
+		}
+	}
+
+	focus = {
+		id = BAR_infrastructure_expansion_two
+		icon = GFX_goal_generic_building_focus
+		cost = 8.7
+		x = 20
+		y = 12
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_infrastructure_expansion_one
+		}
+	}
+
+	focus = {
+		id = BAR_ranching_academy
+		icon = GFX_goal_generic_supplies_focus
+		cost = 8.7
+		x = 17
+		y = 13
+		completion_reward = {
+			add_research_slot = 1
+		}
+
+		prerequisite = {
+			focus = BAR_infrastructure_expansion_two
+		}
+		prerequisite = {
+			focus = BAR_military_expansion_two
+		}
+		prerequisite = {
+			focus = BAR_immigration_expansion
+		}
+		prerequisite = {
+			focus = BAR_civillian_expansion_two
+		}
+	}
+
+	focus = {
+		id = BAR_the_economy_reformed
+		icon = GFX_goal_generic_large_scale_normal_industry_focus
+		cost = 8.7
+		x = 17
+		y = 14
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = BAR_stockmens_association_supreme
+				}
+				if = {
+					limit = {
+						has_idea = civilian_economy
+					}
+					swap_ideas = {
+						remove_idea = civilian_economy
+						add_idea = low_economic_mobilisation
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = low_economic_mobilisation
+					}
+					swap_ideas = {
+						remove_idea = low_economic_mobilisation
+						add_idea = partial_economic_mobilisation
+					}
+				}
+				else = {
+					add_political_power = 60
+					add_stability = 0.05
+				}
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = BAR_stockmens_obsolete
+				}
+				add_political_power = 140
+			}
+			else_if = {
+				limit = {
+					has_completed_focus = BAR_prosecute_stockmens_association
+				}
+				add_manpower = 3000
+			}
+			else = {
+				add_tech_bonus = {
+					bonus = 0.75
+					uses = 2
+					category = industry
+				}
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_ranching_academy
+		}
+	}
+
+	#military expansion focuses
+
+	focus = {
+		id = BAR_merc_training
+		icon = GFX_goal_bottlecap
+		cost = 8.7
+		x = 5
+		y = 10
+		completion_reward = {
+			army_experience = 10
+			air_experience = 20
+			navy_experience = 50
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = BAR_stockmens_association_supreme
+				has_completed_focus = BAR_stockmens_obsolete
+				has_completed_focus = BAR_prosecute_stockmens_association
+				has_completed_focus = BAR_raid_stockmens_association
+			}
+		}
+	}
+
+	focus = {
+		id = BAR_army_reforms
+		icon = GFX_goal_generic_allies_build_infantry
+		cost = 8.7
+		x = 0
+		y = 11
+		completion_reward = {
+			army_experience = 20
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cat_land_doctrine
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_merc_training
+		}
+	}
+
+	focus = {
+		id = BAR_guns_for_troops
+		icon = GFX_goal_generic_common_firearms_focus
+		cost = 8.7
+		x = -1
+		y = 12
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 250
+				producer = BAR
+			}
+		}
+		prerequisite = {
+			focus = BAR_army_reforms
+		}
+	}
+
+	focus = {
+		id = BAR_big_guns
+		icon = GFX_goal_generic_regular_firearms_focus
+		cost = 8.7
+		x = -1
+		y = 13
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = support_demolitions_tech_category
+			}
+			if = {
+				limit = {
+					has_tech = demolitions_weaponry_tech
+				}
+				add_equipment_to_stockpile = {
+					type = demolitions_equipment
+					amount = 150
+					producer = BAR
+				}
+			}
+		}
+		prerequisite = {
+			focus = BAR_guns_for_troops
+		}
+	}
+
+	focus = {
+		id = BAR_conscript_ranch_hands
+		icon = GFX_goal_generic_recruitment_focus
+		cost = 8.7
+		x = 1
+		y = 12
+		completion_reward = {
+			add_ideas = {
+				BAR_conscripts_ranchers
+			}
+		}
+		prerequisite = {
+			focus = BAR_army_reforms
+		}
+	}
+
+	focus = {
+		id = BAR_the_young_can_farm
+		icon = GFX_goal_generic_food_focus
+		cost = 8.7
+		x = 1
+		y = 13
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_conscripts_ranchers
+				add_idea = BAR_limited_conscription_reforms
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_conscript_ranch_hands
+		}
+	}
+
+	focus = {
+		id = BAR_reformed_army
+		icon = GFX_goal_generic_army_doctrines
+		cost = 8.7
+		x = 0
+		y = 14
+		completion_reward = {
+			army_experience = 40
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = cat_land_doctrine
+			}
+		}
+		prerequisite = {
+			focus = BAR_the_young_can_farm
+		}
+		prerequisite = {
+			focus = BAR_big_guns
+		}
+	}
+
+	#air force
+
+	focus = {
+		id = BAR_repair_beale_air_base
+		icon = GFX_goal_generic_airbases_focus
+		cost = 8.7
+		x = 5
+		y = 11
+		completion_reward = {
+			421 = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+			air_experience = 20
+		}
+		prerequisite = {
+			focus = BAR_merc_training
+		}
+	}
+
+	focus = {
+		id = BAR_better_planes
+		icon = GFX_goal_generic_air_fighter
+		cost = 8.7
+		x = 4
+		y = 12
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 2
+				category = air_tech_category
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_repair_beale_air_base
+		}
+	}
+
+	focus = {
+		id = BAR_loot_domestic_hangars
+		icon = GFX_goal_generic_air_fighter2
+		cost = 8.7
+		x = 4
+		y = 13
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_3
+				amount = 25
+				producer = USA
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_better_planes
+		}
+	}
+
+	focus = {
+		id = BAR_sac_city_simulation_suite
+		icon = GFX_goal_generic_air_doctrines_focus
+		cost = 8.7
+		x = 6
+		y = 12
+		completion_reward = {
+			add_ideas = {
+				BAR_simulated_flight
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_repair_beale_air_base
+		}
+	}
+
+	focus = {
+		id = BAR_recruit_all_people
+		icon = GFX_goal_generic_recruitment_focus
+		cost = 8.7
+		x = 6
+		y = 13
+		completion_reward = {
+			add_ideas = {
+				BAR_every_plane_filled
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_sac_city_simulation_suite
+		}
+	}
+
+	focus = {
+		id = BAR_train_new_pilots
+		icon = GFX_goal_generic_air_doctrines_focus
+		cost = 8.7
+		x = 5
+		y = 14
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_simulated_flight
+				add_idea = BAR_pilot_training_academy
+			}
+			air_experience = 50
+		}
+
+		prerequisite = {
+			focus = BAR_recruit_all_people
+		}
+		prerequisite = {
+			focus = BAR_loot_domestic_hangars
+		}
+	}
+
+	#naval reforms
+
+	focus = {
+		id = BAR_naval_expansion
+		icon = GFX_goal_generic_harbours_focus
+		cost = 8.7
+		x = 10
+		y = 11
+
+		completion_reward = {
+			navy_experience = 50
+			60 = {
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instand_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
+		}
+		prerequisite = {
+			focus = BAR_merc_training
+		}
+	}
+
+	focus = {
+		id = BAR_small_ships
+		icon = GFX_focus_generic_destroyer
+		cost = 8.7
+		x = 9
+		y = 12
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = naval_light_hull_tech_category
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_naval_expansion
+		}
+
+	}
+
+	focus = {
+		id = BAR_medium_ships
+		icon = GFX_focus_generic_cruiser2
+		cost = 8.7
+		x = 9
+		y = 13
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = naval_medium_hull_tech_category
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_small_ships
+		}
+	}
+
+	focus = {
+		id = BAR_expanding_operations
+		icon = GFX_goal_generic_harbours_focus
+		cost = 8.7
+		x = 11
+		y = 12
+
+		completion_reward = {
+			add_ideas = {
+				BAR_operations_expanded
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_naval_expansion
+		}
+	}
+
+	focus = {
+		id = BAR_river_supremacy
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 8.7
+		x = 11
+		y = 13
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_operations_expanded
+				add_idea = BAR_rivers_supremacy
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_operations
+		}
+	}
+
+	focus = {
+		id = BAR_large_ships
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 8.7
+		x = 9
+		y = 14
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = naval_heavy_hull_tech_category
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_medium_ships
+		}
+	}
+
+	focus = {
+		id = BAR_ocean_fairing_navy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 8.7
+		x = 11
+		y = 14
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_rivers_supremacy
+				add_idea = BAR_ocean_supremacy
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_river_supremacy
+		}
+	}
+
+	#political focuses
+
+	focus = {
+		id = BAR_expanding_the_ranches
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.7
+		x = 29
+		y = 10
+
+		completion_reward = {
+			add_political_power = 60
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = BAR_stockmens_association_supreme
+				has_completed_focus = BAR_stockmens_obsolete
+				has_completed_focus = BAR_prosecute_stockmens_association
+				has_completed_focus = BAR_raid_stockmens_association
+			}
+		}
+	}
+
+	focus = {
+		id = BAR_expanding_northern_operations
+		icon = GFX_goal_generic_war_focus
+		cost = 8.7
+		x = 24
+		y = 11
+
+		bypass = {
+			NOT = {
+				country_exists = RNG
+			}
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				target = RNG
+				type = annex_everything
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_the_ranches
+		}
+	}
+
+	focus = {
+		id = BAR_van_graff_barons
+		icon = GFX_goal_generic_common_energy_weapons_focus
+		cost = 8.7
+		x = 25
+		y = 12
+
+		completion_reward = {
+			add_ideas = {
+				BAR_van_graffs
+			}
+		}
+
+		available = {
+			has_completed_focus = BAR_stockmens_association_supreme
+		}
+
+		mutually_exclusive = {
+			focus = BAR_eliminate_redding_thugs
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_northern_operations
+		}
+	}
+
+	focus = {
+		id = BAR_eliminate_redding_thugs
+		icon = GFX_goal_generic_recruitment_focus
+		cost = 8.7
+		x = 23
+		y = 12
+
+		completion_reward = {
+			141 = {
+				add_manpower = -150
+			}
+		}
+
+		mutually_exclusive = {
+			focus = BAR_van_graff_barons
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_northern_operations
+		}
+	}
+
+	focus = {
+		id = BAR_redding_mining
+		icon = GFX_focus_generic_steel
+		cost = 8.7
+		x = 24
+		y = 13
+
+		completion_reward = {
+			add_ideas = {
+				BAR_redding_mining_company
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_eliminate_redding_thugs
+			focus = BAR_van_graff_barons
+		}
+	}
+
+	focus = {
+		id = BAR_drug_enhanced_miners
+		icon = GFX_focus_generic_concessions
+		cost = 8.7
+		x = 23
+		y = 14
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_redding_mining_company
+				add_idea = BAR_redding_mining_drug_company
+			}
+		}
+
+		mutually_exclusive = {
+			focus = BAR_drug_free_since_2273
+		}
+
+		prerequisite = {
+			focus = BAR_redding_mining
+		}
+	}
+
+	focus = {
+		id = BAR_drug_free_since_2273
+		icon = GFX_focus_generic_military_academy
+		cost = 8.7
+		x = 25
+		y = 14
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = BAR_redding_mining_company
+				add_idea = BAR_redding_mining_drugfree_company
+			}
+		}
+
+		mutually_exclusive = {
+			focus = BAR_drug_enhanced_miners
+		}
+
+		prerequisite = {
+			focus = BAR_redding_mining
+		}
+	}
+
+	focus = {
+		id = BAR_expanding_southern_operations
+		icon = GFX_goal_generic_war_focus
+		cost = 8.7
+		x = 34
+		y = 11
+
+		bypass = {
+			NOT = {
+				country_exists = WOO
+			}
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				target = WOO
+				type = annex_everything
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_the_ranches
+		}
+	}
+
+	focus = {
+		id = BAR_new_ranches
+		icon = GFX_goal_generic_food_focus
+		cost = 8.7
+		x = 33
+		y = 12
+
+		completion_reward = {
+			529 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+
+		mutually_exclusive = {
+			focus = BAR_new_industries
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_southern_operations
+		}
+	}
+
+	focus = {
+		id = BAR_new_industries
+		icon = GFX_goal_generic_construction
+		cost = 8.7
+		x = 35
+		y = 12
+
+		completion_reward = {
+			151 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+
+		mutually_exclusive = {
+			focus = BAR_new_ranches
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_southern_operations
+		}
+	}
+
+	focus = {
+		id = BAR_woodlake_profits
+		icon = GFX_goal_bottlecap
+		cost = 8.7
+		x = 34
+		y = 13
+
+		completion_reward = {
+			add_ideas = {
+				BAR_woodlake_profit
+			}
+		}
+		
+		prerequisite = {
+			focus = BAR_new_industries
+			focus = BAR_new_ranches
+		}
+	}
+
+	focus = {
+		id = BAR_woodlake_profits_local
+		icon = GFX_goal_generic_slums_focus
+		cost = 8.7
+		x = 33
+		y = 14
+
+		completion_reward = {
+			529 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			151 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			214 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		mutually_exclusive = {
+			focus = BAR_woodlake_profits_national
+		}
+
+		prerequisite = {
+			focus = BAR_woodlake_profits
+		}
+	}
+
+	focus = {
+		id = BAR_woodlake_profits_national
+		icon = GFX_goal_generic_large_scale_normal_industry_focus
+		cost = 8.7
+		x = 35
+		y = 14
+
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		mutually_exclusive = {
+			focus = BAR_woodlake_profits_local
+		}
+
+		prerequisite = {
+			focus = BAR_woodlake_profits
+		}
+	}
+
+	focus = {
+		id = BAR_barons_alliance
+		icon = GFX_goal_generic_ideological_fury_focus
+		cost = 8.7
+		x = 28
+		y = 11
+
+		completion_reward = {
+			create_faction = "Baron's Alliance"
+			add_political_power = 100
+		}
+
+		mutually_exclusive = {
+			focus = BAR_join_the_faction
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_the_ranches
+		}
+	}
+
+	focus = {
+		id = BAR_join_the_faction
+		icon = GFX_goal_generic_generic_diplomatic_focus
+		cost = 8.7
+		x = 30
+		y = 11
+
+		completion_reward = {
+			if = {
+				limit = {
+					AND = {
+						has_government = ruler
+						is_faction_leader = DES
+					}
+				}
+				DES = {
+					add_to_faction = BAR
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_government = people
+						is_faction_leader = NCR
+					}
+				}
+				NCR = {
+					add_to_faction = BAR
+				}
+			}
+			else_if = {
+				limit = {
+					AND = {
+						has_government = intellectuals
+						is_faction_leader = BOS
+					}
+				}
+				BOS = {
+					add_to_faction = BAR
+				}
+			}
+		}
+
+		mutually_exclusive = {
+			focus = BAR_barons_alliance
+		}
+
+		available = {
+			NOT = {
+				has_government = elites
+			}
+		}
+
+		prerequisite = {
+			focus = BAR_expanding_the_ranches
+		}
+	}
+}
