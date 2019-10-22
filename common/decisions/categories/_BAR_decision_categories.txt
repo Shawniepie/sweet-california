@@ -1,0 +1,26 @@
+bar_new_reno_mercs_category = {
+	allowed = {
+		tag = BAR
+	}
+	visible = {
+		has_completed_focus = BAR_new_reno_mercs
+	}
+}
+
+bar_industrial_diversification = {
+	allowed = {
+		tag = BAR
+	}
+	visible = {
+		has_completed_focus = BAR_neglected_industries
+	}
+}
+
+bar_gunrunners_buyout = {
+	allowed = {
+		tag = BAR
+	}
+	visible = {
+		has_completed_focus = BAR_gunrunner_buyout
+	}
+}
