@@ -1,0 +1,584 @@
+focus_tree = {
+	id = boneyard_nf
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BON
+		}
+	}
+	default = no
+
+	focus = {
+		id = BON_our_vault
+		icon = x
+		cost = 1
+		x = 20
+		y = 1
+
+		completion_reward = {
+			country_event = nf_boneyard.1
+		}
+	}
+
+	focus = {
+		id = BON_the_children_of_the_cathedral
+		icon = x
+		cost = 1
+		x = 0
+		y = 1
+
+		relative_position_id = BON_our_vault
+
+		completion_reward = {
+			country_event = nf_boneyard.2
+		}
+
+		prerequisite = {
+			focus = BON_our_vault
+		}
+	}
+
+	focus = {
+		id = BON_deathclaw_attack
+		icon = x
+		cost = 1
+		x = 0
+		y = 1
+
+		relative_position_id = BON_the_children_of_the_cathedral
+	
+		completion_reward = {
+			country_event = nf_boneyard.3
+		}
+
+		prerequisite = {
+			focus = BON_the_children_of_the_cathedral
+		}
+	}
+
+	focus = {
+		id = BON_regulators
+		icon = x
+		cost = 1
+		x = -15
+		y = 1
+		
+		relative_position_id = BON_deathclaw_attack
+		
+		completion_reward = {
+
+		}
+		
+		available = {
+			has_completed_focus = BON_deathclaw_attack
+		}
+	}
+
+	focus = {
+		id = BON_elimination_of_blades
+		icon = x
+		cost = 4.4
+		x = -4
+		y = 1
+
+		relative_position_id = BON_regulators
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_regulators
+		}
+	}
+
+	focus = {
+		id = BON_scavenger_gangsters
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+
+		relative_position_id = BON_elimination_of_blades
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_elimination_of_blades
+		}
+	}
+
+	focus = {
+		id = BON_regulator_scavver_groups
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 2
+		relative_position_id = BON_elimination_of_blades
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_scavenger_gangsters
+		}
+	}
+
+	focus = {
+		id = BON_regulator_purity
+		icon = x
+		cost = 8.7
+		x = -3
+		y = 3
+		
+		relative_position_id = BON_elimination_of_blades
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_regulator_recruitment
+		}
+
+		prerequisite = {
+			focus = BON_regulator_scavver_groups
+		}
+	}
+
+	focus = {
+		id = BON_regulator_recruitment
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 3
+
+		relative_position_id = BON_elimination_of_blades
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_regulator_purity
+		}
+
+		prerequisite = {
+			focus = BON_regulator_scavver_groups
+		}
+	}
+
+	focus = {
+		id = BON_caravan_harassment
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_elimination_of_blades
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_elimination_of_blades
+		}
+	}
+
+	focus = {
+		id = BON_small_settlement_raids
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 2
+
+		relative_position_id = BON_elimination_of_blades
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_caravan_harassment
+		}
+	}
+
+	focus = {
+		id = BON_cracking_boneyard_bank
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 3
+
+		relative_position_id = BON_elimination_of_blades
+
+		completion_reward = {
+			custom_effect_tooltip = BON_gives_decisions_to_crack_open_vault
+		}
+
+		mutually_exclusive = {
+			focus = BON_new_regulator_banking
+		}
+
+		prerequisite = {
+			focus = BON_small_settlement_raids
+		}
+	}
+
+	focus = {
+		id = BON_new_regulator_banking
+		icon = x
+		cost = 8.7
+		x = 3
+		y = 3
+
+		relative_position_id = BON_elimination_of_blades
+
+		completion_reward = {
+			
+		}
+
+		mutually_exclusive = {
+			focus = BON_cracking_boneyard_bank
+		}
+
+		prerequisite = {
+			focus = BON_small_settlement_raids
+		}
+	}
+
+	focus = {
+		id = BON_police_force_reforms
+		icon = x
+		cost = 4.4
+		x = 0
+		y = 1
+
+		relative_position_id = BON_regulators
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_regulators
+		}
+	}
+
+	focus = {
+		id = BON_keep_regulators_policing
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+		
+		relative_position_id = BON_police_force_reforms
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_new_police_force
+		}
+
+		prerequisite = {
+			focus = BON_police_force_reforms
+		}
+	}
+
+	focus = {
+		id = BON_new_police_force
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_police_force_reforms
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_keep_regulators_policing
+		}
+
+		prerequisite = {
+			focus = BON_police_force_reforms
+		}
+	}
+
+	focus = {
+		id = BON_lapd_stations
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 2
+
+		relative_position_id = BON_police_force_reforms
+
+		completion_reward = {
+			custom_effect_tooltip = BON_police_station_looting_decisions
+		}
+
+		prerequisite = {
+			focus = BON_new_police_force
+			focus = BON_keep_regulators_policing
+		}
+	}
+
+	focus = {
+		id = BON_the_gun_runners_arsenal
+		icon = x
+		cost = 4.4
+		x = 4
+		y = 1
+
+		relative_position_id = BON_regulators
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_regulators
+		}
+	}
+
+	focus = {
+		id = BON_storming_the_fort
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_reach_gun_runner_agreement
+		}
+
+		prerequisite = {
+			focus = BON_the_gun_runners_arsenal
+		}
+	}
+
+	focus = {
+		id = BON_repairing_manufacturing_equipment
+		icon = x
+		cost = 8.7
+		x = -2
+		y = 2
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_storming_the_fort
+		}
+	}
+
+	focus = {
+		id = BON_hire_industrial_experts
+		icon = x
+		cost = 8.7
+		x = -2
+		y = 3
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_repairing_manufacturing_equipment
+		}
+	}
+
+	focus = {
+		id = BON_reach_gun_runner_agreement
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_storming_the_fort
+		}
+
+		prerequisite = {
+			focus = BON_the_gun_runners_arsenal
+		}
+	}
+
+	focus = {
+		id = BON_sole_customer
+		icon = x
+		cost = 8.7
+		x = 2
+		y = 2
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_reach_gun_runner_agreement
+		}
+	}
+
+	focus = {
+		id = BON_eliminate_competing_arms_companies
+		icon = x
+		cost = 8.7
+		x = 2
+		y = 3
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_sole_customer
+		}
+	}
+
+	focus = {
+		id = BON_control_factories
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 2
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_reach_gun_runner_agreement
+			focus = BON_storming_the_fort
+		}
+	}
+
+	focus = {
+		id = BON_expand_operations
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 3
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_control_factories
+		}
+	}
+
+	focus = {
+		id = BON_gun_runner_military_indutrial_complex
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 4
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_expand_operations
+		}
+
+		prerequisite = {
+			focus = BON_hire_industrial_experts
+			focus = BON_eliminate_competing_arms_companies
+		}
+	}
+
+	focus = {
+		id = BON_gun_regulator_industrial_complex
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 4
+
+		relative_position_id = BON_the_gun_runners_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_expand_operations
+		}
+
+		prerequisite = {
+			focus = BON_hire_industrial_experts
+			focus = BON_eliminate_competing_arms_companies
+		}
+	}
+	
+	focus = {#brotherhood choice
+		id = BON_allgood_murphy
+		icon = x
+		cost = 1
+		x = -5
+		y = 1
+
+		relative_position_id = BON_deathclaw_attack
+
+		completion_reward = {
+
+		}
+
+		available = {
+			has_completed_focus = BON_deathclaw_attack
+		}
+	}
+
+	focus = {#people choice
+		id = BON_followers_of_the_apocalypse
+		icon = x
+		cost = 1
+		x = 5
+		y = 1
+
+		relative_position_id = BON_deathclaw_attack
+
+		completion_reward = {
+		}
+
+		available = {
+			has_completed_focus = BON_deathclaw_attack
+		}
+	}
+
+	focus = {#ruler choice
+		id = BON_gun_runners
+		icon = x
+		cost = 1
+		x = 10
+		y = 1
+
+		relative_position_id = BON_deathclaw_attack
+
+		completion_reward = {
+		}
+
+		available = {
+			has_completed_focus = BON_deathclaw_attack
+		}
+	}
+
+}
