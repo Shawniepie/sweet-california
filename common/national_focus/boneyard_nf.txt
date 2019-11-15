@@ -517,7 +517,141 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BON_
+		id = BON_boneyard_air_delivery_service
+		icon = x
+		cost = 8.7
+		x = -4
+		y = 1
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_boneyard_trading_company
+		}
+	}
+
+	focus = {
+		id = BON_air_escorts
+		icon = x
+		cost = 8.7
+		x = -6
+		y = 2
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_boneyard_air_delivery_service
+		}
+	}
+
+	focus = {
+		id = BON_establish_trade_commission
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 1
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_boneyard_trading_company
+		}
+	}
+
+	focus = {
+		id = BON_hub_trade_office
+		icon = x
+		cost = 2
+		x = -2
+		y = 2
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_establish_trade_commission
+		}
+	}
+
+	focus = {
+		id = BON_day_trade_office
+		icon = x
+		cost = 2
+		x = 0
+		y = 2
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_establish_trade_commission
+		}
+	}
+
+	focus = {
+		id = BON_bos_trade_office
+		icon = x
+		cost = 2
+		x = 2
+		y = 2
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_establish_trade_commission
+		}
+	}
+
+	focus = {
+		id = BON_expand_trade_influence
+		icon = x
+		cost = 4.4
+		x = 0
+		y = 3
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_bos_trade_office
+			focus = BON_day_trade_office
+			focus = BON_hub_trade_office
+		}
+	}
+
+	focus = {
+		id = BON_boneyard_trade_empire
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 4
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_expand_trade_influence
+		}
 	}
 
 	#followers of the apocalypse/external affairs branch
