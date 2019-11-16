@@ -67,7 +67,7 @@ focus_tree = {
 		id = BON_the_gun_runners_arsenal
 		icon = x
 		cost = 4.4
-		x = -12
+		x = -16
 		y = 1
 
 		relative_position_id = BON_deathclaw_attack
@@ -275,7 +275,7 @@ focus_tree = {
 		id = BON_police_force_reforms
 		icon = x
 		cost = 4.4
-		x = -4
+		x = -9
 		y = 1
 
 		dynamic = yes
@@ -502,7 +502,7 @@ focus_tree = {
 		id = BON_boneyard_trading_company
 		icon = x
 		cost = 8.7
-		x = 5
+		x = 0
 		y = 1
 
 		relative_position_id = BON_deathclaw_attack
@@ -537,10 +537,10 @@ focus_tree = {
 		id = BON_air_escorts
 		icon = x
 		cost = 8.7
-		x = -6
-		y = 2
+		x = 0
+		y = 1
 
-		relative_position_id = BON_boneyard_trading_company
+		relative_position_id = BON_boneyard_air_delivery_service
 
 		completion_reward = {
 		}
@@ -568,7 +568,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = BON_hub_trade_office
+		id = BON_ncr_trade_office
 		icon = x
 		cost = 2
 		x = -2
@@ -633,7 +633,7 @@ focus_tree = {
 		prerequisite = {
 			focus = BON_bos_trade_office
 			focus = BON_day_trade_office
-			focus = BON_hub_trade_office
+			focus = BON_ncr_trade_office
 		}
 	}
 
@@ -654,7 +654,676 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = BON_river_trade_company
+		icon = x
+		cost = 8.7
+		x = 4
+		y = 1
+
+		relative_position_id = BON_boneyard_trading_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_boneyard_trading_company
+		}
+	}
+
+	focus = {
+		id = BON_pacific_trade_company
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 1
+
+		relative_position_id = BON_river_trade_company
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_river_trade_company
+		}
+	}
+
 	#followers of the apocalypse/external affairs branch
 
+	focus = {
+		id = BON_diplomatic_treaties
+		icon = x
+		cost = 8.7
+		x = 10
+		y = 1
+
+		relative_position_id = BON_deathclaw_attack
+
+		completion_reward = {
+
+		}
+
+		prerequisite = {
+			focus = BON_deathclaw_attack
+		}
+	}
+
+	focus = {
+		id = BON_diplomacy_with_bos
+		icon = x
+		cost = 8.7
+		x = -3
+		y = 2
+
+		relative_position_id = BON_diplomatic_treaties
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_diplomatic_treaties
+		}
+	}
+
+	focus = {
+		id = BON_bos_trade_deal
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+
+		relative_position_id = BON_diplomacy_with_bos
+
+		completion_reward = {
+		}
+		
+		mutually_exclusive = {
+			focus = BON_bos_war
+		}
+
+		prerequisite = {
+			focus = BON_diplomacy_with_bos
+		}
+	}
+
+	focus = {
+		id = BON_bos_war
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_diplomacy_with_bos
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_bos_trade_deal
+		}
+
+		prerequisite = {
+			focus = BON_diplomacy_with_bos
+		}
+	}
+
+	focus = {
+		id = BON_diplomacy_with_scr
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 1
+
+		relative_position_id = BON_diplomatic_treaties
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_diplomatic_treaties
+		}
+	}
+
+	focus = {
+		id = BON_secure_border_of_raiders
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+
+		relative_position_id = BON_diplomacy_with_scr
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_eliminate_raiders
+		}
+
+		prerequisite = {
+			focus = BON_diplomacy_with_scr
+		}
+	}
+
+	focus = {
+		id = BON_eliminate_raiders
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_diplomacy_with_scr
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_secure_border_of_raiders
+		}
+
+		prerequisite = {
+			focus = BON_diplomacy_with_scr
+		}
+	}
+
+	focus = {
+		id = BON_diplomacy_with_day
+		icon = x
+		cost = 8.7
+		x = 3
+		y = 2
+
+		relative_position_id = BON_diplomatic_treaties
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_diplomatic_treaties
+		}
+	}
+
+	focus = {
+		id = BON_war_with_day
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+
+		relative_position_id = BON_diplomacy_with_day
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_trade_with_day
+		}
+
+		prerequisite = {
+			focus = BON_diplomacy_with_day
+		}
+	}
+
+	focus = {
+		id = BON_trade_with_day
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+		
+		relative_position_id = BON_diplomacy_with_day
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_war_with_day
+		}
+
+		prerequisite = {
+			focus = BON_diplomacy_with_day
+		}
+	}
+
 	#mercenary companies/army branch
+
+	focus = {
+		id = BON_merc_military
+		icon = x
+		cost = 8.7
+		x = 23
+		y = 1
+		
+		relative_position_id = BON_deathclaw_attack
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_deathclaw_attack
+		}
+	}
+
+	focus = {
+		id = BON_large_arsenal
+		icon = x
+		cost = 8.7
+		x = -4
+		y = 1
+
+		relative_position_id = BON_merc_military
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_merc_military
+		}
+	}
+
+	focus = {
+		id = BON_small_arms
+		icon = x
+		cost = 8.7
+		x = -2
+		y = 1
+
+		relative_position_id = BON_large_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_large_arsenal
+		}
+	}
+
+	focus = {
+		id = BON_mass_produce_arms
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+
+		relative_position_id = BON_small_arms
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_improve_arms_designs
+		}
+
+		prerequisite = {
+			focus = BON_small_arms
+		}
+	}
+
+	focus = {
+		id = BON_improve_arms_designs
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_small_arms
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_mass_produce_arms
+		}
+
+		prerequisite = {
+			focus = BON_small_arms
+		}
+	}
+
+	focus = {
+		id = BON_new_arms_manufacturing
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 2
+
+		relative_position_id = BON_small_arms
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus =	BON_mass_produce_arms
+			focus = BON_improve_arms_designs
+		}
+	}
+
+	focus = {
+		id = BON_large_arms
+		icon = x
+		cost = 8.7
+		x = 2
+		y = 1
+
+		relative_position_id = BON_large_arsenal
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_large_arsenal
+		}
+	}
+
+	focus = {
+		id = BON_demo_squads
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+
+		relative_position_id = BON_large_arms
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_fireteam_squads
+		}
+
+		prerequisite = {
+			focus = BON_large_arms
+		}
+	}
+
+	focus = {
+		id = BON_fireteam_squads
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_large_arms
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_demo_squads
+		}
+
+		prerequisite = {
+			focus = BON_large_arms
+		}
+	}
+
+	focus = {
+		id = BON_specialized_munitions_development
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 2
+
+		relative_position_id = BON_large_arms
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_fireteam_squads
+			focus = BON_demo_squads
+		}
+	}
+
+	focus = {
+		id = BON_rely_on_mercenaries
+		icon = x
+		cost = 8.7
+		x = 3
+		y = 1
+
+		relative_position_id = BON_merc_military
+
+		completion_reward = {
+		}
+
+		mutually_exclusive = {
+			focus = BON_new_boneyard_military
+		}
+
+		prerequisite = {
+			focus = BON_merc_military
+		}
+	}
+
+	focus = {
+		id = BON_new_boneyard_military
+		icon = x
+		cost = 8.7
+		x = 2
+		y = 0
+
+		relative_position_id = BON_rely_on_mercenaries
+
+		completion_reward = {
+
+		}
+
+		mutually_exclusive = {
+			focus = BON_rely_on_mercenaries
+		}
+
+		prerequisite = {
+			focus = BON_merc_military
+		}
+	}
+
+	focus = {
+		id = BON_new_merc_contracts
+		icon = x
+		cost = 8.7
+		x = -2
+		y = 1
+
+		relative_position_id = BON_rely_on_mercenaries
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_rely_on_mercenaries
+		}
+	}
+
+	focus = {
+		id = BON_merc_training
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 1
+		
+		relative_position_id = BON_new_merc_contracts
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_new_merc_contracts
+		}
+	}
+
+	focus = {
+		id = BON_merc_tactics
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 2
+
+		relative_position_id = BON_new_merc_contracts
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_merc_training
+		}
+	}
+
+	focus = {
+		id = BON_new_army_conscription
+		icon = x
+		cost = 8.7
+		x = 2
+		y = 1
+
+		relative_position_id = BON_new_boneyard_military
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_new_boneyard_military
+		}
+	}
+
+	focus = {
+		id = BON_new_army_training
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 1
+
+		relative_position_id = BON_new_army_conscription
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_new_army_conscription
+		}
+	}
+
+	focus = {
+		id = BON_new_army_tactics
+		icon = x
+		cost = 8.7
+		x = 0
+		y = 2
+
+		relative_position_id = BON_new_army_conscription
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_new_army_training
+		}
+	}
+
+	focus = {
+		id = BON_new_training_facility
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_rely_on_mercenaries
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_rely_on_mercenaries
+			focus = BON_new_boneyard_military
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = BON_merc_training
+				has_completed_focus = BON_new_army_training
+			}
+		}
+	}
+
+	focus = {
+		id = BON_military_doctrine_discoveries
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 1
+
+		relative_position_id = BON_new_training_facility
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_new_training_facility
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = BON_merc_tactics
+				has_completed_focus = BON_new_army_tactics
+			}
+		}
+	}
+
+	focus = {
+		id = BON_doctrine_refining
+		icon = x
+		cost = 8.7
+		x = -1
+		y = 2
+
+		relative_position_id = BON_new_training_facility
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_military_doctrine_discoveries
+		}
+	}
+
+	focus = {
+		id = BON_special_forces_reforms
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 1
+
+		relative_position_id = BON_new_training_facility
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_new_training_facility
+		}
+
+		available = {
+			OR = {
+				has_completed_focus = BON_merc_tactics
+				has_completed_focus = BON_new_army_tactics
+			}
+		}
+	}
+
+	focus = {
+		id = BON_special_forces_refining
+		icon = x
+		cost = 8.7
+		x = 1
+		y = 2
+
+		relative_position_id = BON_new_training_facility
+
+		completion_reward = {
+		}
+
+		prerequisite = {
+			focus = BON_special_forces_reforms
+		}
+	}
 }
